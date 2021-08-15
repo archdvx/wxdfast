@@ -1,0 +1,1001 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: archdvx@dxsolutions.org\n"
+"POT-Creation-Date: 2021-08-15 14:26+0200\n"
+"PO-Revision-Date: 2009-10-03 16:19-0300\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.2.0-rc1\n"
+
+#: ../src/wxDFast.cpp:49
+msgid ""
+"Usage: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] "
+"[URL of the file(s) to be downloaded...]\n"
+"  -h, --help                   Print (this) help screen and exit\n"
+"  -v, --version                Print version information and exit\n"
+"  -i, --hide                   Start with the the main frame hide\n"
+"  -d, --destination=<str>      Destination directory\n"
+"  -c, --comments=<str>         Add comments to download\n"
+"  -r, --reference=<str>        Set a reference URL"
+msgstr ""
+
+#: ../src/wxDFast.cpp:136
+#, fuzzy
+msgid "wxDownload Fast already running"
+msgstr "Programmas \"wxDownload Fast\" vietne"
+
+#: ../src/wxDFast.cpp:196
+msgid "Hide the main window"
+msgstr "Noslēpt galveno logu"
+
+#: ../src/wxDFast.cpp:198
+msgid "Show the main window"
+msgstr "Rādīt galveno logu"
+
+#: ../src/wxDFast.cpp:200
+msgid "New download"
+msgstr "Jauna lejupielāde"
+
+#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:2538 ../src/wxDFast.cpp:3012
+msgid "Unlimited"
+msgstr "Neierobežota"
+
+#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
+msgid "Just for this session. To change definitely go to \"Options\""
+msgstr "Tikai šajā seansā. Pastāvīgi to mainīt var \"Opcijās\"."
+
+# domājams - lejupielāde
+#: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2534
+msgid "Active"
+msgstr "Aktīva"
+
+#: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2530
+msgid "Per Download"
+msgstr "Katrai lejupielādei"
+
+# varbūt jāpārbauda - liekas, domāts "allowed bandwidth"
+#: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2530 ../src/wxDFast.cpp:2534
+#: ../src/wxDFast.cpp:2538
+msgid "Band control"
+msgstr "Atvēlētā josla"
+
+#: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
+msgid "New Download"
+msgstr "Jauna lejupielāde"
+
+#: ../src/wxDFast.cpp:365 ../src/wxDFast.cpp:1878 ../src/wxDFast.cpp:1956
+msgid "Remove Download"
+msgstr "Izmest lejupielādi"
+
+#: ../src/wxDFast.cpp:369 ../src/wxDFast.cpp:1885
+msgid "Schedule Download"
+msgstr "Ieprogrammēt lejupielādi"
+
+#: ../src/wxDFast.cpp:372 ../src/wxDFast.cpp:1893 ../src/BatchDialog.cpp:54
+#: ../src/NewDialog.cpp:73
+msgid "Start Download"
+msgstr "Sākt lejupielādi"
+
+#: ../src/wxDFast.cpp:375 ../src/wxDFast.cpp:1899
+msgid "Stop Download"
+msgstr "Pārtraukt lejupielādi"
+
+#: ../src/wxDFast.cpp:378 ../src/wxDFast.cpp:471
+msgid "Start all downloads"
+msgstr "Iedarbināt visas lejupielādes"
+
+#: ../src/wxDFast.cpp:381 ../src/wxDFast.cpp:472
+msgid "Stop all downloads"
+msgstr "Pārtraukt visas lejupielādes"
+
+#: ../src/wxDFast.cpp:386
+msgid "&File"
+msgstr "Da&tne"
+
+#: ../src/wxDFast.cpp:388
+msgid "Paste URL"
+msgstr "Ievietot vietrādi"
+
+#: ../src/wxDFast.cpp:391 ../src/wxDFast.cpp:1908 ../src/wxDFast.cpp:1960
+msgid "Copy URL"
+msgstr "Nokopēt vietrādi"
+
+#: ../src/wxDFast.cpp:394 ../src/wxDFast.cpp:1911 ../src/wxDFast.cpp:1963
+msgid "Copy Download Data"
+msgstr "Nokopēt lejupielādes datus"
+
+#: ../src/wxDFast.cpp:398
+#, fuzzy
+msgid "Remove All"
+msgstr "Izmest"
+
+#: ../src/wxDFast.cpp:401
+msgid "Find Download"
+msgstr "Atrast lejupielādi"
+
+#: ../src/wxDFast.cpp:404 ../src/NewDialog.cpp:56
+msgid "&Edit"
+msgstr "&Rediģēt"
+
+#: ../src/wxDFast.cpp:406
+msgid "Show/Hide Graph"
+msgstr "Rādīt/paslēpt grafiku"
+
+#: ../src/wxDFast.cpp:409
+msgid "Show/Hide Details"
+msgstr "Rādīt/paslēpt detaļas"
+
+#: ../src/wxDFast.cpp:412
+msgid "&View"
+msgstr "S&katīt"
+
+#: ../src/wxDFast.cpp:414 ../src/wxDFast.cpp:1333 ../src/wxDFast.cpp:1904
+msgid "Download Properties"
+msgstr "Lejupielādes īpašības"
+
+#: ../src/wxDFast.cpp:417 ../src/wxDFast.cpp:1967
+msgid "Move File"
+msgstr "Pārvietot datni"
+
+#: ../src/wxDFast.cpp:420 ../src/wxDFast.cpp:1969
+msgid "Check Integrity"
+msgstr "Pārbaudīt veselumu"
+
+#: ../src/wxDFast.cpp:422 ../src/wxDFast.cpp:1970
+msgid "Open Destination Directory"
+msgstr "Atvērt ieliktuves direktoriju"
+
+#: ../src/wxDFast.cpp:424 ../src/wxDFast.cpp:1971
+msgid "Download File Again"
+msgstr "Datni lejupielādēt vēlreiz"
+
+#: ../src/wxDFast.cpp:427
+msgid "Export Configuration"
+msgstr "Eksportēt konfigurējumu"
+
+#: ../src/wxDFast.cpp:429
+msgid "Import Configuration"
+msgstr "Importēt konfigurējumu"
+
+#: ../src/wxDFast.cpp:432
+msgid "Shutdown when finished"
+msgstr "Izslēgt datoru, kad pabeigts"
+
+#: ../src/wxDFast.cpp:432 ../src/wxDFast.cpp:433
+msgid "This option is only valid in this session of the program"
+msgstr "Šis iestatījums ir spēkā tikai šajā programmas lietošanas reizē"
+
+#: ../src/wxDFast.cpp:433
+msgid "Disconnect when finished"
+msgstr "Atvienoties, kad pabeigts"
+
+#: ../src/wxDFast.cpp:438
+msgid "&Tools"
+msgstr "Rī&ki"
+
+#: ../src/wxDFast.cpp:440
+msgid "wxDownload Fast Site"
+msgstr "Programmas \"wxDownload Fast\" vietne"
+
+#: ../src/wxDFast.cpp:443
+msgid "Report Bugs..."
+msgstr "Ziņot par nepilnībām..."
+
+#: ../src/wxDFast.cpp:444
+msgid "Donate..."
+msgstr "Ziedot..."
+
+#: ../src/wxDFast.cpp:449
+msgid "&Help"
+msgstr "P&alīdzība"
+
+#: ../src/wxDFast.cpp:465
+msgid "New"
+msgstr "Jauns"
+
+#: ../src/wxDFast.cpp:465 ../src/NewDialog.cpp:27
+msgid "Add new download"
+msgstr "Pievienot jaunu lejupielādi"
+
+#: ../src/wxDFast.cpp:466 ../src/OptionsDialog.cpp:364
+msgid "Remove"
+msgstr "Izmest"
+
+#: ../src/wxDFast.cpp:466
+msgid "Remove the selected download"
+msgstr "Izmest norādīto lejupielādi"
+
+#: ../src/wxDFast.cpp:468 ../src/BatchDialog.cpp:60 ../src/NewDialog.cpp:79
+msgid "Schedule"
+msgstr "Ieprogrammēt"
+
+#: ../src/wxDFast.cpp:468
+msgid "Mark the selected download as scheduled"
+msgstr "Atzīmēt, ka norādītā lejupielāde ir ieprogrammēta"
+
+#: ../src/wxDFast.cpp:469
+msgid "Start"
+msgstr "Iedarbināt"
+
+#: ../src/wxDFast.cpp:469
+msgid "Start the selected download"
+msgstr "Iedarbināt norādīto lejupielādi"
+
+#: ../src/wxDFast.cpp:470
+msgid "Stop"
+msgstr "Pārtraukt"
+
+#: ../src/wxDFast.cpp:470
+msgid "Stop the selected download"
+msgstr "Pārtraukt norādīto lejupielādi"
+
+#: ../src/wxDFast.cpp:471
+msgid "Start All"
+msgstr "Iedarbināt visas"
+
+#: ../src/wxDFast.cpp:472
+msgid "Stop All"
+msgstr "Pārtraukt visas"
+
+#: ../src/wxDFast.cpp:474
+msgid "Up"
+msgstr "Uz priekšu"
+
+#: ../src/wxDFast.cpp:474
+msgid "Push download higher up the queue"
+msgstr "Pārvietot lejupielādi tuvāk rindas sākumam"
+
+#: ../src/wxDFast.cpp:475
+msgid "Down"
+msgstr "Atpakaļ"
+
+#: ../src/wxDFast.cpp:475
+msgid "Push download lower down the queue"
+msgstr "Pārvietot lejupielādi tuvāk rindas beigām"
+
+#: ../src/wxDFast.cpp:477
+msgid "Properties"
+msgstr "Īpašības"
+
+#: ../src/wxDFast.cpp:477
+msgid "Show the properties of the selected download"
+msgstr "Apskatīt norādītās lejupielādes īpašības"
+
+#: ../src/wxDFast.cpp:503 ../src/OptionsDialog.cpp:305
+msgid "Progress"
+msgstr ""
+
+#: ../src/wxDFast.cpp:505
+msgid "Detail"
+msgstr ""
+
+#: ../src/wxDFast.cpp:510
+msgid "Downloads in Progress"
+msgstr "Notiekošās lejupielādes"
+
+#: ../src/wxDFast.cpp:526
+msgid "Finished Downloads"
+msgstr "Pabeigtās lejupielādes"
+
+#: ../src/wxDFast.cpp:591
+#, c-format
+msgid "Could not listen at the specified socket %s!"
+msgstr ""
+
+#: ../src/wxDFast.cpp:593
+#, c-format
+msgid "Could not listen at the specified port %d!"
+msgstr ""
+
+#: ../src/wxDFast.cpp:663
+msgid "   [ Yes ]"
+msgstr "   [ Jā ]"
+
+#: ../src/wxDFast.cpp:664
+msgid "   [ No  ]"
+msgstr "   [ Nē  ]"
+
+#: ../src/wxDFast.cpp:745 ../src/wxDFast.cpp:1649 ../src/wxDFast.cpp:1672
+msgid "Name"
+msgstr "Nosaukums"
+
+#: ../src/wxDFast.cpp:746 ../src/wxDFast.cpp:1650 ../src/wxDFast.cpp:1673
+#: ../src/wxDFast.cpp:3009
+msgid "File type"
+msgstr "Datnes tips"
+
+#: ../src/wxDFast.cpp:747 ../src/wxDFast.cpp:1651 ../src/wxDFast.cpp:1674
+#: ../src/wxDFast.cpp:3010 ../src/wxDFast.cpp:3289 ../src/wxDFast.cpp:3330
+msgid "Size"
+msgstr "Lielums"
+
+#: ../src/wxDFast.cpp:748 ../src/wxDFast.cpp:1652 ../src/wxDFast.cpp:1675
+msgid "Time"
+msgstr "Laiks"
+
+#: ../src/wxDFast.cpp:749 ../src/wxDFast.cpp:1653 ../src/wxDFast.cpp:1676
+#: ../src/wxDFast.cpp:3008
+msgid "Destination"
+msgstr "Ieliktuve"
+
+# (~lejupielāde)
+#: ../src/wxDFast.cpp:750
+msgid "Started"
+msgstr "Iedarbināta"
+
+# (~lejupielāde)
+#: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3331
+msgid "Finished"
+msgstr "Pabeigta"
+
+#: ../src/wxDFast.cpp:752 ../src/wxDFast.cpp:1677
+msgid "MD5"
+msgstr "MD5"
+
+#: ../src/wxDFast.cpp:753 ../src/wxDFast.cpp:1654 ../src/wxDFast.cpp:1678
+#: ../src/BatchDialog.cpp:87 ../src/NewDialog.cpp:106
+msgid "Reference URL"
+msgstr "Atsauces vietrādis"
+
+#: ../src/wxDFast.cpp:754 ../src/wxDFast.cpp:1655 ../src/wxDFast.cpp:1679
+#: ../src/BatchDialog.cpp:72 ../src/NewDialog.cpp:91
+msgid "Comments"
+msgstr "Komentāri"
+
+#: ../src/wxDFast.cpp:755 ../src/wxDFast.cpp:1656 ../src/wxDFast.cpp:1680
+msgid "URLs"
+msgstr "Vietrāži"
+
+#: ../src/wxDFast.cpp:801
+msgid "Total Speed:"
+msgstr "Kopējais ātrums:"
+
+#: ../src/wxDFast.cpp:805
+msgid "Total Complete:"
+msgstr "Pavisam pabeigts:"
+
+#: ../src/wxDFast.cpp:809
+msgid "Downloads in progress:"
+msgstr "Notiekošās lejupielādes:"
+
+#: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
+msgid "Do you want to close the program?"
+msgstr "Vai vēlaties aizvērt programmu?"
+
+#: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
+msgid "Close..."
+msgstr "Aizvērt..."
+
+#: ../src/wxDFast.cpp:1062
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of\n"
+"the GNU General Public License as published by the Free Software "
+"Foundation;\n"
+"either version 2 of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY;\n"
+"without even the implied warranty of MERCHANTABILITY or FITNESS FOR A "
+"PARTICULAR PURPOSE.\n"
+"See the GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program;\n"
+"if not, write to the Free Software Foundation, Inc., 51 Franklin Street,\n"
+"Fifth Floor, Boston, MA 02110-1301, USA"
+msgstr ""
+
+#: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
+msgid "Do you also want to remove downloaded file(s) from the disk?"
+msgstr "Vai nodzēst arī attiecīgo lejupielādēto datni (vai vairākas)?"
+
+#: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
+msgid "Remove..."
+msgstr "Izmest..."
+
+#: ../src/wxDFast.cpp:1478
+msgid "Find file..."
+msgstr "Meklēt datni..."
+
+#: ../src/wxDFast.cpp:1510 ../src/wxDFast.cpp:1693 ../src/BatchDialog.cpp:317
+#: ../src/NewDialog.cpp:386
+msgid "Select the directory:"
+msgstr "Izvēlieties mapi:"
+
+#: ../src/wxDFast.cpp:1522
+msgid "Moving..."
+msgstr "Pārvieto..."
+
+#: ../src/wxDFast.cpp:1522
+msgid "Moving file..."
+msgstr "Pārvieto datni..."
+
+#: ../src/wxDFast.cpp:1531
+msgid "Error moving file."
+msgstr "Kļūme datnes pārvietošanā."
+
+#: ../src/wxDFast.cpp:1531 ../src/wxDFast.cpp:1573 ../src/wxDFast.cpp:1578
+#: ../src/wxDFast.cpp:1588 ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635
+#: ../src/wxDFast.cpp:1662 ../src/wxDFast.cpp:1686 ../src/wxDFast.cpp:1699
+#: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
+msgid "Error..."
+msgstr "Kļūme..."
+
+#: ../src/wxDFast.cpp:1537
+msgid ""
+"The file isn't in the path that it was saved initially.\n"
+"Do you want to change only the old path for the current one?"
+msgstr ""
+"Datne nav atrodama tajā vietā, kur to noglabāja sākotnēji.\n"
+"Vai šeit mainīt tikai vecās vietas norādi?"
+
+#: ../src/wxDFast.cpp:1537
+#, fuzzy
+msgid "Filename:"
+msgstr "Datnes nosaukums"
+
+#: ../src/wxDFast.cpp:1539
+msgid "Continue..."
+msgstr "Turpināt..."
+
+#: ../src/wxDFast.cpp:1557
+msgid "Checking file's MD5..."
+msgstr "Pārbaudīt datnes MD5..."
+
+#: ../src/wxDFast.cpp:1565
+msgid "The file was verified successfully."
+msgstr "Datnes pārbaude izdevās."
+
+#: ../src/wxDFast.cpp:1565 ../src/wxDFast.cpp:1697
+msgid "Success..."
+msgstr "Kārtībā!"
+
+#: ../src/wxDFast.cpp:1570
+msgid "The MD5 calculated previously is different from the current one."
+msgstr "Senāk izrēķinātais MD5 atšķiras no tagadējā."
+
+#: ../src/wxDFast.cpp:1571
+msgid ""
+"\n"
+"Old MD5 =\t\t"
+msgstr ""
+"\n"
+"Vecais MD5 =\t\t"
+
+#: ../src/wxDFast.cpp:1572
+msgid ""
+"\n"
+"Current MD5 =\t"
+msgstr ""
+"\n"
+"Tagadējais MD5 =\t"
+
+#: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+msgid "File not found."
+msgstr "Datne nav atrodama."
+
+#: ../src/wxDFast.cpp:1588
+#, c-format
+msgid "Folder %s doesn't exist."
+msgstr ""
+
+#: ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635 ../src/wxDFast.cpp:1662
+#: ../src/wxDFast.cpp:1686
+msgid "Unable to open the clipboard!"
+msgstr "Nevar atvērt starpliktuvi!"
+
+#: ../src/wxDFast.cpp:1697
+msgid "The configuration was exported successfully."
+msgstr "Konfigurējuma eksportēšana izdevās."
+
+#: ../src/wxDFast.cpp:1699
+msgid "Error exporting configuration."
+msgstr "Kļūme konfigurējuma eksportēšanā."
+
+#: ../src/wxDFast.cpp:1705
+msgid "Select the file..."
+msgstr "Izvēlieties datni..."
+
+#: ../src/wxDFast.cpp:1770 ../src/wxDFast.cpp:2052 ../src/wxDFast.cpp:2161
+#: ../src/wxDFast.cpp:2252 ../src/wxDFast.cpp:2800 ../src/wxDFast.cpp:2811
+#, fuzzy
+msgid "Download started"
+msgstr "Programmas \"wxDownload Fast\" vietne"
+
+#: ../src/wxDFast.cpp:1785 ../src/wxDFast.cpp:1798
+msgid "Command :\t"
+msgstr "Komanda: \t"
+
+#: ../src/wxDFast.cpp:1785
+msgid "Shutdown Command..."
+msgstr "Apturēt komandu..."
+
+#: ../src/wxDFast.cpp:1798
+msgid "Disconnect Command..."
+msgstr "Atvienot komandu..."
+
+#: ../src/wxDFast.cpp:2036
+#, fuzzy
+msgid "Download waiting"
+msgstr "Datni lejupielādēt vēlreiz"
+
+#: ../src/wxDFast.cpp:2113
+#, c-format
+msgid "NEW RELEASE: wxDownload Fast %s is available."
+msgstr ""
+
+#: ../src/wxDFast.cpp:2115
+#, fuzzy, c-format
+msgid ""
+"wxDownload Fast %s is available.\n"
+"Visit https://wxdfast.dxsolutions.org for more informations."
+msgstr "Vairāk informācijas - http://dfast.sourceforge.net."
+
+#: ../src/wxDFast.cpp:2190
+#, fuzzy
+msgid "Calculating file's MD5..."
+msgstr "Pārbaudīt datnes MD5..."
+
+#: ../src/wxDFast.cpp:2203 ../src/OptionsDialog.cpp:642
+#: ../src/OptionsDialog.cpp:645
+#, fuzzy
+msgid "Downloaded successfully"
+msgstr "Datne tagad ir pārbaudīta\n"
+
+#: ../src/wxDFast.cpp:2207
+msgid "Downloaded ended with error"
+msgstr ""
+
+#: ../src/wxDFast.cpp:2230
+#, fuzzy
+msgid "Download statistics"
+msgstr "Programmas \"wxDownload Fast\" vietne"
+
+#: ../src/wxDFast.cpp:2231 ../src/wxDFast.cpp:3290
+msgid "Completed"
+msgstr "Pabeigts"
+
+#: ../src/wxDFast.cpp:2232 ../src/wxDFast.cpp:3291
+msgid "Percentage"
+msgstr "Procenti"
+
+#: ../src/wxDFast.cpp:2233 ../src/wxDFast.cpp:3292
+msgid "Time Passed"
+msgstr "Pagājušais laiks"
+
+#: ../src/wxDFast.cpp:2234 ../src/wxDFast.cpp:3293
+#, fuzzy
+msgid "Remaining"
+msgstr "Vēl paliek"
+
+#: ../src/wxDFast.cpp:2260 ../src/wxDFast.cpp:2828
+#, fuzzy
+msgid "Download paused"
+msgstr "Programmas \"wxDownload Fast\" vietne"
+
+#: ../src/wxDFast.cpp:2331
+msgid "Error: couldn't accept a new connection"
+msgstr ""
+
+#: ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+msgid "Information..."
+msgstr "Informācija..."
+
+#: ../src/wxDFast.cpp:3011
+msgid "Maximum number of connections"
+msgstr ""
+
+#: ../src/wxDFast.cpp:3012
+#, fuzzy
+msgid "Download bandwidth"
+msgstr "Lejupielādei atvēlētais ātrums (kB/s)"
+
+#: ../src/wxDFast.cpp:3013
+#, fuzzy
+msgid "Number of pieces"
+msgstr "Mēģinājumu skaits"
+
+#: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3296
+msgid "URL"
+msgstr "Vietrādis"
+
+#: ../src/wxDFast.cpp:3016
+#, fuzzy
+msgid "Downloaded is scheduled"
+msgstr "Atzīmēt, ka norādītā lejupielāde ir ieprogrammēta"
+
+#: ../src/wxDFast.cpp:3287
+msgid "Restart"
+msgstr "Atsākt"
+
+#: ../src/wxDFast.cpp:3288 ../src/wxDFast.cpp:3329
+msgid "Filename"
+msgstr "Datnes nosaukums"
+
+#: ../src/wxDFast.cpp:3294
+msgid "Speed"
+msgstr "Ātrums"
+
+#: ../src/wxDFast.cpp:3295
+msgid "Attempts"
+msgstr "Mēģinājumi"
+
+#: ../src/OptionsDialog.cpp:35
+msgid "Options"
+msgstr "Opcijas"
+
+#: ../src/OptionsDialog.cpp:52
+msgid "Attempts:"
+msgstr "Mēģinājumi:"
+
+#: ../src/OptionsDialog.cpp:58
+msgid "Time between the attempts in seconds:"
+msgstr "Starplaiks starp mēģinājumiem, sekundēs:"
+
+#: ../src/OptionsDialog.cpp:64
+msgid "Number of simultaneous downloads:"
+msgstr "Vienlaicīgi pieļaujamo lejupielāžu skaits:"
+
+#: ../src/OptionsDialog.cpp:70
+msgid "Remember the last settings on the New Download box"
+msgstr "Atcerieties, kādi ir svaigākie iestatījumi logā \"Jauna lejupielāde\""
+
+#: ../src/OptionsDialog.cpp:74
+msgid "Shutdown when all downloads finish"
+msgstr "Izslēgt datoru, kad visas lejupielādes pabeigtas"
+
+#: ../src/OptionsDialog.cpp:78
+msgid "Disconnect when all downloads finish"
+msgstr "Atvienoties, kad visas lejupielādes pabeigtas"
+
+#: ../src/OptionsDialog.cpp:82
+msgid "Show dialog box when program closes"
+msgstr "Rādīt lodziņu, kad aizver programmu"
+
+#: ../src/OptionsDialog.cpp:86
+msgid "Refresh rate of the download list (millisecs):"
+msgstr "Lejupielāžu saraksta atsvaidzināšanas intervāls (milisekundēs):"
+
+#: ../src/OptionsDialog.cpp:92
+msgid "Restore the main window when all downloads finish"
+msgstr "Atkal rādīt galveno logu, kad visas lejupielādes pabeigtas"
+
+#: ../src/OptionsDialog.cpp:96
+msgid "Hide the main window when you start a download"
+msgstr "Paslēpt galveno logu, kad lietotājs iedarbina lejupielādi"
+
+#: ../src/OptionsDialog.cpp:100
+msgid "Check for updates automatically"
+msgstr "Automātiski pārbaudīt, vai ir jaunāka programma"
+
+#: ../src/OptionsDialog.cpp:104
+msgid "Show notification on finish download"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:107
+msgid "Preview"
+msgstr "Pirmskats"
+
+#: ../src/OptionsDialog.cpp:113
+msgid "General"
+msgstr "Vispārīgi"
+
+#: ../src/OptionsDialog.cpp:119
+msgid "Default destination:"
+msgstr "Pirmņemamā ieliktuve:"
+
+#: ../src/OptionsDialog.cpp:140
+msgid "Shutdown command:"
+msgstr "Datora izslēgšanas komanda:"
+
+#: ../src/OptionsDialog.cpp:145
+msgid "Disconnect command:"
+msgstr "Atvienošanas komanda:"
+
+#: ../src/OptionsDialog.cpp:153
+msgid "Paths"
+msgstr "Ceļi"
+
+#: ../src/OptionsDialog.cpp:159
+msgid "Use a Proxy Server"
+msgstr "Izmantot starpniekserveri"
+
+#: ../src/OptionsDialog.cpp:163
+msgid "Proxy Server"
+msgstr "Starpniekserveris"
+
+#: ../src/OptionsDialog.cpp:165
+msgid "Server:"
+msgstr "Serveris:"
+
+#: ../src/OptionsDialog.cpp:170
+msgid "Port:"
+msgstr "Pieslēgvieta:"
+
+#: ../src/OptionsDialog.cpp:182
+#, fuzzy
+msgid "Proxy Server Authorization"
+msgstr "Starpniekserveris"
+
+#: ../src/OptionsDialog.cpp:184 ../src/BatchDialog.cpp:45
+#: ../src/NewDialog.cpp:64
+msgid "User:"
+msgstr "Lietotājvārds:"
+
+#: ../src/OptionsDialog.cpp:187 ../src/BatchDialog.cpp:49
+#: ../src/NewDialog.cpp:68
+msgid "Password:"
+msgstr "Parole:"
+
+#: ../src/OptionsDialog.cpp:196
+msgid "Proxy"
+msgstr "Starpnieks"
+
+#: ../src/OptionsDialog.cpp:202
+msgid "Show Graph"
+msgstr "Rādīt grafiku"
+
+#: ../src/OptionsDialog.cpp:206
+msgid "Graph refresh rate (millisecs):"
+msgstr "Grafika pārzīmēšanas intervāls (milisekundēs):"
+
+#: ../src/OptionsDialog.cpp:212
+#, fuzzy
+msgid "Graph maximum value:"
+msgstr "Grafikā augstākā iespējamā vērtība (kB/s):"
+
+#: ../src/OptionsDialog.cpp:240
+msgid "The text area Width (pixels):"
+msgstr "Teksta daļas platums (pikseļos):"
+
+#: ../src/OptionsDialog.cpp:246
+msgid "Graph height:"
+msgstr "Grafika augstums:"
+
+#: ../src/OptionsDialog.cpp:252
+msgid "Text font size (points):"
+msgstr "Burtu lielums (punktos):"
+
+#: ../src/OptionsDialog.cpp:258
+#, fuzzy
+msgid "Download line width:"
+msgstr "Galvenās līnijas biezums:"
+
+#: ../src/OptionsDialog.cpp:264
+msgid "Background colour:"
+msgstr "Pamatnes krāsa:"
+
+#: ../src/OptionsDialog.cpp:268
+msgid "Graph grid colour:"
+msgstr "Rūtojuma krāsa:"
+
+#: ../src/OptionsDialog.cpp:272
+#, fuzzy
+msgid "Download line colour:"
+msgstr "Galvenās līnijas krāsa:"
+
+#: ../src/OptionsDialog.cpp:281
+msgid "Speed font colour:"
+msgstr "Ātruma rādījuma burtu krāsa:"
+
+#: ../src/OptionsDialog.cpp:288
+msgid "Graph"
+msgstr "Grafiks"
+
+#: ../src/OptionsDialog.cpp:294
+#, fuzzy
+msgid "Finished piece colour:"
+msgstr "Šis gabals ir pabeigts\n"
+
+#: ../src/OptionsDialog.cpp:298
+#, fuzzy
+msgid "Unfinished piece colour:"
+msgstr "Galvenās līnijas krāsa:"
+
+#: ../src/OptionsDialog.cpp:311
+msgid "Activate scheduling"
+msgstr "Ieslēgt ieprogrammējuma režīmu"
+
+#: ../src/OptionsDialog.cpp:315
+#, fuzzy
+msgid "Start date:"
+msgstr "Sākumdatums:"
+
+#: ../src/OptionsDialog.cpp:316
+#, fuzzy
+msgid "Start time:"
+msgstr "Sākumlaiks:"
+
+#: ../src/OptionsDialog.cpp:323
+#, fuzzy
+msgid "Finish date:"
+msgstr "Beigudatums:"
+
+#: ../src/OptionsDialog.cpp:324
+#, fuzzy
+msgid "Finish time:"
+msgstr "Beigulaiks:"
+
+#: ../src/OptionsDialog.cpp:331
+msgid "Deactivate downloads on:"
+msgstr "Pārtraukt lejupielādes:"
+
+#: ../src/OptionsDialog.cpp:344
+msgid "Between"
+msgstr "No"
+
+#: ../src/OptionsDialog.cpp:347
+msgid "and"
+msgstr "līdz"
+
+#: ../src/OptionsDialog.cpp:351 ../src/NewDialog.cpp:48
+msgid "Add"
+msgstr "Pielikt"
+
+#: ../src/OptionsDialog.cpp:371
+msgid "Scheduling"
+msgstr "Ieprogrammēšana"
+
+#: ../src/OptionsDialog.cpp:377
+msgid "Unlimited bandwidth"
+msgstr "Nav ātruma ierobežojumu"
+
+#: ../src/OptionsDialog.cpp:380
+msgid "Limit band width independently for each download"
+msgstr "Atvēlētā ātruma ierobežojumu norādīt katrai lejupielādei atsevišķi"
+
+#: ../src/OptionsDialog.cpp:383
+#, fuzzy
+msgid "Limit band width for the program (in KB/s):"
+msgstr "Ierobežot atvēlēto ātrumu šai programmai (kB/s):"
+
+#: ../src/OptionsDialog.cpp:405
+msgid "Bandwidth"
+msgstr "Atvēlētais ātrums"
+
+#: ../src/OptionsDialog.cpp:411
+msgid "Please visit"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:413
+#, fuzzy
+msgid "wxDownload Fast Web Extensions"
+msgstr "Programmas \"wxDownload Fast\" vietne"
+
+#: ../src/OptionsDialog.cpp:418
+msgid "Browser Integration"
+msgstr "Sasaiste ar pārlūkprogrammu"
+
+#: ../src/OptionsDialog.cpp:526
+#, fuzzy
+msgid "Select the directory"
+msgstr "Izvēlieties mapi:"
+
+#: ../src/OptionsDialog.cpp:536
+#, fuzzy
+msgid "Choose a file"
+msgstr "Izvēlieties datni..."
+
+#: ../src/OptionsDialog.cpp:604
+msgid "Remove some items before adding a new one."
+msgstr "Pirms šā vienuma pielikšanas dažus citus derētu izmest."
+
+#: ../src/BatchDialog.cpp:24
+#, fuzzy
+msgid "Add new downloads"
+msgstr "Pievienot jaunu lejupielādi"
+
+#: ../src/BatchDialog.cpp:29 ../src/NewDialog.cpp:32
+msgid "Save to:"
+msgstr "Noglabāt šeit:"
+
+#: ../src/BatchDialog.cpp:34 ../src/NewDialog.cpp:37
+msgid "Directory"
+msgstr "Mape"
+
+#: ../src/BatchDialog.cpp:36 ../src/NewDialog.cpp:51
+msgid "Address List:"
+msgstr "Adrešu saraksts:"
+
+#: ../src/BatchDialog.cpp:39 ../src/NewDialog.cpp:54
+msgid "Only the selected addresses will be downloaded"
+msgstr "Lejupielādēs tikai no norādītajām adresēm"
+
+#: ../src/BatchDialog.cpp:43 ../src/NewDialog.cpp:62
+msgid "Server Permission"
+msgstr "Servera atļauja"
+
+#: ../src/BatchDialog.cpp:55 ../src/NewDialog.cpp:74
+msgid "Manual"
+msgstr "Manuāli"
+
+#: ../src/BatchDialog.cpp:57 ../src/NewDialog.cpp:76
+msgid "Now"
+msgstr "Tagad"
+
+#: ../src/BatchDialog.cpp:64 ../src/NewDialog.cpp:83
+msgid "Segmented download"
+msgstr "Lejupielādēšana pa gabaliem"
+
+#: ../src/BatchDialog.cpp:66
+msgid ""
+"Split download into how many\n"
+"pieces?"
+msgstr ""
+"Cik gabalos sadalīt\n"
+"lejupielādi?"
+
+#: ../src/BatchDialog.cpp:80 ../src/NewDialog.cpp:99
+#, fuzzy
+msgid "Download bandwidth (in KB/s)"
+msgstr "Lejupielādei atvēlētais ātrums (kB/s)"
+
+#: ../src/BatchDialog.cpp:83 ../src/NewDialog.cpp:102
+msgid ""
+"Set band width limit for this download.\n"
+"Set \"0\" to unlimited."
+msgstr ""
+"Var ierobežot šai lejupielādei atļauto ātrumu.\n"
+"\"0\" nozīmē, ka ierobežojumu nav."
+
+#: ../src/BatchDialog.cpp:92 ../src/NewDialog.cpp:111
+msgid "Execute the following command after download completes"
+msgstr "Izpildīt šo komandu pēc lejupielādes"
+
+#: ../src/BatchDialog.cpp:296 ../src/NewDialog.cpp:365
+msgid "The URLs are empty"
+msgstr ""
+
+#: ../src/BatchDialog.cpp:296 ../src/BatchDialog.cpp:302
+#: ../src/NewDialog.cpp:365 ../src/NewDialog.cpp:371
+#, fuzzy
+msgid "Warning..."
+msgstr "Pārvieto..."
+
+#: ../src/BatchDialog.cpp:302 ../src/NewDialog.cpp:371
+#, fuzzy
+msgid "The destination doesn't exist"
+msgstr "Izmantot parasto ieliktuvi"
+
+#: ../src/NewDialog.cpp:40
+msgid "Address:"
+msgstr "Adrese:"
+
+#: ../src/NewDialog.cpp:46
+msgid ""
+"URL to download\n"
+"Example: http://www.foo.com/foo.exe\n"
+"Example: http://www.foo.com:80/foo.exe\n"
+"Example: ftp://ftp.foo.com:21/foo.exe"
+msgstr ""
+"Vietrāži, no kā lejupielādēt\n"
+"Piemērs: http://www.foo.com/foo.exe\n"
+"Piemērs: http://www.foo.com:80/foo.exe\n"
+"Piemērs: ftp://ftp.foo.com:21/foo.exe"
+
+#: ../src/NewDialog.cpp:59
+msgid "Add on top of download queue"
+msgstr "Ievietot lejupielāžu rindas sākumā"
+
+#: ../src/NewDialog.cpp:85
+#, fuzzy
+msgid ""
+"Split download into how many\n"
+"connections?"
+msgstr ""
+"Cik gabalos sadalīt\n"
+"lejupielādi?"
+
+#: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
+msgid "The URL is invalid!"
+msgstr "Vietrādis ir nederīgs!"
+
+#: ../src/NewDialog.cpp:421
+msgid "Edit the URL"
+msgstr "Rediģēt vietrādi"

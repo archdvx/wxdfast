@@ -1,0 +1,1003 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wxDownload Fast\n"
+"Report-Msgid-Bugs-To: archdvx@dxsolutions.org\n"
+"POT-Creation-Date: 2021-08-15 14:26+0200\n"
+"PO-Revision-Date: 2007-03-24 17:22-0300\n"
+"Last-Translator: Max Velasques <maxvelasques@mail.com>\n"
+"Language-Team: <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootling 0.1.1\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Basepath: /home/max/Projetos/wxDFast/src\n"
+"X-Poedit-Country: INDONESIA\n"
+"X-Poedit-Language: Indonesian\n"
+"X-Poedit-SearchPath-0: /home/max/Projetos/wxDFast/src/wxMD5\n"
+"X-Poedit-SearchPath-1: /home/max/Projetos/wxDFast/src\n"
+"X-Poedit-SearchPath-2: /home/max/Projetos/wxDFast/resources\n"
+
+#: ../src/wxDFast.cpp:49
+msgid ""
+"Usage: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] "
+"[URL of the file(s) to be downloaded...]\n"
+"  -h, --help                   Print (this) help screen and exit\n"
+"  -v, --version                Print version information and exit\n"
+"  -i, --hide                   Start with the the main frame hide\n"
+"  -d, --destination=<str>      Destination directory\n"
+"  -c, --comments=<str>         Add comments to download\n"
+"  -r, --reference=<str>        Set a reference URL"
+msgstr ""
+
+#: ../src/wxDFast.cpp:136
+#, fuzzy
+msgid "wxDownload Fast already running"
+msgstr "Situs wxDownload Fast"
+
+#: ../src/wxDFast.cpp:196
+msgid "Hide the main window"
+msgstr "Sembunyikan jendela utama"
+
+#: ../src/wxDFast.cpp:198
+msgid "Show the main window"
+msgstr "Munculkan jendela utama"
+
+#: ../src/wxDFast.cpp:200
+msgid "New download"
+msgstr "Pengunduhan baru"
+
+#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:2538 ../src/wxDFast.cpp:3012
+msgid "Unlimited"
+msgstr "Tak Terbatas"
+
+#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
+msgid "Just for this session. To change definitely go to \"Options\""
+msgstr "Hanya untuk sesi ini. Untuk mengganti seterusnya, atur di \"Pilihan\""
+
+#: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2534
+msgid "Active"
+msgstr "Aktif"
+
+#: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2530
+msgid "Per Download"
+msgstr "Tiap Pengunduhan"
+
+#: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2530 ../src/wxDFast.cpp:2534
+#: ../src/wxDFast.cpp:2538
+msgid "Band control"
+msgstr "Pengaturan lebar pita"
+
+#: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
+msgid "New Download"
+msgstr "Pengunduhan baru"
+
+#: ../src/wxDFast.cpp:365 ../src/wxDFast.cpp:1878 ../src/wxDFast.cpp:1956
+msgid "Remove Download"
+msgstr "Hapuskan Pengunduhan"
+
+#: ../src/wxDFast.cpp:369 ../src/wxDFast.cpp:1885
+msgid "Schedule Download"
+msgstr "Jadwalkan Pengunduhan"
+
+#: ../src/wxDFast.cpp:372 ../src/wxDFast.cpp:1893 ../src/BatchDialog.cpp:54
+#: ../src/NewDialog.cpp:73
+msgid "Start Download"
+msgstr "Mulai Pengunduhan"
+
+#: ../src/wxDFast.cpp:375 ../src/wxDFast.cpp:1899
+msgid "Stop Download"
+msgstr "Hentikan Pengunduhan"
+
+#: ../src/wxDFast.cpp:378 ../src/wxDFast.cpp:471
+msgid "Start all downloads"
+msgstr "Mulai semua unduhan"
+
+#: ../src/wxDFast.cpp:381 ../src/wxDFast.cpp:472
+msgid "Stop all downloads"
+msgstr "Hentikan semua pengunduhan"
+
+#: ../src/wxDFast.cpp:386
+msgid "&File"
+msgstr "&Berkas"
+
+#: ../src/wxDFast.cpp:388
+msgid "Paste URL"
+msgstr "Paste URL"
+
+#: ../src/wxDFast.cpp:391 ../src/wxDFast.cpp:1908 ../src/wxDFast.cpp:1960
+msgid "Copy URL"
+msgstr "Salin URL"
+
+#: ../src/wxDFast.cpp:394 ../src/wxDFast.cpp:1911 ../src/wxDFast.cpp:1963
+msgid "Copy Download Data"
+msgstr "Salin Data Pengunduhan"
+
+#: ../src/wxDFast.cpp:398
+#, fuzzy
+msgid "Remove All"
+msgstr "Hapus"
+
+#: ../src/wxDFast.cpp:401
+msgid "Find Download"
+msgstr "Temukan Unduhan"
+
+#: ../src/wxDFast.cpp:404 ../src/NewDialog.cpp:56
+msgid "&Edit"
+msgstr "&Sunting "
+
+#: ../src/wxDFast.cpp:406
+msgid "Show/Hide Graph"
+msgstr "Tampilkan/Sembunyikan Grafik"
+
+#: ../src/wxDFast.cpp:409
+msgid "Show/Hide Details"
+msgstr "Tampilkan/Sembunyikan Detil"
+
+#: ../src/wxDFast.cpp:412
+msgid "&View"
+msgstr "&Tampilan"
+
+#: ../src/wxDFast.cpp:414 ../src/wxDFast.cpp:1333 ../src/wxDFast.cpp:1904
+msgid "Download Properties"
+msgstr "Properti-properti Pengunduhan"
+
+#: ../src/wxDFast.cpp:417 ../src/wxDFast.cpp:1967
+msgid "Move File"
+msgstr "Pindahkan File"
+
+#: ../src/wxDFast.cpp:420 ../src/wxDFast.cpp:1969
+msgid "Check Integrity"
+msgstr "Periksa Keutuhan"
+
+#: ../src/wxDFast.cpp:422 ../src/wxDFast.cpp:1970
+msgid "Open Destination Directory"
+msgstr "Buka Direktori Tujuan"
+
+#: ../src/wxDFast.cpp:424 ../src/wxDFast.cpp:1971
+msgid "Download File Again"
+msgstr "Unduh Sekali Lagi"
+
+#: ../src/wxDFast.cpp:427
+msgid "Export Configuration"
+msgstr "Ekspor Pengaturan"
+
+#: ../src/wxDFast.cpp:429
+msgid "Import Configuration"
+msgstr "Impor Pengaturan"
+
+#: ../src/wxDFast.cpp:432
+msgid "Shutdown when finished"
+msgstr "Matikan komputer saat selesai"
+
+#: ../src/wxDFast.cpp:432 ../src/wxDFast.cpp:433
+msgid "This option is only valid in this session of the program"
+msgstr "Pilihan ini hanya berlaku pada sesi program kali ini"
+
+#: ../src/wxDFast.cpp:433
+msgid "Disconnect when finished"
+msgstr "Putuskan sambungan saat selesai"
+
+#: ../src/wxDFast.cpp:438
+msgid "&Tools"
+msgstr "&Peralatan"
+
+#: ../src/wxDFast.cpp:440
+msgid "wxDownload Fast Site"
+msgstr "Situs wxDownload Fast"
+
+#: ../src/wxDFast.cpp:443
+msgid "Report Bugs..."
+msgstr "Laporkan Cacat..."
+
+#: ../src/wxDFast.cpp:444
+msgid "Donate..."
+msgstr "Menyumbang..."
+
+#: ../src/wxDFast.cpp:449
+msgid "&Help"
+msgstr "&Pertolongan"
+
+#: ../src/wxDFast.cpp:465
+msgid "New"
+msgstr "Baru"
+
+#: ../src/wxDFast.cpp:465 ../src/NewDialog.cpp:27
+msgid "Add new download"
+msgstr "Tambahkan unduhan baru"
+
+#: ../src/wxDFast.cpp:466 ../src/OptionsDialog.cpp:364
+msgid "Remove"
+msgstr "Hapus"
+
+#: ../src/wxDFast.cpp:466
+msgid "Remove the selected download"
+msgstr "Hapus unduhan yang dipilih"
+
+#: ../src/wxDFast.cpp:468 ../src/BatchDialog.cpp:60 ../src/NewDialog.cpp:79
+msgid "Schedule"
+msgstr "Jadwalkan"
+
+#: ../src/wxDFast.cpp:468
+msgid "Mark the selected download as scheduled"
+msgstr "Tandai unduhan yang dipilih sebagai terjadwal"
+
+#: ../src/wxDFast.cpp:469
+msgid "Start"
+msgstr "Mulai"
+
+#: ../src/wxDFast.cpp:469
+msgid "Start the selected download"
+msgstr "Mulai unduhan yang dipilih"
+
+#: ../src/wxDFast.cpp:470
+msgid "Stop"
+msgstr "Hentikan"
+
+#: ../src/wxDFast.cpp:470
+msgid "Stop the selected download"
+msgstr "Hentikan unduhan yang dipilih"
+
+#: ../src/wxDFast.cpp:471
+msgid "Start All"
+msgstr "Mulai Semua"
+
+#: ../src/wxDFast.cpp:472
+msgid "Stop All"
+msgstr "Hentikan Semua"
+
+#: ../src/wxDFast.cpp:474
+msgid "Up"
+msgstr "Naik"
+
+#: ../src/wxDFast.cpp:474
+msgid "Push download higher up the queue"
+msgstr "Naikkan unduhan lebih ke atas pada antrian"
+
+#: ../src/wxDFast.cpp:475
+msgid "Down"
+msgstr "Turun"
+
+#: ../src/wxDFast.cpp:475
+msgid "Push download lower down the queue"
+msgstr "Turunkan unduhan lebih ke bawah pada antrian"
+
+#: ../src/wxDFast.cpp:477
+msgid "Properties"
+msgstr "Properti"
+
+#: ../src/wxDFast.cpp:477
+msgid "Show the properties of the selected download"
+msgstr "Tampilkan properti unduhan yang dipilih"
+
+#: ../src/wxDFast.cpp:503 ../src/OptionsDialog.cpp:305
+msgid "Progress"
+msgstr ""
+
+#: ../src/wxDFast.cpp:505
+msgid "Detail"
+msgstr ""
+
+#: ../src/wxDFast.cpp:510
+msgid "Downloads in Progress"
+msgstr "Pengunduhan sedang berlangsung"
+
+#: ../src/wxDFast.cpp:526
+msgid "Finished Downloads"
+msgstr "Pengunduhan Terselesaikan"
+
+#: ../src/wxDFast.cpp:591
+#, c-format
+msgid "Could not listen at the specified socket %s!"
+msgstr ""
+
+#: ../src/wxDFast.cpp:593
+#, c-format
+msgid "Could not listen at the specified port %d!"
+msgstr ""
+
+#: ../src/wxDFast.cpp:663
+msgid "   [ Yes ]"
+msgstr "   [ Ya ]"
+
+#: ../src/wxDFast.cpp:664
+msgid "   [ No  ]"
+msgstr "   [ Tidak ]"
+
+#: ../src/wxDFast.cpp:745 ../src/wxDFast.cpp:1649 ../src/wxDFast.cpp:1672
+msgid "Name"
+msgstr "Nama"
+
+#: ../src/wxDFast.cpp:746 ../src/wxDFast.cpp:1650 ../src/wxDFast.cpp:1673
+#: ../src/wxDFast.cpp:3009
+msgid "File type"
+msgstr "Jenis File"
+
+#: ../src/wxDFast.cpp:747 ../src/wxDFast.cpp:1651 ../src/wxDFast.cpp:1674
+#: ../src/wxDFast.cpp:3010 ../src/wxDFast.cpp:3289 ../src/wxDFast.cpp:3330
+msgid "Size"
+msgstr "Ukuran"
+
+#: ../src/wxDFast.cpp:748 ../src/wxDFast.cpp:1652 ../src/wxDFast.cpp:1675
+msgid "Time"
+msgstr "Waktu"
+
+#: ../src/wxDFast.cpp:749 ../src/wxDFast.cpp:1653 ../src/wxDFast.cpp:1676
+#: ../src/wxDFast.cpp:3008
+msgid "Destination"
+msgstr "Tujuan"
+
+#: ../src/wxDFast.cpp:750
+msgid "Started"
+msgstr "Dimulai"
+
+#: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3331
+msgid "Finished"
+msgstr "Selesai"
+
+#: ../src/wxDFast.cpp:752 ../src/wxDFast.cpp:1677
+msgid "MD5"
+msgstr "MD5"
+
+#: ../src/wxDFast.cpp:753 ../src/wxDFast.cpp:1654 ../src/wxDFast.cpp:1678
+#: ../src/BatchDialog.cpp:87 ../src/NewDialog.cpp:106
+msgid "Reference URL"
+msgstr "URL Pengantar"
+
+#: ../src/wxDFast.cpp:754 ../src/wxDFast.cpp:1655 ../src/wxDFast.cpp:1679
+#: ../src/BatchDialog.cpp:72 ../src/NewDialog.cpp:91
+msgid "Comments"
+msgstr "Komentar"
+
+#: ../src/wxDFast.cpp:755 ../src/wxDFast.cpp:1656 ../src/wxDFast.cpp:1680
+msgid "URLs"
+msgstr "URL-URL"
+
+#: ../src/wxDFast.cpp:801
+msgid "Total Speed:"
+msgstr "Kecepatan Total"
+
+#: ../src/wxDFast.cpp:805
+msgid "Total Complete:"
+msgstr "Total Terselesaikan:"
+
+#: ../src/wxDFast.cpp:809
+msgid "Downloads in progress:"
+msgstr "Pengunduhan sedang berlangsung:"
+
+#: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
+msgid "Do you want to close the program?"
+msgstr "Apakah anda ingin menutup program?"
+
+#: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
+msgid "Close..."
+msgstr "Tutup..."
+
+#: ../src/wxDFast.cpp:1062
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of\n"
+"the GNU General Public License as published by the Free Software "
+"Foundation;\n"
+"either version 2 of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY;\n"
+"without even the implied warranty of MERCHANTABILITY or FITNESS FOR A "
+"PARTICULAR PURPOSE.\n"
+"See the GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program;\n"
+"if not, write to the Free Software Foundation, Inc., 51 Franklin Street,\n"
+"Fifth Floor, Boston, MA 02110-1301, USA"
+msgstr ""
+
+#: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
+msgid "Do you also want to remove downloaded file(s) from the disk?"
+msgstr ""
+"Apakah anda juga ingin menghapus file(-file) yang diunduh dari media simpan?"
+
+#: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
+msgid "Remove..."
+msgstr "Hapus..."
+
+#: ../src/wxDFast.cpp:1478
+msgid "Find file..."
+msgstr "Temukan file..."
+
+#: ../src/wxDFast.cpp:1510 ../src/wxDFast.cpp:1693 ../src/BatchDialog.cpp:317
+#: ../src/NewDialog.cpp:386
+msgid "Select the directory:"
+msgstr "Pilih direktori:"
+
+#: ../src/wxDFast.cpp:1522
+msgid "Moving..."
+msgstr "Memindahkan..."
+
+#: ../src/wxDFast.cpp:1522
+msgid "Moving file..."
+msgstr "Memindahkan file..."
+
+#: ../src/wxDFast.cpp:1531
+msgid "Error moving file."
+msgstr "Gagal memindahkan file."
+
+#: ../src/wxDFast.cpp:1531 ../src/wxDFast.cpp:1573 ../src/wxDFast.cpp:1578
+#: ../src/wxDFast.cpp:1588 ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635
+#: ../src/wxDFast.cpp:1662 ../src/wxDFast.cpp:1686 ../src/wxDFast.cpp:1699
+#: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
+msgid "Error..."
+msgstr "Kesalahan..."
+
+#: ../src/wxDFast.cpp:1537
+msgid ""
+"The file isn't in the path that it was saved initially.\n"
+"Do you want to change only the old path for the current one?"
+msgstr ""
+"File tidak berada pada tempat disimpan pertama kali.\n"
+"Apakah anda hendak mengubah hanya tempat lama ke tempat yang baru?"
+
+#: ../src/wxDFast.cpp:1537
+#, fuzzy
+msgid "Filename:"
+msgstr "Nama berkas"
+
+#: ../src/wxDFast.cpp:1539
+msgid "Continue..."
+msgstr "Lanjutkan..."
+
+#: ../src/wxDFast.cpp:1557
+msgid "Checking file's MD5..."
+msgstr "Memeriksa MD5 file..."
+
+#: ../src/wxDFast.cpp:1565
+msgid "The file was verified successfully."
+msgstr "File berhasil diperiksa."
+
+#: ../src/wxDFast.cpp:1565 ../src/wxDFast.cpp:1697
+msgid "Success..."
+msgstr "Berhasil"
+
+#: ../src/wxDFast.cpp:1570
+msgid "The MD5 calculated previously is different from the current one."
+msgstr "MD5 yang dihitung sebelumnya berbeda dengan yang ada sekarang."
+
+#: ../src/wxDFast.cpp:1571
+msgid ""
+"\n"
+"Old MD5 =\t\t"
+msgstr ""
+"\n"
+"MD5 yang lama =\t\t"
+
+#: ../src/wxDFast.cpp:1572
+msgid ""
+"\n"
+"Current MD5 =\t"
+msgstr ""
+"\n"
+"MD5 yang baru =\t"
+
+#: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+msgid "File not found."
+msgstr "File tidak diketemukan."
+
+#: ../src/wxDFast.cpp:1588
+#, c-format
+msgid "Folder %s doesn't exist."
+msgstr ""
+
+#: ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635 ../src/wxDFast.cpp:1662
+#: ../src/wxDFast.cpp:1686
+msgid "Unable to open the clipboard!"
+msgstr "Tak dapat membuka clipboard!"
+
+#: ../src/wxDFast.cpp:1697
+msgid "The configuration was exported successfully."
+msgstr "Pengaturan telah berhasil diekspor"
+
+#: ../src/wxDFast.cpp:1699
+msgid "Error exporting configuration."
+msgstr "Gagal mengekspor pengaturan"
+
+#: ../src/wxDFast.cpp:1705
+msgid "Select the file..."
+msgstr "Pilih file..."
+
+#: ../src/wxDFast.cpp:1770 ../src/wxDFast.cpp:2052 ../src/wxDFast.cpp:2161
+#: ../src/wxDFast.cpp:2252 ../src/wxDFast.cpp:2800 ../src/wxDFast.cpp:2811
+#, fuzzy
+msgid "Download started"
+msgstr "Situs wxDownload Fast"
+
+#: ../src/wxDFast.cpp:1785 ../src/wxDFast.cpp:1798
+msgid "Command :\t"
+msgstr "Perintah :\t"
+
+#: ../src/wxDFast.cpp:1785
+msgid "Shutdown Command..."
+msgstr "Perintah Mematikan Komputer..."
+
+#: ../src/wxDFast.cpp:1798
+msgid "Disconnect Command..."
+msgstr "Perintah Memutus Sambungan..."
+
+#: ../src/wxDFast.cpp:2036
+#, fuzzy
+msgid "Download waiting"
+msgstr "Unduh Sekali Lagi"
+
+#: ../src/wxDFast.cpp:2113
+#, c-format
+msgid "NEW RELEASE: wxDownload Fast %s is available."
+msgstr ""
+
+#: ../src/wxDFast.cpp:2115
+#, fuzzy, c-format
+msgid ""
+"wxDownload Fast %s is available.\n"
+"Visit https://wxdfast.dxsolutions.org for more informations."
+msgstr "Kunjungi http://dfast.sourceforge.net untuk keterangan lebih banyak."
+
+#: ../src/wxDFast.cpp:2190
+#, fuzzy
+msgid "Calculating file's MD5..."
+msgstr "Memeriksa MD5 file..."
+
+#: ../src/wxDFast.cpp:2203 ../src/OptionsDialog.cpp:642
+#: ../src/OptionsDialog.cpp:645
+#, fuzzy
+msgid "Downloaded successfully"
+msgstr "Berkas berhasil diperiksa\n"
+
+#: ../src/wxDFast.cpp:2207
+msgid "Downloaded ended with error"
+msgstr ""
+
+#: ../src/wxDFast.cpp:2230
+#, fuzzy
+msgid "Download statistics"
+msgstr "Situs wxDownload Fast"
+
+#: ../src/wxDFast.cpp:2231 ../src/wxDFast.cpp:3290
+msgid "Completed"
+msgstr "Terselesaikan"
+
+#: ../src/wxDFast.cpp:2232 ../src/wxDFast.cpp:3291
+msgid "Percentage"
+msgstr "Persentase"
+
+#: ../src/wxDFast.cpp:2233 ../src/wxDFast.cpp:3292
+msgid "Time Passed"
+msgstr "Waktu dilalui"
+
+#: ../src/wxDFast.cpp:2234 ../src/wxDFast.cpp:3293
+msgid "Remaining"
+msgstr "Tersisa"
+
+#: ../src/wxDFast.cpp:2260 ../src/wxDFast.cpp:2828
+#, fuzzy
+msgid "Download paused"
+msgstr "Situs wxDownload Fast"
+
+#: ../src/wxDFast.cpp:2331
+msgid "Error: couldn't accept a new connection"
+msgstr ""
+
+#: ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+msgid "Information..."
+msgstr "Keterangan..."
+
+#: ../src/wxDFast.cpp:3011
+msgid "Maximum number of connections"
+msgstr ""
+
+#: ../src/wxDFast.cpp:3012
+#, fuzzy
+msgid "Download bandwidth"
+msgstr "Lebar Pita pengunduhan (dalam kB/s)"
+
+#: ../src/wxDFast.cpp:3013
+#, fuzzy
+msgid "Number of pieces"
+msgstr "Jumlah percobaan"
+
+#: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3296
+msgid "URL"
+msgstr "URL"
+
+#: ../src/wxDFast.cpp:3016
+#, fuzzy
+msgid "Downloaded is scheduled"
+msgstr "Tandai unduhan yang dipilih sebagai terjadwal"
+
+#: ../src/wxDFast.cpp:3287
+msgid "Restart"
+msgstr "Ulangi"
+
+#: ../src/wxDFast.cpp:3288 ../src/wxDFast.cpp:3329
+msgid "Filename"
+msgstr "Nama berkas"
+
+#: ../src/wxDFast.cpp:3294
+msgid "Speed"
+msgstr "Kecepatan"
+
+#: ../src/wxDFast.cpp:3295
+msgid "Attempts"
+msgstr "Percobaan ke-"
+
+#: ../src/OptionsDialog.cpp:35
+msgid "Options"
+msgstr "Pilihan"
+
+#: ../src/OptionsDialog.cpp:52
+msgid "Attempts:"
+msgstr "Percobaan:"
+
+#: ../src/OptionsDialog.cpp:58
+msgid "Time between the attempts in seconds:"
+msgstr "Waktu antara percobaan dalam detik:"
+
+#: ../src/OptionsDialog.cpp:64
+msgid "Number of simultaneous downloads:"
+msgstr "Jumlah pengunduhan berbarengan:"
+
+#: ../src/OptionsDialog.cpp:70
+msgid "Remember the last settings on the New Download box"
+msgstr "Ingat pengaturan terakhir di kotak Pengunduhan Baru"
+
+#: ../src/OptionsDialog.cpp:74
+msgid "Shutdown when all downloads finish"
+msgstr "Matikan komputer ketika seluruh pengunduhan selesai"
+
+#: ../src/OptionsDialog.cpp:78
+msgid "Disconnect when all downloads finish"
+msgstr "Putuskan sambungan ketika seluruh pengunduhan selesai"
+
+#: ../src/OptionsDialog.cpp:82
+msgid "Show dialog box when program closes"
+msgstr "Munculkan kotak dialog saat program menutup"
+
+#: ../src/OptionsDialog.cpp:86
+msgid "Refresh rate of the download list (millisecs):"
+msgstr "Laju penyegaran daftar pengunduhan (milisek):"
+
+#: ../src/OptionsDialog.cpp:92
+msgid "Restore the main window when all downloads finish"
+msgstr "Munculkan jendela utama ketika semua pengunduhan selesai"
+
+#: ../src/OptionsDialog.cpp:96
+msgid "Hide the main window when you start a download"
+msgstr "Sembunyikan jendela utama saat memulai pengundukan"
+
+#: ../src/OptionsDialog.cpp:100
+msgid "Check for updates automatically"
+msgstr "Periksa perbaruan program secara otomatis"
+
+#: ../src/OptionsDialog.cpp:104
+msgid "Show notification on finish download"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:107
+msgid "Preview"
+msgstr "Tampilkan"
+
+#: ../src/OptionsDialog.cpp:113
+msgid "General"
+msgstr "Umum"
+
+#: ../src/OptionsDialog.cpp:119
+msgid "Default destination:"
+msgstr "Tujuan acuan:"
+
+#: ../src/OptionsDialog.cpp:140
+msgid "Shutdown command:"
+msgstr "Perintah mematikan komputer:"
+
+#: ../src/OptionsDialog.cpp:145
+msgid "Disconnect command:"
+msgstr "Perintah memutus sambungan:"
+
+#: ../src/OptionsDialog.cpp:153
+msgid "Paths"
+msgstr "Jalur/Path"
+
+#: ../src/OptionsDialog.cpp:159
+msgid "Use a Proxy Server"
+msgstr "Gunakan Server Proxy"
+
+#: ../src/OptionsDialog.cpp:163
+msgid "Proxy Server"
+msgstr "Server Proxy"
+
+#: ../src/OptionsDialog.cpp:165
+msgid "Server:"
+msgstr "Server:"
+
+#: ../src/OptionsDialog.cpp:170
+msgid "Port:"
+msgstr "Port:"
+
+#: ../src/OptionsDialog.cpp:182
+msgid "Proxy Server Authorization"
+msgstr "Otorisasi Server Proxy"
+
+#: ../src/OptionsDialog.cpp:184 ../src/BatchDialog.cpp:45
+#: ../src/NewDialog.cpp:64
+msgid "User:"
+msgstr "Pengguna:"
+
+#: ../src/OptionsDialog.cpp:187 ../src/BatchDialog.cpp:49
+#: ../src/NewDialog.cpp:68
+msgid "Password:"
+msgstr "Katakunci:"
+
+#: ../src/OptionsDialog.cpp:196
+msgid "Proxy"
+msgstr "Proxy"
+
+#: ../src/OptionsDialog.cpp:202
+msgid "Show Graph"
+msgstr "Munculkan Grafik"
+
+#: ../src/OptionsDialog.cpp:206
+msgid "Graph refresh rate (millisecs):"
+msgstr "Laju penyegaran grafik (milisek):"
+
+#: ../src/OptionsDialog.cpp:212
+#, fuzzy
+msgid "Graph maximum value:"
+msgstr "Nilai maksimal grafik (kB/s):"
+
+#: ../src/OptionsDialog.cpp:240
+msgid "The text area Width (pixels):"
+msgstr "Lebar area teks (piksel):"
+
+#: ../src/OptionsDialog.cpp:246
+msgid "Graph height:"
+msgstr "Tinggi grafik:"
+
+#: ../src/OptionsDialog.cpp:252
+msgid "Text font size (points):"
+msgstr "Ukuran huruf teks:"
+
+#: ../src/OptionsDialog.cpp:258
+#, fuzzy
+msgid "Download line width:"
+msgstr "Lebar garis utama:"
+
+#: ../src/OptionsDialog.cpp:264
+msgid "Background colour:"
+msgstr "Warna latar:"
+
+#: ../src/OptionsDialog.cpp:268
+msgid "Graph grid colour:"
+msgstr "Warna garis-garis grafik:"
+
+#: ../src/OptionsDialog.cpp:272
+#, fuzzy
+msgid "Download line colour:"
+msgstr "Warna garis utama:"
+
+#: ../src/OptionsDialog.cpp:281
+msgid "Speed font colour:"
+msgstr "Warna huruf penunjuk kecepatan:"
+
+#: ../src/OptionsDialog.cpp:288
+msgid "Graph"
+msgstr "Grafik"
+
+#: ../src/OptionsDialog.cpp:294
+#, fuzzy
+msgid "Finished piece colour:"
+msgstr "Selesai pada bagian ini\n"
+
+#: ../src/OptionsDialog.cpp:298
+#, fuzzy
+msgid "Unfinished piece colour:"
+msgstr "Warna garis utama:"
+
+#: ../src/OptionsDialog.cpp:311
+msgid "Activate scheduling"
+msgstr "Aktifkan penjadwalan"
+
+#: ../src/OptionsDialog.cpp:315
+#, fuzzy
+msgid "Start date:"
+msgstr "Tanggal Memulai:"
+
+#: ../src/OptionsDialog.cpp:316
+#, fuzzy
+msgid "Start time:"
+msgstr "Waktu Memulai:"
+
+#: ../src/OptionsDialog.cpp:323
+#, fuzzy
+msgid "Finish date:"
+msgstr "Tanggal Selesai:"
+
+#: ../src/OptionsDialog.cpp:324
+#, fuzzy
+msgid "Finish time:"
+msgstr "Waktu Selesai:"
+
+#: ../src/OptionsDialog.cpp:331
+msgid "Deactivate downloads on:"
+msgstr "Nonaktifkan pengunduhan pada:"
+
+#: ../src/OptionsDialog.cpp:344
+msgid "Between"
+msgstr "Antara"
+
+#: ../src/OptionsDialog.cpp:347
+msgid "and"
+msgstr "dan"
+
+#: ../src/OptionsDialog.cpp:351 ../src/NewDialog.cpp:48
+msgid "Add"
+msgstr "Tambah"
+
+#: ../src/OptionsDialog.cpp:371
+msgid "Scheduling"
+msgstr "Penjadwalan"
+
+#: ../src/OptionsDialog.cpp:377
+msgid "Unlimited bandwidth"
+msgstr "Lebar pita tak terbatas"
+
+#: ../src/OptionsDialog.cpp:380
+msgid "Limit band width independently for each download"
+msgstr "Batasi lebar pita secara mandiri untuk setiap pengunduhan"
+
+#: ../src/OptionsDialog.cpp:383
+#, fuzzy
+msgid "Limit band width for the program (in KB/s):"
+msgstr "Batasi lebar pita untuk program (dalam kB/s):"
+
+#: ../src/OptionsDialog.cpp:405
+msgid "Bandwidth"
+msgstr "Lebar pita"
+
+#: ../src/OptionsDialog.cpp:411
+msgid "Please visit"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:413
+#, fuzzy
+msgid "wxDownload Fast Web Extensions"
+msgstr "Situs wxDownload Fast"
+
+#: ../src/OptionsDialog.cpp:418
+msgid "Browser Integration"
+msgstr "Penyatuan dengan Perambah"
+
+#: ../src/OptionsDialog.cpp:526
+#, fuzzy
+msgid "Select the directory"
+msgstr "Pilih direktori:"
+
+#: ../src/OptionsDialog.cpp:536
+#, fuzzy
+msgid "Choose a file"
+msgstr "Pilih sebuah berkas..."
+
+#: ../src/OptionsDialog.cpp:604
+msgid "Remove some items before adding a new one."
+msgstr "Menghapus beberapa entri sebelum menambah yang baru."
+
+#: ../src/BatchDialog.cpp:24
+#, fuzzy
+msgid "Add new downloads"
+msgstr "Tambahkan unduhan baru"
+
+#: ../src/BatchDialog.cpp:29 ../src/NewDialog.cpp:32
+msgid "Save to:"
+msgstr "Simpan ke:"
+
+#: ../src/BatchDialog.cpp:34 ../src/NewDialog.cpp:37
+msgid "Directory"
+msgstr "Direktori"
+
+#: ../src/BatchDialog.cpp:36 ../src/NewDialog.cpp:51
+msgid "Address List:"
+msgstr "Daftar Alamat:"
+
+#: ../src/BatchDialog.cpp:39 ../src/NewDialog.cpp:54
+msgid "Only the selected addresses will be downloaded"
+msgstr "Hanya alamat yang dipilih yang akan diunduh"
+
+#: ../src/BatchDialog.cpp:43 ../src/NewDialog.cpp:62
+msgid "Server Permission"
+msgstr "Izin Server"
+
+#: ../src/BatchDialog.cpp:55 ../src/NewDialog.cpp:74
+msgid "Manual"
+msgstr "Manual"
+
+#: ../src/BatchDialog.cpp:57 ../src/NewDialog.cpp:76
+msgid "Now"
+msgstr "Sekarang"
+
+#: ../src/BatchDialog.cpp:64 ../src/NewDialog.cpp:83
+msgid "Segmented download"
+msgstr "Pengunduhan tersegmentasi"
+
+#: ../src/BatchDialog.cpp:66
+msgid ""
+"Split download into how many\n"
+"pieces?"
+msgstr ""
+"Pisah unduhan menjadi berapa       \n"
+"bagian?"
+
+#: ../src/BatchDialog.cpp:80 ../src/NewDialog.cpp:99
+#, fuzzy
+msgid "Download bandwidth (in KB/s)"
+msgstr "Lebar Pita pengunduhan (dalam kB/s)"
+
+#: ../src/BatchDialog.cpp:83 ../src/NewDialog.cpp:102
+msgid ""
+"Set band width limit for this download.\n"
+"Set \"0\" to unlimited."
+msgstr ""
+"Tentukan batas lebar pita untuk pengunduhan ini.\n"
+"Tentukan \"0\" untuk tak terbatas."
+
+#: ../src/BatchDialog.cpp:92 ../src/NewDialog.cpp:111
+msgid "Execute the following command after download completes"
+msgstr "Laksanakan perintah berikut setelah pengunduhan selesai"
+
+#: ../src/BatchDialog.cpp:296 ../src/NewDialog.cpp:365
+msgid "The URLs are empty"
+msgstr ""
+
+#: ../src/BatchDialog.cpp:296 ../src/BatchDialog.cpp:302
+#: ../src/NewDialog.cpp:365 ../src/NewDialog.cpp:371
+#, fuzzy
+msgid "Warning..."
+msgstr "Memindahkan..."
+
+#: ../src/BatchDialog.cpp:302 ../src/NewDialog.cpp:371
+#, fuzzy
+msgid "The destination doesn't exist"
+msgstr "Gunakan direktori tujuan"
+
+#: ../src/NewDialog.cpp:40
+msgid "Address:"
+msgstr "Alamat:"
+
+#: ../src/NewDialog.cpp:46
+msgid ""
+"URL to download\n"
+"Example: http://www.foo.com/foo.exe\n"
+"Example: http://www.foo.com:80/foo.exe\n"
+"Example: ftp://ftp.foo.com:21/foo.exe"
+msgstr ""
+"URL untuk pengunduhan\n"
+"Contoh: http://www.foo.com/foo.exe\n"
+"Contoh: http://www.foo.com:80/foo.exe\n"
+"Contoh: ftp://ftp.foo.com:21/foo.exe"
+
+#: ../src/NewDialog.cpp:59
+msgid "Add on top of download queue"
+msgstr "Tambahkan ke atas daftar antrian pengunduhan"
+
+#: ../src/NewDialog.cpp:85
+#, fuzzy
+msgid ""
+"Split download into how many\n"
+"connections?"
+msgstr ""
+"Pisah unduhan menjadi berapa       \n"
+"bagian?"
+
+#: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
+msgid "The URL is invalid!"
+msgstr "URL tidak benar!"
+
+#: ../src/NewDialog.cpp:421
+msgid "Edit the URL"
+msgstr "Sunting URL"

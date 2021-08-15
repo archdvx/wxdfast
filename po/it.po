@@ -1,0 +1,1002 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wxDownload Fast\n"
+"Report-Msgid-Bugs-To: archdvx@dxsolutions.org\n"
+"POT-Creation-Date: 2021-08-15 14:26+0200\n"
+"PO-Revision-Date: 2007-03-12 19:40-0300\n"
+"Last-Translator: Max Velasques <maxvelasques@mail.com>\n"
+"Language-Team: Angelo Contardi <Angelo.Contardi@italtel.it>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/max/Projetos/wxDFast/src\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-SearchPath-0: /home/max/Projetos/wxDFast/src\n"
+"X-Poedit-SearchPath-1: /home/max/Projetos/wxDFast/resources\n"
+
+#: ../src/wxDFast.cpp:49
+msgid ""
+"Usage: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] "
+"[URL of the file(s) to be downloaded...]\n"
+"  -h, --help                   Print (this) help screen and exit\n"
+"  -v, --version                Print version information and exit\n"
+"  -i, --hide                   Start with the the main frame hide\n"
+"  -d, --destination=<str>      Destination directory\n"
+"  -c, --comments=<str>         Add comments to download\n"
+"  -r, --reference=<str>        Set a reference URL"
+msgstr ""
+
+#: ../src/wxDFast.cpp:136
+#, fuzzy
+msgid "wxDownload Fast already running"
+msgstr "Sito di wxDownload Fast"
+
+#: ../src/wxDFast.cpp:196
+msgid "Hide the main window"
+msgstr "Nascondi Finestra Principale"
+
+#: ../src/wxDFast.cpp:198
+msgid "Show the main window"
+msgstr "Mostra Finestra Principale"
+
+#: ../src/wxDFast.cpp:200
+msgid "New download"
+msgstr "Nuovo Trasferimento"
+
+#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:2538 ../src/wxDFast.cpp:3012
+msgid "Unlimited"
+msgstr "Illimitata"
+
+#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
+msgid "Just for this session. To change definitely go to \"Options\""
+msgstr ""
+"Solo per questa Sessione. In \"Opzioni\" puoi rendere tale cambiamento "
+"permanente "
+
+#: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2534
+msgid "Active"
+msgstr "Attivo"
+
+#: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2530
+msgid "Per Download"
+msgstr "Per Trasferimento"
+
+#: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2530 ../src/wxDFast.cpp:2534
+#: ../src/wxDFast.cpp:2538
+msgid "Band control"
+msgstr "Banda di Trasferimento"
+
+#: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
+msgid "New Download"
+msgstr "Nuovo Trasferimento"
+
+#: ../src/wxDFast.cpp:365 ../src/wxDFast.cpp:1878 ../src/wxDFast.cpp:1956
+msgid "Remove Download"
+msgstr "Elimina il Trasferimento"
+
+#: ../src/wxDFast.cpp:369 ../src/wxDFast.cpp:1885
+msgid "Schedule Download"
+msgstr "Trasferimento Programmato"
+
+#: ../src/wxDFast.cpp:372 ../src/wxDFast.cpp:1893 ../src/BatchDialog.cpp:54
+#: ../src/NewDialog.cpp:73
+msgid "Start Download"
+msgstr "Avvia Trasferimento"
+
+#: ../src/wxDFast.cpp:375 ../src/wxDFast.cpp:1899
+msgid "Stop Download"
+msgstr "Interrompi Trasferimento"
+
+#: ../src/wxDFast.cpp:378 ../src/wxDFast.cpp:471
+msgid "Start all downloads"
+msgstr "Avvia tutti i Trasferimenti"
+
+#: ../src/wxDFast.cpp:381 ../src/wxDFast.cpp:472
+msgid "Stop all downloads"
+msgstr "Interrompi tutti i Trasferimenti"
+
+#: ../src/wxDFast.cpp:386
+msgid "&File"
+msgstr "&File"
+
+#: ../src/wxDFast.cpp:388
+msgid "Paste URL"
+msgstr "Incolla Indirizzo"
+
+#: ../src/wxDFast.cpp:391 ../src/wxDFast.cpp:1908 ../src/wxDFast.cpp:1960
+msgid "Copy URL"
+msgstr "Copia Indirizzo"
+
+#: ../src/wxDFast.cpp:394 ../src/wxDFast.cpp:1911 ../src/wxDFast.cpp:1963
+msgid "Copy Download Data"
+msgstr "Copia Propietà del Trasferimento"
+
+#: ../src/wxDFast.cpp:398
+#, fuzzy
+msgid "Remove All"
+msgstr "Elimina"
+
+#: ../src/wxDFast.cpp:401
+msgid "Find Download"
+msgstr "Trova Trasferimento"
+
+#: ../src/wxDFast.cpp:404 ../src/NewDialog.cpp:56
+msgid "&Edit"
+msgstr "&Modifica"
+
+#: ../src/wxDFast.cpp:406
+msgid "Show/Hide Graph"
+msgstr "Mostra/Nascondi Istogramma"
+
+#: ../src/wxDFast.cpp:409
+msgid "Show/Hide Details"
+msgstr "Mostra/Nascondi Dettagli"
+
+#: ../src/wxDFast.cpp:412
+msgid "&View"
+msgstr "&Mostra"
+
+#: ../src/wxDFast.cpp:414 ../src/wxDFast.cpp:1333 ../src/wxDFast.cpp:1904
+msgid "Download Properties"
+msgstr "Proprietà del Trasferimento"
+
+#: ../src/wxDFast.cpp:417 ../src/wxDFast.cpp:1967
+msgid "Move File"
+msgstr "Sposta il File"
+
+#: ../src/wxDFast.cpp:420 ../src/wxDFast.cpp:1969
+msgid "Check Integrity"
+msgstr "Verifica Integrità del Trasferimento"
+
+#: ../src/wxDFast.cpp:422 ../src/wxDFast.cpp:1970
+msgid "Open Destination Directory"
+msgstr "Apri la Cartella di Destinazione"
+
+#: ../src/wxDFast.cpp:424 ../src/wxDFast.cpp:1971
+msgid "Download File Again"
+msgstr "Trasferisci Nuovamente"
+
+#: ../src/wxDFast.cpp:427
+msgid "Export Configuration"
+msgstr "Esporta Configurazione"
+
+#: ../src/wxDFast.cpp:429
+msgid "Import Configuration"
+msgstr "Importa Configurazione"
+
+#: ../src/wxDFast.cpp:432
+msgid "Shutdown when finished"
+msgstr "Spegni il Computer al Termine dei Trasferimenti"
+
+#: ../src/wxDFast.cpp:432 ../src/wxDFast.cpp:433
+msgid "This option is only valid in this session of the program"
+msgstr "Questa opzione è valida solo per la Sessione Corrente"
+
+#: ../src/wxDFast.cpp:433
+msgid "Disconnect when finished"
+msgstr "Disconnetti il Computer al Termine dei Trasferimenti"
+
+#: ../src/wxDFast.cpp:438
+msgid "&Tools"
+msgstr "&Strumenti"
+
+#: ../src/wxDFast.cpp:440
+msgid "wxDownload Fast Site"
+msgstr "Sito di wxDownload Fast"
+
+#: ../src/wxDFast.cpp:443
+msgid "Report Bugs..."
+msgstr "Comunica Errori..."
+
+#: ../src/wxDFast.cpp:444
+msgid "Donate..."
+msgstr "Donazioni..."
+
+#: ../src/wxDFast.cpp:449
+msgid "&Help"
+msgstr "&Aiuto"
+
+#: ../src/wxDFast.cpp:465
+msgid "New"
+msgstr "Nuovo"
+
+#: ../src/wxDFast.cpp:465 ../src/NewDialog.cpp:27
+msgid "Add new download"
+msgstr "Aggiunge un Nuovo Trasferimento"
+
+#: ../src/wxDFast.cpp:466 ../src/OptionsDialog.cpp:364
+msgid "Remove"
+msgstr "Elimina"
+
+#: ../src/wxDFast.cpp:466
+msgid "Remove the selected download"
+msgstr "Elimina il Trasferimento Selezionato"
+
+#: ../src/wxDFast.cpp:468 ../src/BatchDialog.cpp:60 ../src/NewDialog.cpp:79
+msgid "Schedule"
+msgstr "Programmato"
+
+#: ../src/wxDFast.cpp:468
+msgid "Mark the selected download as scheduled"
+msgstr "Marca come Programmato il Trasferimento Selezionato"
+
+#: ../src/wxDFast.cpp:469
+msgid "Start"
+msgstr "Avvia"
+
+#: ../src/wxDFast.cpp:469
+msgid "Start the selected download"
+msgstr "Avvia il Trasferimento Selezionato"
+
+#: ../src/wxDFast.cpp:470
+msgid "Stop"
+msgstr "Interrompi"
+
+#: ../src/wxDFast.cpp:470
+msgid "Stop the selected download"
+msgstr "Interrompe il Trasferimento Selezionato"
+
+#: ../src/wxDFast.cpp:471
+msgid "Start All"
+msgstr "Avvia Tutti"
+
+#: ../src/wxDFast.cpp:472
+msgid "Stop All"
+msgstr "Interrompi Tutti"
+
+#: ../src/wxDFast.cpp:474
+msgid "Up"
+msgstr "su"
+
+#: ../src/wxDFast.cpp:474
+msgid "Push download higher up the queue"
+msgstr "Sposta in su il Trasferimento"
+
+#: ../src/wxDFast.cpp:475
+msgid "Down"
+msgstr "Giù"
+
+#: ../src/wxDFast.cpp:475
+msgid "Push download lower down the queue"
+msgstr "Sposta in giù il Trasferimento"
+
+#: ../src/wxDFast.cpp:477
+msgid "Properties"
+msgstr "Proprietà"
+
+#: ../src/wxDFast.cpp:477
+msgid "Show the properties of the selected download"
+msgstr "Mostra le Proprietà del Trasferimento Selezionato"
+
+#: ../src/wxDFast.cpp:503 ../src/OptionsDialog.cpp:305
+msgid "Progress"
+msgstr ""
+
+#: ../src/wxDFast.cpp:505
+msgid "Detail"
+msgstr ""
+
+#: ../src/wxDFast.cpp:510
+msgid "Downloads in Progress"
+msgstr "Trasferimenti in Corso"
+
+#: ../src/wxDFast.cpp:526
+msgid "Finished Downloads"
+msgstr "Trasferimenti Completati"
+
+#: ../src/wxDFast.cpp:591
+#, c-format
+msgid "Could not listen at the specified socket %s!"
+msgstr ""
+
+#: ../src/wxDFast.cpp:593
+#, c-format
+msgid "Could not listen at the specified port %d!"
+msgstr ""
+
+#: ../src/wxDFast.cpp:663
+msgid "   [ Yes ]"
+msgstr "   [ Si ]"
+
+#: ../src/wxDFast.cpp:664
+msgid "   [ No  ]"
+msgstr "   [ Não ]"
+
+#: ../src/wxDFast.cpp:745 ../src/wxDFast.cpp:1649 ../src/wxDFast.cpp:1672
+msgid "Name"
+msgstr "Nome"
+
+#: ../src/wxDFast.cpp:746 ../src/wxDFast.cpp:1650 ../src/wxDFast.cpp:1673
+#: ../src/wxDFast.cpp:3009
+msgid "File type"
+msgstr "Tipo di File"
+
+#: ../src/wxDFast.cpp:747 ../src/wxDFast.cpp:1651 ../src/wxDFast.cpp:1674
+#: ../src/wxDFast.cpp:3010 ../src/wxDFast.cpp:3289 ../src/wxDFast.cpp:3330
+msgid "Size"
+msgstr "Dimensione"
+
+#: ../src/wxDFast.cpp:748 ../src/wxDFast.cpp:1652 ../src/wxDFast.cpp:1675
+msgid "Time"
+msgstr "Durata"
+
+#: ../src/wxDFast.cpp:749 ../src/wxDFast.cpp:1653 ../src/wxDFast.cpp:1676
+#: ../src/wxDFast.cpp:3008
+msgid "Destination"
+msgstr "Destinazione"
+
+#: ../src/wxDFast.cpp:750
+msgid "Started"
+msgstr "Avviato"
+
+#: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3331
+msgid "Finished"
+msgstr "Completato"
+
+#: ../src/wxDFast.cpp:752 ../src/wxDFast.cpp:1677
+msgid "MD5"
+msgstr "MD5"
+
+#: ../src/wxDFast.cpp:753 ../src/wxDFast.cpp:1654 ../src/wxDFast.cpp:1678
+#: ../src/BatchDialog.cpp:87 ../src/NewDialog.cpp:106
+msgid "Reference URL"
+msgstr "Indirizzo di Riferimento"
+
+#: ../src/wxDFast.cpp:754 ../src/wxDFast.cpp:1655 ../src/wxDFast.cpp:1679
+#: ../src/BatchDialog.cpp:72 ../src/NewDialog.cpp:91
+msgid "Comments"
+msgstr "Commenti"
+
+#: ../src/wxDFast.cpp:755 ../src/wxDFast.cpp:1656 ../src/wxDFast.cpp:1680
+msgid "URLs"
+msgstr "Indirizzi"
+
+#: ../src/wxDFast.cpp:801
+msgid "Total Speed:"
+msgstr "Velocità Complessiva:"
+
+#: ../src/wxDFast.cpp:805
+msgid "Total Complete:"
+msgstr "Copletato:"
+
+#: ../src/wxDFast.cpp:809
+msgid "Downloads in progress:"
+msgstr "Trasferimenti in Corso:"
+
+#: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
+msgid "Do you want to close the program?"
+msgstr "Vuoi Uscire dal Programma?"
+
+#: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
+msgid "Close..."
+msgstr "Uscita..."
+
+#: ../src/wxDFast.cpp:1062
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of\n"
+"the GNU General Public License as published by the Free Software "
+"Foundation;\n"
+"either version 2 of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY;\n"
+"without even the implied warranty of MERCHANTABILITY or FITNESS FOR A "
+"PARTICULAR PURPOSE.\n"
+"See the GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program;\n"
+"if not, write to the Free Software Foundation, Inc., 51 Franklin Street,\n"
+"Fifth Floor, Boston, MA 02110-1301, USA"
+msgstr ""
+
+#: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
+msgid "Do you also want to remove downloaded file(s) from the disk?"
+msgstr "Vuoi eliminare i File(s) Trasferiti?"
+
+#: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
+msgid "Remove..."
+msgstr "Elimina..."
+
+#: ../src/wxDFast.cpp:1478
+msgid "Find file..."
+msgstr "Trova File..."
+
+#: ../src/wxDFast.cpp:1510 ../src/wxDFast.cpp:1693 ../src/BatchDialog.cpp:317
+#: ../src/NewDialog.cpp:386
+msgid "Select the directory:"
+msgstr "Cartella Selezionata:"
+
+#: ../src/wxDFast.cpp:1522
+msgid "Moving..."
+msgstr "Spostamento..."
+
+#: ../src/wxDFast.cpp:1522
+msgid "Moving file..."
+msgstr "Spostamento File..."
+
+#: ../src/wxDFast.cpp:1531
+msgid "Error moving file."
+msgstr "Errore durante lo Spostamento del File."
+
+#: ../src/wxDFast.cpp:1531 ../src/wxDFast.cpp:1573 ../src/wxDFast.cpp:1578
+#: ../src/wxDFast.cpp:1588 ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635
+#: ../src/wxDFast.cpp:1662 ../src/wxDFast.cpp:1686 ../src/wxDFast.cpp:1699
+#: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
+msgid "Error..."
+msgstr "Errore..."
+
+#: ../src/wxDFast.cpp:1537
+msgid ""
+"The file isn't in the path that it was saved initially.\n"
+"Do you want to change only the old path for the current one?"
+msgstr ""
+"Il File non si trova nella Locazione in cui era stato salvato inizialmente.\n"
+"Vuoi cambiare solo la vecchia Locazione con quella nuova?"
+
+#: ../src/wxDFast.cpp:1537
+#, fuzzy
+msgid "Filename:"
+msgstr "Nome del File"
+
+#: ../src/wxDFast.cpp:1539
+msgid "Continue..."
+msgstr "Continua..."
+
+#: ../src/wxDFast.cpp:1557
+msgid "Checking file's MD5..."
+msgstr "Verifica MD5 del File..."
+
+#: ../src/wxDFast.cpp:1565
+msgid "The file was verified successfully."
+msgstr "Il File è stato Verificato con successo."
+
+#: ../src/wxDFast.cpp:1565 ../src/wxDFast.cpp:1697
+msgid "Success..."
+msgstr "Successo"
+
+#: ../src/wxDFast.cpp:1570
+msgid "The MD5 calculated previously is different from the current one."
+msgstr "L'MD5 calcolato precedentemente NON corrisponde a quello attuale."
+
+#: ../src/wxDFast.cpp:1571
+msgid ""
+"\n"
+"Old MD5 =\t\t"
+msgstr ""
+"\n"
+"MD5 precedente =\t\t"
+
+#: ../src/wxDFast.cpp:1572
+msgid ""
+"\n"
+"Current MD5 =\t"
+msgstr ""
+"\n"
+"MD5 attuale =\t"
+
+#: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+msgid "File not found."
+msgstr "File non Trovato."
+
+#: ../src/wxDFast.cpp:1588
+#, c-format
+msgid "Folder %s doesn't exist."
+msgstr ""
+
+#: ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635 ../src/wxDFast.cpp:1662
+#: ../src/wxDFast.cpp:1686
+msgid "Unable to open the clipboard!"
+msgstr "Non riesco ad aprire gli Appunti di Windows!"
+
+#: ../src/wxDFast.cpp:1697
+msgid "The configuration was exported successfully."
+msgstr "La Configurazione è stata Esportata con successo."
+
+#: ../src/wxDFast.cpp:1699
+msgid "Error exporting configuration."
+msgstr "Errore durante l'Esportazione della Configurazione."
+
+#: ../src/wxDFast.cpp:1705
+msgid "Select the file..."
+msgstr "Seleziona un File..."
+
+#: ../src/wxDFast.cpp:1770 ../src/wxDFast.cpp:2052 ../src/wxDFast.cpp:2161
+#: ../src/wxDFast.cpp:2252 ../src/wxDFast.cpp:2800 ../src/wxDFast.cpp:2811
+#, fuzzy
+msgid "Download started"
+msgstr "Sito di wxDownload Fast"
+
+#: ../src/wxDFast.cpp:1785 ../src/wxDFast.cpp:1798
+msgid "Command :\t"
+msgstr "Comando :\t"
+
+#: ../src/wxDFast.cpp:1785
+msgid "Shutdown Command..."
+msgstr "Comando di Spegnimento..."
+
+#: ../src/wxDFast.cpp:1798
+msgid "Disconnect Command..."
+msgstr "Comando di Disconnessione..."
+
+#: ../src/wxDFast.cpp:2036
+#, fuzzy
+msgid "Download waiting"
+msgstr "Trasferisci Nuovamente"
+
+#: ../src/wxDFast.cpp:2113
+#, c-format
+msgid "NEW RELEASE: wxDownload Fast %s is available."
+msgstr ""
+
+#: ../src/wxDFast.cpp:2115
+#, fuzzy, c-format
+msgid ""
+"wxDownload Fast %s is available.\n"
+"Visit https://wxdfast.dxsolutions.org for more informations."
+msgstr "Per maggiori informazioni visita il Sito http://dfast.sourceforge.net."
+
+#: ../src/wxDFast.cpp:2190
+#, fuzzy
+msgid "Calculating file's MD5..."
+msgstr "Verifica MD5 del File..."
+
+#: ../src/wxDFast.cpp:2203 ../src/OptionsDialog.cpp:642
+#: ../src/OptionsDialog.cpp:645
+#, fuzzy
+msgid "Downloaded successfully"
+msgstr "File verificato con successo\n"
+
+#: ../src/wxDFast.cpp:2207
+msgid "Downloaded ended with error"
+msgstr ""
+
+#: ../src/wxDFast.cpp:2230
+#, fuzzy
+msgid "Download statistics"
+msgstr "Sito di wxDownload Fast"
+
+#: ../src/wxDFast.cpp:2231 ../src/wxDFast.cpp:3290
+msgid "Completed"
+msgstr "Completato"
+
+#: ../src/wxDFast.cpp:2232 ../src/wxDFast.cpp:3291
+msgid "Percentage"
+msgstr "Percentuale"
+
+#: ../src/wxDFast.cpp:2233 ../src/wxDFast.cpp:3292
+msgid "Time Passed"
+msgstr "Tempo Trascorso"
+
+#: ../src/wxDFast.cpp:2234 ../src/wxDFast.cpp:3293
+msgid "Remaining"
+msgstr "Tempo Residuo"
+
+#: ../src/wxDFast.cpp:2260 ../src/wxDFast.cpp:2828
+#, fuzzy
+msgid "Download paused"
+msgstr "Sito di wxDownload Fast"
+
+#: ../src/wxDFast.cpp:2331
+msgid "Error: couldn't accept a new connection"
+msgstr ""
+
+#: ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+msgid "Information..."
+msgstr "Informazioni..."
+
+#: ../src/wxDFast.cpp:3011
+msgid "Maximum number of connections"
+msgstr ""
+
+#: ../src/wxDFast.cpp:3012
+#, fuzzy
+msgid "Download bandwidth"
+msgstr "Larghezza di Banda del Trasferimento (in kB/s)"
+
+#: ../src/wxDFast.cpp:3013
+#, fuzzy
+msgid "Number of pieces"
+msgstr "Numero di Tentetivi"
+
+#: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3296
+msgid "URL"
+msgstr "Indirizzo"
+
+#: ../src/wxDFast.cpp:3016
+#, fuzzy
+msgid "Downloaded is scheduled"
+msgstr "Marca come Programmato il Trasferimento Selezionato"
+
+#: ../src/wxDFast.cpp:3287
+msgid "Restart"
+msgstr "Ripristinabile"
+
+#: ../src/wxDFast.cpp:3288 ../src/wxDFast.cpp:3329
+msgid "Filename"
+msgstr "Nome del File"
+
+#: ../src/wxDFast.cpp:3294
+msgid "Speed"
+msgstr "Velocità"
+
+#: ../src/wxDFast.cpp:3295
+msgid "Attempts"
+msgstr "Tentativi"
+
+#: ../src/OptionsDialog.cpp:35
+msgid "Options"
+msgstr "Opzioni"
+
+#: ../src/OptionsDialog.cpp:52
+msgid "Attempts:"
+msgstr "Tentativi:"
+
+#: ../src/OptionsDialog.cpp:58
+msgid "Time between the attempts in seconds:"
+msgstr "Intervallo tra Tentativi, in secondi:"
+
+#: ../src/OptionsDialog.cpp:64
+msgid "Number of simultaneous downloads:"
+msgstr "Numero di Trasferimenti Simultanei:"
+
+#: ../src/OptionsDialog.cpp:70
+msgid "Remember the last settings on the New Download box"
+msgstr "Ricorda le ultime Impostazioni per un Nuovo Trasferimento"
+
+#: ../src/OptionsDialog.cpp:74
+msgid "Shutdown when all downloads finish"
+msgstr "Spegni il Computer al Termine dei Trasferimenti"
+
+#: ../src/OptionsDialog.cpp:78
+msgid "Disconnect when all downloads finish"
+msgstr "Disconnetti il Computer al Termine dei Trasferimenti"
+
+#: ../src/OptionsDialog.cpp:82
+msgid "Show dialog box when program closes"
+msgstr "Chiedi conferma quando Esci dal Programma"
+
+#: ../src/OptionsDialog.cpp:86
+msgid "Refresh rate of the download list (millisecs):"
+msgstr "Periodo di Aggiornamento dell'Elenco dei Trasferimenti (millisecondi):"
+
+#: ../src/OptionsDialog.cpp:92
+msgid "Restore the main window when all downloads finish"
+msgstr "Ripristina la Finestra Principale al Termine dei Trasferimenti"
+
+#: ../src/OptionsDialog.cpp:96
+msgid "Hide the main window when you start a download"
+msgstr "Nascondi la Finestra Principale all'Avvio dei Trasferimenti"
+
+#: ../src/OptionsDialog.cpp:100
+msgid "Check for updates automatically"
+msgstr "Verifica automaticamente gli Aggiornamenti del Programma"
+
+#: ../src/OptionsDialog.cpp:104
+msgid "Show notification on finish download"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:107
+msgid "Preview"
+msgstr "Anteprima"
+
+#: ../src/OptionsDialog.cpp:113
+msgid "General"
+msgstr "Gerale"
+
+#: ../src/OptionsDialog.cpp:119
+msgid "Default destination:"
+msgstr "Cartella Predefinita:"
+
+#: ../src/OptionsDialog.cpp:140
+msgid "Shutdown command:"
+msgstr "Comando di Spegnimento:"
+
+#: ../src/OptionsDialog.cpp:145
+msgid "Disconnect command:"
+msgstr "Comando di Disconnessione:"
+
+#: ../src/OptionsDialog.cpp:153
+msgid "Paths"
+msgstr "Percorsi"
+
+#: ../src/OptionsDialog.cpp:159
+msgid "Use a Proxy Server"
+msgstr "Usa Server Proxy"
+
+#: ../src/OptionsDialog.cpp:163
+msgid "Proxy Server"
+msgstr "Server Proxy"
+
+#: ../src/OptionsDialog.cpp:165
+msgid "Server:"
+msgstr "Server:"
+
+#: ../src/OptionsDialog.cpp:170
+msgid "Port:"
+msgstr "Porta:"
+
+#: ../src/OptionsDialog.cpp:182
+msgid "Proxy Server Authorization"
+msgstr "Autenticazione Server Proxy"
+
+#: ../src/OptionsDialog.cpp:184 ../src/BatchDialog.cpp:45
+#: ../src/NewDialog.cpp:64
+msgid "User:"
+msgstr "Utente:"
+
+#: ../src/OptionsDialog.cpp:187 ../src/BatchDialog.cpp:49
+#: ../src/NewDialog.cpp:68
+msgid "Password:"
+msgstr "Password:"
+
+#: ../src/OptionsDialog.cpp:196
+msgid "Proxy"
+msgstr "Proxy"
+
+#: ../src/OptionsDialog.cpp:202
+msgid "Show Graph"
+msgstr "Mostra Istogramma"
+
+#: ../src/OptionsDialog.cpp:206
+msgid "Graph refresh rate (millisecs):"
+msgstr "Periodo di Aggiornamento (millisecondi):"
+
+#: ../src/OptionsDialog.cpp:212
+#, fuzzy
+msgid "Graph maximum value:"
+msgstr "Valore massimo rappresentato (kB/s):"
+
+#: ../src/OptionsDialog.cpp:240
+msgid "The text area Width (pixels):"
+msgstr "Larghezza Area di Testo (pixels):"
+
+#: ../src/OptionsDialog.cpp:246
+msgid "Graph height:"
+msgstr "Altezza:"
+
+#: ../src/OptionsDialog.cpp:252
+msgid "Text font size (points):"
+msgstr "Dimensione Carattere:"
+
+#: ../src/OptionsDialog.cpp:258
+#, fuzzy
+msgid "Download line width:"
+msgstr "Spessore Linea di Riferimento:"
+
+#: ../src/OptionsDialog.cpp:264
+msgid "Background colour:"
+msgstr "Colore Sfondo:"
+
+#: ../src/OptionsDialog.cpp:268
+msgid "Graph grid colour:"
+msgstr "Colore Griglia:"
+
+#: ../src/OptionsDialog.cpp:272
+#, fuzzy
+msgid "Download line colour:"
+msgstr "Colore Linea di Riferimento:"
+
+#: ../src/OptionsDialog.cpp:281
+msgid "Speed font colour:"
+msgstr "Colore del Testo:"
+
+#: ../src/OptionsDialog.cpp:288
+msgid "Graph"
+msgstr "Istogramma"
+
+#: ../src/OptionsDialog.cpp:294
+#, fuzzy
+msgid "Finished piece colour:"
+msgstr "Questa parte è completata\n"
+
+#: ../src/OptionsDialog.cpp:298
+#, fuzzy
+msgid "Unfinished piece colour:"
+msgstr "Colore Linea di Riferimento:"
+
+#: ../src/OptionsDialog.cpp:311
+msgid "Activate scheduling"
+msgstr "Attiva la Programmazione dei Trasferimenti"
+
+#: ../src/OptionsDialog.cpp:315
+#, fuzzy
+msgid "Start date:"
+msgstr "Data d'Inizio:"
+
+#: ../src/OptionsDialog.cpp:316
+#, fuzzy
+msgid "Start time:"
+msgstr "Ora d'Inizio:"
+
+#: ../src/OptionsDialog.cpp:323
+#, fuzzy
+msgid "Finish date:"
+msgstr "Data di Fine:"
+
+#: ../src/OptionsDialog.cpp:324
+#, fuzzy
+msgid "Finish time:"
+msgstr "Ora di Fine:"
+
+#: ../src/OptionsDialog.cpp:331
+msgid "Deactivate downloads on:"
+msgstr "Disattiva i Trasferimenti:"
+
+#: ../src/OptionsDialog.cpp:344
+msgid "Between"
+msgstr "Tra"
+
+#: ../src/OptionsDialog.cpp:347
+msgid "and"
+msgstr " e le "
+
+#: ../src/OptionsDialog.cpp:351 ../src/NewDialog.cpp:48
+msgid "Add"
+msgstr "Aggiungi"
+
+#: ../src/OptionsDialog.cpp:371
+msgid "Scheduling"
+msgstr "Programmazione"
+
+#: ../src/OptionsDialog.cpp:377
+msgid "Unlimited bandwidth"
+msgstr "Illimitata"
+
+#: ../src/OptionsDialog.cpp:380
+msgid "Limit band width independently for each download"
+msgstr "Independente per ogni Trasferimento"
+
+#: ../src/OptionsDialog.cpp:383
+#, fuzzy
+msgid "Limit band width for the program (in KB/s):"
+msgstr "Complessiva del Programma (in kB/s):"
+
+#: ../src/OptionsDialog.cpp:405
+msgid "Bandwidth"
+msgstr "Larghezza di Banda"
+
+#: ../src/OptionsDialog.cpp:411
+msgid "Please visit"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:413
+#, fuzzy
+msgid "wxDownload Fast Web Extensions"
+msgstr "Sito di wxDownload Fast"
+
+#: ../src/OptionsDialog.cpp:418
+msgid "Browser Integration"
+msgstr "Integrazione con Browser"
+
+#: ../src/OptionsDialog.cpp:526
+#, fuzzy
+msgid "Select the directory"
+msgstr "Cartella Selezionata:"
+
+#: ../src/OptionsDialog.cpp:536
+#, fuzzy
+msgid "Choose a file"
+msgstr "Seleziona un File..."
+
+#: ../src/OptionsDialog.cpp:604
+msgid "Remove some items before adding a new one."
+msgstr "Rimuovi qualche Elemento prima di aggiungerne nuovi."
+
+#: ../src/BatchDialog.cpp:24
+#, fuzzy
+msgid "Add new downloads"
+msgstr "Aggiunge un Nuovo Trasferimento"
+
+#: ../src/BatchDialog.cpp:29 ../src/NewDialog.cpp:32
+msgid "Save to:"
+msgstr "Salva in:"
+
+#: ../src/BatchDialog.cpp:34 ../src/NewDialog.cpp:37
+msgid "Directory"
+msgstr "Cartella"
+
+#: ../src/BatchDialog.cpp:36 ../src/NewDialog.cpp:51
+msgid "Address List:"
+msgstr "Elenco degli Indirizzi:"
+
+#: ../src/BatchDialog.cpp:39 ../src/NewDialog.cpp:54
+msgid "Only the selected addresses will be downloaded"
+msgstr "Solo gli Indirizzi Selezionati saranno Trasferiti"
+
+#: ../src/BatchDialog.cpp:43 ../src/NewDialog.cpp:62
+msgid "Server Permission"
+msgstr "Accesso al Server"
+
+#: ../src/BatchDialog.cpp:55 ../src/NewDialog.cpp:74
+msgid "Manual"
+msgstr "Manuale"
+
+#: ../src/BatchDialog.cpp:57 ../src/NewDialog.cpp:76
+msgid "Now"
+msgstr "Adesso"
+
+#: ../src/BatchDialog.cpp:64 ../src/NewDialog.cpp:83
+msgid "Segmented download"
+msgstr "Frammentazione del Trasferimento"
+
+#: ../src/BatchDialog.cpp:66
+msgid ""
+"Split download into how many\n"
+"pieces?"
+msgstr ""
+"Frammenta il Trasferimento in       \n"
+"Parti?"
+
+#: ../src/BatchDialog.cpp:80 ../src/NewDialog.cpp:99
+#, fuzzy
+msgid "Download bandwidth (in KB/s)"
+msgstr "Larghezza di Banda del Trasferimento (in kB/s)"
+
+#: ../src/BatchDialog.cpp:83 ../src/NewDialog.cpp:102
+msgid ""
+"Set band width limit for this download.\n"
+"Set \"0\" to unlimited."
+msgstr ""
+"Definisce la Larghezza di Banda per questo Trasferimento.\n"
+"Il valore \"0\" significa Larghezza di Banda illimitata."
+
+#: ../src/BatchDialog.cpp:92 ../src/NewDialog.cpp:111
+msgid "Execute the following command after download completes"
+msgstr "Esegui il seguente Comando al Termine del Trasferimento"
+
+#: ../src/BatchDialog.cpp:296 ../src/NewDialog.cpp:365
+msgid "The URLs are empty"
+msgstr ""
+
+#: ../src/BatchDialog.cpp:296 ../src/BatchDialog.cpp:302
+#: ../src/NewDialog.cpp:365 ../src/NewDialog.cpp:371
+#, fuzzy
+msgid "Warning..."
+msgstr "Spostamento..."
+
+#: ../src/BatchDialog.cpp:302 ../src/NewDialog.cpp:371
+#, fuzzy
+msgid "The destination doesn't exist"
+msgstr "Usa la Cartella Predefinita"
+
+#: ../src/NewDialog.cpp:40
+msgid "Address:"
+msgstr "Indirizzo:"
+
+#: ../src/NewDialog.cpp:46
+msgid ""
+"URL to download\n"
+"Example: http://www.foo.com/foo.exe\n"
+"Example: http://www.foo.com:80/foo.exe\n"
+"Example: ftp://ftp.foo.com:21/foo.exe"
+msgstr ""
+"Indirizzo del Trasferimento\n"
+"Esempio: http://www.foo.com/foo.exe\n"
+"Esempio: http://www.foo.com:80/foo.exe\n"
+"Esempio: ftp://ftp.foo.com:21/foo.exe"
+
+#: ../src/NewDialog.cpp:59
+msgid "Add on top of download queue"
+msgstr "Aggiungi i Trasferimenti in cima all'Elenco"
+
+#: ../src/NewDialog.cpp:85
+#, fuzzy
+msgid ""
+"Split download into how many\n"
+"connections?"
+msgstr ""
+"Frammenta il Trasferimento in       \n"
+"Parti?"
+
+#: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
+msgid "The URL is invalid!"
+msgstr "L'Indirizzo NON è valido!"
+
+#: ../src/NewDialog.cpp:421
+msgid "Edit the URL"
+msgstr "Modifica l'Indirizzo"

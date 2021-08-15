@@ -1,0 +1,986 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wxDownload Fast\n"
+"Report-Msgid-Bugs-To: archdvx@dxsolutions.org\n"
+"POT-Creation-Date: 2021-08-15 14:26+0200\n"
+"PO-Revision-Date: 2009-10-03 16:19-0300\n"
+"Last-Translator: \n"
+"Language-Team: Korean <like.a.dust@gmail.com>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.2.0-rc1\n"
+
+#: ../src/wxDFast.cpp:49
+msgid ""
+"Usage: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] "
+"[URL of the file(s) to be downloaded...]\n"
+"  -h, --help                   Print (this) help screen and exit\n"
+"  -v, --version                Print version information and exit\n"
+"  -i, --hide                   Start with the the main frame hide\n"
+"  -d, --destination=<str>      Destination directory\n"
+"  -c, --comments=<str>         Add comments to download\n"
+"  -r, --reference=<str>        Set a reference URL"
+msgstr ""
+
+#: ../src/wxDFast.cpp:136
+#, fuzzy
+msgid "wxDownload Fast already running"
+msgstr "wxDownload Fast 사이트"
+
+#: ../src/wxDFast.cpp:196
+msgid "Hide the main window"
+msgstr "메인 창 숨기기"
+
+#: ../src/wxDFast.cpp:198
+msgid "Show the main window"
+msgstr "메인 창 표시하기"
+
+#: ../src/wxDFast.cpp:200
+msgid "New download"
+msgstr "새 다운로드"
+
+#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:2538 ../src/wxDFast.cpp:3012
+msgid "Unlimited"
+msgstr "무제한"
+
+#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
+msgid "Just for this session. To change definitely go to \"Options\""
+msgstr "이 세션에만. \"옵션\" 에서 전체 옵션을 변경할 수 있습니다."
+
+#: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2534
+msgid "Active"
+msgstr "활성"
+
+#: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2530
+msgid "Per Download"
+msgstr "다운로드당"
+
+#: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2530 ../src/wxDFast.cpp:2534
+#: ../src/wxDFast.cpp:2538
+msgid "Band control"
+msgstr "대역폭 조절"
+
+#: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
+msgid "New Download"
+msgstr "새 다운로드"
+
+#: ../src/wxDFast.cpp:365 ../src/wxDFast.cpp:1878 ../src/wxDFast.cpp:1956
+msgid "Remove Download"
+msgstr "다운로드 제거"
+
+#: ../src/wxDFast.cpp:369 ../src/wxDFast.cpp:1885
+msgid "Schedule Download"
+msgstr "다운로드 계획"
+
+#: ../src/wxDFast.cpp:372 ../src/wxDFast.cpp:1893 ../src/BatchDialog.cpp:54
+#: ../src/NewDialog.cpp:73
+msgid "Start Download"
+msgstr "다운로드 시작"
+
+#: ../src/wxDFast.cpp:375 ../src/wxDFast.cpp:1899
+msgid "Stop Download"
+msgstr "다운로드 중지"
+
+#: ../src/wxDFast.cpp:378 ../src/wxDFast.cpp:471
+msgid "Start all downloads"
+msgstr "모든 다운로드 시작"
+
+#: ../src/wxDFast.cpp:381 ../src/wxDFast.cpp:472
+msgid "Stop all downloads"
+msgstr "모든 다운로드 중지"
+
+#: ../src/wxDFast.cpp:386
+msgid "&File"
+msgstr "파일(&F)"
+
+#: ../src/wxDFast.cpp:388
+msgid "Paste URL"
+msgstr "URL 붙여넣기"
+
+#: ../src/wxDFast.cpp:391 ../src/wxDFast.cpp:1908 ../src/wxDFast.cpp:1960
+msgid "Copy URL"
+msgstr "URL 복사"
+
+#: ../src/wxDFast.cpp:394 ../src/wxDFast.cpp:1911 ../src/wxDFast.cpp:1963
+msgid "Copy Download Data"
+msgstr "다운로드 데이터 복사"
+
+#: ../src/wxDFast.cpp:398
+#, fuzzy
+msgid "Remove All"
+msgstr "제거하기"
+
+#: ../src/wxDFast.cpp:401
+msgid "Find Download"
+msgstr "다운로드 찾기"
+
+#: ../src/wxDFast.cpp:404 ../src/NewDialog.cpp:56
+msgid "&Edit"
+msgstr "편집(&E)"
+
+#: ../src/wxDFast.cpp:406
+msgid "Show/Hide Graph"
+msgstr "그래프 표시/숨기기"
+
+#: ../src/wxDFast.cpp:409
+msgid "Show/Hide Details"
+msgstr "자세한 정보 표시/숨기기"
+
+#: ../src/wxDFast.cpp:412
+msgid "&View"
+msgstr "보기(&V)"
+
+#: ../src/wxDFast.cpp:414 ../src/wxDFast.cpp:1333 ../src/wxDFast.cpp:1904
+msgid "Download Properties"
+msgstr "다운로드 등록 정보"
+
+#: ../src/wxDFast.cpp:417 ../src/wxDFast.cpp:1967
+msgid "Move File"
+msgstr "파일 이동"
+
+#: ../src/wxDFast.cpp:420 ../src/wxDFast.cpp:1969
+msgid "Check Integrity"
+msgstr "데이터 완전성 확인"
+
+#: ../src/wxDFast.cpp:422 ../src/wxDFast.cpp:1970
+msgid "Open Destination Directory"
+msgstr "대상 디렉토리 열기"
+
+#: ../src/wxDFast.cpp:424 ../src/wxDFast.cpp:1971
+msgid "Download File Again"
+msgstr "파일 다운로드 재시작"
+
+#: ../src/wxDFast.cpp:427
+msgid "Export Configuration"
+msgstr "설정 내보내기"
+
+#: ../src/wxDFast.cpp:429
+msgid "Import Configuration"
+msgstr "설정 가져오기"
+
+#: ../src/wxDFast.cpp:432
+msgid "Shutdown when finished"
+msgstr "종료 후 컴퓨터 끄기"
+
+#: ../src/wxDFast.cpp:432 ../src/wxDFast.cpp:433
+msgid "This option is only valid in this session of the program"
+msgstr ""
+
+#: ../src/wxDFast.cpp:433
+msgid "Disconnect when finished"
+msgstr "종료 후 인터넷 연결 끊기"
+
+#: ../src/wxDFast.cpp:438
+msgid "&Tools"
+msgstr "도구(&T)"
+
+#: ../src/wxDFast.cpp:440
+msgid "wxDownload Fast Site"
+msgstr "wxDownload Fast 사이트"
+
+#: ../src/wxDFast.cpp:443
+msgid "Report Bugs..."
+msgstr "버그 보고..."
+
+#: ../src/wxDFast.cpp:444
+msgid "Donate..."
+msgstr "후원..."
+
+#: ../src/wxDFast.cpp:449
+msgid "&Help"
+msgstr "도움말(&H)"
+
+#: ../src/wxDFast.cpp:465
+msgid "New"
+msgstr "새 파일"
+
+#: ../src/wxDFast.cpp:465 ../src/NewDialog.cpp:27
+msgid "Add new download"
+msgstr "새로운 다운로드 추가"
+
+#: ../src/wxDFast.cpp:466 ../src/OptionsDialog.cpp:364
+msgid "Remove"
+msgstr "제거하기"
+
+#: ../src/wxDFast.cpp:466
+msgid "Remove the selected download"
+msgstr "선택한 다운로드 제거"
+
+#: ../src/wxDFast.cpp:468 ../src/BatchDialog.cpp:60 ../src/NewDialog.cpp:79
+msgid "Schedule"
+msgstr "일정"
+
+#: ../src/wxDFast.cpp:468
+msgid "Mark the selected download as scheduled"
+msgstr "선택한 다운로드를 일정에 추가합니다."
+
+#: ../src/wxDFast.cpp:469
+msgid "Start"
+msgstr "시작"
+
+#: ../src/wxDFast.cpp:469
+msgid "Start the selected download"
+msgstr "선택한 다운로드 시작"
+
+#: ../src/wxDFast.cpp:470
+msgid "Stop"
+msgstr "중지"
+
+#: ../src/wxDFast.cpp:470
+msgid "Stop the selected download"
+msgstr "선택한 다운로드 중지"
+
+#: ../src/wxDFast.cpp:471
+msgid "Start All"
+msgstr "모두 시작"
+
+#: ../src/wxDFast.cpp:472
+msgid "Stop All"
+msgstr "모두 중지"
+
+#: ../src/wxDFast.cpp:474
+msgid "Up"
+msgstr "위"
+
+#: ../src/wxDFast.cpp:474
+msgid "Push download higher up the queue"
+msgstr ""
+
+#: ../src/wxDFast.cpp:475
+msgid "Down"
+msgstr "아래"
+
+#: ../src/wxDFast.cpp:475
+msgid "Push download lower down the queue"
+msgstr ""
+
+#: ../src/wxDFast.cpp:477
+msgid "Properties"
+msgstr "등록 정보"
+
+#: ../src/wxDFast.cpp:477
+msgid "Show the properties of the selected download"
+msgstr "선택한 다운로드의 등록 정보 표시"
+
+#: ../src/wxDFast.cpp:503 ../src/OptionsDialog.cpp:305
+msgid "Progress"
+msgstr ""
+
+#: ../src/wxDFast.cpp:505
+msgid "Detail"
+msgstr ""
+
+#: ../src/wxDFast.cpp:510
+msgid "Downloads in Progress"
+msgstr "다운로드 진행 상황"
+
+#: ../src/wxDFast.cpp:526
+msgid "Finished Downloads"
+msgstr "완료된 다운로드"
+
+#: ../src/wxDFast.cpp:591
+#, c-format
+msgid "Could not listen at the specified socket %s!"
+msgstr ""
+
+#: ../src/wxDFast.cpp:593
+#, c-format
+msgid "Could not listen at the specified port %d!"
+msgstr ""
+
+#: ../src/wxDFast.cpp:663
+msgid "   [ Yes ]"
+msgstr "   [ 예 ]"
+
+#: ../src/wxDFast.cpp:664
+msgid "   [ No  ]"
+msgstr "   [ 아니요  ]"
+
+#: ../src/wxDFast.cpp:745 ../src/wxDFast.cpp:1649 ../src/wxDFast.cpp:1672
+msgid "Name"
+msgstr "이름"
+
+#: ../src/wxDFast.cpp:746 ../src/wxDFast.cpp:1650 ../src/wxDFast.cpp:1673
+#: ../src/wxDFast.cpp:3009
+msgid "File type"
+msgstr "파일 형식"
+
+#: ../src/wxDFast.cpp:747 ../src/wxDFast.cpp:1651 ../src/wxDFast.cpp:1674
+#: ../src/wxDFast.cpp:3010 ../src/wxDFast.cpp:3289 ../src/wxDFast.cpp:3330
+msgid "Size"
+msgstr "크기"
+
+#: ../src/wxDFast.cpp:748 ../src/wxDFast.cpp:1652 ../src/wxDFast.cpp:1675
+msgid "Time"
+msgstr "시간"
+
+#: ../src/wxDFast.cpp:749 ../src/wxDFast.cpp:1653 ../src/wxDFast.cpp:1676
+#: ../src/wxDFast.cpp:3008
+msgid "Destination"
+msgstr "대상"
+
+#: ../src/wxDFast.cpp:750
+msgid "Started"
+msgstr "시작됨"
+
+#: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3331
+msgid "Finished"
+msgstr "마침"
+
+#: ../src/wxDFast.cpp:752 ../src/wxDFast.cpp:1677
+msgid "MD5"
+msgstr "MD5"
+
+#: ../src/wxDFast.cpp:753 ../src/wxDFast.cpp:1654 ../src/wxDFast.cpp:1678
+#: ../src/BatchDialog.cpp:87 ../src/NewDialog.cpp:106
+msgid "Reference URL"
+msgstr "참조 URL"
+
+#: ../src/wxDFast.cpp:754 ../src/wxDFast.cpp:1655 ../src/wxDFast.cpp:1679
+#: ../src/BatchDialog.cpp:72 ../src/NewDialog.cpp:91
+msgid "Comments"
+msgstr "설명"
+
+#: ../src/wxDFast.cpp:755 ../src/wxDFast.cpp:1656 ../src/wxDFast.cpp:1680
+msgid "URLs"
+msgstr "URL"
+
+#: ../src/wxDFast.cpp:801
+msgid "Total Speed:"
+msgstr "전체 속도:"
+
+#: ../src/wxDFast.cpp:805
+msgid "Total Complete:"
+msgstr "전체 전송:"
+
+#: ../src/wxDFast.cpp:809
+msgid "Downloads in progress:"
+msgstr "다운로드 진행 상황:"
+
+#: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
+msgid "Do you want to close the program?"
+msgstr "정말 프로그램을 종료하시겠습니까?"
+
+#: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
+msgid "Close..."
+msgstr "닫기..."
+
+#: ../src/wxDFast.cpp:1062
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of\n"
+"the GNU General Public License as published by the Free Software "
+"Foundation;\n"
+"either version 2 of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY;\n"
+"without even the implied warranty of MERCHANTABILITY or FITNESS FOR A "
+"PARTICULAR PURPOSE.\n"
+"See the GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program;\n"
+"if not, write to the Free Software Foundation, Inc., 51 Franklin Street,\n"
+"Fifth Floor, Boston, MA 02110-1301, USA"
+msgstr ""
+
+#: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
+msgid "Do you also want to remove downloaded file(s) from the disk?"
+msgstr "디스크에서 다운로드받은 파일을 제거하시겠습니까?"
+
+#: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
+msgid "Remove..."
+msgstr "제거하기..."
+
+#: ../src/wxDFast.cpp:1478
+msgid "Find file..."
+msgstr "파일 찾기..."
+
+#: ../src/wxDFast.cpp:1510 ../src/wxDFast.cpp:1693 ../src/BatchDialog.cpp:317
+#: ../src/NewDialog.cpp:386
+msgid "Select the directory:"
+msgstr "디렉토리 선택:"
+
+#: ../src/wxDFast.cpp:1522
+msgid "Moving..."
+msgstr "이동 중..."
+
+#: ../src/wxDFast.cpp:1522
+msgid "Moving file..."
+msgstr "파일 이동 중..."
+
+#: ../src/wxDFast.cpp:1531
+msgid "Error moving file."
+msgstr "파일 이동 중 오류"
+
+#: ../src/wxDFast.cpp:1531 ../src/wxDFast.cpp:1573 ../src/wxDFast.cpp:1578
+#: ../src/wxDFast.cpp:1588 ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635
+#: ../src/wxDFast.cpp:1662 ../src/wxDFast.cpp:1686 ../src/wxDFast.cpp:1699
+#: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
+msgid "Error..."
+msgstr "오류..."
+
+#: ../src/wxDFast.cpp:1537
+msgid ""
+"The file isn't in the path that it was saved initially.\n"
+"Do you want to change only the old path for the current one?"
+msgstr ""
+"파일이 최초에 저장된 경로에 없습니다.\n"
+"오래된 경로 정보를 현재 정보로 변경하시겠습니까?"
+
+#: ../src/wxDFast.cpp:1537
+#, fuzzy
+msgid "Filename:"
+msgstr "파일 이름"
+
+#: ../src/wxDFast.cpp:1539
+msgid "Continue..."
+msgstr "계속..."
+
+#: ../src/wxDFast.cpp:1557
+msgid "Checking file's MD5..."
+msgstr "파일의 MD5 확인 중..."
+
+#: ../src/wxDFast.cpp:1565
+msgid "The file was verified successfully."
+msgstr "파일을 성공적으로 확인하였습니다."
+
+#: ../src/wxDFast.cpp:1565 ../src/wxDFast.cpp:1697
+msgid "Success..."
+msgstr "성공..."
+
+#: ../src/wxDFast.cpp:1570
+msgid "The MD5 calculated previously is different from the current one."
+msgstr "이전에 계산된 MD5 값이 현재값과 다릅니다."
+
+#: ../src/wxDFast.cpp:1571
+msgid ""
+"\n"
+"Old MD5 =\t\t"
+msgstr ""
+"\n"
+"오래된 MD5 =\t\t"
+
+#: ../src/wxDFast.cpp:1572
+msgid ""
+"\n"
+"Current MD5 =\t"
+msgstr ""
+"\n"
+"현재 MD5 =\t"
+
+#: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+msgid "File not found."
+msgstr "파일을 찾을 수 없습니다."
+
+#: ../src/wxDFast.cpp:1588
+#, c-format
+msgid "Folder %s doesn't exist."
+msgstr ""
+
+#: ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635 ../src/wxDFast.cpp:1662
+#: ../src/wxDFast.cpp:1686
+msgid "Unable to open the clipboard!"
+msgstr "클립보드를 열 수 없습니다."
+
+#: ../src/wxDFast.cpp:1697
+msgid "The configuration was exported successfully."
+msgstr "성공적으로 설정파일을 저장했습니다."
+
+#: ../src/wxDFast.cpp:1699
+msgid "Error exporting configuration."
+msgstr "설정 내보내기 중 오류"
+
+#: ../src/wxDFast.cpp:1705
+msgid "Select the file..."
+msgstr "파일 선택하기..."
+
+#: ../src/wxDFast.cpp:1770 ../src/wxDFast.cpp:2052 ../src/wxDFast.cpp:2161
+#: ../src/wxDFast.cpp:2252 ../src/wxDFast.cpp:2800 ../src/wxDFast.cpp:2811
+#, fuzzy
+msgid "Download started"
+msgstr "wxDownload Fast 사이트"
+
+#: ../src/wxDFast.cpp:1785 ../src/wxDFast.cpp:1798
+msgid "Command :\t"
+msgstr "명령 :\t"
+
+#: ../src/wxDFast.cpp:1785
+msgid "Shutdown Command..."
+msgstr "컴퓨터 종료 명령..."
+
+#: ../src/wxDFast.cpp:1798
+msgid "Disconnect Command..."
+msgstr "연결 끊기 명령..."
+
+#: ../src/wxDFast.cpp:2036
+#, fuzzy
+msgid "Download waiting"
+msgstr "파일 다운로드 재시작"
+
+#: ../src/wxDFast.cpp:2113
+#, c-format
+msgid "NEW RELEASE: wxDownload Fast %s is available."
+msgstr ""
+
+#: ../src/wxDFast.cpp:2115
+#, c-format
+msgid ""
+"wxDownload Fast %s is available.\n"
+"Visit https://wxdfast.dxsolutions.org for more informations."
+msgstr ""
+
+#: ../src/wxDFast.cpp:2190
+#, fuzzy
+msgid "Calculating file's MD5..."
+msgstr "파일의 MD5 확인 중..."
+
+#: ../src/wxDFast.cpp:2203 ../src/OptionsDialog.cpp:642
+#: ../src/OptionsDialog.cpp:645
+#, fuzzy
+msgid "Downloaded successfully"
+msgstr "파일을 성공적으로 읽었습니다."
+
+#: ../src/wxDFast.cpp:2207
+msgid "Downloaded ended with error"
+msgstr ""
+
+#: ../src/wxDFast.cpp:2230
+#, fuzzy
+msgid "Download statistics"
+msgstr "wxDownload Fast 사이트"
+
+#: ../src/wxDFast.cpp:2231 ../src/wxDFast.cpp:3290
+msgid "Completed"
+msgstr "완료됨"
+
+#: ../src/wxDFast.cpp:2232 ../src/wxDFast.cpp:3291
+msgid "Percentage"
+msgstr "퍼센트"
+
+#: ../src/wxDFast.cpp:2233 ../src/wxDFast.cpp:3292
+msgid "Time Passed"
+msgstr "지난 시간"
+
+#: ../src/wxDFast.cpp:2234 ../src/wxDFast.cpp:3293
+msgid "Remaining"
+msgstr "남은 시간"
+
+#: ../src/wxDFast.cpp:2260 ../src/wxDFast.cpp:2828
+#, fuzzy
+msgid "Download paused"
+msgstr "wxDownload Fast 사이트"
+
+#: ../src/wxDFast.cpp:2331
+msgid "Error: couldn't accept a new connection"
+msgstr ""
+
+#: ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+msgid "Information..."
+msgstr "정보..."
+
+#: ../src/wxDFast.cpp:3011
+msgid "Maximum number of connections"
+msgstr ""
+
+#: ../src/wxDFast.cpp:3012
+#, fuzzy
+msgid "Download bandwidth"
+msgstr "다운로드 대역폭 (kB/s):"
+
+#: ../src/wxDFast.cpp:3013
+#, fuzzy
+msgid "Number of pieces"
+msgstr "연결 시도 개수"
+
+#: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3296
+msgid "URL"
+msgstr "URL"
+
+#: ../src/wxDFast.cpp:3016
+#, fuzzy
+msgid "Downloaded is scheduled"
+msgstr "선택한 다운로드를 일정에 추가합니다."
+
+#: ../src/wxDFast.cpp:3287
+msgid "Restart"
+msgstr "다시 시작"
+
+#: ../src/wxDFast.cpp:3288 ../src/wxDFast.cpp:3329
+msgid "Filename"
+msgstr "파일 이름"
+
+#: ../src/wxDFast.cpp:3294
+msgid "Speed"
+msgstr "속도"
+
+#: ../src/wxDFast.cpp:3295
+msgid "Attempts"
+msgstr "연결 시도"
+
+#: ../src/OptionsDialog.cpp:35
+msgid "Options"
+msgstr "옵션"
+
+#: ../src/OptionsDialog.cpp:52
+msgid "Attempts:"
+msgstr "연결 시도:"
+
+#: ../src/OptionsDialog.cpp:58
+#, fuzzy
+msgid "Time between the attempts in seconds:"
+msgstr "상태를 업데이트할 간격 (초)"
+
+#: ../src/OptionsDialog.cpp:64
+#, fuzzy
+msgid "Number of simultaneous downloads:"
+msgstr "동시 연결 수 제한(&L)"
+
+#: ../src/OptionsDialog.cpp:70
+msgid "Remember the last settings on the New Download box"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:74
+msgid "Shutdown when all downloads finish"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:78
+msgid "Disconnect when all downloads finish"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:82
+msgid "Show dialog box when program closes"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:86
+msgid "Refresh rate of the download list (millisecs):"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:92
+msgid "Restore the main window when all downloads finish"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:96
+msgid "Hide the main window when you start a download"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:100
+msgid "Check for updates automatically"
+msgstr "새 버전 업데이트 자동 확인"
+
+#: ../src/OptionsDialog.cpp:104
+msgid "Show notification on finish download"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:107
+msgid "Preview"
+msgstr "미리보기"
+
+#: ../src/OptionsDialog.cpp:113
+msgid "General"
+msgstr "일반"
+
+#: ../src/OptionsDialog.cpp:119
+msgid "Default destination:"
+msgstr "기본 대상:"
+
+#: ../src/OptionsDialog.cpp:140
+msgid "Shutdown command:"
+msgstr "컴퓨터 끄기 명령:"
+
+#: ../src/OptionsDialog.cpp:145
+msgid "Disconnect command:"
+msgstr "연결 끊기 명령:"
+
+#: ../src/OptionsDialog.cpp:153
+msgid "Paths"
+msgstr "경로"
+
+#: ../src/OptionsDialog.cpp:159
+msgid "Use a Proxy Server"
+msgstr "프록시 서버 사용"
+
+#: ../src/OptionsDialog.cpp:163
+msgid "Proxy Server"
+msgstr "프록시 서버"
+
+#: ../src/OptionsDialog.cpp:165
+msgid "Server:"
+msgstr "서버:"
+
+#: ../src/OptionsDialog.cpp:170
+msgid "Port:"
+msgstr "포트:"
+
+#: ../src/OptionsDialog.cpp:182
+#, fuzzy
+msgid "Proxy Server Authorization"
+msgstr "프록시 서버"
+
+#: ../src/OptionsDialog.cpp:184 ../src/BatchDialog.cpp:45
+#: ../src/NewDialog.cpp:64
+msgid "User:"
+msgstr "사용자:"
+
+#: ../src/OptionsDialog.cpp:187 ../src/BatchDialog.cpp:49
+#: ../src/NewDialog.cpp:68
+msgid "Password:"
+msgstr "암호:"
+
+#: ../src/OptionsDialog.cpp:196
+msgid "Proxy"
+msgstr "프록시"
+
+#: ../src/OptionsDialog.cpp:202
+msgid "Show Graph"
+msgstr "그래프 표시"
+
+#: ../src/OptionsDialog.cpp:206
+msgid "Graph refresh rate (millisecs):"
+msgstr "그래프 새로고침 시간(millisecs):"
+
+#: ../src/OptionsDialog.cpp:212
+#, fuzzy
+msgid "Graph maximum value:"
+msgstr "그래프 최대값(kB/s):"
+
+#: ../src/OptionsDialog.cpp:240
+msgid "The text area Width (pixels):"
+msgstr "텍스트 상자 너비(픽셀):"
+
+#: ../src/OptionsDialog.cpp:246
+msgid "Graph height:"
+msgstr "그래프 높이:"
+
+#: ../src/OptionsDialog.cpp:252
+msgid "Text font size (points):"
+msgstr "글자 크기(포인트):"
+
+#: ../src/OptionsDialog.cpp:258
+#, fuzzy
+msgid "Download line width:"
+msgstr "메인 라인 두께:"
+
+#: ../src/OptionsDialog.cpp:264
+msgid "Background colour:"
+msgstr "배경색:"
+
+#: ../src/OptionsDialog.cpp:268
+msgid "Graph grid colour:"
+msgstr "그래프 그리드 색:"
+
+#: ../src/OptionsDialog.cpp:272
+#, fuzzy
+msgid "Download line colour:"
+msgstr "메인 라인 색:"
+
+#: ../src/OptionsDialog.cpp:281
+msgid "Speed font colour:"
+msgstr "속도 표시 글자색:"
+
+#: ../src/OptionsDialog.cpp:288
+msgid "Graph"
+msgstr "그래프"
+
+#: ../src/OptionsDialog.cpp:294
+#, fuzzy
+msgid "Finished piece colour:"
+msgstr "탭 설정"
+
+#: ../src/OptionsDialog.cpp:298
+#, fuzzy
+msgid "Unfinished piece colour:"
+msgstr "메인 라인 색:"
+
+#: ../src/OptionsDialog.cpp:311
+msgid "Activate scheduling"
+msgstr "일정 활성화"
+
+#: ../src/OptionsDialog.cpp:315
+#, fuzzy
+msgid "Start date:"
+msgstr "시작 날짜:"
+
+#: ../src/OptionsDialog.cpp:316
+#, fuzzy
+msgid "Start time:"
+msgstr "시작 시각:"
+
+#: ../src/OptionsDialog.cpp:323
+#, fuzzy
+msgid "Finish date:"
+msgstr "종료 날짜:"
+
+#: ../src/OptionsDialog.cpp:324
+#, fuzzy
+msgid "Finish time:"
+msgstr "종료 시각:"
+
+#: ../src/OptionsDialog.cpp:331
+msgid "Deactivate downloads on:"
+msgstr "다운로드 비활성:"
+
+#: ../src/OptionsDialog.cpp:344
+msgid "Between"
+msgstr "사이"
+
+#: ../src/OptionsDialog.cpp:347
+msgid "and"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:351 ../src/NewDialog.cpp:48
+msgid "Add"
+msgstr "추가"
+
+#: ../src/OptionsDialog.cpp:371
+msgid "Scheduling"
+msgstr "일정"
+
+#: ../src/OptionsDialog.cpp:377
+msgid "Unlimited bandwidth"
+msgstr "대역폭 제한없음"
+
+#: ../src/OptionsDialog.cpp:380
+msgid "Limit band width independently for each download"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:383
+msgid "Limit band width for the program (in KB/s):"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:405
+msgid "Bandwidth"
+msgstr "대역폭"
+
+#: ../src/OptionsDialog.cpp:411
+msgid "Please visit"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:413
+#, fuzzy
+msgid "wxDownload Fast Web Extensions"
+msgstr "wxDownload Fast 사이트"
+
+#: ../src/OptionsDialog.cpp:418
+msgid "Browser Integration"
+msgstr "브라우저와 통합"
+
+#: ../src/OptionsDialog.cpp:526
+#, fuzzy
+msgid "Select the directory"
+msgstr "디렉토리 선택:"
+
+#: ../src/OptionsDialog.cpp:536
+#, fuzzy
+msgid "Choose a file"
+msgstr "파일을 선택하십시오..."
+
+#: ../src/OptionsDialog.cpp:604
+msgid "Remove some items before adding a new one."
+msgstr ""
+
+#: ../src/BatchDialog.cpp:24
+#, fuzzy
+msgid "Add new downloads"
+msgstr "새로운 다운로드 추가"
+
+#: ../src/BatchDialog.cpp:29 ../src/NewDialog.cpp:32
+msgid "Save to:"
+msgstr "저장하기:"
+
+#: ../src/BatchDialog.cpp:34 ../src/NewDialog.cpp:37
+msgid "Directory"
+msgstr "디렉토리"
+
+#: ../src/BatchDialog.cpp:36 ../src/NewDialog.cpp:51
+msgid "Address List:"
+msgstr "주소 목록:"
+
+#: ../src/BatchDialog.cpp:39 ../src/NewDialog.cpp:54
+msgid "Only the selected addresses will be downloaded"
+msgstr ""
+
+#: ../src/BatchDialog.cpp:43 ../src/NewDialog.cpp:62
+msgid "Server Permission"
+msgstr "서버 권한"
+
+#: ../src/BatchDialog.cpp:55 ../src/NewDialog.cpp:74
+msgid "Manual"
+msgstr "수동"
+
+#: ../src/BatchDialog.cpp:57 ../src/NewDialog.cpp:76
+msgid "Now"
+msgstr "현재"
+
+#: ../src/BatchDialog.cpp:64 ../src/NewDialog.cpp:83
+msgid "Segmented download"
+msgstr ""
+
+#: ../src/BatchDialog.cpp:66
+msgid ""
+"Split download into how many\n"
+"pieces?"
+msgstr ""
+
+#: ../src/BatchDialog.cpp:80 ../src/NewDialog.cpp:99
+#, fuzzy
+msgid "Download bandwidth (in KB/s)"
+msgstr "다운로드 대역폭 (kB/s):"
+
+#: ../src/BatchDialog.cpp:83 ../src/NewDialog.cpp:102
+msgid ""
+"Set band width limit for this download.\n"
+"Set \"0\" to unlimited."
+msgstr ""
+
+#: ../src/BatchDialog.cpp:92 ../src/NewDialog.cpp:111
+msgid "Execute the following command after download completes"
+msgstr ""
+
+#: ../src/BatchDialog.cpp:296 ../src/NewDialog.cpp:365
+msgid "The URLs are empty"
+msgstr ""
+
+#: ../src/BatchDialog.cpp:296 ../src/BatchDialog.cpp:302
+#: ../src/NewDialog.cpp:365 ../src/NewDialog.cpp:371
+#, fuzzy
+msgid "Warning..."
+msgstr "이동 중..."
+
+#: ../src/BatchDialog.cpp:302 ../src/NewDialog.cpp:371
+#, fuzzy
+msgid "The destination doesn't exist"
+msgstr "대상 디렉토리 사용"
+
+#: ../src/NewDialog.cpp:40
+msgid "Address:"
+msgstr "주소:"
+
+#: ../src/NewDialog.cpp:46
+msgid ""
+"URL to download\n"
+"Example: http://www.foo.com/foo.exe\n"
+"Example: http://www.foo.com:80/foo.exe\n"
+"Example: ftp://ftp.foo.com:21/foo.exe"
+msgstr ""
+
+#: ../src/NewDialog.cpp:59
+msgid "Add on top of download queue"
+msgstr ""
+
+#: ../src/NewDialog.cpp:85
+msgid ""
+"Split download into how many\n"
+"connections?"
+msgstr ""
+
+#: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
+msgid "The URL is invalid!"
+msgstr "URL 이 정확하지 않습니다."
+
+#: ../src/NewDialog.cpp:421
+msgid "Edit the URL"
+msgstr "URL 편집"

@@ -1,0 +1,996 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: archdvx@dxsolutions.org\n"
+"POT-Creation-Date: 2021-08-15 14:26+0200\n"
+"PO-Revision-Date: 2009-10-03 16:18-0300\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.2.0-rc1\n"
+
+#: ../src/wxDFast.cpp:49
+msgid ""
+"Usage: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] "
+"[URL of the file(s) to be downloaded...]\n"
+"  -h, --help                   Print (this) help screen and exit\n"
+"  -v, --version                Print version information and exit\n"
+"  -i, --hide                   Start with the the main frame hide\n"
+"  -d, --destination=<str>      Destination directory\n"
+"  -c, --comments=<str>         Add comments to download\n"
+"  -r, --reference=<str>        Set a reference URL"
+msgstr ""
+
+#: ../src/wxDFast.cpp:136
+#, fuzzy
+msgid "wxDownload Fast already running"
+msgstr "wxDownload Fast সাইট"
+
+#: ../src/wxDFast.cpp:196
+msgid "Hide the main window"
+msgstr "মুখ্য় জানালা লুকোন"
+
+#: ../src/wxDFast.cpp:198
+msgid "Show the main window"
+msgstr "মুখ্য় জানালা দেখান"
+
+#: ../src/wxDFast.cpp:200
+msgid "New download"
+msgstr "নতুন ডাউনলোড"
+
+#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:2538 ../src/wxDFast.cpp:3012
+msgid "Unlimited"
+msgstr "অসীম"
+
+#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
+msgid "Just for this session. To change definitely go to \"Options\""
+msgstr "কেবলমাত্র এই সত্রের জন্য় | নিশ্চিতরূপে পরিবর্তিত করিতে, \"বিকল্প\"-এ যান "
+
+#: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2534
+msgid "Active"
+msgstr "সক্রিয়"
+
+#: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2530
+msgid "Per Download"
+msgstr "ডাউনলোড প্রতি"
+
+#: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2530 ../src/wxDFast.cpp:2534
+#: ../src/wxDFast.cpp:2538
+msgid "Band control"
+msgstr "ব্য়ান্ড নিয়ন্ত্রণ"
+
+#: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
+msgid "New Download"
+msgstr "নতুন ডাউনলোড"
+
+#: ../src/wxDFast.cpp:365 ../src/wxDFast.cpp:1878 ../src/wxDFast.cpp:1956
+msgid "Remove Download"
+msgstr "ডাউনলোড সরিয়ে দিন"
+
+#: ../src/wxDFast.cpp:369 ../src/wxDFast.cpp:1885
+msgid "Schedule Download"
+msgstr "ডাউনলোড পূর্বনিয়োজিত করুন"
+
+#: ../src/wxDFast.cpp:372 ../src/wxDFast.cpp:1893 ../src/BatchDialog.cpp:54
+#: ../src/NewDialog.cpp:73
+msgid "Start Download"
+msgstr "ডাউনলোড আরম্ভ করুন"
+
+#: ../src/wxDFast.cpp:375 ../src/wxDFast.cpp:1899
+msgid "Stop Download"
+msgstr "ডাউনলোড থামান"
+
+#: ../src/wxDFast.cpp:378 ../src/wxDFast.cpp:471
+msgid "Start all downloads"
+msgstr "সব ডাউনলোড আরম্ভ করুন"
+
+#: ../src/wxDFast.cpp:381 ../src/wxDFast.cpp:472
+msgid "Stop all downloads"
+msgstr "সভ ডাউনলোড থামিয়ে দিন"
+
+#: ../src/wxDFast.cpp:386
+msgid "&File"
+msgstr "&নথি"
+
+#: ../src/wxDFast.cpp:388
+msgid "Paste URL"
+msgstr "URL সেঁটে দিন"
+
+#: ../src/wxDFast.cpp:391 ../src/wxDFast.cpp:1908 ../src/wxDFast.cpp:1960
+msgid "Copy URL"
+msgstr "url টুকে নিন"
+
+#: ../src/wxDFast.cpp:394 ../src/wxDFast.cpp:1911 ../src/wxDFast.cpp:1963
+msgid "Copy Download Data"
+msgstr "ডাউনলোড তথ্য় টুকে নিন"
+
+#: ../src/wxDFast.cpp:398
+#, fuzzy
+msgid "Remove All"
+msgstr "সরিয়ে দিন"
+
+#: ../src/wxDFast.cpp:401
+msgid "Find Download"
+msgstr "ডাউনলোড খুঁজুন"
+
+#: ../src/wxDFast.cpp:404 ../src/NewDialog.cpp:56
+msgid "&Edit"
+msgstr "&সম্পাদন"
+
+#: ../src/wxDFast.cpp:406
+msgid "Show/Hide Graph"
+msgstr "রেখাচিত্র দেখান/লুকোন"
+
+#: ../src/wxDFast.cpp:409
+msgid "Show/Hide Details"
+msgstr "বৃত্তান্ত দেখান/লুকোন"
+
+#: ../src/wxDFast.cpp:412
+msgid "&View"
+msgstr "&দৃশ্য়"
+
+#: ../src/wxDFast.cpp:414 ../src/wxDFast.cpp:1333 ../src/wxDFast.cpp:1904
+msgid "Download Properties"
+msgstr "ডাউনলোডের গুণ"
+
+#: ../src/wxDFast.cpp:417 ../src/wxDFast.cpp:1967
+msgid "Move File"
+msgstr "নথি চালনা করুন"
+
+#: ../src/wxDFast.cpp:420 ../src/wxDFast.cpp:1969
+msgid "Check Integrity"
+msgstr "সমন্বয় পরীক্ষা করুন"
+
+#: ../src/wxDFast.cpp:422 ../src/wxDFast.cpp:1970
+msgid "Open Destination Directory"
+msgstr "গন্তব্য় নির্দেশিকা খুলুন"
+
+#: ../src/wxDFast.cpp:424 ../src/wxDFast.cpp:1971
+msgid "Download File Again"
+msgstr "পুনরায় নথি ডাউনলোড করুন"
+
+#: ../src/wxDFast.cpp:427
+msgid "Export Configuration"
+msgstr "সংরচনা নির্গম করুন"
+
+#: ../src/wxDFast.cpp:429
+msgid "Import Configuration"
+msgstr "সংরচনা আমদানি করুন"
+
+#: ../src/wxDFast.cpp:432
+msgid "Shutdown when finished"
+msgstr "সমাপ্ত হলে পরে বন্ধ করে দিন "
+
+#: ../src/wxDFast.cpp:432 ../src/wxDFast.cpp:433
+msgid "This option is only valid in this session of the program"
+msgstr "এই বিকল্পটি কেবলমাত্র এই সত্রের জন্য় বৈধ"
+
+#: ../src/wxDFast.cpp:433
+msgid "Disconnect when finished"
+msgstr "সমাপ্ত হলে পরে সংযোগ ছিন্ন করুন"
+
+#: ../src/wxDFast.cpp:438
+msgid "&Tools"
+msgstr "&সাধন"
+
+#: ../src/wxDFast.cpp:440
+msgid "wxDownload Fast Site"
+msgstr "wxDownload Fast সাইট"
+
+#: ../src/wxDFast.cpp:443
+msgid "Report Bugs..."
+msgstr "ত্রুটির খবর দিন..."
+
+#: ../src/wxDFast.cpp:444
+msgid "Donate..."
+msgstr "অনুদান..."
+
+#: ../src/wxDFast.cpp:449
+msgid "&Help"
+msgstr "&সাহায্য়"
+
+#: ../src/wxDFast.cpp:465
+msgid "New"
+msgstr "নতুন"
+
+#: ../src/wxDFast.cpp:465 ../src/NewDialog.cpp:27
+msgid "Add new download"
+msgstr "নতুন ডাউনলোড যোগ করুন"
+
+#: ../src/wxDFast.cpp:466 ../src/OptionsDialog.cpp:364
+msgid "Remove"
+msgstr "সরিয়ে দিন"
+
+#: ../src/wxDFast.cpp:466
+msgid "Remove the selected download"
+msgstr "চয়নিত ডাউনলোড সরিয়ে দিন"
+
+#: ../src/wxDFast.cpp:468 ../src/BatchDialog.cpp:60 ../src/NewDialog.cpp:79
+msgid "Schedule"
+msgstr "নির্ঘন্ট"
+
+#: ../src/wxDFast.cpp:468
+msgid "Mark the selected download as scheduled"
+msgstr "চয়নিত ডাউনলোডটিতে পূর্বনিয়োজিত মার্কা লাগিয়ে দিন"
+
+#: ../src/wxDFast.cpp:469
+msgid "Start"
+msgstr "আরম্ভ"
+
+#: ../src/wxDFast.cpp:469
+msgid "Start the selected download"
+msgstr "চয়নিত ডাউনলোড আরম্ভ করে দিন"
+
+#: ../src/wxDFast.cpp:470
+msgid "Stop"
+msgstr "নিরস্ত"
+
+#: ../src/wxDFast.cpp:470
+msgid "Stop the selected download"
+msgstr "চয়নিত ডাউনলোড থামিয়ে দিন"
+
+#: ../src/wxDFast.cpp:471
+msgid "Start All"
+msgstr "সমস্ত আরম্ভ"
+
+#: ../src/wxDFast.cpp:472
+msgid "Stop All"
+msgstr "সমস্ত নিরস্ত"
+
+#: ../src/wxDFast.cpp:474
+msgid "Up"
+msgstr "উপরে"
+
+#: ../src/wxDFast.cpp:474
+msgid "Push download higher up the queue"
+msgstr "ডাউনলোডটিকে সারিতে উপরে ঠেলে দিন"
+
+#: ../src/wxDFast.cpp:475
+msgid "Down"
+msgstr "নীচে"
+
+#: ../src/wxDFast.cpp:475
+msgid "Push download lower down the queue"
+msgstr "ডাউনলোডটিকে সারিতে নীচে ঠেলে দিন"
+
+#: ../src/wxDFast.cpp:477
+msgid "Properties"
+msgstr "গুণ"
+
+#: ../src/wxDFast.cpp:477
+msgid "Show the properties of the selected download"
+msgstr "চয়নিত ডাউনলোডের গুণগুলি দেখান"
+
+#: ../src/wxDFast.cpp:503 ../src/OptionsDialog.cpp:305
+msgid "Progress"
+msgstr ""
+
+#: ../src/wxDFast.cpp:505
+msgid "Detail"
+msgstr ""
+
+#: ../src/wxDFast.cpp:510
+msgid "Downloads in Progress"
+msgstr "ডাউনলোড চলছে"
+
+#: ../src/wxDFast.cpp:526
+msgid "Finished Downloads"
+msgstr "সমাপ্ত ডাউনলোড"
+
+#: ../src/wxDFast.cpp:591
+#, c-format
+msgid "Could not listen at the specified socket %s!"
+msgstr ""
+
+#: ../src/wxDFast.cpp:593
+#, c-format
+msgid "Could not listen at the specified port %d!"
+msgstr ""
+
+#: ../src/wxDFast.cpp:663
+msgid "   [ Yes ]"
+msgstr "   [ হ্য়াঁ ]"
+
+#: ../src/wxDFast.cpp:664
+msgid "   [ No  ]"
+msgstr "   [ না  ]"
+
+#: ../src/wxDFast.cpp:745 ../src/wxDFast.cpp:1649 ../src/wxDFast.cpp:1672
+msgid "Name"
+msgstr "নাম"
+
+#: ../src/wxDFast.cpp:746 ../src/wxDFast.cpp:1650 ../src/wxDFast.cpp:1673
+#: ../src/wxDFast.cpp:3009
+msgid "File type"
+msgstr "নথি প্রকার"
+
+#: ../src/wxDFast.cpp:747 ../src/wxDFast.cpp:1651 ../src/wxDFast.cpp:1674
+#: ../src/wxDFast.cpp:3010 ../src/wxDFast.cpp:3289 ../src/wxDFast.cpp:3330
+msgid "Size"
+msgstr "আকার"
+
+#: ../src/wxDFast.cpp:748 ../src/wxDFast.cpp:1652 ../src/wxDFast.cpp:1675
+msgid "Time"
+msgstr "সময়"
+
+#: ../src/wxDFast.cpp:749 ../src/wxDFast.cpp:1653 ../src/wxDFast.cpp:1676
+#: ../src/wxDFast.cpp:3008
+msgid "Destination"
+msgstr "গন্তব্য়"
+
+#: ../src/wxDFast.cpp:750
+msgid "Started"
+msgstr "আরম্ভ"
+
+#: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3331
+msgid "Finished"
+msgstr "সমাপ্ত"
+
+#: ../src/wxDFast.cpp:752 ../src/wxDFast.cpp:1677
+msgid "MD5"
+msgstr "MD5"
+
+#: ../src/wxDFast.cpp:753 ../src/wxDFast.cpp:1654 ../src/wxDFast.cpp:1678
+#: ../src/BatchDialog.cpp:87 ../src/NewDialog.cpp:106
+msgid "Reference URL"
+msgstr "সন্দর্ভ  URL"
+
+#: ../src/wxDFast.cpp:754 ../src/wxDFast.cpp:1655 ../src/wxDFast.cpp:1679
+#: ../src/BatchDialog.cpp:72 ../src/NewDialog.cpp:91
+msgid "Comments"
+msgstr "টিপ্পণী"
+
+#: ../src/wxDFast.cpp:755 ../src/wxDFast.cpp:1656 ../src/wxDFast.cpp:1680
+msgid "URLs"
+msgstr "URL"
+
+#: ../src/wxDFast.cpp:801
+msgid "Total Speed:"
+msgstr "মোট গতি"
+
+#: ../src/wxDFast.cpp:805
+msgid "Total Complete:"
+msgstr "মোট সমাপ্ত"
+
+#: ../src/wxDFast.cpp:809
+msgid "Downloads in progress:"
+msgstr "ডাউনলোড চলছে"
+
+#: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
+msgid "Do you want to close the program?"
+msgstr "আপনি কি প্রোগ্রামটি বন্ধ করিতে চান ?"
+
+#: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
+msgid "Close..."
+msgstr "বন্ধ করুন ..."
+
+#: ../src/wxDFast.cpp:1062
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of\n"
+"the GNU General Public License as published by the Free Software "
+"Foundation;\n"
+"either version 2 of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY;\n"
+"without even the implied warranty of MERCHANTABILITY or FITNESS FOR A "
+"PARTICULAR PURPOSE.\n"
+"See the GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program;\n"
+"if not, write to the Free Software Foundation, Inc., 51 Franklin Street,\n"
+"Fifth Floor, Boston, MA 02110-1301, USA"
+msgstr ""
+
+#: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
+msgid "Do you also want to remove downloaded file(s) from the disk?"
+msgstr "আপনি কি ডাউনলোড করা নথি(গুলি) ডিস্ক থেকে সরিয়ে দিতেও চান ?"
+
+#: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
+msgid "Remove..."
+msgstr "সরিয়ে দিন ..."
+
+#: ../src/wxDFast.cpp:1478
+msgid "Find file..."
+msgstr "নথি খুঁজুন ..."
+
+#: ../src/wxDFast.cpp:1510 ../src/wxDFast.cpp:1693 ../src/BatchDialog.cpp:317
+#: ../src/NewDialog.cpp:386
+msgid "Select the directory:"
+msgstr "নির্দেশিকা চয়ন করুন :"
+
+#: ../src/wxDFast.cpp:1522
+msgid "Moving..."
+msgstr "চালানো হচ্ছে  ..."
+
+#: ../src/wxDFast.cpp:1522
+msgid "Moving file..."
+msgstr "নথি চালানো হচ্ছে  ..."
+
+#: ../src/wxDFast.cpp:1531
+msgid "Error moving file."
+msgstr "নথি চালনাতে ত্রুটি |"
+
+#: ../src/wxDFast.cpp:1531 ../src/wxDFast.cpp:1573 ../src/wxDFast.cpp:1578
+#: ../src/wxDFast.cpp:1588 ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635
+#: ../src/wxDFast.cpp:1662 ../src/wxDFast.cpp:1686 ../src/wxDFast.cpp:1699
+#: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
+msgid "Error..."
+msgstr "ত্রুটি... "
+
+#: ../src/wxDFast.cpp:1537
+msgid ""
+"The file isn't in the path that it was saved initially.\n"
+"Do you want to change only the old path for the current one?"
+msgstr ""
+"নথিটি পূর্বে যে পথে সঞ্চিত হয়েছিল সে পথে নেই | \n"
+"আপনি কি কেবল পুরাতন পথটি বদল করতে চান নতুন পথে ?"
+
+#: ../src/wxDFast.cpp:1537
+#, fuzzy
+msgid "Filename:"
+msgstr "নথিনাম"
+
+#: ../src/wxDFast.cpp:1539
+msgid "Continue..."
+msgstr "চলতে থাকুন ..."
+
+#: ../src/wxDFast.cpp:1557
+msgid "Checking file's MD5..."
+msgstr "নথির MD5 পরিক্ষা করা হচ্ছে ..."
+
+#: ../src/wxDFast.cpp:1565
+msgid "The file was verified successfully."
+msgstr "নথিটির সফলভাবে প্রতিপাদন হয়েছে |"
+
+#: ../src/wxDFast.cpp:1565 ../src/wxDFast.cpp:1697
+msgid "Success..."
+msgstr "সফলতা ..."
+
+#: ../src/wxDFast.cpp:1570
+msgid "The MD5 calculated previously is different from the current one."
+msgstr "পূর্বে কলিত MD5 এবং বর্তমানে পার্থক্য় আছে |"
+
+#: ../src/wxDFast.cpp:1571
+msgid ""
+"\n"
+"Old MD5 =\t\t"
+msgstr ""
+"\n"
+"পুরাতন MD5 =\t\t"
+
+#: ../src/wxDFast.cpp:1572
+msgid ""
+"\n"
+"Current MD5 =\t"
+msgstr ""
+"\n"
+"বর্তমান MD5 =\t\t"
+
+#: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+msgid "File not found."
+msgstr "নথি খুঁজে পাওয়া যায়নি |"
+
+#: ../src/wxDFast.cpp:1588
+#, c-format
+msgid "Folder %s doesn't exist."
+msgstr ""
+
+#: ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635 ../src/wxDFast.cpp:1662
+#: ../src/wxDFast.cpp:1686
+msgid "Unable to open the clipboard!"
+msgstr "ক্লিপবোর্ড খুলতে পারা যায়নি"
+
+#: ../src/wxDFast.cpp:1697
+msgid "The configuration was exported successfully."
+msgstr "সংরচনাটির সফলভাবে নির্গমন হয়েছে |"
+
+#: ../src/wxDFast.cpp:1699
+msgid "Error exporting configuration."
+msgstr "সংরচনার নির্গমনে ত্রুটি |"
+
+#: ../src/wxDFast.cpp:1705
+msgid "Select the file..."
+msgstr "নথি চয়ন করুন ..."
+
+#: ../src/wxDFast.cpp:1770 ../src/wxDFast.cpp:2052 ../src/wxDFast.cpp:2161
+#: ../src/wxDFast.cpp:2252 ../src/wxDFast.cpp:2800 ../src/wxDFast.cpp:2811
+#, fuzzy
+msgid "Download started"
+msgstr "wxDownload Fast সাইট"
+
+#: ../src/wxDFast.cpp:1785 ../src/wxDFast.cpp:1798
+msgid "Command :\t"
+msgstr "কমান্ড :\t"
+
+#: ../src/wxDFast.cpp:1785
+msgid "Shutdown Command..."
+msgstr "কমান্ড বন্ধ করুন ..."
+
+#: ../src/wxDFast.cpp:1798
+msgid "Disconnect Command..."
+msgstr "কমান্ড সংযোগছিন্ন করুন ..."
+
+#: ../src/wxDFast.cpp:2036
+#, fuzzy
+msgid "Download waiting"
+msgstr "পুনরায় নথি ডাউনলোড করুন"
+
+#: ../src/wxDFast.cpp:2113
+#, c-format
+msgid "NEW RELEASE: wxDownload Fast %s is available."
+msgstr ""
+
+#: ../src/wxDFast.cpp:2115
+#, fuzzy, c-format
+msgid ""
+"wxDownload Fast %s is available.\n"
+"Visit https://wxdfast.dxsolutions.org for more informations."
+msgstr "আরো তত্ত্বের জন্য় http://dfast.sourceforge.net-এ আসুন |"
+
+#: ../src/wxDFast.cpp:2190
+#, fuzzy
+msgid "Calculating file's MD5..."
+msgstr "নথির MD5 পরিক্ষা করা হচ্ছে ..."
+
+#: ../src/wxDFast.cpp:2203 ../src/OptionsDialog.cpp:642
+#: ../src/OptionsDialog.cpp:645
+#, fuzzy
+msgid "Downloaded successfully"
+msgstr "নথি প্রতিপাদন সফল\n"
+
+#: ../src/wxDFast.cpp:2207
+msgid "Downloaded ended with error"
+msgstr ""
+
+#: ../src/wxDFast.cpp:2230
+#, fuzzy
+msgid "Download statistics"
+msgstr "wxDownload Fast সাইট"
+
+#: ../src/wxDFast.cpp:2231 ../src/wxDFast.cpp:3290
+msgid "Completed"
+msgstr "সমাপ্ত"
+
+#: ../src/wxDFast.cpp:2232 ../src/wxDFast.cpp:3291
+msgid "Percentage"
+msgstr "শতকরা"
+
+#: ../src/wxDFast.cpp:2233 ../src/wxDFast.cpp:3292
+msgid "Time Passed"
+msgstr "উত্তীর্ণ সময়"
+
+#: ../src/wxDFast.cpp:2234 ../src/wxDFast.cpp:3293
+msgid "Remaining"
+msgstr "অবশিষ্ট"
+
+#: ../src/wxDFast.cpp:2260 ../src/wxDFast.cpp:2828
+#, fuzzy
+msgid "Download paused"
+msgstr "wxDownload Fast সাইট"
+
+#: ../src/wxDFast.cpp:2331
+msgid "Error: couldn't accept a new connection"
+msgstr ""
+
+#: ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+msgid "Information..."
+msgstr "তত্ত্ব ..."
+
+#: ../src/wxDFast.cpp:3011
+msgid "Maximum number of connections"
+msgstr ""
+
+#: ../src/wxDFast.cpp:3012
+#, fuzzy
+msgid "Download bandwidth"
+msgstr "ডাউনলোড ব্য়ান্ড‍উইডথ (kB/s-এ)"
+
+#: ../src/wxDFast.cpp:3013
+#, fuzzy
+msgid "Number of pieces"
+msgstr "প্রয়াস সংখ্য়া"
+
+#: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3296
+msgid "URL"
+msgstr "URL"
+
+#: ../src/wxDFast.cpp:3016
+#, fuzzy
+msgid "Downloaded is scheduled"
+msgstr "চয়নিত ডাউনলোডটিতে পূর্বনিয়োজিত মার্কা লাগিয়ে দিন"
+
+#: ../src/wxDFast.cpp:3287
+msgid "Restart"
+msgstr "পুনরারম্ভ"
+
+#: ../src/wxDFast.cpp:3288 ../src/wxDFast.cpp:3329
+msgid "Filename"
+msgstr "নথিনাম"
+
+#: ../src/wxDFast.cpp:3294
+msgid "Speed"
+msgstr "গতি"
+
+#: ../src/wxDFast.cpp:3295
+msgid "Attempts"
+msgstr "প্রয়াস"
+
+#: ../src/OptionsDialog.cpp:35
+msgid "Options"
+msgstr "বিকল্প"
+
+#: ../src/OptionsDialog.cpp:52
+msgid "Attempts:"
+msgstr "প্রয়াস :"
+
+#: ../src/OptionsDialog.cpp:58
+msgid "Time between the attempts in seconds:"
+msgstr "প্রয়াসের মাঝের সময়ন্তরাল (সেকেন্ডে) :"
+
+#: ../src/OptionsDialog.cpp:64
+msgid "Number of simultaneous downloads:"
+msgstr "সমকালীন ডাউনলোডের সংখ্য়া :"
+
+#: ../src/OptionsDialog.cpp:70
+msgid "Remember the last settings on the New Download box"
+msgstr "শেষোক্ত পরিবেশগুলি নতুন ডাউনলোড বাক্সে মনে রাখুন"
+
+#: ../src/OptionsDialog.cpp:74
+msgid "Shutdown when all downloads finish"
+msgstr "ডাউনলোড সকল শেষ হলে পরে বন্ধ করে দিন"
+
+#: ../src/OptionsDialog.cpp:78
+msgid "Disconnect when all downloads finish"
+msgstr "ডাউনলোড সকল শেষ হলে পরে সংযোগ ছিন্ন করুন"
+
+#: ../src/OptionsDialog.cpp:82
+msgid "Show dialog box when program closes"
+msgstr "প্রোগ্রাম বন্ধ হলে পরে সংলাপবাক্স দেখান"
+
+#: ../src/OptionsDialog.cpp:86
+msgid "Refresh rate of the download list (millisecs):"
+msgstr "ডাউনলোড সূচীর পুনশ্চর্য্য়া অন্তর (মিলিসেকেন্ডে):"
+
+#: ../src/OptionsDialog.cpp:92
+msgid "Restore the main window when all downloads finish"
+msgstr "ডাউনলোড সকল শেষ হলে পরে মুখ্য় জানলা পুনঃস্থাপিত করুন"
+
+#: ../src/OptionsDialog.cpp:96
+msgid "Hide the main window when you start a download"
+msgstr "ডাউনলোড আরম্ভ হলে মুখ্য় জানলা লুকিয়ে দিন"
+
+#: ../src/OptionsDialog.cpp:100
+msgid "Check for updates automatically"
+msgstr "স্বয়ংক্রীয়ভাবে উন্নত রূপান্তরের জন্য় নিরীক্ষা করুন"
+
+#: ../src/OptionsDialog.cpp:104
+msgid "Show notification on finish download"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:107
+msgid "Preview"
+msgstr "পূর্বাবলোকন"
+
+#: ../src/OptionsDialog.cpp:113
+msgid "General"
+msgstr "সাধারণ"
+
+#: ../src/OptionsDialog.cpp:119
+msgid "Default destination:"
+msgstr "পূর্বনির্ধারিত গন্তব্য় :"
+
+#: ../src/OptionsDialog.cpp:140
+msgid "Shutdown command:"
+msgstr "বন্ধের কমান্ড:"
+
+#: ../src/OptionsDialog.cpp:145
+msgid "Disconnect command:"
+msgstr "সংযোগছিন্নের কমান্ড :"
+
+#: ../src/OptionsDialog.cpp:153
+msgid "Paths"
+msgstr "পথ"
+
+#: ../src/OptionsDialog.cpp:159
+msgid "Use a Proxy Server"
+msgstr "প্রক্সি সার্ভার ব্য়বহার করুন "
+
+#: ../src/OptionsDialog.cpp:163
+msgid "Proxy Server"
+msgstr "প্রক্সি সার্ভার"
+
+#: ../src/OptionsDialog.cpp:165
+msgid "Server:"
+msgstr "সার্ভার :"
+
+#: ../src/OptionsDialog.cpp:170
+msgid "Port:"
+msgstr "পোর্ট :"
+
+#: ../src/OptionsDialog.cpp:182
+#, fuzzy
+msgid "Proxy Server Authorization"
+msgstr "প্রক্সি সার্ভার"
+
+#: ../src/OptionsDialog.cpp:184 ../src/BatchDialog.cpp:45
+#: ../src/NewDialog.cpp:64
+msgid "User:"
+msgstr "ব্য়বহারকারী:"
+
+#: ../src/OptionsDialog.cpp:187 ../src/BatchDialog.cpp:49
+#: ../src/NewDialog.cpp:68
+msgid "Password:"
+msgstr "পাসওয়ার্ড:"
+
+#: ../src/OptionsDialog.cpp:196
+msgid "Proxy"
+msgstr "প্রক্সি"
+
+#: ../src/OptionsDialog.cpp:202
+msgid "Show Graph"
+msgstr "রেখাচিত্র দেখান"
+
+#: ../src/OptionsDialog.cpp:206
+msgid "Graph refresh rate (millisecs):"
+msgstr "রেখাচিত্র পুনশ্চর্য্য়া দর (মিলিসেকেন্ডে) :"
+
+#: ../src/OptionsDialog.cpp:212
+#, fuzzy
+msgid "Graph maximum value:"
+msgstr "রেখাচিত্র সর্বাধিক মান (kB/s):"
+
+#: ../src/OptionsDialog.cpp:240
+msgid "The text area Width (pixels):"
+msgstr "পাঠ্য় ক্ষেত্র প্রস্থ (পিক্সেলে) :"
+
+#: ../src/OptionsDialog.cpp:246
+msgid "Graph height:"
+msgstr "রেখাচিত্র উচ্চতা :"
+
+#: ../src/OptionsDialog.cpp:252
+msgid "Text font size (points):"
+msgstr "পাঠ্য় অক্ষর আকার (পয়েন্টে) :"
+
+#: ../src/OptionsDialog.cpp:258
+#, fuzzy
+msgid "Download line width:"
+msgstr "মুখ্য় রেখা প্রস্থ"
+
+#: ../src/OptionsDialog.cpp:264
+msgid "Background colour:"
+msgstr "পশ্চাত্পট রঙ"
+
+#: ../src/OptionsDialog.cpp:268
+msgid "Graph grid colour:"
+msgstr "রেখাচিত্র জালের রঙ :"
+
+#: ../src/OptionsDialog.cpp:272
+#, fuzzy
+msgid "Download line colour:"
+msgstr "মুখ্য় রেখা রঙ"
+
+#: ../src/OptionsDialog.cpp:281
+msgid "Speed font colour:"
+msgstr "গতি অক্ষর রঙ :"
+
+#: ../src/OptionsDialog.cpp:288
+msgid "Graph"
+msgstr "রেখাচিত্র"
+
+#: ../src/OptionsDialog.cpp:294
+#, fuzzy
+msgid "Finished piece colour:"
+msgstr "এই অংশটি সমাপ্ত\n"
+
+#: ../src/OptionsDialog.cpp:298
+#, fuzzy
+msgid "Unfinished piece colour:"
+msgstr "মুখ্য় রেখা রঙ"
+
+#: ../src/OptionsDialog.cpp:311
+msgid "Activate scheduling"
+msgstr "পূর্বনিয়োজন সক্রিয় করুন"
+
+#: ../src/OptionsDialog.cpp:315
+#, fuzzy
+msgid "Start date:"
+msgstr "আরম্ভ তারিখ :"
+
+#: ../src/OptionsDialog.cpp:316
+#, fuzzy
+msgid "Start time:"
+msgstr "আরম্ভ সময় :"
+
+#: ../src/OptionsDialog.cpp:323
+#, fuzzy
+msgid "Finish date:"
+msgstr "সমাপ্তি তারিখ :"
+
+#: ../src/OptionsDialog.cpp:324
+#, fuzzy
+msgid "Finish time:"
+msgstr "সমাপ্তি সময় :"
+
+#: ../src/OptionsDialog.cpp:331
+msgid "Deactivate downloads on:"
+msgstr "ডাউনলোড নিষ্ক্রিয় করুন এই সময়ে :"
+
+#: ../src/OptionsDialog.cpp:344
+msgid "Between"
+msgstr "মধ্য়ে"
+
+#: ../src/OptionsDialog.cpp:347
+msgid "and"
+msgstr "এবং"
+
+#: ../src/OptionsDialog.cpp:351 ../src/NewDialog.cpp:48
+msgid "Add"
+msgstr "যোগ"
+
+#: ../src/OptionsDialog.cpp:371
+msgid "Scheduling"
+msgstr "পূর্বনিয়োজন"
+
+#: ../src/OptionsDialog.cpp:377
+msgid "Unlimited bandwidth"
+msgstr "অসীম ব্য়ান্ড‍উইডথ"
+
+#: ../src/OptionsDialog.cpp:380
+msgid "Limit band width independently for each download"
+msgstr "প্রতিটি ডাউনলোডের জন্য় স্বতন্ত্রভাবে ব্য়ান্ড‍উইডথ সীমিত করুন"
+
+#: ../src/OptionsDialog.cpp:383
+#, fuzzy
+msgid "Limit band width for the program (in KB/s):"
+msgstr "প্রোগ্রামের জন্য় ব্য়ান্ড‍উইডথ সীমিত করুন (kB/s -এ)"
+
+#: ../src/OptionsDialog.cpp:405
+msgid "Bandwidth"
+msgstr "ব্য়ান্ড‍উইডথ"
+
+#: ../src/OptionsDialog.cpp:411
+msgid "Please visit"
+msgstr ""
+
+#: ../src/OptionsDialog.cpp:413
+#, fuzzy
+msgid "wxDownload Fast Web Extensions"
+msgstr "wxDownload Fast সাইট"
+
+#: ../src/OptionsDialog.cpp:418
+msgid "Browser Integration"
+msgstr "ব্রাউজার সংহতি"
+
+#: ../src/OptionsDialog.cpp:526
+#, fuzzy
+msgid "Select the directory"
+msgstr "নির্দেশিকা চয়ন করুন :"
+
+#: ../src/OptionsDialog.cpp:536
+#, fuzzy
+msgid "Choose a file"
+msgstr "নথি চয়ন করুন..."
+
+#: ../src/OptionsDialog.cpp:604
+msgid "Remove some items before adding a new one."
+msgstr "নতুন যোগ করিবার পূর্বে কিছু পদ সরিয়ে দিন |"
+
+#: ../src/BatchDialog.cpp:24
+#, fuzzy
+msgid "Add new downloads"
+msgstr "নতুন ডাউনলোড যোগ করুন"
+
+#: ../src/BatchDialog.cpp:29 ../src/NewDialog.cpp:32
+msgid "Save to:"
+msgstr "সঞ্চিত করুন এতে:"
+
+#: ../src/BatchDialog.cpp:34 ../src/NewDialog.cpp:37
+msgid "Directory"
+msgstr "নির্দেশিকা"
+
+#: ../src/BatchDialog.cpp:36 ../src/NewDialog.cpp:51
+msgid "Address List:"
+msgstr "ঠিকানা সূচী:"
+
+#: ../src/BatchDialog.cpp:39 ../src/NewDialog.cpp:54
+msgid "Only the selected addresses will be downloaded"
+msgstr "কেবলমাত্র চয়নিত ঠিকানাগুলি ডাউনলোড হবে"
+
+#: ../src/BatchDialog.cpp:43 ../src/NewDialog.cpp:62
+msgid "Server Permission"
+msgstr "সার্ভার অনুমতি"
+
+#: ../src/BatchDialog.cpp:55 ../src/NewDialog.cpp:74
+msgid "Manual"
+msgstr "স্বীয় দ্বারা"
+
+#: ../src/BatchDialog.cpp:57 ../src/NewDialog.cpp:76
+msgid "Now"
+msgstr "এখন"
+
+#: ../src/BatchDialog.cpp:64 ../src/NewDialog.cpp:83
+msgid "Segmented download"
+msgstr "বিভাজিত ডাউনলোড"
+
+#: ../src/BatchDialog.cpp:66
+msgid ""
+"Split download into how many\n"
+"pieces?"
+msgstr ""
+"ডাউনলোডটিকে কটি \n"
+"অংশে বিভক্ত করা হবে?"
+
+#: ../src/BatchDialog.cpp:80 ../src/NewDialog.cpp:99
+#, fuzzy
+msgid "Download bandwidth (in KB/s)"
+msgstr "ডাউনলোড ব্য়ান্ড‍উইডথ (kB/s-এ)"
+
+#: ../src/BatchDialog.cpp:83 ../src/NewDialog.cpp:102
+msgid ""
+"Set band width limit for this download.\n"
+"Set \"0\" to unlimited."
+msgstr ""
+"এই ডাউনলোডটির জন্য় ব্য়ান্ড‍উইডথ সীমা নির্ধারিত করুন |\n"
+"\"0\"কে অসীমে নির্দিষ্ট করুন |"
+
+#: ../src/BatchDialog.cpp:92 ../src/NewDialog.cpp:111
+msgid "Execute the following command after download completes"
+msgstr "ডাউনলোড সমাপ্ত হলে পরে নিম্নোক্ত কমাণ্ডটি সম্পন্ন করুন"
+
+#: ../src/BatchDialog.cpp:296 ../src/NewDialog.cpp:365
+msgid "The URLs are empty"
+msgstr ""
+
+#: ../src/BatchDialog.cpp:296 ../src/BatchDialog.cpp:302
+#: ../src/NewDialog.cpp:365 ../src/NewDialog.cpp:371
+#, fuzzy
+msgid "Warning..."
+msgstr "চালানো হচ্ছে  ..."
+
+#: ../src/BatchDialog.cpp:302 ../src/NewDialog.cpp:371
+#, fuzzy
+msgid "The destination doesn't exist"
+msgstr "গন্তব্য় নির্দেশিকা ব্য়বহার করুন"
+
+#: ../src/NewDialog.cpp:40
+msgid "Address:"
+msgstr "ঠিকানা :"
+
+#: ../src/NewDialog.cpp:46
+msgid ""
+"URL to download\n"
+"Example: http://www.foo.com/foo.exe\n"
+"Example: http://www.foo.com:80/foo.exe\n"
+"Example: ftp://ftp.foo.com:21/foo.exe"
+msgstr ""
+"ডানুঅলোডের URL\n"
+"উদাহরণ: http://www.foo.com/foo.exe\n"
+"উদাহরণ: http://www.foo.com:80/foo.exe\n"
+"উদাহরণ: ftp://ftp.foo.com:21/foo.exe"
+
+#: ../src/NewDialog.cpp:59
+msgid "Add on top of download queue"
+msgstr "ডাউনলোড সারির উপরদিকে যোগ করুন"
+
+#: ../src/NewDialog.cpp:85
+#, fuzzy
+msgid ""
+"Split download into how many\n"
+"connections?"
+msgstr ""
+"ডাউনলোডটিকে কটি \n"
+"অংশে বিভক্ত করা হবে?"
+
+#: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
+msgid "The URL is invalid!"
+msgstr "URL টি অবৈধ !"
+
+#: ../src/NewDialog.cpp:421
+msgid "Edit the URL"
+msgstr "URL-টির সম্পাদনা করুন"
