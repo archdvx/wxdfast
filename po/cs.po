@@ -1,26 +1,29 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR David Vachulka
+# This file is distributed under the same license as the wxdfast package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# David Vachulka <archdvx@dxsolutions.org>, 2021
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: wxDownload Fast\n"
+"Project-Id-Version: wxdfast 0.7.0\n"
 "Report-Msgid-Bugs-To: archdvx@dxsolutions.org\n"
 "POT-Creation-Date: 2021-08-15 14:26+0200\n"
-"PO-Revision-Date: 2021-08-07 20:57+0200\n"
-"Last-Translator: Max Velasques <maxvelasques@mail.com>\n"
-"Language-Team: David Vachulka <david@imodelar.cz>\n"
-"Language: cs\n"
+"PO-Revision-Date: 2021-08-15 11:32+0000\n"
+"Last-Translator: David Vachulka <archdvx@dxsolutions.org>, 2021\n"
+"Language-Team: Czech (https://www.transifex.com/wxdownload-fast/teams/123746/cs/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: iso-8859-2\n"
-"X-Poedit-Basepath: /home/max/Projetos/wxDFast/src\n"
-"X-Generator: Poedit 2.3\n"
-"X-Poedit-SearchPath-0: /home/max/Projetos/wxDFast/src\n"
-"X-Poedit-SearchPath-1: /home/max/Projetos/wxDFast/src/wxMD5\n"
-"X-Poedit-SearchPath-2: /home/max/Projetos/wxDFast/resources\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: ../src/wxDFast.cpp:49
 msgid ""
-"Usage: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] "
-"[URL of the file(s) to be downloaded...]\n"
+"Usage: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] [URL of the file(s) to be downloaded...]\n"
 "  -h, --help                   Print (this) help screen and exit\n"
 "  -v, --version                Print version information and exit\n"
 "  -i, --hide                   Start with the the main frame hide\n"
@@ -28,80 +31,81 @@ msgid ""
 "  -c, --comments=<str>         Add comments to download\n"
 "  -r, --reference=<str>        Set a reference URL"
 msgstr ""
-"Pou¾ití: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] "
-"[URL souboru ke sta¾ení...]\n"
-"  -h, --help                   Zobrazí (tuto) obrazovku a skonèí\n"
-"  -v, --version                Zobrazí verzi a skonèí\n"
-"  -i, --hide                   Spustí se skrytım hlavním oknem\n"
-"  -d, --destination=<str>      Cílovı adresáø\n"
-"  -c, --comments=<str>         Komentáø ke stahování\n"
+"PouÅ¾itÃ­: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] [URL souboru ke staÅ¾enÃ­...]\n"
+"  -h, --help                   ZobrazÃ­ (tuto) obrazovku a skonÄÃ­\n"
+"  -v, --version                ZobrazÃ­ verzi a skonÄÃ­\n"
+"  -i, --hide                   SpustÃ­ se skrytÃ½m hlavnÃ­m oknem\n"
+"  -d, --destination=<str>      CÃ­lovÃ½ adresÃ¡Å™\n"
+"  -c, --comments=<str>         KomentÃ¡Å™ ke stahovÃ¡nÃ­\n"
 "  -r, --reference=<str>        URL odkazu"
 
 #: ../src/wxDFast.cpp:136
 msgid "wxDownload Fast already running"
-msgstr "wxDownload Fast ji¾ bì¾í"
+msgstr "wxDownload Fast jiÅ¾ bÄ›Å¾Ã­"
 
 #: ../src/wxDFast.cpp:196
 msgid "Hide the main window"
-msgstr "Skrıt hlavní okno"
+msgstr "SkrÃ½t hlavnÃ­ okno"
 
 #: ../src/wxDFast.cpp:198
 msgid "Show the main window"
-msgstr "Zobrazit hlavní okno"
+msgstr "Zobrazit hlavnÃ­ okno"
 
 #: ../src/wxDFast.cpp:200
 msgid "New download"
-msgstr "Nové stahování"
+msgstr "NovÃ© stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:2538 ../src/wxDFast.cpp:3012
 msgid "Unlimited"
-msgstr "Neomezená ¹íøka pásma"
+msgstr "NeomezenÃ¡ Å¡Ã­Å™ka pÃ¡sma"
 
 #: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
 msgid "Just for this session. To change definitely go to \"Options\""
-msgstr "Jen pro toto spu¹tìní. Pro trvalou zmìnu nastavte ve \"Volbách\""
+msgstr ""
+"Jen pro toto spuÅ¡tÄ›nÃ­. Pro trvalou zmÄ›nu nastavte v poloÅ¾ce menu "
+"\"PÅ™edvolby\""
 
 #: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2534
 msgid "Active"
-msgstr "Aktivní"
+msgstr "AktivnÃ­"
 
 #: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2530
 msgid "Per Download"
-msgstr "Podle stahování"
+msgstr "Podle stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2530 ../src/wxDFast.cpp:2534
 #: ../src/wxDFast.cpp:2538
 msgid "Band control"
-msgstr "Ovládání ¹íøky pásma"
+msgstr "OvlÃ¡dÃ¡nÃ­ Å¡Ã­Å™ky pÃ¡sma"
 
 #: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
 msgid "New Download"
-msgstr "Nové stahování"
+msgstr "NovÃ© stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:365 ../src/wxDFast.cpp:1878 ../src/wxDFast.cpp:1956
 msgid "Remove Download"
-msgstr "Odebrat stahování"
+msgstr "Odebrat stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:369 ../src/wxDFast.cpp:1885
 msgid "Schedule Download"
-msgstr "Naplánovat stahování"
+msgstr "NaplÃ¡novat stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:372 ../src/wxDFast.cpp:1893 ../src/BatchDialog.cpp:54
 #: ../src/NewDialog.cpp:73
 msgid "Start Download"
-msgstr "Spustit stahování"
+msgstr "Spustit stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:375 ../src/wxDFast.cpp:1899
 msgid "Stop Download"
-msgstr "Zastavit stahování"
+msgstr "Zastavit stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:378 ../src/wxDFast.cpp:471
 msgid "Start all downloads"
-msgstr "Spustit v¹echna stahování"
+msgstr "Spustit vÅ¡echna stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:381 ../src/wxDFast.cpp:472
 msgid "Stop all downloads"
-msgstr "Zastavit v¹echna stahování"
+msgstr "Zastavit vÅ¡echna stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:386
 msgid "&File"
@@ -109,23 +113,23 @@ msgstr "&Soubor"
 
 #: ../src/wxDFast.cpp:388
 msgid "Paste URL"
-msgstr "Vlo¾it URL"
+msgstr "VloÅ¾it URL"
 
 #: ../src/wxDFast.cpp:391 ../src/wxDFast.cpp:1908 ../src/wxDFast.cpp:1960
 msgid "Copy URL"
-msgstr "Kopírovat URL"
+msgstr "KopÃ­rovat URL"
 
 #: ../src/wxDFast.cpp:394 ../src/wxDFast.cpp:1911 ../src/wxDFast.cpp:1963
 msgid "Copy Download Data"
-msgstr "Kopírovat sta¾ená data"
+msgstr "KopÃ­rovat staÅ¾enÃ¡ data"
 
 #: ../src/wxDFast.cpp:398
 msgid "Remove All"
-msgstr "Odstranit v¹echna stahování"
+msgstr "Odstranit vÅ¡echna stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:401
 msgid "Find Download"
-msgstr "Najít stahování"
+msgstr "NajÃ­t stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:404 ../src/NewDialog.cpp:56
 msgid "&Edit"
@@ -133,23 +137,23 @@ msgstr "&Editovat"
 
 #: ../src/wxDFast.cpp:406
 msgid "Show/Hide Graph"
-msgstr "Zobrazit/Skrıt graf"
+msgstr "Zobrazit/SkrÃ½t graf"
 
 #: ../src/wxDFast.cpp:409
 msgid "Show/Hide Details"
-msgstr "Zobrazit/Skrıt detaily"
+msgstr "Zobrazit/SkrÃ½t detaily"
 
 #: ../src/wxDFast.cpp:412
 msgid "&View"
-msgstr "&Zobrazení"
+msgstr "&ZobrazenÃ­"
 
 #: ../src/wxDFast.cpp:414 ../src/wxDFast.cpp:1333 ../src/wxDFast.cpp:1904
 msgid "Download Properties"
-msgstr "Vlastnosti stahování"
+msgstr "Vlastnosti stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:417 ../src/wxDFast.cpp:1967
 msgid "Move File"
-msgstr "Pøesunout soubor"
+msgstr "PÅ™esunout soubor"
 
 #: ../src/wxDFast.cpp:420 ../src/wxDFast.cpp:1969
 msgid "Check Integrity"
@@ -157,35 +161,35 @@ msgstr "Zkontrolovat integritu"
 
 #: ../src/wxDFast.cpp:422 ../src/wxDFast.cpp:1970
 msgid "Open Destination Directory"
-msgstr "Otevøít cílovı adresáø"
+msgstr "OtevÅ™Ã­t cÃ­lovÃ½ adresÃ¡Å™"
 
 #: ../src/wxDFast.cpp:424 ../src/wxDFast.cpp:1971
 msgid "Download File Again"
-msgstr "Stáhnout soubor znovu"
+msgstr "StÃ¡hnout soubor znovu"
 
 #: ../src/wxDFast.cpp:427
 msgid "Export Configuration"
-msgstr "Export nastavení"
+msgstr "Export nastavenÃ­"
 
 #: ../src/wxDFast.cpp:429
 msgid "Import Configuration"
-msgstr "Import nastavení"
+msgstr "Import nastavenÃ­"
 
 #: ../src/wxDFast.cpp:432
 msgid "Shutdown when finished"
-msgstr "Ukonèit pøi dokonèení"
+msgstr "UkonÄit pÅ™i dokonÄenÃ­"
 
 #: ../src/wxDFast.cpp:432 ../src/wxDFast.cpp:433
 msgid "This option is only valid in this session of the program"
-msgstr "Tyto volby jsou platné jen pøi tomto spu¹tìní programu"
+msgstr "Tyto volby jsou platnÃ© jen pÅ™i tomto spuÅ¡tÄ›nÃ­ programu"
 
 #: ../src/wxDFast.cpp:433
 msgid "Disconnect when finished"
-msgstr "Odpojení pøi dokonèení"
+msgstr "OdpojenÃ­ pÅ™i dokonÄenÃ­"
 
 #: ../src/wxDFast.cpp:438
 msgid "&Tools"
-msgstr "&Nástroje"
+msgstr "&NÃ¡stroje"
 
 #: ../src/wxDFast.cpp:440
 msgid "wxDownload Fast Site"
@@ -197,19 +201,19 @@ msgstr "Reportovat chybu..."
 
 #: ../src/wxDFast.cpp:444
 msgid "Donate..."
-msgstr "Podpoøit..."
+msgstr "PodpoÅ™it..."
 
 #: ../src/wxDFast.cpp:449
 msgid "&Help"
-msgstr "&Nápovìda"
+msgstr "&NÃ¡povÄ›da"
 
 #: ../src/wxDFast.cpp:465
 msgid "New"
-msgstr "Nové"
+msgstr "NovÃ©"
 
 #: ../src/wxDFast.cpp:465 ../src/NewDialog.cpp:27
 msgid "Add new download"
-msgstr "Pøidat nové stahování"
+msgstr "PÅ™idat novÃ© stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:466 ../src/OptionsDialog.cpp:364
 msgid "Remove"
@@ -217,15 +221,15 @@ msgstr "Odebrat"
 
 #: ../src/wxDFast.cpp:466
 msgid "Remove the selected download"
-msgstr "Odebrat vybrané stahování"
+msgstr "Odebrat vybranÃ© stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:468 ../src/BatchDialog.cpp:60 ../src/NewDialog.cpp:79
 msgid "Schedule"
-msgstr "Podle plánu"
+msgstr "Podle plÃ¡nu"
 
 #: ../src/wxDFast.cpp:468
 msgid "Mark the selected download as scheduled"
-msgstr "Oznaèit vybrané stahování jako naplánované"
+msgstr "OznaÄit vybranÃ© stahovÃ¡nÃ­ jako naplÃ¡novanÃ©"
 
 #: ../src/wxDFast.cpp:469
 msgid "Start"
@@ -233,7 +237,7 @@ msgstr "Spustit"
 
 #: ../src/wxDFast.cpp:469
 msgid "Start the selected download"
-msgstr "Spustit vybrané stahování"
+msgstr "Spustit vybranÃ© stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:470
 msgid "Stop"
@@ -241,15 +245,15 @@ msgstr "Zastavit"
 
 #: ../src/wxDFast.cpp:470
 msgid "Stop the selected download"
-msgstr "Zastavit vybrané stahování"
+msgstr "Zastavit vybranÃ© stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:471
 msgid "Start All"
-msgstr "Spustit v¹e"
+msgstr "Spustit vÅ¡e"
 
 #: ../src/wxDFast.cpp:472
 msgid "Stop All"
-msgstr "Zastavit v¹e"
+msgstr "Zastavit vÅ¡e"
 
 #: ../src/wxDFast.cpp:474
 msgid "Up"
@@ -257,7 +261,7 @@ msgstr "Nahoru"
 
 #: ../src/wxDFast.cpp:474
 msgid "Push download higher up the queue"
-msgstr "Posunout stahování nahoru ve frontì"
+msgstr "Posunout stahovÃ¡nÃ­ nahoru ve frontÄ›"
 
 #: ../src/wxDFast.cpp:475
 msgid "Down"
@@ -265,7 +269,7 @@ msgstr "Dolu"
 
 #: ../src/wxDFast.cpp:475
 msgid "Push download lower down the queue"
-msgstr "Posunout stahování dolu ve frontì"
+msgstr "Posunout stahovÃ¡nÃ­ dolu ve frontÄ›"
 
 #: ../src/wxDFast.cpp:477
 msgid "Properties"
@@ -273,11 +277,11 @@ msgstr "Vlastnosti"
 
 #: ../src/wxDFast.cpp:477
 msgid "Show the properties of the selected download"
-msgstr "Zobrazit vlastnosti vybraného stahování"
+msgstr "Zobrazit vlastnosti vybranÃ©ho stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:503 ../src/OptionsDialog.cpp:305
 msgid "Progress"
-msgstr "Prùbìh"
+msgstr "PrÅ¯bÄ›h"
 
 #: ../src/wxDFast.cpp:505
 msgid "Detail"
@@ -285,21 +289,21 @@ msgstr "Detail"
 
 #: ../src/wxDFast.cpp:510
 msgid "Downloads in Progress"
-msgstr "Stahování v bìhu"
+msgstr "StahovÃ¡nÃ­ v bÄ›hu"
 
 #: ../src/wxDFast.cpp:526
 msgid "Finished Downloads"
-msgstr "Dokonèená stahování"
+msgstr "DokonÄenÃ¡ stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:591
 #, c-format
 msgid "Could not listen at the specified socket %s!"
-msgstr "Nemohu poslouchat na daném socketu %s!"
+msgstr "Nemohu poslouchat na danÃ©m socketu %s!"
 
 #: ../src/wxDFast.cpp:593
 #, c-format
 msgid "Could not listen at the specified port %d!"
-msgstr "Nemohu poslouchat na daném portu %d!"
+msgstr "Nemohu poslouchat na danÃ©m portu %d!"
 
 #: ../src/wxDFast.cpp:663
 msgid "   [ Yes ]"
@@ -311,7 +315,7 @@ msgstr "   [ Ne  ]"
 
 #: ../src/wxDFast.cpp:745 ../src/wxDFast.cpp:1649 ../src/wxDFast.cpp:1672
 msgid "Name"
-msgstr "Jméno"
+msgstr "JmÃ©no"
 
 #: ../src/wxDFast.cpp:746 ../src/wxDFast.cpp:1650 ../src/wxDFast.cpp:1673
 #: ../src/wxDFast.cpp:3009
@@ -325,20 +329,20 @@ msgstr "Velikost"
 
 #: ../src/wxDFast.cpp:748 ../src/wxDFast.cpp:1652 ../src/wxDFast.cpp:1675
 msgid "Time"
-msgstr "Èas stahování"
+msgstr "ÄŒas stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:749 ../src/wxDFast.cpp:1653 ../src/wxDFast.cpp:1676
 #: ../src/wxDFast.cpp:3008
 msgid "Destination"
-msgstr "Umístìní"
+msgstr "UmÃ­stÄ›nÃ­"
 
 #: ../src/wxDFast.cpp:750
 msgid "Started"
-msgstr "Spu¹tìno"
+msgstr "SpuÅ¡tÄ›no"
 
 #: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3331
 msgid "Finished"
-msgstr "Dokonèeno"
+msgstr "DokonÄeno"
 
 #: ../src/wxDFast.cpp:752 ../src/wxDFast.cpp:1677
 msgid "MD5"
@@ -352,7 +356,7 @@ msgstr "URL odkazu"
 #: ../src/wxDFast.cpp:754 ../src/wxDFast.cpp:1655 ../src/wxDFast.cpp:1679
 #: ../src/BatchDialog.cpp:72 ../src/NewDialog.cpp:91
 msgid "Comments"
-msgstr "Komentáø"
+msgstr "KomentÃ¡Å™"
 
 #: ../src/wxDFast.cpp:755 ../src/wxDFast.cpp:1656 ../src/wxDFast.cpp:1680
 msgid "URLs"
@@ -360,83 +364,78 @@ msgstr "Seznam URL"
 
 #: ../src/wxDFast.cpp:801
 msgid "Total Speed:"
-msgstr "Celková rychlost:"
+msgstr "CelkovÃ¡ rychlost:"
 
 #: ../src/wxDFast.cpp:805
 msgid "Total Complete:"
-msgstr "Dokonèené:"
+msgstr "DokonÄenÃ©:"
 
 #: ../src/wxDFast.cpp:809
 msgid "Downloads in progress:"
-msgstr "Stahování v bìhu:"
+msgstr "StahovÃ¡nÃ­ v bÄ›hu:"
 
 #: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
 msgid "Do you want to close the program?"
-msgstr "Chcete zavøít program?"
+msgstr "Chcete zavÅ™Ã­t program?"
 
 #: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
 msgid "Close..."
-msgstr "Zavøít..."
+msgstr "ZavÅ™Ã­t..."
 
 #: ../src/wxDFast.cpp:1062
 msgid ""
-"This program is free software; you can redistribute it and/or modify it "
-"under the terms of\n"
-"the GNU General Public License as published by the Free Software "
-"Foundation;\n"
+"This program is free software; you can redistribute it and/or modify it under the terms of\n"
+"the GNU General Public License as published by the Free Software Foundation;\n"
 "either version 2 of the License, or (at your option) any later version.\n"
 "\n"
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY;\n"
-"without even the implied warranty of MERCHANTABILITY or FITNESS FOR A "
-"PARTICULAR PURPOSE.\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;\n"
+"without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 "See the GNU General Public License for more details.\n"
 "\n"
-"You should have received a copy of the GNU General Public License along with "
-"this program;\n"
+"You should have received a copy of the GNU General Public License along with this program;\n"
 "if not, write to the Free Software Foundation, Inc., 51 Franklin Street,\n"
 "Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr ""
-"Program je svobodnı software; mù¾ete ho ¹íøit a/nebo upravit podle ujednání\n"
+"Program je svobodnÃ½ software; mÅ¯Å¾ete ho Å¡Ã­Å™it a/nebo upravit podle ujednÃ¡nÃ­\n"
 "GNU General Public License publikovanou Free Software Foundation; verze 2\n"
-"licence nebo (podle svého uvá¾ení) pozdìj¹í verzi.\n"
+"licence nebo (podle svÃ©ho uvÃ¡Å¾enÃ­) pozdÄ›jÅ¡Ã­ verzi.\n"
 "\n"
-"Program je ¹íøen ve víøe v jeho pou¾itelnost, ale BEZ JAKÉKOLIV ZÁRUKY;\n"
-"odvozené záruky PRODEJNOSTI nebo VHODNOSTI PRO URÈITİ ÚÈEL. Dal¹í detaily v\n"
+"Program je Å¡Ã­Å™en ve vÃ­Å™e v jeho pouÅ¾itelnost, ale BEZ JAKÃ‰KOLIV ZÃRUKY;\n"
+"odvozenÃ© zÃ¡ruky PRODEJNOSTI nebo VHODNOSTI PRO URÄŒITÃ ÃšÄŒEL. DalÅ¡Ã­ detaily v\n"
 "GNU General Public License.\n"
 "\n"
-"Mìl byste získat kopii GNU General Public License s tímto programem;\n"
-"jestli¾e ne, napi¹te Free Software Foundation, Inc., 51 Franklin Street,\n"
+"MÄ›l byste zÃ­skat kopii GNU General Public License s tÃ­mto programem;\n"
+"jestliÅ¾e ne, napiÅ¡te Free Software Foundation, Inc., 51 Franklin Street,\n"
 "Fifth Floor, Boston, MA  02110-1301, USA"
 
 #: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
 msgid "Do you also want to remove downloaded file(s) from the disk?"
-msgstr "Chcete vymazat sta¾enı soubor(y) z disku?"
+msgstr "Chcete vymazat staÅ¾enÃ½ soubor(y) z disku?"
 
 #: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
 msgid "Remove..."
-msgstr "Odebírám..."
+msgstr "OdebÃ­rÃ¡m..."
 
 #: ../src/wxDFast.cpp:1478
 msgid "Find file..."
-msgstr "Najít soubor..."
+msgstr "NajÃ­t soubor..."
 
 #: ../src/wxDFast.cpp:1510 ../src/wxDFast.cpp:1693 ../src/BatchDialog.cpp:317
 #: ../src/NewDialog.cpp:386
 msgid "Select the directory:"
-msgstr "Vybrat adresáø:"
+msgstr "Vybrat adresÃ¡Å™:"
 
 #: ../src/wxDFast.cpp:1522
 msgid "Moving..."
-msgstr "Pøesouvání..."
+msgstr "PÅ™esouvÃ¡nÃ­..."
 
 #: ../src/wxDFast.cpp:1522
 msgid "Moving file..."
-msgstr "Pøesouvání souboru..."
+msgstr "PÅ™esouvÃ¡nÃ­ souboru..."
 
 #: ../src/wxDFast.cpp:1531
 msgid "Error moving file."
-msgstr "Chyba pøi pøesouvání souboru."
+msgstr "Chyba pÅ™i pÅ™esouvÃ¡nÃ­ souboru."
 
 #: ../src/wxDFast.cpp:1531 ../src/wxDFast.cpp:1573 ../src/wxDFast.cpp:1578
 #: ../src/wxDFast.cpp:1588 ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635
@@ -450,32 +449,32 @@ msgid ""
 "The file isn't in the path that it was saved initially.\n"
 "Do you want to change only the old path for the current one?"
 msgstr ""
-"Soubor není na cestì, v které byl pùvodnì ulo¾en.\n"
-"Chcete zmìnit jen starou cestu na aktuální?"
+"Soubor nenÃ­ na cestÄ›, v kterÃ© byl pÅ¯vodnÄ› uloÅ¾en.\n"
+"Chcete zmÄ›nit jen starou cestu na aktuÃ¡lnÃ­?"
 
 #: ../src/wxDFast.cpp:1537
 msgid "Filename:"
-msgstr "Jméno souboru:"
+msgstr "JmÃ©no souboru:"
 
 #: ../src/wxDFast.cpp:1539
 msgid "Continue..."
-msgstr "Pokraèovat..."
+msgstr "PokraÄovat..."
 
 #: ../src/wxDFast.cpp:1557
 msgid "Checking file's MD5..."
-msgstr "Kontrola MD5 souètu souboru..."
+msgstr "Kontrola MD5 souÄtu souboru..."
 
 #: ../src/wxDFast.cpp:1565
 msgid "The file was verified successfully."
-msgstr "Soubor byl úspì¹nì ovìøen."
+msgstr "Soubor byl ÃºspÄ›Å¡nÄ› ovÄ›Å™en."
 
 #: ../src/wxDFast.cpp:1565 ../src/wxDFast.cpp:1697
 msgid "Success..."
-msgstr "Úspìch..."
+msgstr "ÃšspÄ›ch..."
 
 #: ../src/wxDFast.cpp:1570
 msgid "The MD5 calculated previously is different from the current one."
-msgstr "MD5 døíve vypoètenı je jinı ne¾ aktuální."
+msgstr "MD5 dÅ™Ã­ve vypoÄtenÃ½ je jinÃ½ neÅ¾ aktuÃ¡lnÃ­."
 
 #: ../src/wxDFast.cpp:1571
 msgid ""
@@ -483,7 +482,7 @@ msgid ""
 "Old MD5 =\t\t"
 msgstr ""
 "\n"
-"Starı MD5 =\t\t"
+"StarÃ½ MD5 =\t\t"
 
 #: ../src/wxDFast.cpp:1572
 msgid ""
@@ -491,7 +490,7 @@ msgid ""
 "Current MD5 =\t"
 msgstr ""
 "\n"
-"Aktuální MD5 =\t"
+"AktuÃ¡lnÃ­ MD5 =\t"
 
 #: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
 msgid "File not found."
@@ -500,20 +499,20 @@ msgstr "Soubor nenalezen."
 #: ../src/wxDFast.cpp:1588
 #, c-format
 msgid "Folder %s doesn't exist."
-msgstr "Adresáø %s neexistuje."
+msgstr "AdresÃ¡Å™ %s neexistuje."
 
 #: ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635 ../src/wxDFast.cpp:1662
 #: ../src/wxDFast.cpp:1686
 msgid "Unable to open the clipboard!"
-msgstr "Nebylo mo¾né otevøít schránku!"
+msgstr "Nebylo moÅ¾nÃ© otevÅ™Ã­t schrÃ¡nku!"
 
 #: ../src/wxDFast.cpp:1697
 msgid "The configuration was exported successfully."
-msgstr "Nastavení bylo úspì¹nì exportováno."
+msgstr "NastavenÃ­ bylo ÃºspÄ›Å¡nÄ› exportovÃ¡no."
 
 #: ../src/wxDFast.cpp:1699
 msgid "Error exporting configuration."
-msgstr "Chyba pøi exportu nastavení."
+msgstr "Chyba pÅ™i exportu nastavenÃ­."
 
 #: ../src/wxDFast.cpp:1705
 msgid "Select the file..."
@@ -522,28 +521,28 @@ msgstr "Vybrat soubor..."
 #: ../src/wxDFast.cpp:1770 ../src/wxDFast.cpp:2052 ../src/wxDFast.cpp:2161
 #: ../src/wxDFast.cpp:2252 ../src/wxDFast.cpp:2800 ../src/wxDFast.cpp:2811
 msgid "Download started"
-msgstr "Stahování spu¹tìno"
+msgstr "StahovÃ¡nÃ­ spuÅ¡tÄ›no"
 
 #: ../src/wxDFast.cpp:1785 ../src/wxDFast.cpp:1798
 msgid "Command :\t"
-msgstr "Pøíkaz:\t"
+msgstr "PÅ™Ã­kaz:\t"
 
 #: ../src/wxDFast.cpp:1785
 msgid "Shutdown Command..."
-msgstr "Pøikaz k ukonèení..."
+msgstr "PÅ™Ã­kaz k ukonÄenÃ­..."
 
 #: ../src/wxDFast.cpp:1798
 msgid "Disconnect Command..."
-msgstr "Pøíkaz pro odpojení..."
+msgstr "PÅ™Ã­kaz pro odpojenÃ­..."
 
 #: ../src/wxDFast.cpp:2036
 msgid "Download waiting"
-msgstr "Stahování èeká"
+msgstr "StahovÃ¡nÃ­ ÄekÃ¡"
 
 #: ../src/wxDFast.cpp:2113
 #, c-format
 msgid "NEW RELEASE: wxDownload Fast %s is available."
-msgstr "NOVÁ VERZE: wxDownload Fast %s je dostupnı."
+msgstr "NOVÃ VERZE: wxDownload Fast %s je dostupnÃ½."
 
 #: ../src/wxDFast.cpp:2115
 #, c-format
@@ -551,49 +550,49 @@ msgid ""
 "wxDownload Fast %s is available.\n"
 "Visit https://wxdfast.dxsolutions.org for more informations."
 msgstr ""
-"wxDownload Fast %s je dostupnı.\n"
-"Nav¹tivte https://wxdfast.dxsolutions.org pro více informací."
+"wxDownload Fast %s je dostupnÃ½.\n"
+"NavÅ¡tivte https://wxdfast.dxsolutions.org pro vÃ­ce informacÃ­."
 
 #: ../src/wxDFast.cpp:2190
 msgid "Calculating file's MD5..."
-msgstr "Vıpoèet MD5 souètu souboru..."
+msgstr "VÃ½poÄet MD5 souÄtu souboru..."
 
 #: ../src/wxDFast.cpp:2203 ../src/OptionsDialog.cpp:642
 #: ../src/OptionsDialog.cpp:645
 msgid "Downloaded successfully"
-msgstr "Úspì¹nì sta¾eno"
+msgstr "ÃšspÄ›Å¡nÄ› staÅ¾eno"
 
 #: ../src/wxDFast.cpp:2207
 msgid "Downloaded ended with error"
-msgstr "Stahování dokonèeno s chybou"
+msgstr "StahovÃ¡nÃ­ dokonÄeno s chybou"
 
 #: ../src/wxDFast.cpp:2230
 msgid "Download statistics"
-msgstr "Statistika stahování"
+msgstr "Statistika stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:2231 ../src/wxDFast.cpp:3290
 msgid "Completed"
-msgstr "Dokonèené"
+msgstr "DokonÄenÃ©"
 
 #: ../src/wxDFast.cpp:2232 ../src/wxDFast.cpp:3291
 msgid "Percentage"
-msgstr "Procentuálnì"
+msgstr "ProcentuÃ¡lnÄ›"
 
 #: ../src/wxDFast.cpp:2233 ../src/wxDFast.cpp:3292
 msgid "Time Passed"
-msgstr "Uplynulı èas"
+msgstr "UplynulÃ½ Äas"
 
 #: ../src/wxDFast.cpp:2234 ../src/wxDFast.cpp:3293
 msgid "Remaining"
-msgstr "Zbıvající"
+msgstr "ZbÃ½vajÃ­cÃ­"
 
 #: ../src/wxDFast.cpp:2260 ../src/wxDFast.cpp:2828
 msgid "Download paused"
-msgstr "Stahování pøeru¹eno"
+msgstr "StahovÃ¡nÃ­ pÅ™eruÅ¡eno"
 
 #: ../src/wxDFast.cpp:2331
 msgid "Error: couldn't accept a new connection"
-msgstr "Chyba: nemohu pøijmout nové pøipojení"
+msgstr "Chyba: nemohu pÅ™ijmout novÃ© pÅ™ipojenÃ­"
 
 #: ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
 msgid "Information..."
@@ -601,15 +600,15 @@ msgstr "Informace..."
 
 #: ../src/wxDFast.cpp:3011
 msgid "Maximum number of connections"
-msgstr "Maximální poèet pøipojení"
+msgstr "MaximÃ¡lnÃ­ poÄet pÅ™ipojenÃ­"
 
 #: ../src/wxDFast.cpp:3012
 msgid "Download bandwidth"
-msgstr "©íøka pásma pro stahování"
+msgstr "Å Ã­Å™ka pÃ¡sma pro stahovÃ¡nÃ­"
 
 #: ../src/wxDFast.cpp:3013
 msgid "Number of pieces"
-msgstr "Poèet dílkù"
+msgstr "PoÄet dÃ­lkÅ¯"
 
 #: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3296
 msgid "URL"
@@ -617,7 +616,7 @@ msgstr "URL"
 
 #: ../src/wxDFast.cpp:3016
 msgid "Downloaded is scheduled"
-msgstr "Stahování je naplánované"
+msgstr "StahovÃ¡nÃ­ je naplÃ¡novanÃ©"
 
 #: ../src/wxDFast.cpp:3287
 msgid "Restart"
@@ -625,7 +624,7 @@ msgstr "Restart"
 
 #: ../src/wxDFast.cpp:3288 ../src/wxDFast.cpp:3329
 msgid "Filename"
-msgstr "Jméno souboru"
+msgstr "JmÃ©no souboru"
 
 #: ../src/wxDFast.cpp:3294
 msgid "Speed"
@@ -645,67 +644,67 @@ msgstr "Pokusy:"
 
 #: ../src/OptionsDialog.cpp:58
 msgid "Time between the attempts in seconds:"
-msgstr "Èas mezi dvìmi pokusy v sekundách:"
+msgstr "ÄŒas mezi dvÄ›mi pokusy v sekundÃ¡ch:"
 
 #: ../src/OptionsDialog.cpp:64
 msgid "Number of simultaneous downloads:"
-msgstr "Poèet souèasnıch stahování:"
+msgstr "PoÄet souÄasnÃ½ch stahovÃ¡nÃ­:"
 
 #: ../src/OptionsDialog.cpp:70
 msgid "Remember the last settings on the New Download box"
-msgstr "Pamatovat si poslední nastavení pøi novém stahování"
+msgstr "Pamatovat si poslednÃ­ nastavenÃ­ pÅ™i novÃ©m stahovÃ¡nÃ­"
 
 #: ../src/OptionsDialog.cpp:74
 msgid "Shutdown when all downloads finish"
-msgstr "Ukonèit pøi dokonèení v¹ech stahování"
+msgstr "UkonÄit pÅ™i dokonÄenÃ­ vÅ¡ech stahovÃ¡nÃ­"
 
 #: ../src/OptionsDialog.cpp:78
 msgid "Disconnect when all downloads finish"
-msgstr "Odpojit pøi dokonèení v¹ech stahování"
+msgstr "Odpojit pÃ¸i dokonÃ¨enÃ­ vÂ¹ech stahovÃ¡nÃ­"
 
 #: ../src/OptionsDialog.cpp:82
 msgid "Show dialog box when program closes"
-msgstr "Zobrazit dialog pøi zavírání programu"
+msgstr "Zobrazit dialog pÃ¸i zavÃ­rÃ¡nÃ­ programu"
 
 #: ../src/OptionsDialog.cpp:86
 msgid "Refresh rate of the download list (millisecs):"
-msgstr "Rychlost obnovování seznamu stahování (msec):"
+msgstr "Rychlost obnovovÃ¡nÃ­ seznamu stahovÃ¡nÃ­ (msec):"
 
 #: ../src/OptionsDialog.cpp:92
 msgid "Restore the main window when all downloads finish"
-msgstr "Obnovit hlavní okno pøi dokonèení v¹ech stahování"
+msgstr "Obnovit hlavnÃ­ okno pÃ¸i dokonÃ¨enÃ­ vÂ¹ech stahovÃ¡nÃ­"
 
 #: ../src/OptionsDialog.cpp:96
 msgid "Hide the main window when you start a download"
-msgstr "Skrıt hlavní okno pøi startu stahování"
+msgstr "SkrÃ½t hlavnÃ­ okno pÃ¸i startu stahovÃ¡nÃ­"
 
 #: ../src/OptionsDialog.cpp:100
 msgid "Check for updates automatically"
-msgstr "Kontorolovat update automaticky"
+msgstr "Kontrolovat update automaticky"
 
 #: ../src/OptionsDialog.cpp:104
 msgid "Show notification on finish download"
-msgstr "Zobrazit upozornìní pøi dokonèení stahování"
+msgstr "Zobrazit upozornÄ›nÃ­ pÅ™i dokonÄenÃ­ stahovÃ¡nÃ­"
 
 #: ../src/OptionsDialog.cpp:107
 msgid "Preview"
-msgstr "Náhled"
+msgstr "NÃ¡hled"
 
 #: ../src/OptionsDialog.cpp:113
 msgid "General"
-msgstr "Obecné"
+msgstr "ObecnÃ©"
 
 #: ../src/OptionsDialog.cpp:119
 msgid "Default destination:"
-msgstr "Vıchozí umístìní:"
+msgstr "VÃ½chozÃ­ umÃ­stÄ›nÃ­:"
 
 #: ../src/OptionsDialog.cpp:140
 msgid "Shutdown command:"
-msgstr "Pøikaz k ukonèení:"
+msgstr "PÅ™Ã­kaz k ukonÄenÃ­:"
 
 #: ../src/OptionsDialog.cpp:145
 msgid "Disconnect command:"
-msgstr "Pøíkaz pro odpojení:"
+msgstr "PÅ™Ã­kaz pro odpojenÃ­:"
 
 #: ../src/OptionsDialog.cpp:153
 msgid "Paths"
@@ -713,7 +712,7 @@ msgstr "Cesty"
 
 #: ../src/OptionsDialog.cpp:159
 msgid "Use a Proxy Server"
-msgstr "Pou¾ívat proxy server"
+msgstr "PouÅ¾Ã­vat proxy server"
 
 #: ../src/OptionsDialog.cpp:163
 msgid "Proxy Server"
@@ -734,7 +733,7 @@ msgstr "Proxy server autorizace"
 #: ../src/OptionsDialog.cpp:184 ../src/BatchDialog.cpp:45
 #: ../src/NewDialog.cpp:64
 msgid "User:"
-msgstr "U¾ivatel:"
+msgstr "UÅ¾ivatel:"
 
 #: ../src/OptionsDialog.cpp:187 ../src/BatchDialog.cpp:49
 #: ../src/NewDialog.cpp:68
@@ -751,39 +750,39 @@ msgstr "Zobrazit graf"
 
 #: ../src/OptionsDialog.cpp:206
 msgid "Graph refresh rate (millisecs):"
-msgstr "Rychlost obnovování grafu (msec):"
+msgstr "Rychlost obnovovÃ¡nÃ­ grafu (msec):"
 
 #: ../src/OptionsDialog.cpp:212
 msgid "Graph maximum value:"
-msgstr "Maximální hodnota v grafu:"
+msgstr "MaximÃ¡lnÃ­ hodnota v grafu:"
 
 #: ../src/OptionsDialog.cpp:240
 msgid "The text area Width (pixels):"
-msgstr "©íøka textového pole (pixels)"
+msgstr "Å Ã­Å™ka textovÃ©ho pole (pixels)"
 
 #: ../src/OptionsDialog.cpp:246
 msgid "Graph height:"
-msgstr "Vı¹ka grafu:"
+msgstr "VÃ½Å¡ka grafu:"
 
 #: ../src/OptionsDialog.cpp:252
 msgid "Text font size (points):"
-msgstr "Velikost fontu:"
+msgstr "Velikost fontu (v bodech):"
 
 #: ../src/OptionsDialog.cpp:258
 msgid "Download line width:"
-msgstr "Barva èáry stahování:"
+msgstr "Barva ÄÃ¡ry stahovÃ¡nÃ­:"
 
 #: ../src/OptionsDialog.cpp:264
 msgid "Background colour:"
-msgstr "Barva pozadí:"
+msgstr "Barva pozadÃ­:"
 
 #: ../src/OptionsDialog.cpp:268
 msgid "Graph grid colour:"
-msgstr "Barva møí¾ky grafu:"
+msgstr "Barva mÅ™Ã­Å¾ky grafu:"
 
 #: ../src/OptionsDialog.cpp:272
 msgid "Download line colour:"
-msgstr "Barva èáry stahování:"
+msgstr "Barva ÄÃ¡ry stahovÃ¡nÃ­:"
 
 #: ../src/OptionsDialog.cpp:281
 msgid "Speed font colour:"
@@ -795,35 +794,35 @@ msgstr "Graf"
 
 #: ../src/OptionsDialog.cpp:294
 msgid "Finished piece colour:"
-msgstr "Barva sta¾eného dílku:"
+msgstr "Barva staÅ¾enÃ©ho dÃ­lku:"
 
 #: ../src/OptionsDialog.cpp:298
 msgid "Unfinished piece colour:"
-msgstr "Barva nesta¾eného dílku:"
+msgstr "Barva nestaÅ¾enÃ©ho dÃ­lku:"
 
 #: ../src/OptionsDialog.cpp:311
 msgid "Activate scheduling"
-msgstr "Aktivní plánování"
+msgstr "AktivnÃ­ plÃ¡novÃ¡nÃ­"
 
 #: ../src/OptionsDialog.cpp:315
 msgid "Start date:"
-msgstr "Datum spu¹tìní:"
+msgstr "Datum spuÅ¡tÄ›nÃ­:"
 
 #: ../src/OptionsDialog.cpp:316
 msgid "Start time:"
-msgstr "Èas spu¹tìní:"
+msgstr "Ãˆas spuÂ¹tÃ¬nÃ­:"
 
 #: ../src/OptionsDialog.cpp:323
 msgid "Finish date:"
-msgstr "Datum dokonèení:"
+msgstr "Datum dokonÃ¨enÃ­:"
 
 #: ../src/OptionsDialog.cpp:324
 msgid "Finish time:"
-msgstr "Èas dokonèení:"
+msgstr "Ãˆas dokonÃ¨enÃ­:"
 
 #: ../src/OptionsDialog.cpp:331
 msgid "Deactivate downloads on:"
-msgstr "Deaktivovat stahování v:"
+msgstr "Deaktivovat stahovÃ¡nÃ­ v:"
 
 #: ../src/OptionsDialog.cpp:344
 msgid "Between"
@@ -835,43 +834,43 @@ msgstr "a"
 
 #: ../src/OptionsDialog.cpp:351 ../src/NewDialog.cpp:48
 msgid "Add"
-msgstr "Pøidat"
+msgstr "PÅ™idat"
 
 #: ../src/OptionsDialog.cpp:371
 msgid "Scheduling"
-msgstr "Plánování"
+msgstr "PlÃ¡novÃ¡nÃ­"
 
 #: ../src/OptionsDialog.cpp:377
 msgid "Unlimited bandwidth"
-msgstr "Neomezená ¹íøka pásma"
+msgstr "NeomezenÃ¡ Å¡Ã­Å™ka pÃ¡sma"
 
 #: ../src/OptionsDialog.cpp:380
 msgid "Limit band width independently for each download"
-msgstr "©íøka pásma nezávislá pro ka¾dé stahování"
+msgstr "Å Ã­Å™ka pÃ¡sma nezÃ¡vislÃ¡ pro kaÅ¾dÃ© stahovÃ¡nÃ­"
 
 #: ../src/OptionsDialog.cpp:383
 msgid "Limit band width for the program (in KB/s):"
-msgstr "©íøka pásma pro program (KB/s):"
+msgstr "Å Ã­Å™ka pÃ¡sma pro program (KB/s):"
 
 #: ../src/OptionsDialog.cpp:405
 msgid "Bandwidth"
-msgstr "©íøka pásma"
+msgstr "Å Ã­Å™ka pÃ¡sma"
 
 #: ../src/OptionsDialog.cpp:411
 msgid "Please visit"
-msgstr "Nav¹tivte"
+msgstr "NavÅ¡tivte"
 
 #: ../src/OptionsDialog.cpp:413
 msgid "wxDownload Fast Web Extensions"
-msgstr "wxDownload Fast Webové roz¹íøení"
+msgstr "wxDownload Fast WebovÃ© rozÂ¹Ã­Ã¸enÃ­"
 
 #: ../src/OptionsDialog.cpp:418
 msgid "Browser Integration"
-msgstr "Integrace v prohlí¾eèi"
+msgstr "Integrace v prohlÃ­Â¾eÃ¨i"
 
 #: ../src/OptionsDialog.cpp:526
 msgid "Select the directory"
-msgstr "Vybrat adresáø"
+msgstr "Vybrat adresÃ¡Ã¸"
 
 #: ../src/OptionsDialog.cpp:536
 msgid "Choose a file"
@@ -879,19 +878,19 @@ msgstr "Vybrat soubor"
 
 #: ../src/OptionsDialog.cpp:604
 msgid "Remove some items before adding a new one."
-msgstr "Odeberte nìjakou polo¾ku pøed pøidáním nové."
+msgstr "Odeberte nÃ¬jakou poloÂ¾ku pÃ¸ed pÃ¸idÃ¡nÃ­m novÃ©."
 
 #: ../src/BatchDialog.cpp:24
 msgid "Add new downloads"
-msgstr "Pøidat nová stahování"
+msgstr "PÃ¸idat novÃ¡ stahovÃ¡nÃ­"
 
 #: ../src/BatchDialog.cpp:29 ../src/NewDialog.cpp:32
 msgid "Save to:"
-msgstr "Ulo¾it do:"
+msgstr "UloÂ¾it do:"
 
 #: ../src/BatchDialog.cpp:34 ../src/NewDialog.cpp:37
 msgid "Directory"
-msgstr "Adresáø"
+msgstr "AdresÃ¡Ã¸"
 
 #: ../src/BatchDialog.cpp:36 ../src/NewDialog.cpp:51
 msgid "Address List:"
@@ -899,58 +898,58 @@ msgstr "Seznam adres:"
 
 #: ../src/BatchDialog.cpp:39 ../src/NewDialog.cpp:54
 msgid "Only the selected addresses will be downloaded"
-msgstr "Jen vybrané adresy budou sta¾eny"
+msgstr "Jen vybranÃ© adresy budou staÂ¾eny"
 
 #: ../src/BatchDialog.cpp:43 ../src/NewDialog.cpp:62
 msgid "Server Permission"
-msgstr "Práva serveru"
+msgstr "PrÃ¡va serveru"
 
 #: ../src/BatchDialog.cpp:55 ../src/NewDialog.cpp:74
 msgid "Manual"
-msgstr "Ruènì"
+msgstr "RuÃ¨nÃ¬"
 
 #: ../src/BatchDialog.cpp:57 ../src/NewDialog.cpp:76
 msgid "Now"
-msgstr "Okam¾itì"
+msgstr "OkamÂ¾itÃ¬"
 
 #: ../src/BatchDialog.cpp:64 ../src/NewDialog.cpp:83
 msgid "Segmented download"
-msgstr "Rozdìlené stahování"
+msgstr "RozdÃ¬lenÃ© stahovÃ¡nÃ­"
 
 #: ../src/BatchDialog.cpp:66
 msgid ""
 "Split download into how many\n"
 "pieces?"
-msgstr "Do kolika dílù rozdìlit soubor?"
+msgstr "Do kolika dÃ­lÃ¹ rozdÃ¬lit soubor?"
 
 #: ../src/BatchDialog.cpp:80 ../src/NewDialog.cpp:99
 msgid "Download bandwidth (in KB/s)"
-msgstr "©íøka pásma (KB/s)"
+msgstr "Â©Ã­Ã¸ka pÃ¡sma (KB/s)"
 
 #: ../src/BatchDialog.cpp:83 ../src/NewDialog.cpp:102
 msgid ""
 "Set band width limit for this download.\n"
 "Set \"0\" to unlimited."
 msgstr ""
-"Nastavte ¹íøku pásma pou¾ívanou pro toto stahování.\n"
+"Nastavte Â¹Ã­Ã¸ku pÃ¡sma pouÂ¾Ã­vanou pro toto stahovÃ¡nÃ­.\n"
 "Nastavte \"0\" pro neomezenou."
 
 #: ../src/BatchDialog.cpp:92 ../src/NewDialog.cpp:111
 msgid "Execute the following command after download completes"
-msgstr "Spustit následující pøíkaz pøi dokonèení stahování"
+msgstr "Spustit nÃ¡sledujÃ­cÃ­ pÃ¸Ã­kaz pÃ¸i dokonÃ¨enÃ­ stahovÃ¡nÃ­"
 
 #: ../src/BatchDialog.cpp:296 ../src/NewDialog.cpp:365
 msgid "The URLs are empty"
-msgstr "Seznam URLs je prázdnı"
+msgstr "Seznam URLs je prÃ¡zdnÃ½"
 
 #: ../src/BatchDialog.cpp:296 ../src/BatchDialog.cpp:302
 #: ../src/NewDialog.cpp:365 ../src/NewDialog.cpp:371
 msgid "Warning..."
-msgstr "Varování..."
+msgstr "VarovÃ¡nÃ­..."
 
 #: ../src/BatchDialog.cpp:302 ../src/NewDialog.cpp:371
 msgid "The destination doesn't exist"
-msgstr "Cílovı adresáø neexistuje"
+msgstr "CÃ­lovÃ½ adresÃ¡Ã¸ neexistuje"
 
 #: ../src/NewDialog.cpp:40
 msgid "Address:"
@@ -963,24 +962,24 @@ msgid ""
 "Example: http://www.foo.com:80/foo.exe\n"
 "Example: ftp://ftp.foo.com:21/foo.exe"
 msgstr ""
-"URL ke sta¾ení\n"
-"Napø.:http://www.foo.com/foo.exe\n"
-"Napø.:http://www.foo.com:80/foo.exe\n"
-"Napø.: ftp://ftp.foo.com:21/foo.exe"
+"URL ke staÂ¾enÃ­\n"
+"NapÃ¸.:http://www.foo.com/foo.exe\n"
+"NapÃ¸.:http://www.foo.com:80/foo.exe\n"
+"NapÃ¸.: ftp://ftp.foo.com:21/foo.exe"
 
 #: ../src/NewDialog.cpp:59
 msgid "Add on top of download queue"
-msgstr "Pøidat na zaèátek fronty stahování"
+msgstr "PÃ¸idat na zaÃ¨Ã¡tek fronty stahovÃ¡nÃ­"
 
 #: ../src/NewDialog.cpp:85
 msgid ""
 "Split download into how many\n"
 "connections?"
-msgstr "Do kolika pøipojení rozdìlit stahování?"
+msgstr "Do kolika pÃ¸ipojenÃ­ rozdÃ¬lit stahovÃ¡nÃ­?"
 
 #: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
 msgid "The URL is invalid!"
-msgstr "URL je neplatná!"
+msgstr "URL je neplatnÃ¡!"
 
 #: ../src/NewDialog.cpp:421
 msgid "Edit the URL"
