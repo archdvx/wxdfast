@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: archdvx@dxsolutions.org\n"
-"POT-Creation-Date: 2021-08-15 14:26+0200\n"
+"POT-Creation-Date: 2021-08-17 16:46+0200\n"
 "PO-Revision-Date: 2009-10-03 16:18-0300\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgstr "הצג את החלון הראשי"
 msgid "New download"
 msgstr "הורדה חדשה"
 
-#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:2538 ../src/wxDFast.cpp:3012
+#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:2542 ../src/wxDFast.cpp:3016
 msgid "Unlimited"
 msgstr "ללא הגבלה"
 
@@ -49,18 +49,31 @@ msgstr "ללא הגבלה"
 msgid "Just for this session. To change definitely go to \"Options\""
 msgstr "רק עבור פעם זו. בכדי לשנות זאת באופן קבוע יש לגשת לתפריט \"אפשרויות\""
 
-#: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2534
+#: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2538
 msgid "Active"
 msgstr "פעיל"
 
-#: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2530
+#: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2534
 msgid "Per Download"
 msgstr "לכל הורדה"
 
-#: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2530 ../src/wxDFast.cpp:2534
-#: ../src/wxDFast.cpp:2538
+#: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2534 ../src/wxDFast.cpp:2538
+#: ../src/wxDFast.cpp:2542
 msgid "Band control"
 msgstr "בקרת פס"
+
+#: ../src/wxDFast.cpp:213 ../src/wxDFast.cpp:385
+msgid "Quit"
+msgstr ""
+
+#: ../src/wxDFast.cpp:359 ../src/wxDFast.cpp:447
+msgid "About"
+msgstr ""
+
+#: ../src/wxDFast.cpp:360 ../src/wxDFast.cpp:436
+#, fuzzy
+msgid "Preferences"
+msgstr "מראה מקום url"
 
 #: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
 msgid "New Download"
@@ -304,12 +317,12 @@ msgid "Name"
 msgstr "שם"
 
 #: ../src/wxDFast.cpp:746 ../src/wxDFast.cpp:1650 ../src/wxDFast.cpp:1673
-#: ../src/wxDFast.cpp:3009
+#: ../src/wxDFast.cpp:3013
 msgid "File type"
 msgstr "סוג קובץ"
 
 #: ../src/wxDFast.cpp:747 ../src/wxDFast.cpp:1651 ../src/wxDFast.cpp:1674
-#: ../src/wxDFast.cpp:3010 ../src/wxDFast.cpp:3289 ../src/wxDFast.cpp:3330
+#: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3293 ../src/wxDFast.cpp:3334
 msgid "Size"
 msgstr "גודל"
 
@@ -318,7 +331,7 @@ msgid "Time"
 msgstr "שעה"
 
 #: ../src/wxDFast.cpp:749 ../src/wxDFast.cpp:1653 ../src/wxDFast.cpp:1676
-#: ../src/wxDFast.cpp:3008
+#: ../src/wxDFast.cpp:3012
 msgid "Destination"
 msgstr "יעד"
 
@@ -326,7 +339,7 @@ msgstr "יעד"
 msgid "Started"
 msgstr "התחילה"
 
-#: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3331
+#: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3335
 msgid "Finished"
 msgstr "הסתיימה"
 
@@ -471,7 +484,7 @@ msgstr ""
 "\n"
 "MD5 נוכחי =t\\"
 
-#: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+#: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2438 ../src/wxDFast.cpp:2501
 msgid "File not found."
 msgstr "הקובץ לא נמצא."
 
@@ -498,7 +511,7 @@ msgid "Select the file..."
 msgstr "בחר את הקובץ..."
 
 #: ../src/wxDFast.cpp:1770 ../src/wxDFast.cpp:2052 ../src/wxDFast.cpp:2161
-#: ../src/wxDFast.cpp:2252 ../src/wxDFast.cpp:2800 ../src/wxDFast.cpp:2811
+#: ../src/wxDFast.cpp:2256 ../src/wxDFast.cpp:2804 ../src/wxDFast.cpp:2815
 #, fuzzy
 msgid "Download started"
 msgstr "אתר מהיר של wxDownload"
@@ -547,76 +560,76 @@ msgstr "הקובץ אומת בהצלחהn\\"
 msgid "Downloaded ended with error"
 msgstr ""
 
-#: ../src/wxDFast.cpp:2230
+#: ../src/wxDFast.cpp:2234
 #, fuzzy
 msgid "Download statistics"
 msgstr "אתר מהיר של wxDownload"
 
-#: ../src/wxDFast.cpp:2231 ../src/wxDFast.cpp:3290
+#: ../src/wxDFast.cpp:2235 ../src/wxDFast.cpp:3294
 msgid "Completed"
 msgstr "הושלמה"
 
-#: ../src/wxDFast.cpp:2232 ../src/wxDFast.cpp:3291
+#: ../src/wxDFast.cpp:2236 ../src/wxDFast.cpp:3295
 msgid "Percentage"
 msgstr "אחוז"
 
-#: ../src/wxDFast.cpp:2233 ../src/wxDFast.cpp:3292
+#: ../src/wxDFast.cpp:2237 ../src/wxDFast.cpp:3296
 msgid "Time Passed"
 msgstr "הזמן שחלף"
 
-#: ../src/wxDFast.cpp:2234 ../src/wxDFast.cpp:3293
+#: ../src/wxDFast.cpp:2238 ../src/wxDFast.cpp:3297
 msgid "Remaining"
 msgstr "הזמן שנותר"
 
-#: ../src/wxDFast.cpp:2260 ../src/wxDFast.cpp:2828
+#: ../src/wxDFast.cpp:2264 ../src/wxDFast.cpp:2832
 #, fuzzy
 msgid "Download paused"
 msgstr "אתר מהיר של wxDownload"
 
-#: ../src/wxDFast.cpp:2331
+#: ../src/wxDFast.cpp:2335
 msgid "Error: couldn't accept a new connection"
 msgstr ""
 
-#: ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+#: ../src/wxDFast.cpp:2438 ../src/wxDFast.cpp:2501
 msgid "Information..."
 msgstr "מידע..."
 
-#: ../src/wxDFast.cpp:3011
+#: ../src/wxDFast.cpp:3015
 msgid "Maximum number of connections"
 msgstr ""
 
-#: ../src/wxDFast.cpp:3012
+#: ../src/wxDFast.cpp:3016
 #, fuzzy
 msgid "Download bandwidth"
 msgstr "רוחב פס להורדה (ב-kB\\s)"
 
-#: ../src/wxDFast.cpp:3013
+#: ../src/wxDFast.cpp:3017
 #, fuzzy
 msgid "Number of pieces"
 msgstr "מספר הניסיונות"
 
-#: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3296
+#: ../src/wxDFast.cpp:3018 ../src/wxDFast.cpp:3300
 msgid "URL"
 msgstr "URL"
 
-#: ../src/wxDFast.cpp:3016
+#: ../src/wxDFast.cpp:3020
 #, fuzzy
 msgid "Downloaded is scheduled"
 msgstr "סמן את ההורדה שנבחרה כמתוזמנת"
 
-#: ../src/wxDFast.cpp:3287
+#: ../src/wxDFast.cpp:3291
 msgid "Restart"
 msgstr "הפעל מחדש"
 
-#: ../src/wxDFast.cpp:3288 ../src/wxDFast.cpp:3329
+#: ../src/wxDFast.cpp:3292 ../src/wxDFast.cpp:3333
 msgid "Filename"
 msgstr "שם קובץ"
 
-#: ../src/wxDFast.cpp:3294
+#: ../src/wxDFast.cpp:3298
 msgid "Speed"
 msgstr "מהירות"
 
-#: ../src/wxDFast.cpp:3295
+#: ../src/wxDFast.cpp:3299
 msgid "Attempts"
 msgstr "ניסיונות"
 

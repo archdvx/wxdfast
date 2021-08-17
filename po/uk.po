@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: archdvx@dxsolutions.org\n"
-"POT-Creation-Date: 2021-08-15 14:26+0200\n"
+"POT-Creation-Date: 2021-08-17 16:46+0200\n"
 "PO-Revision-Date: 2009-10-03 16:20-0300\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,7 +43,7 @@ msgstr "Показати головне вікно"
 msgid "New download"
 msgstr "Нове завантаження"
 
-#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:2538 ../src/wxDFast.cpp:3012
+#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:2542 ../src/wxDFast.cpp:3016
 msgid "Unlimited"
 msgstr "Не обмежено"
 
@@ -52,20 +52,33 @@ msgid "Just for this session. To change definitely go to \"Options\""
 msgstr ""
 "Тільки для цієї сесії. Аби змінити загалом, перейдіть до \"Налаштувань\""
 
-#: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2534
+#: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2538
 msgid "Active"
 msgstr "Активне"
 
-#: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2530
+#: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2534
 msgid "Per Download"
 msgstr "На завантаження"
 
 # It would be great to know where and for what this phrase is used
-#: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2530 ../src/wxDFast.cpp:2534
-#: ../src/wxDFast.cpp:2538
+#: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2534 ../src/wxDFast.cpp:2538
+#: ../src/wxDFast.cpp:2542
 #, fuzzy
 msgid "Band control"
 msgstr "Контроль каналу"
+
+#: ../src/wxDFast.cpp:213 ../src/wxDFast.cpp:385
+msgid "Quit"
+msgstr ""
+
+#: ../src/wxDFast.cpp:359 ../src/wxDFast.cpp:447
+msgid "About"
+msgstr ""
+
+#: ../src/wxDFast.cpp:360 ../src/wxDFast.cpp:436
+#, fuzzy
+msgid "Preferences"
+msgstr "Довідкова адреса URL"
 
 #: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
 msgid "New Download"
@@ -308,12 +321,12 @@ msgid "Name"
 msgstr "Ім'я"
 
 #: ../src/wxDFast.cpp:746 ../src/wxDFast.cpp:1650 ../src/wxDFast.cpp:1673
-#: ../src/wxDFast.cpp:3009
+#: ../src/wxDFast.cpp:3013
 msgid "File type"
 msgstr "Тип файла"
 
 #: ../src/wxDFast.cpp:747 ../src/wxDFast.cpp:1651 ../src/wxDFast.cpp:1674
-#: ../src/wxDFast.cpp:3010 ../src/wxDFast.cpp:3289 ../src/wxDFast.cpp:3330
+#: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3293 ../src/wxDFast.cpp:3334
 msgid "Size"
 msgstr "Розмір"
 
@@ -322,7 +335,7 @@ msgid "Time"
 msgstr "Час"
 
 #: ../src/wxDFast.cpp:749 ../src/wxDFast.cpp:1653 ../src/wxDFast.cpp:1676
-#: ../src/wxDFast.cpp:3008
+#: ../src/wxDFast.cpp:3012
 msgid "Destination"
 msgstr "Призначення"
 
@@ -330,7 +343,7 @@ msgstr "Призначення"
 msgid "Started"
 msgstr "Почато"
 
-#: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3331
+#: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3335
 msgid "Finished"
 msgstr "Завершено"
 
@@ -482,7 +495,7 @@ msgstr ""
 "\n"
 "Поточний MD5 =\t"
 
-#: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+#: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2438 ../src/wxDFast.cpp:2501
 msgid "File not found."
 msgstr "Файл не знайдено."
 
@@ -509,7 +522,7 @@ msgid "Select the file..."
 msgstr "Оберіть файл..."
 
 #: ../src/wxDFast.cpp:1770 ../src/wxDFast.cpp:2052 ../src/wxDFast.cpp:2161
-#: ../src/wxDFast.cpp:2252 ../src/wxDFast.cpp:2800 ../src/wxDFast.cpp:2811
+#: ../src/wxDFast.cpp:2256 ../src/wxDFast.cpp:2804 ../src/wxDFast.cpp:2815
 #, fuzzy
 msgid "Download started"
 msgstr "Сайт wxDownload Fast"
@@ -559,76 +572,76 @@ msgstr "Файл перевірено вдало\n"
 msgid "Downloaded ended with error"
 msgstr ""
 
-#: ../src/wxDFast.cpp:2230
+#: ../src/wxDFast.cpp:2234
 #, fuzzy
 msgid "Download statistics"
 msgstr "Сайт wxDownload Fast"
 
-#: ../src/wxDFast.cpp:2231 ../src/wxDFast.cpp:3290
+#: ../src/wxDFast.cpp:2235 ../src/wxDFast.cpp:3294
 msgid "Completed"
 msgstr "Завершено"
 
-#: ../src/wxDFast.cpp:2232 ../src/wxDFast.cpp:3291
+#: ../src/wxDFast.cpp:2236 ../src/wxDFast.cpp:3295
 msgid "Percentage"
 msgstr "Відсоток"
 
-#: ../src/wxDFast.cpp:2233 ../src/wxDFast.cpp:3292
+#: ../src/wxDFast.cpp:2237 ../src/wxDFast.cpp:3296
 msgid "Time Passed"
 msgstr "Пройшло часу"
 
-#: ../src/wxDFast.cpp:2234 ../src/wxDFast.cpp:3293
+#: ../src/wxDFast.cpp:2238 ../src/wxDFast.cpp:3297
 msgid "Remaining"
 msgstr "Залишається"
 
-#: ../src/wxDFast.cpp:2260 ../src/wxDFast.cpp:2828
+#: ../src/wxDFast.cpp:2264 ../src/wxDFast.cpp:2832
 #, fuzzy
 msgid "Download paused"
 msgstr "Сайт wxDownload Fast"
 
-#: ../src/wxDFast.cpp:2331
+#: ../src/wxDFast.cpp:2335
 msgid "Error: couldn't accept a new connection"
 msgstr ""
 
-#: ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+#: ../src/wxDFast.cpp:2438 ../src/wxDFast.cpp:2501
 msgid "Information..."
 msgstr "Інформація..."
 
-#: ../src/wxDFast.cpp:3011
+#: ../src/wxDFast.cpp:3015
 msgid "Maximum number of connections"
 msgstr ""
 
-#: ../src/wxDFast.cpp:3012
+#: ../src/wxDFast.cpp:3016
 #, fuzzy
 msgid "Download bandwidth"
 msgstr "Ширина каналу завантаження (в kB/s)"
 
-#: ../src/wxDFast.cpp:3013
+#: ../src/wxDFast.cpp:3017
 #, fuzzy
 msgid "Number of pieces"
 msgstr "Кількість спроб"
 
-#: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3296
+#: ../src/wxDFast.cpp:3018 ../src/wxDFast.cpp:3300
 msgid "URL"
 msgstr "URL"
 
-#: ../src/wxDFast.cpp:3016
+#: ../src/wxDFast.cpp:3020
 #, fuzzy
 msgid "Downloaded is scheduled"
 msgstr "Позначити обране завантаження як заплановане"
 
-#: ../src/wxDFast.cpp:3287
+#: ../src/wxDFast.cpp:3291
 msgid "Restart"
 msgstr "Почати спочатку"
 
-#: ../src/wxDFast.cpp:3288 ../src/wxDFast.cpp:3329
+#: ../src/wxDFast.cpp:3292 ../src/wxDFast.cpp:3333
 msgid "Filename"
 msgstr "Ім'я файла"
 
-#: ../src/wxDFast.cpp:3294
+#: ../src/wxDFast.cpp:3298
 msgid "Speed"
 msgstr "Швидкість"
 
-#: ../src/wxDFast.cpp:3295
+#: ../src/wxDFast.cpp:3299
 msgid "Attempts"
 msgstr "Спроби"
 

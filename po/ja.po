@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wxDFast\n"
 "Report-Msgid-Bugs-To: archdvx@dxsolutions.org\n"
-"POT-Creation-Date: 2021-08-15 14:26+0200\n"
+"POT-Creation-Date: 2021-08-17 16:46+0200\n"
 "PO-Revision-Date: 2007-03-12 18:21+0900\n"
 "Last-Translator: Tilt <tiltstr@gmail.com>\n"
 "Language-Team: Tilt <tiltstr@gmail.com>\n"
@@ -51,7 +51,7 @@ msgstr "メインウィンドウを表示"
 msgid "New download"
 msgstr "新規ダウンロード"
 
-#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:2538 ../src/wxDFast.cpp:3012
+#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:2542 ../src/wxDFast.cpp:3016
 msgid "Unlimited"
 msgstr "無制限"
 
@@ -60,18 +60,31 @@ msgid "Just for this session. To change definitely go to \"Options\""
 msgstr ""
 "このセッションの為に定義を変更する場合は、\"オプション\"から変更して下さい"
 
-#: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2534
+#: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2538
 msgid "Active"
 msgstr "アクティブ"
 
-#: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2530
+#: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2534
 msgid "Per Download"
 msgstr "ダウンロード毎"
 
-#: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2530 ../src/wxDFast.cpp:2534
-#: ../src/wxDFast.cpp:2538
+#: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2534 ../src/wxDFast.cpp:2538
+#: ../src/wxDFast.cpp:2542
 msgid "Band control"
 msgstr "帯域コントロール"
+
+#: ../src/wxDFast.cpp:213 ../src/wxDFast.cpp:385
+msgid "Quit"
+msgstr ""
+
+#: ../src/wxDFast.cpp:359 ../src/wxDFast.cpp:447
+msgid "About"
+msgstr ""
+
+#: ../src/wxDFast.cpp:360 ../src/wxDFast.cpp:436
+#, fuzzy
+msgid "Preferences"
+msgstr "参照アドレス"
 
 #: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
 msgid "New Download"
@@ -314,12 +327,12 @@ msgid "Name"
 msgstr "名前"
 
 #: ../src/wxDFast.cpp:746 ../src/wxDFast.cpp:1650 ../src/wxDFast.cpp:1673
-#: ../src/wxDFast.cpp:3009
+#: ../src/wxDFast.cpp:3013
 msgid "File type"
 msgstr "ファイルの種類"
 
 #: ../src/wxDFast.cpp:747 ../src/wxDFast.cpp:1651 ../src/wxDFast.cpp:1674
-#: ../src/wxDFast.cpp:3010 ../src/wxDFast.cpp:3289 ../src/wxDFast.cpp:3330
+#: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3293 ../src/wxDFast.cpp:3334
 msgid "Size"
 msgstr "サイズ"
 
@@ -328,7 +341,7 @@ msgid "Time"
 msgstr "時間"
 
 #: ../src/wxDFast.cpp:749 ../src/wxDFast.cpp:1653 ../src/wxDFast.cpp:1676
-#: ../src/wxDFast.cpp:3008
+#: ../src/wxDFast.cpp:3012
 msgid "Destination"
 msgstr "保存先"
 
@@ -336,7 +349,7 @@ msgstr "保存先"
 msgid "Started"
 msgstr "開始"
 
-#: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3331
+#: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3335
 msgid "Finished"
 msgstr "完了日時"
 
@@ -483,7 +496,7 @@ msgstr ""
 "\n"
 "現在の MD5 =\t"
 
-#: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+#: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2438 ../src/wxDFast.cpp:2501
 msgid "File not found."
 msgstr "ファイルがみつかりません"
 
@@ -510,7 +523,7 @@ msgid "Select the file..."
 msgstr "ファイルを選択..."
 
 #: ../src/wxDFast.cpp:1770 ../src/wxDFast.cpp:2052 ../src/wxDFast.cpp:2161
-#: ../src/wxDFast.cpp:2252 ../src/wxDFast.cpp:2800 ../src/wxDFast.cpp:2811
+#: ../src/wxDFast.cpp:2256 ../src/wxDFast.cpp:2804 ../src/wxDFast.cpp:2815
 #, fuzzy
 msgid "Download started"
 msgstr "wxDownload Fast のサイト"
@@ -559,76 +572,76 @@ msgstr "ファイルのベリファイに成功しました\n"
 msgid "Downloaded ended with error"
 msgstr ""
 
-#: ../src/wxDFast.cpp:2230
+#: ../src/wxDFast.cpp:2234
 #, fuzzy
 msgid "Download statistics"
 msgstr "wxDownload Fast のサイト"
 
-#: ../src/wxDFast.cpp:2231 ../src/wxDFast.cpp:3290
+#: ../src/wxDFast.cpp:2235 ../src/wxDFast.cpp:3294
 msgid "Completed"
 msgstr "完了済"
 
-#: ../src/wxDFast.cpp:2232 ../src/wxDFast.cpp:3291
+#: ../src/wxDFast.cpp:2236 ../src/wxDFast.cpp:3295
 msgid "Percentage"
 msgstr "パーセント"
 
-#: ../src/wxDFast.cpp:2233 ../src/wxDFast.cpp:3292
+#: ../src/wxDFast.cpp:2237 ../src/wxDFast.cpp:3296
 msgid "Time Passed"
 msgstr "経過時間"
 
-#: ../src/wxDFast.cpp:2234 ../src/wxDFast.cpp:3293
+#: ../src/wxDFast.cpp:2238 ../src/wxDFast.cpp:3297
 msgid "Remaining"
 msgstr "残り"
 
-#: ../src/wxDFast.cpp:2260 ../src/wxDFast.cpp:2828
+#: ../src/wxDFast.cpp:2264 ../src/wxDFast.cpp:2832
 #, fuzzy
 msgid "Download paused"
 msgstr "wxDownload Fast のサイト"
 
-#: ../src/wxDFast.cpp:2331
+#: ../src/wxDFast.cpp:2335
 msgid "Error: couldn't accept a new connection"
 msgstr ""
 
-#: ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+#: ../src/wxDFast.cpp:2438 ../src/wxDFast.cpp:2501
 msgid "Information..."
 msgstr "インフォメーション..."
 
-#: ../src/wxDFast.cpp:3011
+#: ../src/wxDFast.cpp:3015
 msgid "Maximum number of connections"
 msgstr ""
 
-#: ../src/wxDFast.cpp:3012
+#: ../src/wxDFast.cpp:3016
 #, fuzzy
 msgid "Download bandwidth"
 msgstr "ダウンロードの帯域幅 (Kb/s)"
 
-#: ../src/wxDFast.cpp:3013
+#: ../src/wxDFast.cpp:3017
 #, fuzzy
 msgid "Number of pieces"
 msgstr "リトライ回数"
 
-#: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3296
+#: ../src/wxDFast.cpp:3018 ../src/wxDFast.cpp:3300
 msgid "URL"
 msgstr "URL"
 
-#: ../src/wxDFast.cpp:3016
+#: ../src/wxDFast.cpp:3020
 #, fuzzy
 msgid "Downloaded is scheduled"
 msgstr "選択されたダウンロードをスケジュールとしてマーク"
 
-#: ../src/wxDFast.cpp:3287
+#: ../src/wxDFast.cpp:3291
 msgid "Restart"
 msgstr "リジューム"
 
-#: ../src/wxDFast.cpp:3288 ../src/wxDFast.cpp:3329
+#: ../src/wxDFast.cpp:3292 ../src/wxDFast.cpp:3333
 msgid "Filename"
 msgstr "ファイル名"
 
-#: ../src/wxDFast.cpp:3294
+#: ../src/wxDFast.cpp:3298
 msgid "Speed"
 msgstr "速度"
 
-#: ../src/wxDFast.cpp:3295
+#: ../src/wxDFast.cpp:3299
 msgid "Attempts"
 msgstr "リトライ"
 

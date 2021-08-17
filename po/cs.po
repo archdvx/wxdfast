@@ -2,28 +2,31 @@
 # Copyright (C) YEAR David Vachulka
 # This file is distributed under the same license as the wxdfast package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # David Vachulka <archdvx@dxsolutions.org>, 2021
-# 
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: wxdfast 0.7.0\n"
 "Report-Msgid-Bugs-To: archdvx@dxsolutions.org\n"
-"POT-Creation-Date: 2021-08-15 14:26+0200\n"
-"PO-Revision-Date: 2021-08-15 11:32+0000\n"
-"Last-Translator: David Vachulka <archdvx@dxsolutions.org>, 2021\n"
-"Language-Team: Czech (https://www.transifex.com/wxdownload-fast/teams/123746/cs/)\n"
+"POT-Creation-Date: 2021-08-17 16:46+0200\n"
+"PO-Revision-Date: 2021-08-17 16:47+0200\n"
+"Last-Translator: David Vachulka <archdvx@dxsolutions.org>\n"
+"Language-Team: Czech (https://www.transifex.com/wxdownload-fast/teams/123746/"
+"cs/)\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../src/wxDFast.cpp:49
 msgid ""
-"Usage: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] [URL of the file(s) to be downloaded...]\n"
+"Usage: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] "
+"[URL of the file(s) to be downloaded...]\n"
 "  -h, --help                   Print (this) help screen and exit\n"
 "  -v, --version                Print version information and exit\n"
 "  -i, --hide                   Start with the the main frame hide\n"
@@ -31,7 +34,8 @@ msgid ""
 "  -c, --comments=<str>         Add comments to download\n"
 "  -r, --reference=<str>        Set a reference URL"
 msgstr ""
-"Použití: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] [URL souboru ke stažení...]\n"
+"Použití: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] "
+"[URL souboru ke stažení...]\n"
 "  -h, --help                   Zobrazí (tuto) obrazovku a skončí\n"
 "  -v, --version                Zobrazí verzi a skončí\n"
 "  -i, --hide                   Spustí se skrytým hlavním oknem\n"
@@ -55,28 +59,40 @@ msgstr "Zobrazit hlavní okno"
 msgid "New download"
 msgstr "Nové stahování"
 
-#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:2538 ../src/wxDFast.cpp:3012
+#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:2542 ../src/wxDFast.cpp:3016
 msgid "Unlimited"
 msgstr "Neomezená šířka pásma"
 
 #: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
 msgid "Just for this session. To change definitely go to \"Options\""
 msgstr ""
-"Jen pro toto spuštění. Pro trvalou změnu nastavte v položce menu "
-"\"Předvolby\""
+"Jen pro toto spuštění. Pro trvalou změnu nastavte v položce menu \"Předvolby"
+"\""
 
-#: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2534
+#: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2538
 msgid "Active"
 msgstr "Aktivní"
 
-#: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2530
+#: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2534
 msgid "Per Download"
 msgstr "Podle stahování"
 
-#: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2530 ../src/wxDFast.cpp:2534
-#: ../src/wxDFast.cpp:2538
+#: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2534 ../src/wxDFast.cpp:2538
+#: ../src/wxDFast.cpp:2542
 msgid "Band control"
 msgstr "Ovládání šířky pásma"
+
+#: ../src/wxDFast.cpp:213 ../src/wxDFast.cpp:385
+msgid "Quit"
+msgstr "Ukončit"
+
+#: ../src/wxDFast.cpp:359 ../src/wxDFast.cpp:447
+msgid "About"
+msgstr "O aplikaci"
+
+#: ../src/wxDFast.cpp:360 ../src/wxDFast.cpp:436
+msgid "Preferences"
+msgstr "Předvolby"
 
 #: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
 msgid "New Download"
@@ -318,12 +334,12 @@ msgid "Name"
 msgstr "Jméno"
 
 #: ../src/wxDFast.cpp:746 ../src/wxDFast.cpp:1650 ../src/wxDFast.cpp:1673
-#: ../src/wxDFast.cpp:3009
+#: ../src/wxDFast.cpp:3013
 msgid "File type"
 msgstr "Typ souboru"
 
 #: ../src/wxDFast.cpp:747 ../src/wxDFast.cpp:1651 ../src/wxDFast.cpp:1674
-#: ../src/wxDFast.cpp:3010 ../src/wxDFast.cpp:3289 ../src/wxDFast.cpp:3330
+#: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3293 ../src/wxDFast.cpp:3334
 msgid "Size"
 msgstr "Velikost"
 
@@ -332,7 +348,7 @@ msgid "Time"
 msgstr "Čas stahování"
 
 #: ../src/wxDFast.cpp:749 ../src/wxDFast.cpp:1653 ../src/wxDFast.cpp:1676
-#: ../src/wxDFast.cpp:3008
+#: ../src/wxDFast.cpp:3012
 msgid "Destination"
 msgstr "Umístění"
 
@@ -340,7 +356,7 @@ msgstr "Umístění"
 msgid "Started"
 msgstr "Spuštěno"
 
-#: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3331
+#: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3335
 msgid "Finished"
 msgstr "Dokončeno"
 
@@ -384,15 +400,20 @@ msgstr "Zavřít..."
 
 #: ../src/wxDFast.cpp:1062
 msgid ""
-"This program is free software; you can redistribute it and/or modify it under the terms of\n"
-"the GNU General Public License as published by the Free Software Foundation;\n"
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of\n"
+"the GNU General Public License as published by the Free Software "
+"Foundation;\n"
 "either version 2 of the License, or (at your option) any later version.\n"
 "\n"
-"This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;\n"
-"without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY;\n"
+"without even the implied warranty of MERCHANTABILITY or FITNESS FOR A "
+"PARTICULAR PURPOSE.\n"
 "See the GNU General Public License for more details.\n"
 "\n"
-"You should have received a copy of the GNU General Public License along with this program;\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program;\n"
 "if not, write to the Free Software Foundation, Inc., 51 Franklin Street,\n"
 "Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr ""
@@ -492,7 +513,7 @@ msgstr ""
 "\n"
 "Aktuální MD5 =\t"
 
-#: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+#: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2438 ../src/wxDFast.cpp:2501
 msgid "File not found."
 msgstr "Soubor nenalezen."
 
@@ -519,7 +540,7 @@ msgid "Select the file..."
 msgstr "Vybrat soubor..."
 
 #: ../src/wxDFast.cpp:1770 ../src/wxDFast.cpp:2052 ../src/wxDFast.cpp:2161
-#: ../src/wxDFast.cpp:2252 ../src/wxDFast.cpp:2800 ../src/wxDFast.cpp:2811
+#: ../src/wxDFast.cpp:2256 ../src/wxDFast.cpp:2804 ../src/wxDFast.cpp:2815
 msgid "Download started"
 msgstr "Stahování spuštěno"
 
@@ -566,71 +587,71 @@ msgstr "Úspěšně staženo"
 msgid "Downloaded ended with error"
 msgstr "Stahování dokončeno s chybou"
 
-#: ../src/wxDFast.cpp:2230
+#: ../src/wxDFast.cpp:2234
 msgid "Download statistics"
 msgstr "Statistika stahování"
 
-#: ../src/wxDFast.cpp:2231 ../src/wxDFast.cpp:3290
+#: ../src/wxDFast.cpp:2235 ../src/wxDFast.cpp:3294
 msgid "Completed"
 msgstr "Dokončené"
 
-#: ../src/wxDFast.cpp:2232 ../src/wxDFast.cpp:3291
+#: ../src/wxDFast.cpp:2236 ../src/wxDFast.cpp:3295
 msgid "Percentage"
 msgstr "Procentuálně"
 
-#: ../src/wxDFast.cpp:2233 ../src/wxDFast.cpp:3292
+#: ../src/wxDFast.cpp:2237 ../src/wxDFast.cpp:3296
 msgid "Time Passed"
 msgstr "Uplynulý čas"
 
-#: ../src/wxDFast.cpp:2234 ../src/wxDFast.cpp:3293
+#: ../src/wxDFast.cpp:2238 ../src/wxDFast.cpp:3297
 msgid "Remaining"
 msgstr "Zbývající"
 
-#: ../src/wxDFast.cpp:2260 ../src/wxDFast.cpp:2828
+#: ../src/wxDFast.cpp:2264 ../src/wxDFast.cpp:2832
 msgid "Download paused"
 msgstr "Stahování přerušeno"
 
-#: ../src/wxDFast.cpp:2331
+#: ../src/wxDFast.cpp:2335
 msgid "Error: couldn't accept a new connection"
 msgstr "Chyba: nemohu přijmout nové připojení"
 
-#: ../src/wxDFast.cpp:2434 ../src/wxDFast.cpp:2497
+#: ../src/wxDFast.cpp:2438 ../src/wxDFast.cpp:2501
 msgid "Information..."
 msgstr "Informace..."
 
-#: ../src/wxDFast.cpp:3011
+#: ../src/wxDFast.cpp:3015
 msgid "Maximum number of connections"
 msgstr "Maximální počet připojení"
 
-#: ../src/wxDFast.cpp:3012
+#: ../src/wxDFast.cpp:3016
 msgid "Download bandwidth"
 msgstr "Šířka pásma pro stahování"
 
-#: ../src/wxDFast.cpp:3013
+#: ../src/wxDFast.cpp:3017
 msgid "Number of pieces"
 msgstr "Počet dílků"
 
-#: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3296
+#: ../src/wxDFast.cpp:3018 ../src/wxDFast.cpp:3300
 msgid "URL"
 msgstr "URL"
 
-#: ../src/wxDFast.cpp:3016
+#: ../src/wxDFast.cpp:3020
 msgid "Downloaded is scheduled"
 msgstr "Stahování je naplánované"
 
-#: ../src/wxDFast.cpp:3287
+#: ../src/wxDFast.cpp:3291
 msgid "Restart"
 msgstr "Restart"
 
-#: ../src/wxDFast.cpp:3288 ../src/wxDFast.cpp:3329
+#: ../src/wxDFast.cpp:3292 ../src/wxDFast.cpp:3333
 msgid "Filename"
 msgstr "Jméno souboru"
 
-#: ../src/wxDFast.cpp:3294
+#: ../src/wxDFast.cpp:3298
 msgid "Speed"
 msgstr "Rychlost"
 
-#: ../src/wxDFast.cpp:3295
+#: ../src/wxDFast.cpp:3299
 msgid "Attempts"
 msgstr "Pokusy"
 
