@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wxDownload Fast\n"
 "Report-Msgid-Bugs-To: archdvx@dxsolutions.org\n"
-"POT-Creation-Date: 2021-08-17 16:46+0200\n"
+"POT-Creation-Date: 2021-08-18 08:43+0200\n"
 "PO-Revision-Date: 2007-03-24 17:22-0300\n"
 "Last-Translator: Max Velasques <maxvelasques@mail.com>\n"
 "Language-Team: <>\n"
@@ -53,7 +53,8 @@ msgid "Unlimited"
 msgstr "Tak Terbatas"
 
 #: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
-msgid "Just for this session. To change definitely go to \"Options\""
+#, fuzzy
+msgid "Just for this session. To change definitely go to \"Preferences\""
 msgstr "Hanya untuk sesi ini. Untuk mengganti seterusnya, atur di \"Pilihan\""
 
 #: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2538

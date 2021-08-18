@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wxDFast\n"
 "Report-Msgid-Bugs-To: archdvx@dxsolutions.org\n"
-"POT-Creation-Date: 2021-08-17 16:46+0200\n"
+"POT-Creation-Date: 2021-08-18 08:43+0200\n"
 "PO-Revision-Date: 2021-08-07 20:40+0200\n"
 "Last-Translator: Tequila <tequila_13@users.sourceforge.net>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -54,7 +54,8 @@ msgid "Unlimited"
 msgstr "Korlátlan"
 
 #: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
-msgid "Just for this session. To change definitely go to \"Options\""
+#, fuzzy
+msgid "Just for this session. To change definitely go to \"Preferences\""
 msgstr ""
 "Csak erre a munkamenetre. Az általános beállításokat a \"Beállítások\" "
 "menüpontban módosíthatja."

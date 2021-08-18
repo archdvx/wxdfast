@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wxdfast 0.70.0\n"
 "Report-Msgid-Bugs-To: archdvx@dxsolutions.org\n"
-"POT-Creation-Date: 2021-08-17 16:46+0200\n"
+"POT-Creation-Date: 2021-08-18 08:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgid "Unlimited"
 msgstr ""
 
 #: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
-msgid "Just for this session. To change definitely go to \"Options\""
+msgid "Just for this session. To change definitely go to \"Preferences\""
 msgstr ""
 
 #: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2538
