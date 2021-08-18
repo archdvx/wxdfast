@@ -46,9 +46,8 @@ msgid "Unlimited"
 msgstr "Óavmarkað"
 
 #: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
-#, fuzzy
 msgid "Just for this session. To change definitely go to \"Preferences\""
-msgstr "Bara fyri hesa setu. Fyri at broyta endaliga, far til \"møguleikar\""
+msgstr "Bara fyri hesa setu. Fyri at broyta endaliga, far til \"Møguleikar\""
 
 #: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2538
 msgid "Active"
@@ -72,9 +71,8 @@ msgid "About"
 msgstr ""
 
 #: ../src/wxDFast.cpp:360 ../src/wxDFast.cpp:436
-#, fuzzy
 msgid "Preferences"
-msgstr "Tilvísingar URL"
+msgstr "Møguleikar"
 
 #: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
 msgid "New Download"

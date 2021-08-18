@@ -10,7 +10,7 @@ msgstr ""
 "Language-Team: Marcin Trybus <mtrybus@o2.pl>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Original-Translator: Marcin Trybus <mtrybus@o2.pl>\n"
 "X-Poedit-Country: POLAND\n"
@@ -37,11 +37,11 @@ msgstr "Strona wxDownload Fast"
 
 #: ../src/wxDFast.cpp:196
 msgid "Hide the main window"
-msgstr "Ukryj g≥Ûwne okno"
+msgstr "Ukryj g≈Ç√≥wne okno"
 
 #: ../src/wxDFast.cpp:198
 msgid "Show the main window"
-msgstr "Pokaø g≥Ûwne okno"
+msgstr "Poka≈º g≈Ç√≥wne okno"
 
 #: ../src/wxDFast.cpp:200
 msgid "New download"
@@ -52,9 +52,8 @@ msgid "Unlimited"
 msgstr "Bez limitu"
 
 #: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
-#, fuzzy
 msgid "Just for this session. To change definitely go to \"Preferences\""
-msgstr "Na czas trwania sesji. Trwa≥e zmiany w menu \"Opcje\""
+msgstr "Na czas trwania sesji. Trwa≈Çe zmiany w menu \"Opcje\""
 
 #: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2538
 msgid "Active"
@@ -62,12 +61,12 @@ msgstr "Aktywny"
 
 #: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2534
 msgid "Per Download"
-msgstr "Na kaøde pobieranie"
+msgstr "Na ka≈ºde pobieranie"
 
 #: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2534 ../src/wxDFast.cpp:2538
 #: ../src/wxDFast.cpp:2542
 msgid "Band control"
-msgstr "Limit prÍdko∂ci"
+msgstr "Limit prƒôdko≈õci"
 
 #: ../src/wxDFast.cpp:213 ../src/wxDFast.cpp:385
 msgid "Quit"
@@ -78,9 +77,8 @@ msgid "About"
 msgstr ""
 
 #: ../src/wxDFast.cpp:360 ../src/wxDFast.cpp:436
-#, fuzzy
 msgid "Preferences"
-msgstr "Adres odsy≥aj±cy (referrer)"
+msgstr "Opcje"
 
 #: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
 msgid "New Download"
@@ -88,7 +86,7 @@ msgstr "Dodaj nowe pobieranie"
 
 #: ../src/wxDFast.cpp:365 ../src/wxDFast.cpp:1878 ../src/wxDFast.cpp:1956
 msgid "Remove Download"
-msgstr "UsuÒ z listy"
+msgstr "Usu≈Ñ z listy"
 
 #: ../src/wxDFast.cpp:369 ../src/wxDFast.cpp:1885
 msgid "Schedule Download"
@@ -117,11 +115,11 @@ msgstr "&Plik"
 
 #: ../src/wxDFast.cpp:388
 msgid "Paste URL"
-msgstr "Wklej adres odno∂nika"
+msgstr "Wklej adres odno≈õnika"
 
 #: ../src/wxDFast.cpp:391 ../src/wxDFast.cpp:1908 ../src/wxDFast.cpp:1960
 msgid "Copy URL"
-msgstr "Kopiuj adres odno∂nika"
+msgstr "Kopiuj adres odno≈õnika"
 
 #: ../src/wxDFast.cpp:394 ../src/wxDFast.cpp:1911 ../src/wxDFast.cpp:1963
 msgid "Copy Download Data"
@@ -130,11 +128,11 @@ msgstr "Kopiuj dane o pobraniu"
 #: ../src/wxDFast.cpp:398
 #, fuzzy
 msgid "Remove All"
-msgstr "UsuÒ"
+msgstr "Usu≈Ñ"
 
 #: ../src/wxDFast.cpp:401
 msgid "Find Download"
-msgstr "Znajdº pobranie"
+msgstr "Znajd≈∫ pobranie"
 
 #: ../src/wxDFast.cpp:404 ../src/NewDialog.cpp:56
 msgid "&Edit"
@@ -142,11 +140,11 @@ msgstr "&Edycja"
 
 #: ../src/wxDFast.cpp:406
 msgid "Show/Hide Graph"
-msgstr "Pokaø/ukryj wykres"
+msgstr "Poka≈º/ukryj wykres"
 
 #: ../src/wxDFast.cpp:409
 msgid "Show/Hide Details"
-msgstr "Pokaø/ukryj szczegÛ≥y"
+msgstr "Poka≈º/ukryj szczeg√≥≈Çy"
 
 #: ../src/wxDFast.cpp:412
 msgid "&View"
@@ -154,19 +152,19 @@ msgstr "&Widok"
 
 #: ../src/wxDFast.cpp:414 ../src/wxDFast.cpp:1333 ../src/wxDFast.cpp:1904
 msgid "Download Properties"
-msgstr "W≥a∂ciwo∂ci pobierania"
+msgstr "W≈Ça≈õciwo≈õci pobierania"
 
 #: ../src/wxDFast.cpp:417 ../src/wxDFast.cpp:1967
 msgid "Move File"
-msgstr "Przenie∂ plik"
+msgstr "Przenie≈õ plik"
 
 #: ../src/wxDFast.cpp:420 ../src/wxDFast.cpp:1969
 msgid "Check Integrity"
-msgstr "Sprawdº spÛjno∂Ê"
+msgstr "Sprawd≈∫ sp√≥jno≈õƒá"
 
 #: ../src/wxDFast.cpp:422 ../src/wxDFast.cpp:1970
 msgid "Open Destination Directory"
-msgstr "OtwÛrz katalog docelowy"
+msgstr "Otw√≥rz katalog docelowy"
 
 #: ../src/wxDFast.cpp:424 ../src/wxDFast.cpp:1971
 msgid "Download File Again"
@@ -182,7 +180,7 @@ msgstr "Importuj ustawienia"
 
 #: ../src/wxDFast.cpp:432
 msgid "Shutdown when finished"
-msgstr "Zamknij system po zakoÒczeniu"
+msgstr "Zamknij system po zako≈Ñczeniu"
 
 #: ../src/wxDFast.cpp:432 ../src/wxDFast.cpp:433
 msgid "This option is only valid in this session of the program"
@@ -190,11 +188,11 @@ msgstr "Ta opcja jest aktywna tylko podczas tej sesji programu"
 
 #: ../src/wxDFast.cpp:433
 msgid "Disconnect when finished"
-msgstr "Roz≥±cz po zakoÒczeniu"
+msgstr "Roz≈ÇƒÖcz po zako≈Ñczeniu"
 
 #: ../src/wxDFast.cpp:438
 msgid "&Tools"
-msgstr "&NarzÍdzia"
+msgstr "&Narzƒôdzia"
 
 #: ../src/wxDFast.cpp:440
 msgid "wxDownload Fast Site"
@@ -202,7 +200,7 @@ msgstr "Strona wxDownload Fast"
 
 #: ../src/wxDFast.cpp:443
 msgid "Report Bugs..."
-msgstr "Zg≥o∂ b≥±d..."
+msgstr "Zg≈Ço≈õ b≈ÇƒÖd..."
 
 #: ../src/wxDFast.cpp:444
 msgid "Donate..."
@@ -222,19 +220,19 @@ msgstr "Dodaj nowe pobieranie"
 
 #: ../src/wxDFast.cpp:466 ../src/OptionsDialog.cpp:364
 msgid "Remove"
-msgstr "UsuÒ"
+msgstr "Usu≈Ñ"
 
 #: ../src/wxDFast.cpp:466
 msgid "Remove the selected download"
-msgstr "UsuÒ wybrane pobieranie"
+msgstr "Usu≈Ñ wybrane pobieranie"
 
 #: ../src/wxDFast.cpp:468 ../src/BatchDialog.cpp:60 ../src/NewDialog.cpp:79
 msgid "Schedule"
-msgstr "Wed≥ug planu"
+msgstr "Wed≈Çug planu"
 
 #: ../src/wxDFast.cpp:468
 msgid "Mark the selected download as scheduled"
-msgstr "Zaznacz wybrane pobieranie do wykonania wed≥ug planu"
+msgstr "Zaznacz wybrane pobieranie do wykonania wed≈Çug planu"
 
 #: ../src/wxDFast.cpp:469
 msgid "Start"
@@ -262,27 +260,27 @@ msgstr "Zatrzymaj wszystkie"
 
 #: ../src/wxDFast.cpp:474
 msgid "Up"
-msgstr "W gÛrÍ"
+msgstr "W g√≥rƒô"
 
 #: ../src/wxDFast.cpp:474
 msgid "Push download higher up the queue"
-msgstr "Przenie∂ pobieranie o jedno miejsce w gÛrÍ"
+msgstr "Przenie≈õ pobieranie o jedno miejsce w g√≥rƒô"
 
 #: ../src/wxDFast.cpp:475
 msgid "Down"
-msgstr "W dÛ≥"
+msgstr "W d√≥≈Ç"
 
 #: ../src/wxDFast.cpp:475
 msgid "Push download lower down the queue"
-msgstr "Przenie∂ pobieranie o jedno miejsce w dÛ≥"
+msgstr "Przenie≈õ pobieranie o jedno miejsce w d√≥≈Ç"
 
 #: ../src/wxDFast.cpp:477
 msgid "Properties"
-msgstr "W≥a∂ciwo∂ci"
+msgstr "W≈Ça≈õciwo≈õci"
 
 #: ../src/wxDFast.cpp:477
 msgid "Show the properties of the selected download"
-msgstr "Pokaø w≥a∂ciwo∂ci wybranego pobierania"
+msgstr "Poka≈º w≈Ça≈õciwo≈õci wybranego pobierania"
 
 #: ../src/wxDFast.cpp:503 ../src/OptionsDialog.cpp:305
 msgid "Progress"
@@ -339,15 +337,15 @@ msgstr "Czas"
 #: ../src/wxDFast.cpp:749 ../src/wxDFast.cpp:1653 ../src/wxDFast.cpp:1676
 #: ../src/wxDFast.cpp:3012
 msgid "Destination"
-msgstr "Po≥oøenie"
+msgstr "Po≈Ço≈ºenie"
 
 #: ../src/wxDFast.cpp:750
 msgid "Started"
-msgstr "RozpoczÍto"
+msgstr "Rozpoczƒôto"
 
 #: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3335
 msgid "Finished"
-msgstr "UkoÒczono"
+msgstr "Uko≈Ñczono"
 
 #: ../src/wxDFast.cpp:752 ../src/wxDFast.cpp:1677
 msgid "MD5"
@@ -356,7 +354,7 @@ msgstr "MD5"
 #: ../src/wxDFast.cpp:753 ../src/wxDFast.cpp:1654 ../src/wxDFast.cpp:1678
 #: ../src/BatchDialog.cpp:87 ../src/NewDialog.cpp:106
 msgid "Reference URL"
-msgstr "Adres odsy≥aj±cy (referrer)"
+msgstr "Adres odsy≈ÇajƒÖcy (referrer)"
 
 #: ../src/wxDFast.cpp:754 ../src/wxDFast.cpp:1655 ../src/wxDFast.cpp:1679
 #: ../src/BatchDialog.cpp:72 ../src/NewDialog.cpp:91
@@ -365,15 +363,15 @@ msgstr "Komentarz"
 
 #: ../src/wxDFast.cpp:755 ../src/wxDFast.cpp:1656 ../src/wxDFast.cpp:1680
 msgid "URLs"
-msgstr "Adresy odno∂nikÛw"
+msgstr "Adresy odno≈õnik√≥w"
 
 #: ../src/wxDFast.cpp:801
 msgid "Total Speed:"
-msgstr "Ca≥kowita prÍdko∂Ê:"
+msgstr "Ca≈Çkowita prƒôdko≈õƒá:"
 
 #: ../src/wxDFast.cpp:805
 msgid "Total Complete:"
-msgstr "£±cznie pobrano:"
+msgstr "≈ÅƒÖcznie pobrano:"
 
 #: ../src/wxDFast.cpp:809
 msgid "Downloads in progress:"
@@ -381,11 +379,11 @@ msgstr "Pobierania w toku:"
 
 #: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
 msgid "Do you want to close the program?"
-msgstr "ZakoÒczyÊ pracÍ programu?"
+msgstr "Zako≈Ñczyƒá pracƒô programu?"
 
 #: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
 msgid "Close..."
-msgstr "ZakoÒcz"
+msgstr "Zako≈Ñcz"
 
 #: ../src/wxDFast.cpp:1062
 msgid ""
@@ -409,15 +407,15 @@ msgstr ""
 
 #: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
 msgid "Do you also want to remove downloaded file(s) from the disk?"
-msgstr "Czy chcesz rÛwnieø usun±Ê z dysku pobrane pliki?"
+msgstr "Czy chcesz r√≥wnie≈º usunƒÖƒá z dysku pobrane pliki?"
 
 #: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
 msgid "Remove..."
-msgstr "UsuÒ"
+msgstr "Usu≈Ñ"
 
 #: ../src/wxDFast.cpp:1478
 msgid "Find file..."
-msgstr "Znajdº plik"
+msgstr "Znajd≈∫ plik"
 
 #: ../src/wxDFast.cpp:1510 ../src/wxDFast.cpp:1693 ../src/BatchDialog.cpp:317
 #: ../src/NewDialog.cpp:386
@@ -434,22 +432,22 @@ msgstr "Przenoszenie pliku..."
 
 #: ../src/wxDFast.cpp:1531
 msgid "Error moving file."
-msgstr "B≥±d podczas przenoszenia!"
+msgstr "B≈ÇƒÖd podczas przenoszenia!"
 
 #: ../src/wxDFast.cpp:1531 ../src/wxDFast.cpp:1573 ../src/wxDFast.cpp:1578
 #: ../src/wxDFast.cpp:1588 ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635
 #: ../src/wxDFast.cpp:1662 ../src/wxDFast.cpp:1686 ../src/wxDFast.cpp:1699
 #: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
 msgid "Error..."
-msgstr "B≥±d"
+msgstr "B≈ÇƒÖd"
 
 #: ../src/wxDFast.cpp:1537
 msgid ""
 "The file isn't in the path that it was saved initially.\n"
 "Do you want to change only the old path for the current one?"
 msgstr ""
-"Plik nie znajduje siÍ w katalogu w ktÛrym by≥ zapisywany.\n"
-"Czy chcesz zmieniÊ ∂cieøkÍ do pliku na aktualn±?"
+"Plik nie znajduje siƒô w katalogu w kt√≥rym by≈Ç zapisywany.\n"
+"Czy chcesz zmieniƒá ≈õcie≈ºkƒô do pliku na aktualnƒÖ?"
 
 #: ../src/wxDFast.cpp:1537
 #, fuzzy
@@ -466,7 +464,7 @@ msgstr "Sprawdzanie sumy MD5..."
 
 #: ../src/wxDFast.cpp:1565
 msgid "The file was verified successfully."
-msgstr "Plik zosta≥ poprawnie zweryfikowany."
+msgstr "Plik zosta≈Ç poprawnie zweryfikowany."
 
 #: ../src/wxDFast.cpp:1565 ../src/wxDFast.cpp:1697
 msgid "Success..."
@@ -474,7 +472,7 @@ msgstr "Wykonano..."
 
 #: ../src/wxDFast.cpp:1570
 msgid "The MD5 calculated previously is different from the current one."
-msgstr "Suma kontrolna MD5 obliczona wcze∂niej rÛøni siÍ od obecnej!"
+msgstr "Suma kontrolna MD5 obliczona wcze≈õniej r√≥≈ºni siƒô od obecnej!"
 
 #: ../src/wxDFast.cpp:1571
 msgid ""
@@ -504,15 +502,15 @@ msgstr ""
 #: ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635 ../src/wxDFast.cpp:1662
 #: ../src/wxDFast.cpp:1686
 msgid "Unable to open the clipboard!"
-msgstr "Brak dostÍpu do schowka!"
+msgstr "Brak dostƒôpu do schowka!"
 
 #: ../src/wxDFast.cpp:1697
 msgid "The configuration was exported successfully."
-msgstr "Eksport ustawieÒ zakoÒczony."
+msgstr "Eksport ustawie≈Ñ zako≈Ñczony."
 
 #: ../src/wxDFast.cpp:1699
 msgid "Error exporting configuration."
-msgstr "B≥±d eksportu ustawieÒ."
+msgstr "B≈ÇƒÖd eksportu ustawie≈Ñ."
 
 #: ../src/wxDFast.cpp:1705
 msgid "Select the file..."
@@ -530,11 +528,11 @@ msgstr "Polecenie:\t"
 
 #: ../src/wxDFast.cpp:1785
 msgid "Shutdown Command..."
-msgstr "Polecenie wy≥±czenia komputera..."
+msgstr "Polecenie wy≈ÇƒÖczenia komputera..."
 
 #: ../src/wxDFast.cpp:1798
 msgid "Disconnect Command..."
-msgstr "Polecenie roz≥±czenia..."
+msgstr "Polecenie roz≈ÇƒÖczenia..."
 
 #: ../src/wxDFast.cpp:2036
 #, fuzzy
@@ -552,7 +550,7 @@ msgid ""
 "wxDownload Fast %s is available.\n"
 "Visit https://wxdfast.dxsolutions.org for more informations."
 msgstr ""
-"Odwiedº stronÍ http://dfast.sourceforge.net by uzyskaÊ wiÍcej informacji."
+"Odwied≈∫ stronƒô http://dfast.sourceforge.net by uzyskaƒá wiƒôcej informacji."
 
 #: ../src/wxDFast.cpp:2190
 #, fuzzy
@@ -588,7 +586,7 @@ msgstr "Czas pobierania"
 
 #: ../src/wxDFast.cpp:2238 ../src/wxDFast.cpp:3297
 msgid "Remaining"
-msgstr "Pozosta≥o"
+msgstr "Pozosta≈Ço"
 
 #: ../src/wxDFast.cpp:2264 ../src/wxDFast.cpp:2832
 #, fuzzy
@@ -610,21 +608,21 @@ msgstr ""
 #: ../src/wxDFast.cpp:3016
 #, fuzzy
 msgid "Download bandwidth"
-msgstr "Limit prÍdko∂ci (w kB/s)"
+msgstr "Limit prƒôdko≈õci (w kB/s)"
 
 #: ../src/wxDFast.cpp:3017
 #, fuzzy
 msgid "Number of pieces"
-msgstr "Ilo∂Ê prÛb"
+msgstr "Ilo≈õƒá pr√≥b"
 
 #: ../src/wxDFast.cpp:3018 ../src/wxDFast.cpp:3300
 msgid "URL"
-msgstr "Adres odno∂nika"
+msgstr "Adres odno≈õnika"
 
 #: ../src/wxDFast.cpp:3020
 #, fuzzy
 msgid "Downloaded is scheduled"
-msgstr "Zaznacz wybrane pobieranie do wykonania wed≥ug planu"
+msgstr "Zaznacz wybrane pobieranie do wykonania wed≈Çug planu"
 
 #: ../src/wxDFast.cpp:3291
 msgid "Restart"
@@ -636,11 +634,11 @@ msgstr "Nazwa pliku"
 
 #: ../src/wxDFast.cpp:3298
 msgid "Speed"
-msgstr "Szybko∂Ê"
+msgstr "Szybko≈õƒá"
 
 #: ../src/wxDFast.cpp:3299
 msgid "Attempts"
-msgstr "Ilo∂Ê prÛb"
+msgstr "Ilo≈õƒá pr√≥b"
 
 #: ../src/OptionsDialog.cpp:35
 msgid "Options"
@@ -648,39 +646,39 @@ msgstr "Opcje"
 
 #: ../src/OptionsDialog.cpp:52
 msgid "Attempts:"
-msgstr "Ilo∂Ê prÛb"
+msgstr "Ilo≈õƒá pr√≥b"
 
 #: ../src/OptionsDialog.cpp:58
 msgid "Time between the attempts in seconds:"
-msgstr "Czas miÍdzy prÛbami w sekundach:"
+msgstr "Czas miƒôdzy pr√≥bami w sekundach:"
 
 #: ../src/OptionsDialog.cpp:64
 msgid "Number of simultaneous downloads:"
-msgstr "Ilo∂Ê jednoczesnych pobieraÒ:"
+msgstr "Ilo≈õƒá jednoczesnych pobiera≈Ñ:"
 
 #: ../src/OptionsDialog.cpp:70
 msgid "Remember the last settings on the New Download box"
-msgstr "PamiÍtaj ustawienia w oknie nowego pobierania"
+msgstr "Pamiƒôtaj ustawienia w oknie nowego pobierania"
 
 #: ../src/OptionsDialog.cpp:74
 msgid "Shutdown when all downloads finish"
-msgstr "Zawsze wy≥±czaj komputer po zakoÒczeniu pobierania"
+msgstr "Zawsze wy≈ÇƒÖczaj komputer po zako≈Ñczeniu pobierania"
 
 #: ../src/OptionsDialog.cpp:78
 msgid "Disconnect when all downloads finish"
-msgstr "Zawsze roz≥±czaj po zakoÒczeniu pobierania"
+msgstr "Zawsze roz≈ÇƒÖczaj po zako≈Ñczeniu pobierania"
 
 #: ../src/OptionsDialog.cpp:82
 msgid "Show dialog box when program closes"
-msgstr "Pokaø okno dialogowe podczas wy≥±czania programu"
+msgstr "Poka≈º okno dialogowe podczas wy≈ÇƒÖczania programu"
 
 #: ../src/OptionsDialog.cpp:86
 msgid "Refresh rate of the download list (millisecs):"
-msgstr "Okres od∂wieøania listy pobieraÒ (ms):"
+msgstr "Okres od≈õwie≈ºania listy pobiera≈Ñ (ms):"
 
 #: ../src/OptionsDialog.cpp:92
 msgid "Restore the main window when all downloads finish"
-msgstr "PrzywrÛÊ okno programu po zakoÒczeniu pobierania"
+msgstr "Przywr√≥ƒá okno programu po zako≈Ñczeniu pobierania"
 
 #: ../src/OptionsDialog.cpp:96
 msgid "Hide the main window when you start a download"
@@ -688,7 +686,7 @@ msgstr "Ukryj okno programu przy rozpoczynaniu pobierania"
 
 #: ../src/OptionsDialog.cpp:100
 msgid "Check for updates automatically"
-msgstr "Automatycznie sprawdzaj dostÍpno∂Ê aktualizacji"
+msgstr "Automatycznie sprawdzaj dostƒôpno≈õƒá aktualizacji"
 
 #: ../src/OptionsDialog.cpp:104
 msgid "Show notification on finish download"
@@ -696,27 +694,27 @@ msgstr ""
 
 #: ../src/OptionsDialog.cpp:107
 msgid "Preview"
-msgstr "Podgl±d"
+msgstr "PodglƒÖd"
 
 #: ../src/OptionsDialog.cpp:113
 msgid "General"
-msgstr "OgÛlne"
+msgstr "Og√≥lne"
 
 #: ../src/OptionsDialog.cpp:119
 msgid "Default destination:"
-msgstr "Domy∂lny katalog dla pobieraÒ:"
+msgstr "Domy≈õlny katalog dla pobiera≈Ñ:"
 
 #: ../src/OptionsDialog.cpp:140
 msgid "Shutdown command:"
-msgstr "Polecenie wy≥±czenia komputera:"
+msgstr "Polecenie wy≈ÇƒÖczenia komputera:"
 
 #: ../src/OptionsDialog.cpp:145
 msgid "Disconnect command:"
-msgstr "Polecenie roz≥±czenia:"
+msgstr "Polecenie roz≈ÇƒÖczenia:"
 
 #: ../src/OptionsDialog.cpp:153
 msgid "Paths"
-msgstr "¶cieøki"
+msgstr "≈öcie≈ºki"
 
 #: ../src/OptionsDialog.cpp:159
 msgid "Use a Proxy Server"
@@ -741,12 +739,12 @@ msgstr ""
 #: ../src/OptionsDialog.cpp:184 ../src/BatchDialog.cpp:45
 #: ../src/NewDialog.cpp:64
 msgid "User:"
-msgstr "Nazwa uøytkownika:"
+msgstr "Nazwa u≈ºytkownika:"
 
 #: ../src/OptionsDialog.cpp:187 ../src/BatchDialog.cpp:49
 #: ../src/NewDialog.cpp:68
 msgid "Password:"
-msgstr "Has≥o:"
+msgstr "Has≈Ço:"
 
 #: ../src/OptionsDialog.cpp:196
 msgid "Proxy"
@@ -754,37 +752,37 @@ msgstr ""
 
 #: ../src/OptionsDialog.cpp:202
 msgid "Show Graph"
-msgstr "Pokaø wykres"
+msgstr "Poka≈º wykres"
 
 #: ../src/OptionsDialog.cpp:206
 msgid "Graph refresh rate (millisecs):"
-msgstr "Okres od∂wieøania wykresu (ms)"
+msgstr "Okres od≈õwie≈ºania wykresu (ms)"
 
 #: ../src/OptionsDialog.cpp:212
 #, fuzzy
 msgid "Graph maximum value:"
-msgstr "Maksymalna warto∂Ê na wykresie (kB/s)"
+msgstr "Maksymalna warto≈õƒá na wykresie (kB/s)"
 
 #: ../src/OptionsDialog.cpp:240
 msgid "The text area Width (pixels):"
-msgstr "Szeroko∂Ê pola wskaºnika prÍdko∂ci (pikseli)"
+msgstr "Szeroko≈õƒá pola wska≈∫nika prƒôdko≈õci (pikseli)"
 
 #: ../src/OptionsDialog.cpp:246
 msgid "Graph height:"
-msgstr "Wysoko∂Ê wykresu (pikseli)"
+msgstr "Wysoko≈õƒá wykresu (pikseli)"
 
 #: ../src/OptionsDialog.cpp:252
 msgid "Text font size (points):"
-msgstr "Wielko∂Ê czcionki wskaºnika prÍdko∂ci (punktÛw)"
+msgstr "Wielko≈õƒá czcionki wska≈∫nika prƒôdko≈õci (punkt√≥w)"
 
 #: ../src/OptionsDialog.cpp:258
 #, fuzzy
 msgid "Download line width:"
-msgstr "Grubo∂Ê linii"
+msgstr "Grubo≈õƒá linii"
 
 #: ../src/OptionsDialog.cpp:264
 msgid "Background colour:"
-msgstr "Kolor t≥a wykresu"
+msgstr "Kolor t≈Ça wykresu"
 
 #: ../src/OptionsDialog.cpp:268
 msgid "Graph grid colour:"
@@ -797,7 +795,7 @@ msgstr "Kolor linii"
 
 #: ../src/OptionsDialog.cpp:281
 msgid "Speed font colour:"
-msgstr "Kolor czcionki wskaºnika prÍdko∂ci"
+msgstr "Kolor czcionki wska≈∫nika prƒôdko≈õci"
 
 #: ../src/OptionsDialog.cpp:288
 msgid "Graph"
@@ -806,7 +804,7 @@ msgstr "Wykres"
 #: ../src/OptionsDialog.cpp:294
 #, fuzzy
 msgid "Finished piece colour:"
-msgstr "CzÍ∂Ê ukoÒczona\n"
+msgstr "Czƒô≈õƒá uko≈Ñczona\n"
 
 #: ../src/OptionsDialog.cpp:298
 #, fuzzy
@@ -820,30 +818,30 @@ msgstr "Aktywuj plan pobierania"
 #: ../src/OptionsDialog.cpp:315
 #, fuzzy
 msgid "Start date:"
-msgstr "Data rozpoczÍcia:"
+msgstr "Data rozpoczƒôcia:"
 
 #: ../src/OptionsDialog.cpp:316
 #, fuzzy
 msgid "Start time:"
-msgstr "Godzina rozpoczÍcia:"
+msgstr "Godzina rozpoczƒôcia:"
 
 #: ../src/OptionsDialog.cpp:323
 #, fuzzy
 msgid "Finish date:"
-msgstr "Data zakoÒczenia:"
+msgstr "Data zako≈Ñczenia:"
 
 #: ../src/OptionsDialog.cpp:324
 #, fuzzy
 msgid "Finish time:"
-msgstr "Godzina zakoÒczenia:"
+msgstr "Godzina zako≈Ñczenia:"
 
 #: ../src/OptionsDialog.cpp:331
 msgid "Deactivate downloads on:"
-msgstr "Nie ∂ci±gaj w:"
+msgstr "Nie ≈õciƒÖgaj w:"
 
 #: ../src/OptionsDialog.cpp:344
 msgid "Between"
-msgstr "MiÍdzy "
+msgstr "Miƒôdzy "
 
 #: ../src/OptionsDialog.cpp:347
 msgid "and"
@@ -859,20 +857,20 @@ msgstr "Planowanie pobierania"
 
 #: ../src/OptionsDialog.cpp:377
 msgid "Unlimited bandwidth"
-msgstr "Bez limitu prÍdko∂ci"
+msgstr "Bez limitu prƒôdko≈õci"
 
 #: ../src/OptionsDialog.cpp:380
 msgid "Limit band width independently for each download"
-msgstr "Limit prÍdko∂ci oddzielny dla kaødego pliku"
+msgstr "Limit prƒôdko≈õci oddzielny dla ka≈ºdego pliku"
 
 #: ../src/OptionsDialog.cpp:383
 #, fuzzy
 msgid "Limit band width for the program (in KB/s):"
-msgstr "Limit prÍdko∂ci dla programu (kB/s):"
+msgstr "Limit prƒôdko≈õci dla programu (kB/s):"
 
 #: ../src/OptionsDialog.cpp:405
 msgid "Bandwidth"
-msgstr "Po≥±czenie"
+msgstr "Po≈ÇƒÖczenie"
 
 #: ../src/OptionsDialog.cpp:411
 msgid "Please visit"
@@ -885,7 +883,7 @@ msgstr "Strona wxDownload Fast"
 
 #: ../src/OptionsDialog.cpp:418
 msgid "Browser Integration"
-msgstr "Integracja z przegl±dark±"
+msgstr "Integracja z przeglƒÖdarkƒÖ"
 
 #: ../src/OptionsDialog.cpp:526
 #, fuzzy
@@ -899,7 +897,7 @@ msgstr "Wybierz plik..."
 
 #: ../src/OptionsDialog.cpp:604
 msgid "Remove some items before adding a new one."
-msgstr "UsuÒ jaki∂ element by dodaÊ kolejny."
+msgstr "Usu≈Ñ jaki≈õ element by dodaƒá kolejny."
 
 #: ../src/BatchDialog.cpp:24
 #, fuzzy
@@ -912,15 +910,15 @@ msgstr "Zapisz do:"
 
 #: ../src/BatchDialog.cpp:34 ../src/NewDialog.cpp:37
 msgid "Directory"
-msgstr "Przegl±daj"
+msgstr "PrzeglƒÖdaj"
 
 #: ../src/BatchDialog.cpp:36 ../src/NewDialog.cpp:51
 msgid "Address List:"
-msgstr "Lista adresÛw:"
+msgstr "Lista adres√≥w:"
 
 #: ../src/BatchDialog.cpp:39 ../src/NewDialog.cpp:54
 msgid "Only the selected addresses will be downloaded"
-msgstr "Tylko zaznaczone adresy bÍd± pobrane"
+msgstr "Tylko zaznaczone adresy bƒôdƒÖ pobrane"
 
 #: ../src/BatchDialog.cpp:43 ../src/NewDialog.cpp:62
 msgid "Server Permission"
@@ -928,7 +926,7 @@ msgstr "Ustawienia serwera"
 
 #: ../src/BatchDialog.cpp:55 ../src/NewDialog.cpp:74
 msgid "Manual"
-msgstr "RÍcznie"
+msgstr "Rƒôcznie"
 
 #: ../src/BatchDialog.cpp:57 ../src/NewDialog.cpp:76
 msgid "Now"
@@ -936,30 +934,30 @@ msgstr "Teraz"
 
 #: ../src/BatchDialog.cpp:64 ../src/NewDialog.cpp:83
 msgid "Segmented download"
-msgstr "Pobieranie wielu czÍ∂ci"
+msgstr "Pobieranie wielu czƒô≈õci"
 
 #: ../src/BatchDialog.cpp:66
 msgid ""
 "Split download into how many\n"
 "pieces?"
-msgstr "Na ile czÍ∂ci podzieliÊ plik?"
+msgstr "Na ile czƒô≈õci podzieliƒá plik?"
 
 #: ../src/BatchDialog.cpp:80 ../src/NewDialog.cpp:99
 #, fuzzy
 msgid "Download bandwidth (in KB/s)"
-msgstr "Limit prÍdko∂ci (w kB/s)"
+msgstr "Limit prƒôdko≈õci (w kB/s)"
 
 #: ../src/BatchDialog.cpp:83 ../src/NewDialog.cpp:102
 msgid ""
 "Set band width limit for this download.\n"
 "Set \"0\" to unlimited."
 msgstr ""
-"Ustaw maksymaln± szybko∂Ê pobierania plikÛw dla tego pobierania.\n"
-"Ustaw \"0\" by wy≥±czyÊ limit prÍdko∂ci."
+"Ustaw maksymalnƒÖ szybko≈õƒá pobierania plik√≥w dla tego pobierania.\n"
+"Ustaw \"0\" by wy≈ÇƒÖczyƒá limit prƒôdko≈õci."
 
 #: ../src/BatchDialog.cpp:92 ../src/NewDialog.cpp:111
 msgid "Execute the following command after download completes"
-msgstr "Wykonaj to polecenie po zakoÒczeniu pobierania"
+msgstr "Wykonaj to polecenie po zako≈Ñczeniu pobierania"
 
 #: ../src/BatchDialog.cpp:296 ../src/NewDialog.cpp:365
 msgid "The URLs are empty"
@@ -974,7 +972,7 @@ msgstr "Przenoszenie..."
 #: ../src/BatchDialog.cpp:302 ../src/NewDialog.cpp:371
 #, fuzzy
 msgid "The destination doesn't exist"
-msgstr "Uøyj katalogu docelowego"
+msgstr "U≈ºyj katalogu docelowego"
 
 #: ../src/NewDialog.cpp:40
 msgid "Address:"
@@ -987,7 +985,7 @@ msgid ""
 "Example: http://www.foo.com:80/foo.exe\n"
 "Example: ftp://ftp.foo.com:21/foo.exe"
 msgstr ""
-"Adres odno∂nika do pobrania, na przyk≥ad:\n"
+"Adres odno≈õnika do pobrania, na przyk≈Çad:\n"
 "   http://www.witryna.pl/abc.exe\n"
 "   http://www.witryna.pl:80/abc.exe\n"
 "   ftp://ftp.serwer.pl:21/abc.exe"
@@ -1002,12 +1000,12 @@ msgstr "Dodaj nowe pobieranie"
 msgid ""
 "Split download into how many\n"
 "connections?"
-msgstr "Na ile czÍ∂ci podzieliÊ plik?"
+msgstr "Na ile czƒô≈õci podzieliƒá plik?"
 
 #: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
 msgid "The URL is invalid!"
-msgstr "Nieprawid≥owy adres odno∂nika!"
+msgstr "Nieprawid≈Çowy adres odno≈õnika!"
 
 #: ../src/NewDialog.cpp:421
 msgid "Edit the URL"
-msgstr "Edycja adresu odno∂nika"
+msgstr "Edycja adresu odno≈õnika"

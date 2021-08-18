@@ -8,14 +8,8 @@ msgstr ""
 "Language-Team: Stefan Westermann <raskolnikow83@gmx.de>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Country: GERMANY\n"
-"X-Poedit-SourceCharset: iso-8859-1\n"
-"X-Poedit-Basepath: /home/max/Projetos/wxDFast/src\n"
-"X-Poedit-SearchPath-0: /home/max/Projetos/wxDFast/src\n"
-"X-Poedit-SearchPath-1: /home/max/Projetos/wxDFast/src/wxMD5\n"
-"X-Poedit-SearchPath-2: /home/max/Projetos/wxDFast/resources\n"
 
 #: ../src/wxDFast.cpp:49
 msgid ""
@@ -115,7 +109,7 @@ msgstr "&Datei"
 
 #: ../src/wxDFast.cpp:388
 msgid "Paste URL"
-msgstr "URL einfügen"
+msgstr "URL einfÃ¼gen"
 
 #: ../src/wxDFast.cpp:391 ../src/wxDFast.cpp:1908 ../src/wxDFast.cpp:1960
 msgid "Copy URL"
@@ -160,7 +154,7 @@ msgstr "Datei verschieben"
 
 #: ../src/wxDFast.cpp:420 ../src/wxDFast.cpp:1969
 msgid "Check Integrity"
-msgstr "Integrität überprüfen"
+msgstr "IntegritÃ¤t Ã¼berprÃ¼fen"
 
 #: ../src/wxDFast.cpp:422 ../src/wxDFast.cpp:1970
 msgid "Open Destination Directory"
@@ -186,7 +180,7 @@ msgstr "Nach Fertigstellung herunterfahren"
 
 #: ../src/wxDFast.cpp:432 ../src/wxDFast.cpp:433
 msgid "This option is only valid in this session of the program"
-msgstr "Diese Konfiguration ist nur in dieser Sitzung des Programms gültig"
+msgstr "Diese Konfiguration ist nur in dieser Sitzung des Programms gÃ¼ltig"
 
 #: ../src/wxDFast.cpp:433
 msgid "Disconnect when finished"
@@ -218,7 +212,7 @@ msgstr "Neu"
 
 #: ../src/wxDFast.cpp:465 ../src/NewDialog.cpp:27
 msgid "Add new download"
-msgstr "Füge neuen Download hinzu"
+msgstr "FÃ¼ge neuen Download hinzu"
 
 #: ../src/wxDFast.cpp:466 ../src/OptionsDialog.cpp:364
 msgid "Remove"
@@ -330,7 +324,7 @@ msgstr ""
 #: ../src/wxDFast.cpp:747 ../src/wxDFast.cpp:1651 ../src/wxDFast.cpp:1674
 #: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3293 ../src/wxDFast.cpp:3334
 msgid "Size"
-msgstr "Größe"
+msgstr "GrÃ¶ÃŸe"
 
 #: ../src/wxDFast.cpp:748 ../src/wxDFast.cpp:1652 ../src/wxDFast.cpp:1675
 msgid "Time"
@@ -384,11 +378,11 @@ msgstr "Aktuelle Downloads"
 
 #: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
 msgid "Do you want to close the program?"
-msgstr "Wollen Sie das Programm schließen?"
+msgstr "Wollen Sie das Programm schlieÃŸen?"
 
 #: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
 msgid "Close..."
-msgstr "Schließe..."
+msgstr "SchlieÃŸe..."
 
 #: ../src/wxDFast.cpp:1062
 msgid ""
@@ -428,7 +422,7 @@ msgstr "Finde Datei..."
 #: ../src/wxDFast.cpp:1510 ../src/wxDFast.cpp:1693 ../src/BatchDialog.cpp:317
 #: ../src/NewDialog.cpp:386
 msgid "Select the directory:"
-msgstr "Wählen Sie das Verzeichnis aus:"
+msgstr "WÃ¤hlen Sie das Verzeichnis aus:"
 
 #: ../src/wxDFast.cpp:1522
 msgid "Moving..."
@@ -456,7 +450,7 @@ msgid ""
 msgstr ""
 "Die Datei ist nicht in dem Verzeichnis, in dem sie zuerst gespeichert "
 "wurde.\n"
-" Wollen Sie das alte Verzeichnis nur für die aktuelle Datei ändern?"
+" Wollen Sie das alte Verzeichnis nur fÃ¼r die aktuelle Datei Ã¤ndern?"
 
 #: ../src/wxDFast.cpp:1537
 #, fuzzy
@@ -473,7 +467,7 @@ msgstr ""
 
 #: ../src/wxDFast.cpp:1565
 msgid "The file was verified successfully."
-msgstr "Die Datei wurde erfolgreich überprüft."
+msgstr "Die Datei wurde erfolgreich Ã¼berprÃ¼ft."
 
 #: ../src/wxDFast.cpp:1565 ../src/wxDFast.cpp:1697
 msgid "Success..."
@@ -483,7 +477,7 @@ msgstr "Erfolg..."
 #, fuzzy
 msgid "The MD5 calculated previously is different from the current one."
 msgstr ""
-"Die zuvor berechnete MD5 Prüfsumme unterscheidet sich von der derzeitigen!"
+"Die zuvor berechnete MD5 PrÃ¼fsumme unterscheidet sich von der derzeitigen!"
 
 #: ../src/wxDFast.cpp:1571
 msgid ""
@@ -514,7 +508,7 @@ msgstr ""
 #: ../src/wxDFast.cpp:1686
 #, fuzzy
 msgid "Unable to open the clipboard!"
-msgstr "Es war nicht möglich die Zwischenablage zu öffnen!"
+msgstr "Es war nicht mÃ¶glich die Zwischenablage zu Ã¶ffnen!"
 
 #: ../src/wxDFast.cpp:1697
 #, fuzzy
@@ -528,7 +522,7 @@ msgstr "Fehler beim Exportieren des Konfiguration."
 
 #: ../src/wxDFast.cpp:1705
 msgid "Select the file..."
-msgstr "Wählen Sie die Datei aus..."
+msgstr "WÃ¤hlen Sie die Datei aus..."
 
 #: ../src/wxDFast.cpp:1770 ../src/wxDFast.cpp:2052 ../src/wxDFast.cpp:2161
 #: ../src/wxDFast.cpp:2256 ../src/wxDFast.cpp:2804 ../src/wxDFast.cpp:2815
@@ -573,7 +567,7 @@ msgstr ""
 #: ../src/OptionsDialog.cpp:645
 #, fuzzy
 msgid "Downloaded successfully"
-msgstr "Die Datei wurde erfolgreich überprüft."
+msgstr "Die Datei wurde erfolgreich Ã¼berprÃ¼ft."
 
 #: ../src/wxDFast.cpp:2207
 msgid "Downloaded ended with error"
@@ -670,7 +664,7 @@ msgstr "Anzahl der gleichzeitigen Downloads:"
 
 #: ../src/OptionsDialog.cpp:70
 msgid "Remember the last settings on the New Download box"
-msgstr "Letzte Einstellungen für neue Download-Box merken"
+msgstr "Letzte Einstellungen fÃ¼r neue Download-Box merken"
 
 #: ../src/OptionsDialog.cpp:74
 #, fuzzy
@@ -684,7 +678,7 @@ msgstr "Nach Abschluss der Downloads Verbindung immer trennen"
 
 #: ../src/OptionsDialog.cpp:82
 msgid "Show dialog box when program closes"
-msgstr "Bestätigungsfenster vor Beenden des Programms anzeigen"
+msgstr "BestÃ¤tigungsfenster vor Beenden des Programms anzeigen"
 
 #: ../src/OptionsDialog.cpp:86
 msgid "Refresh rate of the download list (millisecs):"
@@ -785,7 +779,7 @@ msgstr "Textfeld Breite (pixels)"
 
 #: ../src/OptionsDialog.cpp:246
 msgid "Graph height:"
-msgstr "Diagram-Höhe:"
+msgstr "Diagram-HÃ¶he:"
 
 #: ../src/OptionsDialog.cpp:252
 msgid "Text font size (points):"
@@ -865,7 +859,7 @@ msgstr "und"
 
 #: ../src/OptionsDialog.cpp:351 ../src/NewDialog.cpp:48
 msgid "Add"
-msgstr "Hinzufügen"
+msgstr "HinzufÃ¼gen"
 
 #: ../src/OptionsDialog.cpp:371
 msgid "Scheduling"
@@ -903,7 +897,7 @@ msgstr ""
 #: ../src/OptionsDialog.cpp:526
 #, fuzzy
 msgid "Select the directory"
-msgstr "Wählen Sie das Verzeichnis aus:"
+msgstr "WÃ¤hlen Sie das Verzeichnis aus:"
 
 #: ../src/OptionsDialog.cpp:536
 msgid "Choose a file"
@@ -912,12 +906,12 @@ msgstr ""
 #: ../src/OptionsDialog.cpp:604
 #, fuzzy
 msgid "Remove some items before adding a new one."
-msgstr "Einige Items vor hinzufügen von neuen entfernen."
+msgstr "Einige Items vor hinzufÃ¼gen von neuen entfernen."
 
 #: ../src/BatchDialog.cpp:24
 #, fuzzy
 msgid "Add new downloads"
-msgstr "Füge neuen Download hinzu"
+msgstr "FÃ¼ge neuen Download hinzu"
 
 #: ../src/BatchDialog.cpp:29 ../src/NewDialog.cpp:32
 #, fuzzy
@@ -1008,7 +1002,7 @@ msgstr ""
 #: ../src/NewDialog.cpp:59
 #, fuzzy
 msgid "Add on top of download queue"
-msgstr "Füge neuen Download hinzu"
+msgstr "FÃ¼ge neuen Download hinzu"
 
 #: ../src/NewDialog.cpp:85
 #, fuzzy
@@ -1019,7 +1013,7 @@ msgstr "Datei in wie viele Teile aufspalten?"
 
 #: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
 msgid "The URL is invalid!"
-msgstr "Der URL ist ungültig."
+msgstr "Der URL ist ungÃ¼ltig."
 
 #: ../src/NewDialog.cpp:421
 msgid "Edit the URL"

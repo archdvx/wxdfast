@@ -8,10 +8,10 @@ msgstr ""
 "Language-Team: Ruslan Fedyarov <fedyarov@mail.ru>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=cp1251\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Country: Russia\n"
-"X-Poedit-SourceCharset: cp1251\n"
+"X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: /home/max/Projetos/wxDFast\n"
 "X-Poedit-SearchPath-0: /home/max/Projetos/wxDFast/src\n"
 "X-Poedit-SearchPath-1: /home/max/Projetos/wxDFast/resources\n"
@@ -31,41 +31,40 @@ msgstr ""
 #: ../src/wxDFast.cpp:136
 #, fuzzy
 msgid "wxDownload Fast already running"
-msgstr "Сайт программы wxDownload Fast "
+msgstr "РЎР°Р№С‚ РїСЂРѕРіСЂР°РјРјС‹ wxDownload Fast "
 
 #: ../src/wxDFast.cpp:196
 msgid "Hide the main window"
-msgstr "Скрыть главное окно"
+msgstr "РЎРєСЂС‹С‚СЊ РіР»Р°РІРЅРѕРµ РѕРєРЅРѕ"
 
 #: ../src/wxDFast.cpp:198
 msgid "Show the main window"
-msgstr "Показать главное окно"
+msgstr "РџРѕРєР°Р·Р°С‚СЊ РіР»Р°РІРЅРѕРµ РѕРєРЅРѕ"
 
 #: ../src/wxDFast.cpp:200
 msgid "New download"
-msgstr "Новая загрузка"
+msgstr "РќРѕРІР°СЏ Р·Р°РіСЂСѓР·РєР°"
 
 #: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:2542 ../src/wxDFast.cpp:3016
 msgid "Unlimited"
-msgstr "нет"
+msgstr "РЅРµС‚"
 
 #: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
-#, fuzzy
 msgid "Just for this session. To change definitely go to \"Preferences\""
-msgstr "Только для этой сессии. Для задания зайдите в  \"Параметры\""
+msgstr "РўРѕР»СЊРєРѕ РґР»СЏ СЌС‚РѕР№ СЃРµСЃСЃРёРё. Р”Р»СЏ Р·Р°РґР°РЅРёСЏ Р·Р°Р№РґРёС‚Рµ РІ  \"РџР°СЂР°РјРµС‚СЂС‹\""
 
 #: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2538
 msgid "Active"
-msgstr "есть"
+msgstr "РµСЃС‚СЊ"
 
 #: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2534
 msgid "Per Download"
-msgstr "по отдельности"
+msgstr "РїРѕ РѕС‚РґРµР»СЊРЅРѕСЃС‚Рё"
 
 #: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2534 ../src/wxDFast.cpp:2538
 #: ../src/wxDFast.cpp:2542
 msgid "Band control"
-msgstr "Предел ск-ти"
+msgstr "РџСЂРµРґРµР» СЃРє-С‚Рё"
 
 #: ../src/wxDFast.cpp:213 ../src/wxDFast.cpp:385
 msgid "Quit"
@@ -76,211 +75,210 @@ msgid "About"
 msgstr ""
 
 #: ../src/wxDFast.cpp:360 ../src/wxDFast.cpp:436
-#, fuzzy
 msgid "Preferences"
-msgstr "Ссылка из"
+msgstr "РџР°СЂР°РјРµС‚СЂС‹"
 
 #: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
 msgid "New Download"
-msgstr "Новая загрузка"
+msgstr "РќРѕРІР°СЏ Р·Р°РіСЂСѓР·РєР°"
 
 #: ../src/wxDFast.cpp:365 ../src/wxDFast.cpp:1878 ../src/wxDFast.cpp:1956
 msgid "Remove Download"
-msgstr "Удалить загрузку"
+msgstr "РЈРґР°Р»РёС‚СЊ Р·Р°РіСЂСѓР·РєСѓ"
 
 #: ../src/wxDFast.cpp:369 ../src/wxDFast.cpp:1885
 msgid "Schedule Download"
-msgstr "Отложить загрузку"
+msgstr "РћС‚Р»РѕР¶РёС‚СЊ Р·Р°РіСЂСѓР·РєСѓ"
 
 #: ../src/wxDFast.cpp:372 ../src/wxDFast.cpp:1893 ../src/BatchDialog.cpp:54
 #: ../src/NewDialog.cpp:73
 msgid "Start Download"
-msgstr "Запустить загрузку"
+msgstr "Р—Р°РїСѓСЃС‚РёС‚СЊ Р·Р°РіСЂСѓР·РєСѓ"
 
 #: ../src/wxDFast.cpp:375 ../src/wxDFast.cpp:1899
 msgid "Stop Download"
-msgstr "Остановить загрузку"
+msgstr "РћСЃС‚Р°РЅРѕРІРёС‚СЊ Р·Р°РіСЂСѓР·РєСѓ"
 
 #: ../src/wxDFast.cpp:378 ../src/wxDFast.cpp:471
 msgid "Start all downloads"
-msgstr "Запустить все загрузки"
+msgstr "Р—Р°РїСѓСЃС‚РёС‚СЊ РІСЃРµ Р·Р°РіСЂСѓР·РєРё"
 
 #: ../src/wxDFast.cpp:381 ../src/wxDFast.cpp:472
 msgid "Stop all downloads"
-msgstr "Остановить все загрузки"
+msgstr "РћСЃС‚Р°РЅРѕРІРёС‚СЊ РІСЃРµ Р·Р°РіСЂСѓР·РєРё"
 
 #: ../src/wxDFast.cpp:386
 msgid "&File"
-msgstr "&Файл"
+msgstr "&Р¤Р°Р№Р»"
 
 #: ../src/wxDFast.cpp:388
 msgid "Paste URL"
-msgstr "Вставить адрес"
+msgstr "Р’СЃС‚Р°РІРёС‚СЊ Р°РґСЂРµСЃ"
 
 #: ../src/wxDFast.cpp:391 ../src/wxDFast.cpp:1908 ../src/wxDFast.cpp:1960
 msgid "Copy URL"
-msgstr "Копировать адрес"
+msgstr "РљРѕРїРёСЂРѕРІР°С‚СЊ Р°РґСЂРµСЃ"
 
 #: ../src/wxDFast.cpp:394 ../src/wxDFast.cpp:1911 ../src/wxDFast.cpp:1963
 msgid "Copy Download Data"
-msgstr "Копировать данные загрузки"
+msgstr "РљРѕРїРёСЂРѕРІР°С‚СЊ РґР°РЅРЅС‹Рµ Р·Р°РіСЂСѓР·РєРё"
 
 #: ../src/wxDFast.cpp:398
 #, fuzzy
 msgid "Remove All"
-msgstr "Удалить"
+msgstr "РЈРґР°Р»РёС‚СЊ"
 
 #: ../src/wxDFast.cpp:401
 msgid "Find Download"
-msgstr "Найти загрузку"
+msgstr "РќР°Р№С‚Рё Р·Р°РіСЂСѓР·РєСѓ"
 
 #: ../src/wxDFast.cpp:404 ../src/NewDialog.cpp:56
 msgid "&Edit"
-msgstr "&Правка"
+msgstr "&РџСЂР°РІРєР°"
 
 #: ../src/wxDFast.cpp:406
 msgid "Show/Hide Graph"
-msgstr "Показать/Скрыть график"
+msgstr "РџРѕРєР°Р·Р°С‚СЊ/РЎРєСЂС‹С‚СЊ РіСЂР°С„РёРє"
 
 #: ../src/wxDFast.cpp:409
 msgid "Show/Hide Details"
-msgstr "Показать/Скрыть подробности"
+msgstr "РџРѕРєР°Р·Р°С‚СЊ/РЎРєСЂС‹С‚СЊ РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё"
 
 #: ../src/wxDFast.cpp:412
 msgid "&View"
-msgstr "&Вид"
+msgstr "&Р’РёРґ"
 
 #: ../src/wxDFast.cpp:414 ../src/wxDFast.cpp:1333 ../src/wxDFast.cpp:1904
 msgid "Download Properties"
-msgstr "Свойства загрузки"
+msgstr "РЎРІРѕР№СЃС‚РІР° Р·Р°РіСЂСѓР·РєРё"
 
 #: ../src/wxDFast.cpp:417 ../src/wxDFast.cpp:1967
 msgid "Move File"
-msgstr "Переместить файл"
+msgstr "РџРµСЂРµРјРµСЃС‚РёС‚СЊ С„Р°Р№Р»"
 
 #: ../src/wxDFast.cpp:420 ../src/wxDFast.cpp:1969
 msgid "Check Integrity"
-msgstr "Проверить целостность"
+msgstr "РџСЂРѕРІРµСЂРёС‚СЊ С†РµР»РѕСЃС‚РЅРѕСЃС‚СЊ"
 
 #: ../src/wxDFast.cpp:422 ../src/wxDFast.cpp:1970
 msgid "Open Destination Directory"
-msgstr "Открыть папку сохранения"
+msgstr "РћС‚РєСЂС‹С‚СЊ РїР°РїРєСѓ СЃРѕС…СЂР°РЅРµРЅРёСЏ"
 
 #: ../src/wxDFast.cpp:424 ../src/wxDFast.cpp:1971
 msgid "Download File Again"
-msgstr "Перезапустить загрузку файла"
+msgstr "РџРµСЂРµР·Р°РїСѓСЃС‚РёС‚СЊ Р·Р°РіСЂСѓР·РєСѓ С„Р°Р№Р»Р°"
 
 #: ../src/wxDFast.cpp:427
 msgid "Export Configuration"
-msgstr "Экспорт конфигурации"
+msgstr "Р­РєСЃРїРѕСЂС‚ РєРѕРЅС„РёРіСѓСЂР°С†РёРё"
 
 #: ../src/wxDFast.cpp:429
 msgid "Import Configuration"
-msgstr "Импорт конфигурации"
+msgstr "РРјРїРѕСЂС‚ РєРѕРЅС„РёРіСѓСЂР°С†РёРё"
 
 #: ../src/wxDFast.cpp:432
 msgid "Shutdown when finished"
-msgstr "Завершить работу компьютера по окончании"
+msgstr "Р—Р°РІРµСЂС€РёС‚СЊ СЂР°Р±РѕС‚Сѓ РєРѕРјРїСЊСЋС‚РµСЂР° РїРѕ РѕРєРѕРЅС‡Р°РЅРёРё"
 
 #: ../src/wxDFast.cpp:432 ../src/wxDFast.cpp:433
 msgid "This option is only valid in this session of the program"
-msgstr "Этот параметр действителен только в данной сессии программы"
+msgstr "Р­С‚РѕС‚ РїР°СЂР°РјРµС‚СЂ РґРµР№СЃС‚РІРёС‚РµР»РµРЅ С‚РѕР»СЊРєРѕ РІ РґР°РЅРЅРѕР№ СЃРµСЃСЃРёРё РїСЂРѕРіСЂР°РјРјС‹"
 
 #: ../src/wxDFast.cpp:433
 msgid "Disconnect when finished"
-msgstr "Выйти из Интернета по окончании"
+msgstr "Р’С‹Р№С‚Рё РёР· РРЅС‚РµСЂРЅРµС‚Р° РїРѕ РѕРєРѕРЅС‡Р°РЅРёРё"
 
 #: ../src/wxDFast.cpp:438
 msgid "&Tools"
-msgstr "&Инструменты"
+msgstr "&РРЅСЃС‚СЂСѓРјРµРЅС‚С‹"
 
 #: ../src/wxDFast.cpp:440
 msgid "wxDownload Fast Site"
-msgstr "Сайт программы wxDownload Fast "
+msgstr "РЎР°Р№С‚ РїСЂРѕРіСЂР°РјРјС‹ wxDownload Fast "
 
 #: ../src/wxDFast.cpp:443
 msgid "Report Bugs..."
-msgstr "Сообщить об ошибке..."
+msgstr "РЎРѕРѕР±С‰РёС‚СЊ РѕР± РѕС€РёР±РєРµ..."
 
 #: ../src/wxDFast.cpp:444
 msgid "Donate..."
-msgstr "Спонсировать..."
+msgstr "РЎРїРѕРЅСЃРёСЂРѕРІР°С‚СЊ..."
 
 #: ../src/wxDFast.cpp:449
 msgid "&Help"
-msgstr "&Справка"
+msgstr "&РЎРїСЂР°РІРєР°"
 
 #: ../src/wxDFast.cpp:465
 msgid "New"
-msgstr "Новая"
+msgstr "РќРѕРІР°СЏ"
 
 #: ../src/wxDFast.cpp:465 ../src/NewDialog.cpp:27
 msgid "Add new download"
-msgstr "Добавить новую загрузку"
+msgstr "Р”РѕР±Р°РІРёС‚СЊ РЅРѕРІСѓСЋ Р·Р°РіСЂСѓР·РєСѓ"
 
 #: ../src/wxDFast.cpp:466 ../src/OptionsDialog.cpp:364
 msgid "Remove"
-msgstr "Удалить"
+msgstr "РЈРґР°Р»РёС‚СЊ"
 
 #: ../src/wxDFast.cpp:466
 msgid "Remove the selected download"
-msgstr "Удалить указанную загрузку"
+msgstr "РЈРґР°Р»РёС‚СЊ СѓРєР°Р·Р°РЅРЅСѓСЋ Р·Р°РіСЂСѓР·РєСѓ"
 
 #: ../src/wxDFast.cpp:468 ../src/BatchDialog.cpp:60 ../src/NewDialog.cpp:79
 msgid "Schedule"
-msgstr "Отложить"
+msgstr "РћС‚Р»РѕР¶РёС‚СЊ"
 
 #: ../src/wxDFast.cpp:468
 msgid "Mark the selected download as scheduled"
-msgstr "Пометить указанную загрузку как отложенную"
+msgstr "РџРѕРјРµС‚РёС‚СЊ СѓРєР°Р·Р°РЅРЅСѓСЋ Р·Р°РіСЂСѓР·РєСѓ РєР°Рє РѕС‚Р»РѕР¶РµРЅРЅСѓСЋ"
 
 #: ../src/wxDFast.cpp:469
 msgid "Start"
-msgstr "Запуск"
+msgstr "Р—Р°РїСѓСЃРє"
 
 #: ../src/wxDFast.cpp:469
 msgid "Start the selected download"
-msgstr "Запустить указанную загрузку"
+msgstr "Р—Р°РїСѓСЃС‚РёС‚СЊ СѓРєР°Р·Р°РЅРЅСѓСЋ Р·Р°РіСЂСѓР·РєСѓ"
 
 #: ../src/wxDFast.cpp:470
 msgid "Stop"
-msgstr "Стоп"
+msgstr "РЎС‚РѕРї"
 
 #: ../src/wxDFast.cpp:470
 msgid "Stop the selected download"
-msgstr "Остановить указанную загрузку"
+msgstr "РћСЃС‚Р°РЅРѕРІРёС‚СЊ СѓРєР°Р·Р°РЅРЅСѓСЋ Р·Р°РіСЂСѓР·РєСѓ"
 
 #: ../src/wxDFast.cpp:471
 msgid "Start All"
-msgstr "Запустить все"
+msgstr "Р—Р°РїСѓСЃС‚РёС‚СЊ РІСЃРµ"
 
 #: ../src/wxDFast.cpp:472
 msgid "Stop All"
-msgstr "Остановить все"
+msgstr "РћСЃС‚Р°РЅРѕРІРёС‚СЊ РІСЃРµ"
 
 #: ../src/wxDFast.cpp:474
 msgid "Up"
-msgstr "Вверх"
+msgstr "Р’РІРµСЂС…"
 
 #: ../src/wxDFast.cpp:474
 msgid "Push download higher up the queue"
-msgstr "Поднять загрузку выше по очереди"
+msgstr "РџРѕРґРЅСЏС‚СЊ Р·Р°РіСЂСѓР·РєСѓ РІС‹С€Рµ РїРѕ РѕС‡РµСЂРµРґРё"
 
 #: ../src/wxDFast.cpp:475
 msgid "Down"
-msgstr "Вниз"
+msgstr "Р’РЅРёР·"
 
 #: ../src/wxDFast.cpp:475
 msgid "Push download lower down the queue"
-msgstr "Опустить загрузку ниже по очереди"
+msgstr "РћРїСѓСЃС‚РёС‚СЊ Р·Р°РіСЂСѓР·РєСѓ РЅРёР¶Рµ РїРѕ РѕС‡РµСЂРµРґРё"
 
 #: ../src/wxDFast.cpp:477
 msgid "Properties"
-msgstr "Свойства"
+msgstr "РЎРІРѕР№СЃС‚РІР°"
 
 #: ../src/wxDFast.cpp:477
 msgid "Show the properties of the selected download"
-msgstr "Показать свойства указанной загрузки"
+msgstr "РџРѕРєР°Р·Р°С‚СЊ СЃРІРѕР№СЃС‚РІР° СѓРєР°Р·Р°РЅРЅРѕР№ Р·Р°РіСЂСѓР·РєРё"
 
 #: ../src/wxDFast.cpp:503 ../src/OptionsDialog.cpp:305
 msgid "Progress"
@@ -292,11 +290,11 @@ msgstr ""
 
 #: ../src/wxDFast.cpp:510
 msgid "Downloads in Progress"
-msgstr "Активные загрузки"
+msgstr "РђРєС‚РёРІРЅС‹Рµ Р·Р°РіСЂСѓР·РєРё"
 
 #: ../src/wxDFast.cpp:526
 msgid "Finished Downloads"
-msgstr "Завершенные загрузки"
+msgstr "Р—Р°РІРµСЂС€РµРЅРЅС‹Рµ Р·Р°РіСЂСѓР·РєРё"
 
 #: ../src/wxDFast.cpp:591
 #, c-format
@@ -310,42 +308,42 @@ msgstr ""
 
 #: ../src/wxDFast.cpp:663
 msgid "   [ Yes ]"
-msgstr "   [ Да ]"
+msgstr "   [ Р”Р° ]"
 
 #: ../src/wxDFast.cpp:664
 msgid "   [ No  ]"
-msgstr "   [ Нет ]"
+msgstr "   [ РќРµС‚ ]"
 
 #: ../src/wxDFast.cpp:745 ../src/wxDFast.cpp:1649 ../src/wxDFast.cpp:1672
 msgid "Name"
-msgstr "Имя"
+msgstr "РРјСЏ"
 
 #: ../src/wxDFast.cpp:746 ../src/wxDFast.cpp:1650 ../src/wxDFast.cpp:1673
 #: ../src/wxDFast.cpp:3013
 msgid "File type"
-msgstr "Тип файла"
+msgstr "РўРёРї С„Р°Р№Р»Р°"
 
 #: ../src/wxDFast.cpp:747 ../src/wxDFast.cpp:1651 ../src/wxDFast.cpp:1674
 #: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3293 ../src/wxDFast.cpp:3334
 msgid "Size"
-msgstr "Размер"
+msgstr "Р Р°Р·РјРµСЂ"
 
 #: ../src/wxDFast.cpp:748 ../src/wxDFast.cpp:1652 ../src/wxDFast.cpp:1675
 msgid "Time"
-msgstr "Время"
+msgstr "Р’СЂРµРјСЏ"
 
 #: ../src/wxDFast.cpp:749 ../src/wxDFast.cpp:1653 ../src/wxDFast.cpp:1676
 #: ../src/wxDFast.cpp:3012
 msgid "Destination"
-msgstr "Сохранено в"
+msgstr "РЎРѕС…СЂР°РЅРµРЅРѕ РІ"
 
 #: ../src/wxDFast.cpp:750
 msgid "Started"
-msgstr "Начато"
+msgstr "РќР°С‡Р°С‚Рѕ"
 
 #: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3335
 msgid "Finished"
-msgstr "Завершено"
+msgstr "Р—Р°РІРµСЂС€РµРЅРѕ"
 
 #: ../src/wxDFast.cpp:752 ../src/wxDFast.cpp:1677
 msgid "MD5"
@@ -354,36 +352,36 @@ msgstr "MD5"
 #: ../src/wxDFast.cpp:753 ../src/wxDFast.cpp:1654 ../src/wxDFast.cpp:1678
 #: ../src/BatchDialog.cpp:87 ../src/NewDialog.cpp:106
 msgid "Reference URL"
-msgstr "Ссылка из"
+msgstr "РЎСЃС‹Р»РєР° РёР·"
 
 #: ../src/wxDFast.cpp:754 ../src/wxDFast.cpp:1655 ../src/wxDFast.cpp:1679
 #: ../src/BatchDialog.cpp:72 ../src/NewDialog.cpp:91
 msgid "Comments"
-msgstr "Комментарий"
+msgstr "РљРѕРјРјРµРЅС‚Р°СЂРёР№"
 
 #: ../src/wxDFast.cpp:755 ../src/wxDFast.cpp:1656 ../src/wxDFast.cpp:1680
 msgid "URLs"
-msgstr "Адреса"
+msgstr "РђРґСЂРµСЃР°"
 
 #: ../src/wxDFast.cpp:801
 msgid "Total Speed:"
-msgstr "Общая скорость:"
+msgstr "РћР±С‰Р°СЏ СЃРєРѕСЂРѕСЃС‚СЊ:"
 
 #: ../src/wxDFast.cpp:805
 msgid "Total Complete:"
-msgstr "Загружено:"
+msgstr "Р—Р°РіСЂСѓР¶РµРЅРѕ:"
 
 #: ../src/wxDFast.cpp:809
 msgid "Downloads in progress:"
-msgstr "Активные загрузки:"
+msgstr "РђРєС‚РёРІРЅС‹Рµ Р·Р°РіСЂСѓР·РєРё:"
 
 #: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
 msgid "Do you want to close the program?"
-msgstr "Закрыть программу?"
+msgstr "Р—Р°РєСЂС‹С‚СЊ РїСЂРѕРіСЂР°РјРјСѓ?"
 
 #: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
 msgid "Close..."
-msgstr "Закрытие..."
+msgstr "Р—Р°РєСЂС‹С‚РёРµ..."
 
 #: ../src/wxDFast.cpp:1062
 msgid ""
@@ -407,72 +405,72 @@ msgstr ""
 
 #: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
 msgid "Do you also want to remove downloaded file(s) from the disk?"
-msgstr "Вы хотите удалить также загруженный(ые) файл(ы) с диска?"
+msgstr "Р’С‹ С…РѕС‚РёС‚Рµ СѓРґР°Р»РёС‚СЊ С‚Р°РєР¶Рµ Р·Р°РіСЂСѓР¶РµРЅРЅС‹Р№(С‹Рµ) С„Р°Р№Р»(С‹) СЃ РґРёСЃРєР°?"
 
 #: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
 msgid "Remove..."
-msgstr "Удаление..."
+msgstr "РЈРґР°Р»РµРЅРёРµ..."
 
 #: ../src/wxDFast.cpp:1478
 msgid "Find file..."
-msgstr "Найти файл"
+msgstr "РќР°Р№С‚Рё С„Р°Р№Р»"
 
 #: ../src/wxDFast.cpp:1510 ../src/wxDFast.cpp:1693 ../src/BatchDialog.cpp:317
 #: ../src/NewDialog.cpp:386
 msgid "Select the directory:"
-msgstr "Выберите папку:"
+msgstr "Р’С‹Р±РµСЂРёС‚Рµ РїР°РїРєСѓ:"
 
 #: ../src/wxDFast.cpp:1522
 msgid "Moving..."
-msgstr "Перемещение..."
+msgstr "РџРµСЂРµРјРµС‰РµРЅРёРµ..."
 
 #: ../src/wxDFast.cpp:1522
 msgid "Moving file..."
-msgstr "Перемещение файла..."
+msgstr "РџРµСЂРµРјРµС‰РµРЅРёРµ С„Р°Р№Р»Р°..."
 
 #: ../src/wxDFast.cpp:1531
 msgid "Error moving file."
-msgstr "Ошибка перемещения файла."
+msgstr "РћС€РёР±РєР° РїРµСЂРµРјРµС‰РµРЅРёСЏ С„Р°Р№Р»Р°."
 
 #: ../src/wxDFast.cpp:1531 ../src/wxDFast.cpp:1573 ../src/wxDFast.cpp:1578
 #: ../src/wxDFast.cpp:1588 ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635
 #: ../src/wxDFast.cpp:1662 ../src/wxDFast.cpp:1686 ../src/wxDFast.cpp:1699
 #: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
 msgid "Error..."
-msgstr "Ошибка..."
+msgstr "РћС€РёР±РєР°..."
 
 #: ../src/wxDFast.cpp:1537
 msgid ""
 "The file isn't in the path that it was saved initially.\n"
 "Do you want to change only the old path for the current one?"
 msgstr ""
-"Файл отсутствует в папке, где он был сохранен.\n"
-"Хотите заменить только старый путь на текущий?"
+"Р¤Р°Р№Р» РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚ РІ РїР°РїРєРµ, РіРґРµ РѕРЅ Р±С‹Р» СЃРѕС…СЂР°РЅРµРЅ.\n"
+"РҐРѕС‚РёС‚Рµ Р·Р°РјРµРЅРёС‚СЊ С‚РѕР»СЊРєРѕ СЃС‚Р°СЂС‹Р№ РїСѓС‚СЊ РЅР° С‚РµРєСѓС‰РёР№?"
 
 #: ../src/wxDFast.cpp:1537
 #, fuzzy
 msgid "Filename:"
-msgstr "Имя файла"
+msgstr "РРјСЏ С„Р°Р№Р»Р°"
 
 #: ../src/wxDFast.cpp:1539
 msgid "Continue..."
-msgstr "Продолжение..."
+msgstr "РџСЂРѕРґРѕР»Р¶РµРЅРёРµ..."
 
 #: ../src/wxDFast.cpp:1557
 msgid "Checking file's MD5..."
-msgstr "Проверка суммы MD5 файла..."
+msgstr "РџСЂРѕРІРµСЂРєР° СЃСѓРјРјС‹ MD5 С„Р°Р№Р»Р°..."
 
 #: ../src/wxDFast.cpp:1565
 msgid "The file was verified successfully."
-msgstr "Файл успешно проверен."
+msgstr "Р¤Р°Р№Р» СѓСЃРїРµС€РЅРѕ РїСЂРѕРІРµСЂРµРЅ."
 
 #: ../src/wxDFast.cpp:1565 ../src/wxDFast.cpp:1697
 msgid "Success..."
-msgstr "Порядок..."
+msgstr "РџРѕСЂСЏРґРѕРє..."
 
 #: ../src/wxDFast.cpp:1570
 msgid "The MD5 calculated previously is different from the current one."
-msgstr "Подсчитанная ранее сумма MD5 отличается от текущей."
+msgstr "РџРѕРґСЃС‡РёС‚Р°РЅРЅР°СЏ СЂР°РЅРµРµ СЃСѓРјРјР° MD5 РѕС‚Р»РёС‡Р°РµС‚СЃСЏ РѕС‚ С‚РµРєСѓС‰РµР№."
 
 #: ../src/wxDFast.cpp:1571
 msgid ""
@@ -480,7 +478,7 @@ msgid ""
 "Old MD5 =\t\t"
 msgstr ""
 "\n"
-"Старая MD5 =\t"
+"РЎС‚Р°СЂР°СЏ MD5 =\t"
 
 #: ../src/wxDFast.cpp:1572
 msgid ""
@@ -488,11 +486,11 @@ msgid ""
 "Current MD5 =\t"
 msgstr ""
 "\n"
-"Текущая MD5 =\t"
+"РўРµРєСѓС‰Р°СЏ MD5 =\t"
 
 #: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2438 ../src/wxDFast.cpp:2501
 msgid "File not found."
-msgstr "Файл не найден."
+msgstr "Р¤Р°Р№Р» РЅРµ РЅР°Р№РґРµРЅ."
 
 #: ../src/wxDFast.cpp:1588
 #, c-format
@@ -502,42 +500,42 @@ msgstr ""
 #: ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635 ../src/wxDFast.cpp:1662
 #: ../src/wxDFast.cpp:1686
 msgid "Unable to open the clipboard!"
-msgstr "Невозможно открыть буфер обмена!"
+msgstr "РќРµРІРѕР·РјРѕР¶РЅРѕ РѕС‚РєСЂС‹С‚СЊ Р±СѓС„РµСЂ РѕР±РјРµРЅР°!"
 
 #: ../src/wxDFast.cpp:1697
 msgid "The configuration was exported successfully."
-msgstr "Конфигурация успешно экспортирована."
+msgstr "РљРѕРЅС„РёРіСѓСЂР°С†РёСЏ СѓСЃРїРµС€РЅРѕ СЌРєСЃРїРѕСЂС‚РёСЂРѕРІР°РЅР°."
 
 #: ../src/wxDFast.cpp:1699
 msgid "Error exporting configuration."
-msgstr "Ошибка экспорта конфигурации."
+msgstr "РћС€РёР±РєР° СЌРєСЃРїРѕСЂС‚Р° РєРѕРЅС„РёРіСѓСЂР°С†РёРё."
 
 #: ../src/wxDFast.cpp:1705
 msgid "Select the file..."
-msgstr "Выберите файл..."
+msgstr "Р’С‹Р±РµСЂРёС‚Рµ С„Р°Р№Р»..."
 
 #: ../src/wxDFast.cpp:1770 ../src/wxDFast.cpp:2052 ../src/wxDFast.cpp:2161
 #: ../src/wxDFast.cpp:2256 ../src/wxDFast.cpp:2804 ../src/wxDFast.cpp:2815
 #, fuzzy
 msgid "Download started"
-msgstr "Сайт программы wxDownload Fast "
+msgstr "РЎР°Р№С‚ РїСЂРѕРіСЂР°РјРјС‹ wxDownload Fast "
 
 #: ../src/wxDFast.cpp:1785 ../src/wxDFast.cpp:1798
 msgid "Command :\t"
-msgstr "Команда:\t"
+msgstr "РљРѕРјР°РЅРґР°:\t"
 
 #: ../src/wxDFast.cpp:1785
 msgid "Shutdown Command..."
-msgstr "Команда завершения работы..."
+msgstr "РљРѕРјР°РЅРґР° Р·Р°РІРµСЂС€РµРЅРёСЏ СЂР°Р±РѕС‚С‹..."
 
 #: ../src/wxDFast.cpp:1798
 msgid "Disconnect Command..."
-msgstr "Команда выхода из Интернета..."
+msgstr "РљРѕРјР°РЅРґР° РІС‹С…РѕРґР° РёР· РРЅС‚РµСЂРЅРµС‚Р°..."
 
 #: ../src/wxDFast.cpp:2036
 #, fuzzy
 msgid "Download waiting"
-msgstr "Перезапустить загрузку файла"
+msgstr "РџРµСЂРµР·Р°РїСѓСЃС‚РёС‚СЊ Р·Р°РіСЂСѓР·РєСѓ С„Р°Р№Р»Р°"
 
 #: ../src/wxDFast.cpp:2113
 #, c-format
@@ -549,18 +547,18 @@ msgstr ""
 msgid ""
 "wxDownload Fast %s is available.\n"
 "Visit https://wxdfast.dxsolutions.org for more informations."
-msgstr "Подробности на сайте http://dfast.sourceforge.net."
+msgstr "РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё РЅР° СЃР°Р№С‚Рµ http://dfast.sourceforge.net."
 
 #: ../src/wxDFast.cpp:2190
 #, fuzzy
 msgid "Calculating file's MD5..."
-msgstr "Проверка суммы MD5 файла..."
+msgstr "РџСЂРѕРІРµСЂРєР° СЃСѓРјРјС‹ MD5 С„Р°Р№Р»Р°..."
 
 #: ../src/wxDFast.cpp:2203 ../src/OptionsDialog.cpp:642
 #: ../src/OptionsDialog.cpp:645
 #, fuzzy
 msgid "Downloaded successfully"
-msgstr "Файл успешно проверен\n"
+msgstr "Р¤Р°Р№Р» СѓСЃРїРµС€РЅРѕ РїСЂРѕРІРµСЂРµРЅ\n"
 
 #: ../src/wxDFast.cpp:2207
 msgid "Downloaded ended with error"
@@ -569,28 +567,28 @@ msgstr ""
 #: ../src/wxDFast.cpp:2234
 #, fuzzy
 msgid "Download statistics"
-msgstr "Сайт программы wxDownload Fast "
+msgstr "РЎР°Р№С‚ РїСЂРѕРіСЂР°РјРјС‹ wxDownload Fast "
 
 #: ../src/wxDFast.cpp:2235 ../src/wxDFast.cpp:3294
 msgid "Completed"
-msgstr "Загружено"
+msgstr "Р—Р°РіСЂСѓР¶РµРЅРѕ"
 
 #: ../src/wxDFast.cpp:2236 ../src/wxDFast.cpp:3295
 msgid "Percentage"
-msgstr "Процент"
+msgstr "РџСЂРѕС†РµРЅС‚"
 
 #: ../src/wxDFast.cpp:2237 ../src/wxDFast.cpp:3296
 msgid "Time Passed"
-msgstr "Время"
+msgstr "Р’СЂРµРјСЏ"
 
 #: ../src/wxDFast.cpp:2238 ../src/wxDFast.cpp:3297
 msgid "Remaining"
-msgstr "Осталось"
+msgstr "РћСЃС‚Р°Р»РѕСЃСЊ"
 
 #: ../src/wxDFast.cpp:2264 ../src/wxDFast.cpp:2832
 #, fuzzy
 msgid "Download paused"
-msgstr "Сайт программы wxDownload Fast "
+msgstr "РЎР°Р№С‚ РїСЂРѕРіСЂР°РјРјС‹ wxDownload Fast "
 
 #: ../src/wxDFast.cpp:2335
 msgid "Error: couldn't accept a new connection"
@@ -598,7 +596,7 @@ msgstr ""
 
 #: ../src/wxDFast.cpp:2438 ../src/wxDFast.cpp:2501
 msgid "Information..."
-msgstr "Информация..."
+msgstr "РРЅС„РѕСЂРјР°С†РёСЏ..."
 
 #: ../src/wxDFast.cpp:3015
 msgid "Maximum number of connections"
@@ -607,81 +605,81 @@ msgstr ""
 #: ../src/wxDFast.cpp:3016
 #, fuzzy
 msgid "Download bandwidth"
-msgstr "Скорость загрузки (Кб/с)"
+msgstr "РЎРєРѕСЂРѕСЃС‚СЊ Р·Р°РіСЂСѓР·РєРё (РљР±/СЃ)"
 
 #: ../src/wxDFast.cpp:3017
 #, fuzzy
 msgid "Number of pieces"
-msgstr "Число попыток"
+msgstr "Р§РёСЃР»Рѕ РїРѕРїС‹С‚РѕРє"
 
 #: ../src/wxDFast.cpp:3018 ../src/wxDFast.cpp:3300
 msgid "URL"
-msgstr "Адрес"
+msgstr "РђРґСЂРµСЃ"
 
 #: ../src/wxDFast.cpp:3020
 #, fuzzy
 msgid "Downloaded is scheduled"
-msgstr "Пометить указанную загрузку как отложенную"
+msgstr "РџРѕРјРµС‚РёС‚СЊ СѓРєР°Р·Р°РЅРЅСѓСЋ Р·Р°РіСЂСѓР·РєСѓ РєР°Рє РѕС‚Р»РѕР¶РµРЅРЅСѓСЋ"
 
 #: ../src/wxDFast.cpp:3291
 msgid "Restart"
-msgstr "Докачка"
+msgstr "Р”РѕРєР°С‡РєР°"
 
 #: ../src/wxDFast.cpp:3292 ../src/wxDFast.cpp:3333
 msgid "Filename"
-msgstr "Имя файла"
+msgstr "РРјСЏ С„Р°Р№Р»Р°"
 
 #: ../src/wxDFast.cpp:3298
 msgid "Speed"
-msgstr "Скорость"
+msgstr "РЎРєРѕСЂРѕСЃС‚СЊ"
 
 #: ../src/wxDFast.cpp:3299
 msgid "Attempts"
-msgstr "Попыток"
+msgstr "РџРѕРїС‹С‚РѕРє"
 
 #: ../src/OptionsDialog.cpp:35
 msgid "Options"
-msgstr "Параметры"
+msgstr "РџР°СЂР°РјРµС‚СЂС‹"
 
 #: ../src/OptionsDialog.cpp:52
 msgid "Attempts:"
-msgstr "Попыток:"
+msgstr "РџРѕРїС‹С‚РѕРє:"
 
 #: ../src/OptionsDialog.cpp:58
 msgid "Time between the attempts in seconds:"
-msgstr "Пауза между попытками в секундах:"
+msgstr "РџР°СѓР·Р° РјРµР¶РґСѓ РїРѕРїС‹С‚РєР°РјРё РІ СЃРµРєСѓРЅРґР°С…:"
 
 #: ../src/OptionsDialog.cpp:64
 msgid "Number of simultaneous downloads:"
-msgstr "Число одновременных загрузок:"
+msgstr "Р§РёСЃР»Рѕ РѕРґРЅРѕРІСЂРµРјРµРЅРЅС‹С… Р·Р°РіСЂСѓР·РѕРє:"
 
 #: ../src/OptionsDialog.cpp:70
 msgid "Remember the last settings on the New Download box"
-msgstr "Запоминать последние настройки в окне \"Новая загрузка\""
+msgstr "Р—Р°РїРѕРјРёРЅР°С‚СЊ РїРѕСЃР»РµРґРЅРёРµ РЅР°СЃС‚СЂРѕР№РєРё РІ РѕРєРЅРµ \"РќРѕРІР°СЏ Р·Р°РіСЂСѓР·РєР°\""
 
 #: ../src/OptionsDialog.cpp:74
 msgid "Shutdown when all downloads finish"
-msgstr "Завершать работу компьютера по окончании всех загрузок"
+msgstr "Р—Р°РІРµСЂС€Р°С‚СЊ СЂР°Р±РѕС‚Сѓ РєРѕРјРїСЊСЋС‚РµСЂР° РїРѕ РѕРєРѕРЅС‡Р°РЅРёРё РІСЃРµС… Р·Р°РіСЂСѓР·РѕРє"
 
 #: ../src/OptionsDialog.cpp:78
 msgid "Disconnect when all downloads finish"
-msgstr "Выходить из Интернета по окончании всех загрузок"
+msgstr "Р’С‹С…РѕРґРёС‚СЊ РёР· РРЅС‚РµСЂРЅРµС‚Р° РїРѕ РѕРєРѕРЅС‡Р°РЅРёРё РІСЃРµС… Р·Р°РіСЂСѓР·РѕРє"
 
 #: ../src/OptionsDialog.cpp:82
 msgid "Show dialog box when program closes"
-msgstr "Подтверждать закрытие программы"
+msgstr "РџРѕРґС‚РІРµСЂР¶РґР°С‚СЊ Р·Р°РєСЂС‹С‚РёРµ РїСЂРѕРіСЂР°РјРјС‹"
 
 #: ../src/OptionsDialog.cpp:86
 msgid "Refresh rate of the download list (millisecs):"
-msgstr "Частота обновления списка загрузок (мс):"
+msgstr "Р§Р°СЃС‚РѕС‚Р° РѕР±РЅРѕРІР»РµРЅРёСЏ СЃРїРёСЃРєР° Р·Р°РіСЂСѓР·РѕРє (РјСЃ):"
 
 #: ../src/OptionsDialog.cpp:92
 msgid "Restore the main window when all downloads finish"
-msgstr "Восстанавливать главное окно по завершении всех загрузок"
+msgstr "Р’РѕСЃСЃС‚Р°РЅР°РІР»РёРІР°С‚СЊ РіР»Р°РІРЅРѕРµ РѕРєРЅРѕ РїРѕ Р·Р°РІРµСЂС€РµРЅРёРё РІСЃРµС… Р·Р°РіСЂСѓР·РѕРє"
 
 #: ../src/OptionsDialog.cpp:96
 msgid "Hide the main window when you start a download"
-msgstr "Сворачивать главное окно при запуске загрузки"
+msgstr "РЎРІРѕСЂР°С‡РёРІР°С‚СЊ РіР»Р°РІРЅРѕРµ РѕРєРЅРѕ РїСЂРё Р·Р°РїСѓСЃРєРµ Р·Р°РіСЂСѓР·РєРё"
 
 #: ../src/OptionsDialog.cpp:100
 msgid "Check for updates automatically"
@@ -693,27 +691,27 @@ msgstr ""
 
 #: ../src/OptionsDialog.cpp:107
 msgid "Preview"
-msgstr "Просмотр"
+msgstr "РџСЂРѕСЃРјРѕС‚СЂ"
 
 #: ../src/OptionsDialog.cpp:113
 msgid "General"
-msgstr "Общие"
+msgstr "РћР±С‰РёРµ"
 
 #: ../src/OptionsDialog.cpp:119
 msgid "Default destination:"
-msgstr "Стандартная папка сохранения:"
+msgstr "РЎС‚Р°РЅРґР°СЂС‚РЅР°СЏ РїР°РїРєР° СЃРѕС…СЂР°РЅРµРЅРёСЏ:"
 
 #: ../src/OptionsDialog.cpp:140
 msgid "Shutdown command:"
-msgstr "Команда завершения работы:"
+msgstr "РљРѕРјР°РЅРґР° Р·Р°РІРµСЂС€РµРЅРёСЏ СЂР°Р±РѕС‚С‹:"
 
 #: ../src/OptionsDialog.cpp:145
 msgid "Disconnect command:"
-msgstr "Команда выхода из Интернет:"
+msgstr "РљРѕРјР°РЅРґР° РІС‹С…РѕРґР° РёР· РРЅС‚РµСЂРЅРµС‚:"
 
 #: ../src/OptionsDialog.cpp:153
 msgid "Paths"
-msgstr "Папки"
+msgstr "РџР°РїРєРё"
 
 #: ../src/OptionsDialog.cpp:159
 msgid "Use a Proxy Server"
@@ -738,12 +736,12 @@ msgstr ""
 #: ../src/OptionsDialog.cpp:184 ../src/BatchDialog.cpp:45
 #: ../src/NewDialog.cpp:64
 msgid "User:"
-msgstr "Пользователь:"
+msgstr "РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ:"
 
 #: ../src/OptionsDialog.cpp:187 ../src/BatchDialog.cpp:49
 #: ../src/NewDialog.cpp:68
 msgid "Password:"
-msgstr "Пароль:"
+msgstr "РџР°СЂРѕР»СЊ:"
 
 #: ../src/OptionsDialog.cpp:196
 msgid "Proxy"
@@ -751,125 +749,125 @@ msgstr ""
 
 #: ../src/OptionsDialog.cpp:202
 msgid "Show Graph"
-msgstr "Показывать график"
+msgstr "РџРѕРєР°Р·С‹РІР°С‚СЊ РіСЂР°С„РёРє"
 
 #: ../src/OptionsDialog.cpp:206
 msgid "Graph refresh rate (millisecs):"
-msgstr "Частота обновления графика (мс):"
+msgstr "Р§Р°СЃС‚РѕС‚Р° РѕР±РЅРѕРІР»РµРЅРёСЏ РіСЂР°С„РёРєР° (РјСЃ):"
 
 #: ../src/OptionsDialog.cpp:212
 #, fuzzy
 msgid "Graph maximum value:"
-msgstr "Максимальное значение графика (Кб/с):"
+msgstr "РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РіСЂР°С„РёРєР° (РљР±/СЃ):"
 
 #: ../src/OptionsDialog.cpp:240
 msgid "The text area Width (pixels):"
-msgstr "Ширина текстовой части (пикс.)"
+msgstr "РЁРёСЂРёРЅР° С‚РµРєСЃС‚РѕРІРѕР№ С‡Р°СЃС‚Рё (РїРёРєСЃ.)"
 
 #: ../src/OptionsDialog.cpp:246
 msgid "Graph height:"
-msgstr "Высота графика:"
+msgstr "Р’С‹СЃРѕС‚Р° РіСЂР°С„РёРєР°:"
 
 #: ../src/OptionsDialog.cpp:252
 msgid "Text font size (points):"
-msgstr "Размер шрифта:"
+msgstr "Р Р°Р·РјРµСЂ С€СЂРёС„С‚Р°:"
 
 #: ../src/OptionsDialog.cpp:258
 #, fuzzy
 msgid "Download line width:"
-msgstr "Ширина основной линии:"
+msgstr "РЁРёСЂРёРЅР° РѕСЃРЅРѕРІРЅРѕР№ Р»РёРЅРёРё:"
 
 #: ../src/OptionsDialog.cpp:264
 msgid "Background colour:"
-msgstr "Цвет фона:"
+msgstr "Р¦РІРµС‚ С„РѕРЅР°:"
 
 #: ../src/OptionsDialog.cpp:268
 msgid "Graph grid colour:"
-msgstr "Цвет сетки графика:"
+msgstr "Р¦РІРµС‚ СЃРµС‚РєРё РіСЂР°С„РёРєР°:"
 
 #: ../src/OptionsDialog.cpp:272
 #, fuzzy
 msgid "Download line colour:"
-msgstr "Цвет основной линии:"
+msgstr "Р¦РІРµС‚ РѕСЃРЅРѕРІРЅРѕР№ Р»РёРЅРёРё:"
 
 #: ../src/OptionsDialog.cpp:281
 msgid "Speed font colour:"
-msgstr "Цвет шрифта скорости:"
+msgstr "Р¦РІРµС‚ С€СЂРёС„С‚Р° СЃРєРѕСЂРѕСЃС‚Рё:"
 
 #: ../src/OptionsDialog.cpp:288
 msgid "Graph"
-msgstr "График"
+msgstr "Р“СЂР°С„РёРє"
 
 #: ../src/OptionsDialog.cpp:294
 #, fuzzy
 msgid "Finished piece colour:"
-msgstr "Фрагмент завершен\n"
+msgstr "Р¤СЂР°РіРјРµРЅС‚ Р·Р°РІРµСЂС€РµРЅ\n"
 
 #: ../src/OptionsDialog.cpp:298
 #, fuzzy
 msgid "Unfinished piece colour:"
-msgstr "Цвет основной линии:"
+msgstr "Р¦РІРµС‚ РѕСЃРЅРѕРІРЅРѕР№ Р»РёРЅРёРё:"
 
 #: ../src/OptionsDialog.cpp:311
 msgid "Activate scheduling"
-msgstr "Активизировать расписание"
+msgstr "РђРєС‚РёРІРёР·РёСЂРѕРІР°С‚СЊ СЂР°СЃРїРёСЃР°РЅРёРµ"
 
 #: ../src/OptionsDialog.cpp:315
 #, fuzzy
 msgid "Start date:"
-msgstr "Дата начала:"
+msgstr "Р”Р°С‚Р° РЅР°С‡Р°Р»Р°:"
 
 #: ../src/OptionsDialog.cpp:316
 #, fuzzy
 msgid "Start time:"
-msgstr "Время начала:"
+msgstr "Р’СЂРµРјСЏ РЅР°С‡Р°Р»Р°:"
 
 #: ../src/OptionsDialog.cpp:323
 #, fuzzy
 msgid "Finish date:"
-msgstr "Дата окончания:"
+msgstr "Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ:"
 
 #: ../src/OptionsDialog.cpp:324
 #, fuzzy
 msgid "Finish time:"
-msgstr "Время окончания:"
+msgstr "Р’СЂРµРјСЏ РѕРєРѕРЅС‡Р°РЅРёСЏ:"
 
 #: ../src/OptionsDialog.cpp:331
 msgid "Deactivate downloads on:"
-msgstr "Не активировать загрузки в:"
+msgstr "РќРµ Р°РєС‚РёРІРёСЂРѕРІР°С‚СЊ Р·Р°РіСЂСѓР·РєРё РІ:"
 
 #: ../src/OptionsDialog.cpp:344
 msgid "Between"
-msgstr "С "
+msgstr "РЎ "
 
 #: ../src/OptionsDialog.cpp:347
 msgid "and"
-msgstr " до "
+msgstr " РґРѕ "
 
 #: ../src/OptionsDialog.cpp:351 ../src/NewDialog.cpp:48
 msgid "Add"
-msgstr "Добавить"
+msgstr "Р”РѕР±Р°РІРёС‚СЊ"
 
 #: ../src/OptionsDialog.cpp:371
 msgid "Scheduling"
-msgstr "Расписание"
+msgstr "Р Р°СЃРїРёСЃР°РЅРёРµ"
 
 #: ../src/OptionsDialog.cpp:377
 msgid "Unlimited bandwidth"
-msgstr "Неограниченная скорость"
+msgstr "РќРµРѕРіСЂР°РЅРёС‡РµРЅРЅР°СЏ СЃРєРѕСЂРѕСЃС‚СЊ"
 
 #: ../src/OptionsDialog.cpp:380
 msgid "Limit band width independently for each download"
-msgstr "Задавать независимо для каждой загрузки"
+msgstr "Р—Р°РґР°РІР°С‚СЊ РЅРµР·Р°РІРёСЃРёРјРѕ РґР»СЏ РєР°Р¶РґРѕР№ Р·Р°РіСЂСѓР·РєРё"
 
 #: ../src/OptionsDialog.cpp:383
 #, fuzzy
 msgid "Limit band width for the program (in KB/s):"
-msgstr "Скорость для всей программы (Кб/с):"
+msgstr "РЎРєРѕСЂРѕСЃС‚СЊ РґР»СЏ РІСЃРµР№ РїСЂРѕРіСЂР°РјРјС‹ (РљР±/СЃ):"
 
 #: ../src/OptionsDialog.cpp:405
 msgid "Bandwidth"
-msgstr "Макс. ск-ть:"
+msgstr "РњР°РєСЃ. СЃРє-С‚СЊ:"
 
 #: ../src/OptionsDialog.cpp:411
 msgid "Please visit"
@@ -878,87 +876,87 @@ msgstr ""
 #: ../src/OptionsDialog.cpp:413
 #, fuzzy
 msgid "wxDownload Fast Web Extensions"
-msgstr "Сайт программы wxDownload Fast "
+msgstr "РЎР°Р№С‚ РїСЂРѕРіСЂР°РјРјС‹ wxDownload Fast "
 
 #: ../src/OptionsDialog.cpp:418
 msgid "Browser Integration"
-msgstr "Интеграция с браузером"
+msgstr "РРЅС‚РµРіСЂР°С†РёСЏ СЃ Р±СЂР°СѓР·РµСЂРѕРј"
 
 #: ../src/OptionsDialog.cpp:526
 #, fuzzy
 msgid "Select the directory"
-msgstr "Выберите папку:"
+msgstr "Р’С‹Р±РµСЂРёС‚Рµ РїР°РїРєСѓ:"
 
 #: ../src/OptionsDialog.cpp:536
 #, fuzzy
 msgid "Choose a file"
-msgstr "Выберите файл..."
+msgstr "Р’С‹Р±РµСЂРёС‚Рµ С„Р°Р№Р»..."
 
 #: ../src/OptionsDialog.cpp:604
 msgid "Remove some items before adding a new one."
-msgstr "Удалите часть пунктов перед добавлением нового."
+msgstr "РЈРґР°Р»РёС‚Рµ С‡Р°СЃС‚СЊ РїСѓРЅРєС‚РѕРІ РїРµСЂРµРґ РґРѕР±Р°РІР»РµРЅРёРµРј РЅРѕРІРѕРіРѕ."
 
 #: ../src/BatchDialog.cpp:24
 #, fuzzy
 msgid "Add new downloads"
-msgstr "Добавить новую загрузку"
+msgstr "Р”РѕР±Р°РІРёС‚СЊ РЅРѕРІСѓСЋ Р·Р°РіСЂСѓР·РєСѓ"
 
 #: ../src/BatchDialog.cpp:29 ../src/NewDialog.cpp:32
 msgid "Save to:"
-msgstr "Сохранить в:"
+msgstr "РЎРѕС…СЂР°РЅРёС‚СЊ РІ:"
 
 #: ../src/BatchDialog.cpp:34 ../src/NewDialog.cpp:37
 msgid "Directory"
-msgstr "Обзор"
+msgstr "РћР±Р·РѕСЂ"
 
 #: ../src/BatchDialog.cpp:36 ../src/NewDialog.cpp:51
 msgid "Address List:"
-msgstr "Список адресов:"
+msgstr "РЎРїРёСЃРѕРє Р°РґСЂРµСЃРѕРІ:"
 
 #: ../src/BatchDialog.cpp:39 ../src/NewDialog.cpp:54
 msgid "Only the selected addresses will be downloaded"
-msgstr "Только отмеченные адреса будут загружаться"
+msgstr "РўРѕР»СЊРєРѕ РѕС‚РјРµС‡РµРЅРЅС‹Рµ Р°РґСЂРµСЃР° Р±СѓРґСѓС‚ Р·Р°РіСЂСѓР¶Р°С‚СЊСЃСЏ"
 
 #: ../src/BatchDialog.cpp:43 ../src/NewDialog.cpp:62
 msgid "Server Permission"
-msgstr "Авторизация на сервере"
+msgstr "РђРІС‚РѕСЂРёР·Р°С†РёСЏ РЅР° СЃРµСЂРІРµСЂРµ"
 
 #: ../src/BatchDialog.cpp:55 ../src/NewDialog.cpp:74
 msgid "Manual"
-msgstr "Вручную"
+msgstr "Р’СЂСѓС‡РЅСѓСЋ"
 
 #: ../src/BatchDialog.cpp:57 ../src/NewDialog.cpp:76
 msgid "Now"
-msgstr "Сейчас"
+msgstr "РЎРµР№С‡Р°СЃ"
 
 #: ../src/BatchDialog.cpp:64 ../src/NewDialog.cpp:83
 msgid "Segmented download"
-msgstr "Сегментация загрузки"
+msgstr "РЎРµРіРјРµРЅС‚Р°С†РёСЏ Р·Р°РіСЂСѓР·РєРё"
 
 #: ../src/BatchDialog.cpp:66
 msgid ""
 "Split download into how many\n"
 "pieces?"
 msgstr ""
-"На сколько фрагментов разбивать\n"
-"загрузку?"
+"РќР° СЃРєРѕР»СЊРєРѕ С„СЂР°РіРјРµРЅС‚РѕРІ СЂР°Р·Р±РёРІР°С‚СЊ\n"
+"Р·Р°РіСЂСѓР·РєСѓ?"
 
 #: ../src/BatchDialog.cpp:80 ../src/NewDialog.cpp:99
 #, fuzzy
 msgid "Download bandwidth (in KB/s)"
-msgstr "Скорость загрузки (Кб/с)"
+msgstr "РЎРєРѕСЂРѕСЃС‚СЊ Р·Р°РіСЂСѓР·РєРё (РљР±/СЃ)"
 
 #: ../src/BatchDialog.cpp:83 ../src/NewDialog.cpp:102
 msgid ""
 "Set band width limit for this download.\n"
 "Set \"0\" to unlimited."
 msgstr ""
-"Укажите макс. скорость для этой загрузки.\n"
-"Задайте \"0\" для снятия ограничений."
+"РЈРєР°Р¶РёС‚Рµ РјР°РєСЃ. СЃРєРѕСЂРѕСЃС‚СЊ РґР»СЏ СЌС‚РѕР№ Р·Р°РіСЂСѓР·РєРё.\n"
+"Р—Р°РґР°Р№С‚Рµ \"0\" РґР»СЏ СЃРЅСЏС‚РёСЏ РѕРіСЂР°РЅРёС‡РµРЅРёР№."
 
 #: ../src/BatchDialog.cpp:92 ../src/NewDialog.cpp:111
 msgid "Execute the following command after download completes"
-msgstr "Выполнить следующую команду по окончании загрузки"
+msgstr "Р’С‹РїРѕР»РЅРёС‚СЊ СЃР»РµРґСѓСЋС‰СѓСЋ РєРѕРјР°РЅРґСѓ РїРѕ РѕРєРѕРЅС‡Р°РЅРёРё Р·Р°РіСЂСѓР·РєРё"
 
 #: ../src/BatchDialog.cpp:296 ../src/NewDialog.cpp:365
 msgid "The URLs are empty"
@@ -968,16 +966,16 @@ msgstr ""
 #: ../src/NewDialog.cpp:365 ../src/NewDialog.cpp:371
 #, fuzzy
 msgid "Warning..."
-msgstr "Перемещение..."
+msgstr "РџРµСЂРµРјРµС‰РµРЅРёРµ..."
 
 #: ../src/BatchDialog.cpp:302 ../src/NewDialog.cpp:371
 #, fuzzy
 msgid "The destination doesn't exist"
-msgstr "Использовать папку сохранения"
+msgstr "РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РїР°РїРєСѓ СЃРѕС…СЂР°РЅРµРЅРёСЏ"
 
 #: ../src/NewDialog.cpp:40
 msgid "Address:"
-msgstr "Адрес:"
+msgstr "РђРґСЂРµСЃ:"
 
 #: ../src/NewDialog.cpp:46
 msgid ""
@@ -986,15 +984,15 @@ msgid ""
 "Example: http://www.foo.com:80/foo.exe\n"
 "Example: ftp://ftp.foo.com:21/foo.exe"
 msgstr ""
-"Адрес загрузки\n"
-"Пример: http://www.foo.com/foo.exe\n"
-"Пример: http://www.foo.com:80/foo.exe\n"
-"Пример: ftp://ftp.foo.com:21/foo.exe"
+"РђРґСЂРµСЃ Р·Р°РіСЂСѓР·РєРё\n"
+"РџСЂРёРјРµСЂ: http://www.foo.com/foo.exe\n"
+"РџСЂРёРјРµСЂ: http://www.foo.com:80/foo.exe\n"
+"РџСЂРёРјРµСЂ: ftp://ftp.foo.com:21/foo.exe"
 
 #: ../src/NewDialog.cpp:59
 #, fuzzy
 msgid "Add on top of download queue"
-msgstr "Добавить новую загрузку"
+msgstr "Р”РѕР±Р°РІРёС‚СЊ РЅРѕРІСѓСЋ Р·Р°РіСЂСѓР·РєСѓ"
 
 #: ../src/NewDialog.cpp:85
 #, fuzzy
@@ -1002,13 +1000,13 @@ msgid ""
 "Split download into how many\n"
 "connections?"
 msgstr ""
-"На сколько фрагментов разбивать\n"
-"загрузку?"
+"РќР° СЃРєРѕР»СЊРєРѕ С„СЂР°РіРјРµРЅС‚РѕРІ СЂР°Р·Р±РёРІР°С‚СЊ\n"
+"Р·Р°РіСЂСѓР·РєСѓ?"
 
 #: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
 msgid "The URL is invalid!"
-msgstr "Адрес неправилен!"
+msgstr "РђРґСЂРµСЃ РЅРµРїСЂР°РІРёР»РµРЅ!"
 
 #: ../src/NewDialog.cpp:421
 msgid "Edit the URL"
-msgstr "Редактировать адрес"
+msgstr "Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ Р°РґСЂРµСЃ"

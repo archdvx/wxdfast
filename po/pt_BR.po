@@ -8,11 +8,11 @@ msgstr ""
 "Language-Team: Max Velasques <maxvelasques@gmail.com>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Basepath: /home/max/Projetos/wxDFast/src\n"
 "X-Poedit-Country: BRAZIL\n"
-"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: /home/max/Projetos/wxDFast/src/wxMD5\n"
 "X-Poedit-SearchPath-1: /home/max/Projetos/wxDFast/src\n"
 "X-Poedit-SearchPath-2: /home/max/Projetos/wxDFast/resources\n"
@@ -51,9 +51,8 @@ msgid "Unlimited"
 msgstr "Ilimitada"
 
 #: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
-#, fuzzy
 msgid "Just for this session. To change definitely go to \"Preferences\""
-msgstr "Apenas para esta sessão. Para alterar definitivamente vá em \"Opções\""
+msgstr "Apenas para esta sessÃ£o. Para alterar definitivamente vÃ¡ em \"OpÃ§Ãµes\""
 
 #: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2538
 msgid "Active"
@@ -77,9 +76,8 @@ msgid "About"
 msgstr ""
 
 #: ../src/wxDFast.cpp:360 ../src/wxDFast.cpp:436
-#, fuzzy
 msgid "Preferences"
-msgstr "URL de referência"
+msgstr "OpÃ§Ãµes"
 
 #: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
 msgid "New Download"
@@ -141,7 +139,7 @@ msgstr "&Editar"
 
 #: ../src/wxDFast.cpp:406
 msgid "Show/Hide Graph"
-msgstr "Mostrar/Esconder Gráfico"
+msgstr "Mostrar/Esconder GrÃ¡fico"
 
 #: ../src/wxDFast.cpp:409
 msgid "Show/Hide Details"
@@ -165,7 +163,7 @@ msgstr "Verificar Integridade"
 
 #: ../src/wxDFast.cpp:422 ../src/wxDFast.cpp:1970
 msgid "Open Destination Directory"
-msgstr "Abrir Diretório de Destino"
+msgstr "Abrir DiretÃ³rio de Destino"
 
 #: ../src/wxDFast.cpp:424 ../src/wxDFast.cpp:1971
 msgid "Download File Again"
@@ -173,11 +171,11 @@ msgstr "Baixar Arquivo Novamente"
 
 #: ../src/wxDFast.cpp:427
 msgid "Export Configuration"
-msgstr "Exportar Configurações"
+msgstr "Exportar ConfiguraÃ§Ãµes"
 
 #: ../src/wxDFast.cpp:429
 msgid "Import Configuration"
-msgstr "Importar Configurações"
+msgstr "Importar ConfiguraÃ§Ãµes"
 
 #: ../src/wxDFast.cpp:432
 msgid "Shutdown when finished"
@@ -185,7 +183,7 @@ msgstr "Desligar quando terminar"
 
 #: ../src/wxDFast.cpp:432 ../src/wxDFast.cpp:433
 msgid "This option is only valid in this session of the program"
-msgstr "Esta opção só é válida nesta sessão do programa"
+msgstr "Esta opÃ§Ã£o sÃ³ Ã© vÃ¡lida nesta sessÃ£o do programa"
 
 #: ../src/wxDFast.cpp:433
 msgid "Disconnect when finished"
@@ -205,7 +203,7 @@ msgstr "Relate Erros..."
 
 #: ../src/wxDFast.cpp:444
 msgid "Donate..."
-msgstr "Doações..."
+msgstr "DoaÃ§Ãµes..."
 
 #: ../src/wxDFast.cpp:449
 msgid "&Help"
@@ -249,7 +247,7 @@ msgstr "Parar"
 
 #: ../src/wxDFast.cpp:470
 msgid "Stop the selected download"
-msgstr "Pára o download selecionado"
+msgstr "PÃ¡ra o download selecionado"
 
 #: ../src/wxDFast.cpp:471
 msgid "Start All"
@@ -265,7 +263,7 @@ msgstr "Acima"
 
 #: ../src/wxDFast.cpp:474
 msgid "Push download higher up the queue"
-msgstr "Eleve o download um nível na fila"
+msgstr "Eleve o download um nÃ­vel na fila"
 
 #: ../src/wxDFast.cpp:475
 msgid "Down"
@@ -273,7 +271,7 @@ msgstr "Abaixo"
 
 #: ../src/wxDFast.cpp:475
 msgid "Push download lower down the queue"
-msgstr "Abaixe o download um nível na fila"
+msgstr "Abaixe o download um nÃ­vel na fila"
 
 #: ../src/wxDFast.cpp:477
 msgid "Properties"
@@ -315,7 +313,7 @@ msgstr "   [ Sim ]"
 
 #: ../src/wxDFast.cpp:664
 msgid "   [ No  ]"
-msgstr "   [ Não ]"
+msgstr "   [ NÃ£o ]"
 
 #: ../src/wxDFast.cpp:745 ../src/wxDFast.cpp:1649 ../src/wxDFast.cpp:1672
 msgid "Name"
@@ -355,12 +353,12 @@ msgstr "MD5"
 #: ../src/wxDFast.cpp:753 ../src/wxDFast.cpp:1654 ../src/wxDFast.cpp:1678
 #: ../src/BatchDialog.cpp:87 ../src/NewDialog.cpp:106
 msgid "Reference URL"
-msgstr "URL de referência"
+msgstr "URL de referÃªncia"
 
 #: ../src/wxDFast.cpp:754 ../src/wxDFast.cpp:1655 ../src/wxDFast.cpp:1679
 #: ../src/BatchDialog.cpp:72 ../src/NewDialog.cpp:91
 msgid "Comments"
-msgstr "Comentários"
+msgstr "ComentÃ¡rios"
 
 #: ../src/wxDFast.cpp:755 ../src/wxDFast.cpp:1656 ../src/wxDFast.cpp:1680
 msgid "URLs"
@@ -372,7 +370,7 @@ msgstr "Velocidade Total:"
 
 #: ../src/wxDFast.cpp:805
 msgid "Total Complete:"
-msgstr "Concluído:"
+msgstr "ConcluÃ­do:"
 
 #: ../src/wxDFast.cpp:809
 msgid "Downloads in progress:"
@@ -380,7 +378,7 @@ msgstr "Downloads em Progresso:"
 
 #: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
 msgid "Do you want to close the program?"
-msgstr "Você deseja fechar o programa?"
+msgstr "VocÃª deseja fechar o programa?"
 
 #: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
 msgid "Close..."
@@ -408,7 +406,7 @@ msgstr ""
 
 #: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
 msgid "Do you also want to remove downloaded file(s) from the disk?"
-msgstr "Você deseja também remover o(s) arquivo(s) do disco?"
+msgstr "VocÃª deseja tambÃ©m remover o(s) arquivo(s) do disco?"
 
 #: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
 msgid "Remove..."
@@ -421,7 +419,7 @@ msgstr "Localizar arquivo..."
 #: ../src/wxDFast.cpp:1510 ../src/wxDFast.cpp:1693 ../src/BatchDialog.cpp:317
 #: ../src/NewDialog.cpp:386
 msgid "Select the directory:"
-msgstr "Selecione o diretório:"
+msgstr "Selecione o diretÃ³rio:"
 
 #: ../src/wxDFast.cpp:1522
 msgid "Moving..."
@@ -447,8 +445,8 @@ msgid ""
 "The file isn't in the path that it was saved initially.\n"
 "Do you want to change only the old path for the current one?"
 msgstr ""
-"O arquivo não está no caminho no qual ele foi salvo inicialmente.\n"
-"Você deseja alterar apenas do caminho antigo para o atual?"
+"O arquivo nÃ£o estÃ¡ no caminho no qual ele foi salvo inicialmente.\n"
+"VocÃª deseja alterar apenas do caminho antigo para o atual?"
 
 #: ../src/wxDFast.cpp:1537
 #, fuzzy
@@ -473,7 +471,7 @@ msgstr "Sucesso"
 
 #: ../src/wxDFast.cpp:1570
 msgid "The MD5 calculated previously is different from the current one."
-msgstr "O MD5 calculado anteriormente é diferente do atual."
+msgstr "O MD5 calculado anteriormente Ã© diferente do atual."
 
 #: ../src/wxDFast.cpp:1571
 msgid ""
@@ -493,7 +491,7 @@ msgstr ""
 
 #: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2438 ../src/wxDFast.cpp:2501
 msgid "File not found."
-msgstr "Arquivo não encontrado."
+msgstr "Arquivo nÃ£o encontrado."
 
 #: ../src/wxDFast.cpp:1588
 #, c-format
@@ -503,15 +501,15 @@ msgstr ""
 #: ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635 ../src/wxDFast.cpp:1662
 #: ../src/wxDFast.cpp:1686
 msgid "Unable to open the clipboard!"
-msgstr "Não foi possível abrir a área de transferência!"
+msgstr "NÃ£o foi possÃ­vel abrir a Ã¡rea de transferÃªncia!"
 
 #: ../src/wxDFast.cpp:1697
 msgid "The configuration was exported successfully."
-msgstr "As configurações foram exportadas com sucesso."
+msgstr "As configuraÃ§Ãµes foram exportadas com sucesso."
 
 #: ../src/wxDFast.cpp:1699
 msgid "Error exporting configuration."
-msgstr "Erro exportando configurações."
+msgstr "Erro exportando configuraÃ§Ãµes."
 
 #: ../src/wxDFast.cpp:1705
 msgid "Select the file..."
@@ -550,7 +548,7 @@ msgstr ""
 msgid ""
 "wxDownload Fast %s is available.\n"
 "Visit https://wxdfast.dxsolutions.org for more informations."
-msgstr "Visite http://dfast.sourceforge.net para obter mais informações."
+msgstr "Visite http://dfast.sourceforge.net para obter mais informaÃ§Ãµes."
 
 #: ../src/wxDFast.cpp:2190
 #, fuzzy
@@ -574,7 +572,7 @@ msgstr "Site do wxDownload Fast"
 
 #: ../src/wxDFast.cpp:2235 ../src/wxDFast.cpp:3294
 msgid "Completed"
-msgstr "Concluído"
+msgstr "ConcluÃ­do"
 
 #: ../src/wxDFast.cpp:2236 ../src/wxDFast.cpp:3295
 msgid "Percentage"
@@ -599,7 +597,7 @@ msgstr ""
 
 #: ../src/wxDFast.cpp:2438 ../src/wxDFast.cpp:2501
 msgid "Information..."
-msgstr "Informação..."
+msgstr "InformaÃ§Ã£o..."
 
 #: ../src/wxDFast.cpp:3015
 msgid "Maximum number of connections"
@@ -613,7 +611,7 @@ msgstr "Banda para o download (em kB/s)"
 #: ../src/wxDFast.cpp:3017
 #, fuzzy
 msgid "Number of pieces"
-msgstr "Número de tentativas"
+msgstr "NÃºmero de tentativas"
 
 #: ../src/wxDFast.cpp:3018 ../src/wxDFast.cpp:3300
 msgid "URL"
@@ -642,7 +640,7 @@ msgstr "Tentativas"
 
 #: ../src/OptionsDialog.cpp:35
 msgid "Options"
-msgstr "Opções"
+msgstr "OpÃ§Ãµes"
 
 #: ../src/OptionsDialog.cpp:52
 msgid "Attempts:"
@@ -654,11 +652,11 @@ msgstr "Tempo entre as tentativas em segundos:"
 
 #: ../src/OptionsDialog.cpp:64
 msgid "Number of simultaneous downloads:"
-msgstr "Número de downloads simultâneos:"
+msgstr "NÃºmero de downloads simultÃ¢neos:"
 
 #: ../src/OptionsDialog.cpp:70
 msgid "Remember the last settings on the New Download box"
-msgstr "Lembrar as últimas configurações na caixa Novo Download"
+msgstr "Lembrar as Ãºltimas configuraÃ§Ãµes na caixa Novo Download"
 
 #: ../src/OptionsDialog.cpp:74
 msgid "Shutdown when all downloads finish"
@@ -670,11 +668,11 @@ msgstr "Desconecte quando todos os downloads terminarem"
 
 #: ../src/OptionsDialog.cpp:82
 msgid "Show dialog box when program closes"
-msgstr "Mostrar caixa de diálogo quando fechar o programa"
+msgstr "Mostrar caixa de diÃ¡logo quando fechar o programa"
 
 #: ../src/OptionsDialog.cpp:86
 msgid "Refresh rate of the download list (millisecs):"
-msgstr "Taxa de atualização da lista de downloads (miliseg):"
+msgstr "Taxa de atualizaÃ§Ã£o da lista de downloads (miliseg):"
 
 #: ../src/OptionsDialog.cpp:92
 msgid "Restore the main window when all downloads finish"
@@ -682,11 +680,11 @@ msgstr "Restaurar a janela principal quando os downloads terminarem"
 
 #: ../src/OptionsDialog.cpp:96
 msgid "Hide the main window when you start a download"
-msgstr "Esconder a janela principal quando você iniciar um download"
+msgstr "Esconder a janela principal quando vocÃª iniciar um download"
 
 #: ../src/OptionsDialog.cpp:100
 msgid "Check for updates automatically"
-msgstr "Buscar por atualizações automaticamente"
+msgstr "Buscar por atualizaÃ§Ãµes automaticamente"
 
 #: ../src/OptionsDialog.cpp:104
 msgid "Show notification on finish download"
@@ -694,7 +692,7 @@ msgstr ""
 
 #: ../src/OptionsDialog.cpp:107
 msgid "Preview"
-msgstr "Previsualização"
+msgstr "PrevisualizaÃ§Ã£o"
 
 #: ../src/OptionsDialog.cpp:113
 msgid "General"
@@ -702,7 +700,7 @@ msgstr "Geral"
 
 #: ../src/OptionsDialog.cpp:119
 msgid "Default destination:"
-msgstr "Destino padrão:"
+msgstr "Destino padrÃ£o:"
 
 #: ../src/OptionsDialog.cpp:140
 msgid "Shutdown command:"
@@ -740,7 +738,7 @@ msgstr "Servidor de Proxy"
 #: ../src/OptionsDialog.cpp:184 ../src/BatchDialog.cpp:45
 #: ../src/NewDialog.cpp:64
 msgid "User:"
-msgstr "Usuário:"
+msgstr "UsuÃ¡rio:"
 
 #: ../src/OptionsDialog.cpp:187 ../src/BatchDialog.cpp:49
 #: ../src/NewDialog.cpp:68
@@ -753,24 +751,24 @@ msgstr "Proxy"
 
 #: ../src/OptionsDialog.cpp:202
 msgid "Show Graph"
-msgstr "Mostrar Gráfico"
+msgstr "Mostrar GrÃ¡fico"
 
 #: ../src/OptionsDialog.cpp:206
 msgid "Graph refresh rate (millisecs):"
-msgstr "Taxa de atualização do gráfico (miliseg):"
+msgstr "Taxa de atualizaÃ§Ã£o do grÃ¡fico (miliseg):"
 
 #: ../src/OptionsDialog.cpp:212
 #, fuzzy
 msgid "Graph maximum value:"
-msgstr "Valor máximo do gráfico (kB/s):"
+msgstr "Valor mÃ¡ximo do grÃ¡fico (kB/s):"
 
 #: ../src/OptionsDialog.cpp:240
 msgid "The text area Width (pixels):"
-msgstr "Largura da área do texto:"
+msgstr "Largura da Ã¡rea do texto:"
 
 #: ../src/OptionsDialog.cpp:246
 msgid "Graph height:"
-msgstr "Altura do gráfico:"
+msgstr "Altura do grÃ¡fico:"
 
 #: ../src/OptionsDialog.cpp:252
 msgid "Text font size (points):"
@@ -787,7 +785,7 @@ msgstr "Cor de fundo:"
 
 #: ../src/OptionsDialog.cpp:268
 msgid "Graph grid colour:"
-msgstr "Cor da grade do gráfico:"
+msgstr "Cor da grade do grÃ¡fico:"
 
 #: ../src/OptionsDialog.cpp:272
 #, fuzzy
@@ -800,12 +798,12 @@ msgstr "Cor da fonte da velocidade:"
 
 #: ../src/OptionsDialog.cpp:288
 msgid "Graph"
-msgstr "Gráfico"
+msgstr "GrÃ¡fico"
 
 #: ../src/OptionsDialog.cpp:294
 #, fuzzy
 msgid "Finished piece colour:"
-msgstr "Esta parte já foi concluída\n"
+msgstr "Esta parte jÃ¡ foi concluÃ­da\n"
 
 #: ../src/OptionsDialog.cpp:298
 #, fuzzy
@@ -819,22 +817,22 @@ msgstr "Ativar o agendamento"
 #: ../src/OptionsDialog.cpp:315
 #, fuzzy
 msgid "Start date:"
-msgstr "Data de Início:"
+msgstr "Data de InÃ­cio:"
 
 #: ../src/OptionsDialog.cpp:316
 #, fuzzy
 msgid "Start time:"
-msgstr "Hora de Início:"
+msgstr "Hora de InÃ­cio:"
 
 #: ../src/OptionsDialog.cpp:323
 #, fuzzy
 msgid "Finish date:"
-msgstr "Data de Conclusão:"
+msgstr "Data de ConclusÃ£o:"
 
 #: ../src/OptionsDialog.cpp:324
 #, fuzzy
 msgid "Finish time:"
-msgstr "Hora de Conclusão:"
+msgstr "Hora de ConclusÃ£o:"
 
 #: ../src/OptionsDialog.cpp:331
 msgid "Deactivate downloads on:"
@@ -884,12 +882,12 @@ msgstr "Site do wxDownload Fast"
 
 #: ../src/OptionsDialog.cpp:418
 msgid "Browser Integration"
-msgstr "Integração"
+msgstr "IntegraÃ§Ã£o"
 
 #: ../src/OptionsDialog.cpp:526
 #, fuzzy
 msgid "Select the directory"
-msgstr "Selecione o diretório:"
+msgstr "Selecione o diretÃ³rio:"
 
 #: ../src/OptionsDialog.cpp:536
 #, fuzzy
@@ -911,19 +909,19 @@ msgstr "Salvar para:"
 
 #: ../src/BatchDialog.cpp:34 ../src/NewDialog.cpp:37
 msgid "Directory"
-msgstr "Diretório"
+msgstr "DiretÃ³rio"
 
 #: ../src/BatchDialog.cpp:36 ../src/NewDialog.cpp:51
 msgid "Address List:"
-msgstr "Lista de Endereços:"
+msgstr "Lista de EndereÃ§os:"
 
 #: ../src/BatchDialog.cpp:39 ../src/NewDialog.cpp:54
 msgid "Only the selected addresses will be downloaded"
-msgstr "Apenas os endereços marcados serão baixados"
+msgstr "Apenas os endereÃ§os marcados serÃ£o baixados"
 
 #: ../src/BatchDialog.cpp:43 ../src/NewDialog.cpp:62
 msgid "Server Permission"
-msgstr "Permissão no Servidor"
+msgstr "PermissÃ£o no Servidor"
 
 #: ../src/BatchDialog.cpp:55 ../src/NewDialog.cpp:74
 msgid "Manual"
@@ -943,7 +941,7 @@ msgid ""
 "pieces?"
 msgstr ""
 "Separar o arquivo em quantos       \n"
-"pedaços?"
+"pedaÃ§os?"
 
 #: ../src/BatchDialog.cpp:80 ../src/NewDialog.cpp:99
 #, fuzzy
@@ -960,7 +958,7 @@ msgstr ""
 
 #: ../src/BatchDialog.cpp:92 ../src/NewDialog.cpp:111
 msgid "Execute the following command after download completes"
-msgstr "Execute o seguinte comando após o download terminar"
+msgstr "Execute o seguinte comando apÃ³s o download terminar"
 
 #: ../src/BatchDialog.cpp:296 ../src/NewDialog.cpp:365
 msgid "The URLs are empty"
@@ -975,11 +973,11 @@ msgstr "Movendo..."
 #: ../src/BatchDialog.cpp:302 ../src/NewDialog.cpp:371
 #, fuzzy
 msgid "The destination doesn't exist"
-msgstr "Use o diretório de destino"
+msgstr "Use o diretÃ³rio de destino"
 
 #: ../src/NewDialog.cpp:40
 msgid "Address:"
-msgstr "Endereço:"
+msgstr "EndereÃ§o:"
 
 #: ../src/NewDialog.cpp:46
 msgid ""
@@ -1004,11 +1002,11 @@ msgid ""
 "connections?"
 msgstr ""
 "Separar o arquivo em quantos       \n"
-"pedaços?"
+"pedaÃ§os?"
 
 #: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
 msgid "The URL is invalid!"
-msgstr "A URL é inválida!"
+msgstr "A URL Ã© invÃ¡lida!"
 
 #: ../src/NewDialog.cpp:421
 msgid "Edit the URL"

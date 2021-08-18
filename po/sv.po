@@ -46,7 +46,6 @@ msgid "Unlimited"
 msgstr "Obegränsad"
 
 #: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
-#, fuzzy
 msgid "Just for this session. To change definitely go to \"Preferences\""
 msgstr ""
 "Endast för denna session. För att ändra permanent, öppna \"Alternativ\""
@@ -73,9 +72,8 @@ msgid "About"
 msgstr ""
 
 #: ../src/wxDFast.cpp:360 ../src/wxDFast.cpp:436
-#, fuzzy
 msgid "Preferences"
-msgstr "Referens-URL"
+msgstr "Alternativ"
 
 #: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
 msgid "New Download"

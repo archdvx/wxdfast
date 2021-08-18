@@ -8,12 +8,8 @@ msgstr ""
 "Language-Team: \n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Country: NETHERLANDS\n"
-"X-Poedit-Basepath: ../../\n"
-"X-Poedit-SearchPath-0: src\n"
-"X-Poedit-SearchPath-1: resources\n"
 
 #: ../src/wxDFast.cpp:49
 msgid ""
@@ -49,7 +45,6 @@ msgid "Unlimited"
 msgstr "Ongelimiteerd"
 
 #: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
-#, fuzzy
 msgid "Just for this session. To change definitely go to \"Preferences\""
 msgstr ""
 "Alleen voor deze sessie. Ga naar \"Opties\" voor permanente verandering."
@@ -76,9 +71,8 @@ msgid "About"
 msgstr ""
 
 #: ../src/wxDFast.cpp:360 ../src/wxDFast.cpp:436
-#, fuzzy
 msgid "Preferences"
-msgstr "Gerefereerde URL"
+msgstr "Opties"
 
 #: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
 msgid "New Download"
@@ -506,7 +500,7 @@ msgstr "Kan prikbord niet openen!"
 
 #: ../src/wxDFast.cpp:1697
 msgid "The configuration was exported successfully."
-msgstr "Configuratie is met succes geëxporteerd."
+msgstr "Configuratie is met succes geÃ«xporteerd."
 
 #: ../src/wxDFast.cpp:1699
 msgid "Error exporting configuration."

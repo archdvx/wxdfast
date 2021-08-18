@@ -8,16 +8,8 @@ msgstr ""
 "Language-Team: <>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootling 0.1.1\n"
-"X-Poedit-SourceCharset: iso-8859-1\n"
-"X-Poedit-Basepath: /home/max/Projetos/wxDFast/src\n"
-"X-Poedit-Country: INDONESIA\n"
-"X-Poedit-Language: Indonesian\n"
-"X-Poedit-SearchPath-0: /home/max/Projetos/wxDFast/src/wxMD5\n"
-"X-Poedit-SearchPath-1: /home/max/Projetos/wxDFast/src\n"
-"X-Poedit-SearchPath-2: /home/max/Projetos/wxDFast/resources\n"
 
 #: ../src/wxDFast.cpp:49
 msgid ""
@@ -53,7 +45,6 @@ msgid "Unlimited"
 msgstr "Tak Terbatas"
 
 #: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
-#, fuzzy
 msgid "Just for this session. To change definitely go to \"Preferences\""
 msgstr "Hanya untuk sesi ini. Untuk mengganti seterusnya, atur di \"Pilihan\""
 
@@ -79,9 +70,8 @@ msgid "About"
 msgstr ""
 
 #: ../src/wxDFast.cpp:360 ../src/wxDFast.cpp:436
-#, fuzzy
 msgid "Preferences"
-msgstr "URL Pengantar"
+msgstr "Pilihan"
 
 #: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
 msgid "New Download"

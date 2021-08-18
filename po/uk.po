@@ -48,7 +48,6 @@ msgid "Unlimited"
 msgstr "Не обмежено"
 
 #: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
-#, fuzzy
 msgid "Just for this session. To change definitely go to \"Preferences\""
 msgstr ""
 "Тільки для цієї сесії. Аби змінити загалом, перейдіть до \"Налаштувань\""
@@ -77,9 +76,8 @@ msgid "About"
 msgstr ""
 
 #: ../src/wxDFast.cpp:360 ../src/wxDFast.cpp:436
-#, fuzzy
 msgid "Preferences"
-msgstr "Довідкова адреса URL"
+msgstr "Налаштувань"
 
 #: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
 msgid "New Download"
