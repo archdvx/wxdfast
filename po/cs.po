@@ -2,31 +2,28 @@
 # Copyright (C) YEAR David Vachulka
 # This file is distributed under the same license as the wxdfast package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 # Translators:
 # David Vachulka <archdvx@dxsolutions.org>, 2021
-#
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: wxdfast 0.7.0\n"
+"Project-Id-Version: wxdfast 0.70.0\n"
 "Report-Msgid-Bugs-To: archdvx@dxsolutions.org\n"
 "POT-Creation-Date: 2021-08-18 08:43+0200\n"
-"PO-Revision-Date: 2021-08-18 08:44+0200\n"
-"Last-Translator: David Vachulka <archdvx@dxsolutions.org>\n"
-"Language-Team: Czech (https://www.transifex.com/wxdownload-fast/teams/123746/"
-"cs/)\n"
-"Language: cs\n"
+"PO-Revision-Date: 2021-08-15 11:32+0000\n"
+"Last-Translator: David Vachulka <archdvx@dxsolutions.org>, 2021\n"
+"Language-Team: Czech (https://www.transifex.com/wxdownload-fast/teams/123746/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
-"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Poedit 2.3\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: ../src/wxDFast.cpp:49
 msgid ""
-"Usage: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] "
-"[URL of the file(s) to be downloaded...]\n"
+"Usage: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] [URL of the file(s) to be downloaded...]\n"
 "  -h, --help                   Print (this) help screen and exit\n"
 "  -v, --version                Print version information and exit\n"
 "  -i, --hide                   Start with the the main frame hide\n"
@@ -34,8 +31,7 @@ msgid ""
 "  -c, --comments=<str>         Add comments to download\n"
 "  -r, --reference=<str>        Set a reference URL"
 msgstr ""
-"Použití: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] "
-"[URL souboru ke stažení...]\n"
+"Použití: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] [URL souboru ke stažení...]\n"
 "  -h, --help                   Zobrazí (tuto) obrazovku a skončí\n"
 "  -v, --version                Zobrazí verzi a skončí\n"
 "  -i, --hide                   Spustí se skrytým hlavním oknem\n"
@@ -66,8 +62,8 @@ msgstr "Neomezená šířka pásma"
 #: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
 msgid "Just for this session. To change definitely go to \"Preferences\""
 msgstr ""
-"Jen pro toto spuštění. Pro trvalou změnu nastavte v položce menu \"Předvolby"
-"\""
+"Jen pro toto spuštění. Pro trvalou změnu nastavte v položce menu "
+"\"Předvolby\""
 
 #: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2538
 msgid "Active"
@@ -400,20 +396,15 @@ msgstr "Zavřít..."
 
 #: ../src/wxDFast.cpp:1062
 msgid ""
-"This program is free software; you can redistribute it and/or modify it "
-"under the terms of\n"
-"the GNU General Public License as published by the Free Software "
-"Foundation;\n"
+"This program is free software; you can redistribute it and/or modify it under the terms of\n"
+"the GNU General Public License as published by the Free Software Foundation;\n"
 "either version 2 of the License, or (at your option) any later version.\n"
 "\n"
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY;\n"
-"without even the implied warranty of MERCHANTABILITY or FITNESS FOR A "
-"PARTICULAR PURPOSE.\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;\n"
+"without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 "See the GNU General Public License for more details.\n"
 "\n"
-"You should have received a copy of the GNU General Public License along with "
-"this program;\n"
+"You should have received a copy of the GNU General Public License along with this program;\n"
 "if not, write to the Free Software Foundation, Inc., 51 Franklin Street,\n"
 "Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr ""
