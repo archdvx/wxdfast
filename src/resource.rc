@@ -1,0 +1,33 @@
+dxde ICON "../resources/RipStop/icon/wxdfast.ico"
+
+#include "wx/msw/wx.rc"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,70,0,0
+ PRODUCTVERSION 0,70,0,0
+ FILEFLAGSMASK 0x17L
+ FILEFLAGS 0x0L
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004b0"
+        BEGIN
+            VALUE "Comments", "Version 0.70.0"
+            VALUE "CompanyName", "dxSolutions"
+            VALUE "FileDescription", "Multithread download manager"
+            VALUE "FileVersion", "0.70.0"
+            VALUE "InternalName", "wxDFast"
+            VALUE "LegalCopyright", "Max Velasques, David Vachulka"
+            VALUE "OriginalFilename", "wxdfast.exe"
+            VALUE "ProductName", "wxDownload Fast"
+            VALUE "ProductVersion", "0.70.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0, 1200
+    END
+END

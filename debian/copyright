@@ -1,0 +1,33 @@
+This work was packaged for Debian by:
+
+    David Vachulka <arch_dvx@users.sourceforge.net> on Sun, 1 August 2021 13:13:13 +0200
+
+It was downloaded from https:://wxdfast.dxsolutions.org
+
+Upstream Author(s):
+
+    David Vachulka <arch_dvx@users.sourceforge.net>
+
+Copyright:
+
+    Copyright (C) 2021 David Vachulka <arch_dvx@users.sourceforge.net>
+
+License:
+
+    GPL
+
+The Debian packaging is:
+
+    Copyright (C) 2021 David Vachulka <arch_dvx@users.sourceforge.net>
+
+# Please chose a license for your packaging work. If the program you package
+# uses a mainstream license, using the same license is the safest choice.
+# Please avoid to pick license terms that are more restrictive than the
+# packaged work, as it may make Debian's contributions unacceptable upstream.
+# If you just want it to be GPL version 2, leave the following lines in.
+
+and is licensed under the GPL version 2,
+see `/usr/share/common-licenses/GPL-2'.
+
+# Please also look if there are files or directories which have a
+# different copyright/license attached and list them here.

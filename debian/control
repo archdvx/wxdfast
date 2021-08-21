@@ -1,0 +1,12 @@
+Source: wxdfast
+Section: net
+Priority: extra
+Maintainer: David Vachulka <arch_dvx@users.sourceforge.net>
+Build-Depends: debhelper (>= 9), cmake, pkg-config, libwxgtk3.0-dev, libaria2-0-dev
+Standards-Version: 3.8.4
+Homepage: https://wxdfast.dxsolutions.org
+
+Package: wxdfast
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Multithreaded download manager.
