@@ -1,0 +1,41 @@
+#!/bin/bash
+if [ -z "$1" ]; then
+    echo "Syntax: $0 <targetdir>" 1>&2
+    exit 1
+fi
+
+TARGET=$1
+
+mkdir -p "$TARGET"
+
+rm -rfv "$TARGET"/*
+
+cp ../COPYING "$TARGET"
+
+cp ../extension/add_config.bat "$TARGET"
+cp ../extension/remove_config.bat "$TARGET"
+
+echo "Copying icons started"
+mkdir -p "$TARGET/icons"
+cp ../resources/RipStop/icon/wxdfast.png "$TARGET/icons"
+cp -r ../resources/RipStop/logo/ "$TARGET/icons/logo/"
+cp -r ../resources/RipStop/menubar/ "$TARGET/icons/menubar/"
+cp -r ../resources/RipStop/toolbar/ "$TARGET/icons/toolbar/"
+echo "Copying icons ended"
+
+echo "Copying translations started"
+cd ../po
+for i in *.po
+do
+  mkdir -p "$TARGET/locale/${i%.po}/LC_MESSAGES"
+  cp ../po/${i%.po}.mo "$TARGET/locale/${i%.po}/LC_MESSAGES/wxdfast.mo"
+  rsync -a -m --include '*/' --include 'wx*' --exclude '*' /mingw32/share/locale/${i%.po}/LC_MESSAGES "$TARGET/locale/${i%.po}"
+done
+cd ../win
+echo "Copying translations ended"
+
+echo "Copying ca-certs started"
+rsync -a -m --include '*/' --include '*.pem' --exclude '*' /mingw32/bin/ca-certs "$TARGET"
+echo "Copying ca-certs ended"
+
+installapp ../build "$TARGET"
