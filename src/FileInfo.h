@@ -74,7 +74,7 @@ public:
     void setStartTime(const wxDateTime &startTime);
     wxDateTime endTime() const;
     void setEndTime(const wxDateTime &endTime);
-    wxTimeSpan timepassed() const;
+    uint64_t timepassed() const;
     void addTimepassed(int milliseconds);
     void clearTimepassed();
     wxString log() const;
@@ -83,9 +83,8 @@ public:
     int attempts() const;
     void setAttempts(int newAttempts);
     void addAttempt();
-
-    const wxTimeSpan &laststat() const;
-    void setLaststat(const wxTimeSpan &newLaststat);
+    uint64_t laststat() const;
+    void setLaststat(const uint64_t &newLaststat);
 
 private:
     int m_index;
@@ -113,10 +112,10 @@ private:
     int m_numConnections;
     wxDateTime m_startTime;
     wxDateTime m_endTime;
-    wxTimeSpan m_timepassed;
+    uint64_t m_timepassed;
     wxString m_log;
     int m_attempts;
-    wxTimeSpan m_laststat;
+    uint64_t m_laststat;
     //NOTE torrent values - next release
 };
 

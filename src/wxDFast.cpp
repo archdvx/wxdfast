@@ -28,6 +28,7 @@
 #include <wx/notifmsg.h>
 #include <algorithm>
 #include <random>
+#include <cinttypes>
 #include "wxDFast.h"
 #include "Icons.h"
 #include "Defs.h"
@@ -417,8 +418,10 @@ mMainFrame::mMainFrame()
     m_menumove = new wxMenuItem(nullptr, ID_MENU_MOVE, _("Move File"));
     toolsMenu->Append(m_menumove);
     toolsMenu->AppendSeparator();
+#if !(defined (__WXMAC__)) //TODO fix on next release
     m_menumd5 = new wxMenuItem(nullptr, ID_MENU_MD5, _("Check Integrity"));
     toolsMenu->Append(m_menumd5);
+#endif
     m_menuopendestination = new wxMenuItem(nullptr, ID_MENU_OPENDESTINATION, _("Open Destination Directory"));
     toolsMenu->Append(m_menuopendestination);
     m_menuagain = new wxMenuItem(nullptr, ID_MENU_AGAIN, _("Download File Again"));
@@ -671,17 +674,18 @@ wxString mMainFrame::GetDownloadItemText(long item, long column)
     case 5: return m_progressList[static_cast<size_t>(item)].totalLength()?
                 wxString::Format("%.1f%%", (100.*m_progressList[static_cast<size_t>(item)].downloadLength())/(m_progressList[static_cast<size_t>(item)].totalLength()/1.)):
                 "0%";
-    case 6: return m_progressList[static_cast<size_t>(item)].timepassed().Format();
+    case 6: return MyUtilFunctions::TimespanToWxstr(m_progressList[static_cast<size_t>(item)].timepassed());
     case 7:
     {
         if(m_progressList[static_cast<size_t>(item)].status()==STATUS_FINISHED || m_progressList[static_cast<size_t>(item)].status()==STATUS_ERROR)
         {
-            return wxTimeSpan(0).Format();
+            return MyUtilFunctions::TimespanToWxstr(0);
         }
         if(m_progressList[static_cast<size_t>(item)].downloadSpeed())
         {
-            return wxTimeSpan(0, 0, (m_progressList[static_cast<size_t>(item)].totalLength()-m_progressList[static_cast<size_t>(item)].downloadLength())/
-                              m_progressList[static_cast<size_t>(item)].downloadSpeed()).Format();
+            return MyUtilFunctions::TimespanToWxstr(1000*(m_progressList[static_cast<size_t>(item)].totalLength()
+                                                    -m_progressList[static_cast<size_t>(item)].downloadLength())/
+                                                    m_progressList[static_cast<size_t>(item)].downloadSpeed());
         }
         else
         {
@@ -767,7 +771,7 @@ wxString mMainFrame::GetFinishInfoItemText(long item, long column)
             return MyUtilFunctions::MimeType(m_finishedList[static_cast<size_t>(m_selectedFinished)].name());
         }
         case 2: return MyUtilFunctions::SizeText(m_finishedList[static_cast<size_t>(m_selectedFinished)].totalLength());
-        case 3: return m_finishedList[static_cast<size_t>(m_selectedFinished)].timepassed().Format();
+        case 3: return MyUtilFunctions::TimespanToWxstr(m_finishedList[static_cast<size_t>(m_selectedFinished)].timepassed());
         case 4: return m_finishedList[static_cast<size_t>(m_selectedFinished)].destination();
         case 5: return m_finishedList[static_cast<size_t>(m_selectedFinished)].startTime().Format("%x %X");
         case 6: return m_finishedList[static_cast<size_t>(m_selectedFinished)].endTime().Format("%x %X");
@@ -1649,7 +1653,7 @@ void mMainFrame::OnCopyDownloadData(wxCommandEvent &/*event*/)
             info << _("Name") << ": " << m_progressList[static_cast<size_t>(m_selectedProgress)].name() << "\n";
             info << _("File type") << ": " << MyUtilFunctions::MimeType(m_progressList[static_cast<size_t>(m_selectedProgress)].name()) << "\n";
             info << _("Size") << ": " << MyUtilFunctions::SizeText(m_progressList[static_cast<size_t>(m_selectedProgress)].totalLength()) << "\n";
-            info << _("Time") << ": " << m_progressList[static_cast<size_t>(m_selectedProgress)].timepassed().Format() << "\n";
+            info << _("Time") << ": " << MyUtilFunctions::TimespanToWxstr(m_progressList[static_cast<size_t>(m_selectedProgress)].timepassed()) << "\n";
             info << _("Destination") << ": " << m_progressList[static_cast<size_t>(m_selectedProgress)].destination() << "\n";
             info << _("Reference URL") << ": " << m_progressList[static_cast<size_t>(m_selectedProgress)].link() << "\n";
             info << _("Comments") << ": " << m_progressList[static_cast<size_t>(m_selectedProgress)].comment() << "\n";
@@ -1672,7 +1676,7 @@ void mMainFrame::OnCopyDownloadData(wxCommandEvent &/*event*/)
             info << _("Name") << ": " << m_finishedList[static_cast<size_t>(m_selectedFinished)].name() << "\n";
             info << _("File type") << ": " << MyUtilFunctions::MimeType(m_finishedList[static_cast<size_t>(m_selectedFinished)].name()) << "\n";
             info << _("Size") << ": " << MyUtilFunctions::SizeText(m_finishedList[static_cast<size_t>(m_selectedFinished)].totalLength()) << "\n";
-            info << _("Time") << ": " << m_finishedList[static_cast<size_t>(m_selectedFinished)].timepassed().Format() << "\n";
+            info << _("Time") << ": " << MyUtilFunctions::TimespanToWxstr(m_finishedList[static_cast<size_t>(m_selectedFinished)].timepassed()) << "\n";
             info << _("Destination") << ": " << m_finishedList[static_cast<size_t>(m_selectedFinished)].destination() << "\n";
             info << _("MD5") << ": " << m_finishedList[static_cast<size_t>(m_selectedFinished)].MD5() << "\n";
             info << _("Reference URL") << ": " << m_finishedList[static_cast<size_t>(m_selectedFinished)].link() << "\n";
@@ -1966,7 +1970,9 @@ void mMainFrame::OnFinishedRightClick(wxListEvent &event)
     popup.AppendSeparator();
     popup.Append(ID_MENU_MOVE, _("Move File"));
     popup.AppendSeparator();
+#if !(defined (__WXMAC__)) //TODO fix on next release
     popup.Append(ID_MENU_MD5, _("Check Integrity"));
+#endif
     popup.Append(ID_MENU_OPENDESTINATION, _("Open Destination Directory"));
     popup.Append(ID_MENU_AGAIN, _("Download File Again"));
     m_finishedlistctrl->PopupMenu(&popup);
@@ -2026,8 +2032,6 @@ void mMainFrame::OnDownloadStat(wxThreadEvent &event)
                 LogAfterFirstStart(item);
             }
             (*it).setStatusFromAriastatus(de.GetStatus());
-            if((*it).status() == STATUS_ACTIVE || (*it).status() == STATUS_SCHEDULE_ACTIVE)
-                (*it).addTimepassed(moptions.timerupdateinterval());
             (*it).setDownloadLength(de.GetCompletedLegth());
             (*it).setDownloadSpeed(de.GetDownloadSpeed());
             (*it).setBitfield(de.GetBitfield());
@@ -2180,11 +2184,14 @@ void mMainFrame::OnTimer(wxTimerEvent &/*event*/)
     long item = 0;
     for(auto it=m_progressList.begin(); it!=m_progressList.end();)
     {
+        if((*it).status() == STATUS_ACTIVE || (*it).status() == STATUS_SCHEDULE_ACTIVE)
+            (*it).addTimepassed(moptions.timerupdateinterval());
         if((*it).status() == STATUS_FINISHED || (*it).status() == STATUS_ERROR) //Move to finish list
         {
             (*it).addTimepassed(moptions.timerupdateinterval());
             (*it).setEndTime(wxDateTime::Now());
             (*it).setIndex(m_finishedList.size());
+#if !(defined (__WXMAC__)) //TODO fix on next release
             if(frameShown)
             {
                 wxProgressDialog waitbox("MD5", _("Calculating file's MD5..."));
@@ -2196,6 +2203,7 @@ void mMainFrame::OnTimer(wxTimerEvent &/*event*/)
             {
                 (*it).setMD5(wxMD5::GetDigest(wxFileName((*it).destination() + wxFILE_SEP_PATH + (*it).name())));
             }
+#endif
             if(moptions.shownotify())
             {
                 if((*it).status() == STATUS_FINISHED && (*it).downloadLength() >= (*it).totalLength())
@@ -2228,13 +2236,13 @@ void mMainFrame::OnTimer(wxTimerEvent &/*event*/)
             ShutDownOrDisconnect();
             continue;
         }
-        if((*it).status() == STATUS_ACTIVE && (*it).timepassed().GetSeconds() != 0 && (*it).timepassed().GetSeconds()%90 == 0
-                && (*it).timepassed().GetSeconds() != (*it).laststat().GetSeconds())
+        if((*it).status() == STATUS_ACTIVE && (*it).timepassed()/1000 != 0 && ((*it).timepassed()/1000)%90 == 0
+                && (*it).timepassed()/1000 != (*it).laststat()/1000)
         {
             (*it).appendLogLine(_("Download statistics")+" "+wxDateTime::Now().Format("%x %X"));
             (*it).appendLogLine(wxT("   ")+_("Completed")+": "+MyUtilFunctions::SizeText((*it).downloadLength()));
             (*it).appendLogLine(wxT("   ")+_("Percentage")+": "+((*it).totalLength()?wxString::Format("%.1f%%", (100.*(*it).downloadLength())/((*it).totalLength()/1.)):"0%"));
-            (*it).appendLogLine(wxT("   ")+_("Time Passed")+": "+(*it).timepassed().Format());
+            (*it).appendLogLine(wxT("   ")+_("Time Passed")+": "+MyUtilFunctions::TimespanToWxstr((*it).timepassed()));
             (*it).appendLogLine(wxT("   ")+_("Remaining")+": "
                                 +((*it).downloadSpeed()?wxTimeSpan(0,0,((*it).totalLength()-(*it).downloadLength())/(*it).downloadSpeed()).Format():wxString::FromUTF8("∞")));
             (*it).setLaststat((*it).timepassed());
@@ -2698,7 +2706,9 @@ void mMainFrame::EnableTools()
         m_menustopall->Enable(m_selectedProgress != -1 && SomeProcessActive());
         m_menuproperties->Enable(m_selectedProgress != -1);
         m_menumove->Enable(false);
+#if !(defined (__WXMAC__)) //TODO fix on next release
         m_menumd5->Enable(false);
+#endif
         m_menuopendestination->Enable(false);
         m_menuagain->Enable(false);
     }
@@ -2726,7 +2736,9 @@ void mMainFrame::EnableTools()
         m_menustopall->Enable(false);
         m_menuproperties->Enable(false);
         m_menumove->Enable(m_selectedFinished != -1 && m_finishedList[static_cast<size_t>(m_selectedFinished)].status() == STATUS_FINISHED);
+#if !(defined (__WXMAC__)) //TODO fix on next release
         m_menumd5->Enable(m_selectedFinished != -1 && m_finishedList[static_cast<size_t>(m_selectedFinished)].status() == STATUS_FINISHED);
+#endif
         m_menuopendestination->Enable(m_selectedFinished != -1 && m_finishedList[static_cast<size_t>(m_selectedFinished)].status() == STATUS_FINISHED);
         m_menuagain->Enable(m_selectedFinished != -1);
     }

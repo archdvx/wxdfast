@@ -20,7 +20,7 @@ mFileInfo::mFileInfo()
     m_downloadSpeed = 0;
     m_uploadSpeed = 0;
     m_numPieces = 0;
-    m_timepassed = wxTimeSpan(0);
+    m_timepassed = 0;
     m_status = STATUS_QUEUE;
     m_destination = moptions.destination();
     m_index = -1;
@@ -38,7 +38,7 @@ mFileInfo::mFileInfo()
     m_startTime = wxDateTime::Now();
     m_endTime = wxDateTime::Now();
     m_attempts = 0;
-    m_laststat = wxTimeSpan(0);
+    m_laststat = 0;
 }
 
 wxXmlNode *mFileInfo::createXmlNode()
@@ -68,7 +68,7 @@ wxXmlNode *mFileInfo::createXmlNode()
     node->AddAttribute("totalLength", wxString::Format("%lld",m_totalLength));
     node->AddAttribute("startTime", m_startTime.FormatISOCombined());
     node->AddAttribute("endTime", m_endTime.FormatISOCombined());
-    node->AddAttribute("timepassed", wxString::Format("%lld",m_timepassed.GetValue()));
+    node->AddAttribute("timepassed", wxString::Format("%llu",m_timepassed));
     node->AddAttribute("log", m_log);
     node->AddAttribute("attempts", wxString::Format("%d",m_attempts));
     return node;
@@ -106,7 +106,7 @@ bool mFileInfo::fromXmlNode(const wxXmlNode *node)
     m_totalLength = static_cast<int64_t>(wxAtof(node->GetAttribute("totalLength", "0.0")));
     m_startTime.ParseISOCombined(node->GetAttribute("startTime", wxDateTime::Now().FormatISOCombined()));
     m_endTime.ParseISOCombined(node->GetAttribute("endTime", wxDateTime::Now().FormatISOCombined()));
-    m_timepassed = wxTimeSpan(0,0,0,(static_cast<int64_t>(wxAtof(node->GetAttribute("timepassed", "0.0")))));
+    m_timepassed = static_cast<uint64_t>(wxAtof(node->GetAttribute("timepassed", "0.0")));
     m_log = node->GetAttribute("log");
     m_attempts = wxAtoi(node->GetAttribute("attempts","0"));
     return m_index != -1;
@@ -387,19 +387,19 @@ void mFileInfo::setEndTime(const wxDateTime &endTime)
     m_endTime = endTime;
 }
 
-wxTimeSpan mFileInfo::timepassed() const
+uint64_t mFileInfo::timepassed() const
 {
     return m_timepassed;
 }
 
 void mFileInfo::addTimepassed(int milliseconds)
 {
-    m_timepassed.Add(wxTimeSpan(0,0,0,milliseconds));
+    m_timepassed += milliseconds;
 }
 
 void mFileInfo::clearTimepassed()
 {
-    m_timepassed = wxTimeSpan();
+    m_timepassed = 0;
 }
 
 wxString mFileInfo::log() const
@@ -432,12 +432,12 @@ void mFileInfo::addAttempt()
     m_attempts++;
 }
 
-const wxTimeSpan &mFileInfo::laststat() const
+uint64_t mFileInfo::laststat() const
 {
     return m_laststat;
 }
 
-void mFileInfo::setLaststat(const wxTimeSpan &newLaststat)
+void mFileInfo::setLaststat(const uint64_t &newLaststat)
 {
     m_laststat = newLaststat;
 }

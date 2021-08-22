@@ -17,6 +17,7 @@
 class MyUtilFunctions
 {
 public:
+    static wxString TimespanToWxstr(const uint64_t &span);
     static wxString IntToWxstr(long value,int format = 0);
     /**
      * @brief SpeedText

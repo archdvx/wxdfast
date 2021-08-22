@@ -15,6 +15,16 @@
 #include "wxjson/include/wx/jsonval.h"
 #include "UtilFunctions.h"
 
+wxString MyUtilFunctions::TimespanToWxstr(const uint64_t &span)
+{
+    uint64_t time = span/1000; //round to seconds
+    int hour = static_cast<int>(time/3600);
+    time -= hour*3600;
+    int min = static_cast<int>(time/60);
+    int sec = static_cast<int>(time%60);
+    return wxString::Format("%02d:%02d:%02d", hour, min, sec);
+}
+
 wxString MyUtilFunctions::IntToWxstr(long value,int format)
 {
     wxString string;
