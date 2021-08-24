@@ -90,7 +90,8 @@ enum
     ID_NEW_EDIT,
     ID_IPC,
     ID_IPC_SOCKET,
-    ID_BATCH_DIRECTORY
+    ID_BATCH_DIRECTORY,
+    ID_TIMER
 };
 
 #endif // DEFS_H

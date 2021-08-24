@@ -27,6 +27,8 @@ mFileInfo::mFileInfo()
     m_user = wxEmptyString;
     m_password = wxEmptyString;
     m_MD5 = wxEmptyString;
+    m_SHA1 = wxEmptyString;
+    m_SHA256 = wxEmptyString;
     m_connections = 0;
     m_bandwidth = 0;
     m_comment = wxEmptyString;
@@ -60,6 +62,8 @@ wxXmlNode *mFileInfo::createXmlNode()
     node->AddAttribute("user", m_user);
     node->AddAttribute("password", m_password);
     node->AddAttribute("md5", m_MD5);
+    node->AddAttribute("sha1", m_SHA1);
+    node->AddAttribute("sha256", m_SHA256);
     node->AddAttribute("connections", wxString::Format("%d",m_connections));
     node->AddAttribute("bandwith", wxString::Format("%d",m_bandwidth));
     node->AddAttribute("comment", m_comment);
@@ -98,6 +102,8 @@ bool mFileInfo::fromXmlNode(const wxXmlNode *node)
     m_user = node->GetAttribute("user");
     m_password = node->GetAttribute("password");
     m_MD5 = node->GetAttribute("md5");
+    m_SHA1 = node->GetAttribute("sha1");
+    m_SHA256 = node->GetAttribute("sha256");
     m_connections = wxAtoi(node->GetAttribute("connections", "1"));
     m_bandwidth = wxAtoi(node->GetAttribute("bandwith", "0"));
     m_comment = node->GetAttribute("comment");
@@ -440,4 +446,24 @@ uint64_t mFileInfo::laststat() const
 void mFileInfo::setLaststat(const uint64_t &newLaststat)
 {
     m_laststat = newLaststat;
+}
+
+const wxString &mFileInfo::SHA1() const
+{
+    return m_SHA1;
+}
+
+void mFileInfo::setSHA1(const wxString &newSHA1)
+{
+    m_SHA1 = newSHA1;
+}
+
+const wxString &mFileInfo::SHA256() const
+{
+    return m_SHA256;
+}
+
+void mFileInfo::setSHA256(const wxString &newSHA256)
+{
+    m_SHA256 = newSHA256;
 }

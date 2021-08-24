@@ -1,2 +1,5 @@
+Version 0.70.1 (released 08-24-2021)
+- File hashes now calculated by openssl
+
 Version 0.70.0 (released 08-21-2021)
 - Program rewritten with Aria2 as download backend

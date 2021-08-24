@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wxDFast\n"
 "Report-Msgid-Bugs-To: archdvx@dxsolutions.org\n"
-"POT-Creation-Date: 2021-08-18 08:43+0200\n"
+"POT-Creation-Date: 2021-08-23 23:27+0200\n"
 "PO-Revision-Date: 2021-08-07 20:40+0200\n"
 "Last-Translator: Tequila <tequila_13@users.sourceforge.net>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -20,10 +20,10 @@ msgstr ""
 "X-Poedit-SearchPath-1: src\n"
 "X-Poedit-SearchPath-2: resources\n"
 
-#: ../src/wxDFast.cpp:49
+#: ../src/wxDFast.cpp:50
 msgid ""
 "Usage: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] "
-"[URL of the file(s) to be downloaded...]\n"
+"[URLs of the file to be downloaded...]\n"
 "  -h, --help                   Print (this) help screen and exit\n"
 "  -v, --version                Print version information and exit\n"
 "  -i, --hide                   Start with the the main frame hide\n"
@@ -32,364 +32,372 @@ msgid ""
 "  -r, --reference=<str>        Set a reference URL"
 msgstr ""
 
-#: ../src/wxDFast.cpp:136
+#: ../src/wxDFast.cpp:137
 #, fuzzy
 msgid "wxDownload Fast already running"
 msgstr "wxDownload Fast weboldal"
 
-#: ../src/wxDFast.cpp:196
+#: ../src/wxDFast.cpp:197
 msgid "Hide the main window"
 msgstr "Főablak elrejtése"
 
-#: ../src/wxDFast.cpp:198
+#: ../src/wxDFast.cpp:199
 msgid "Show the main window"
 msgstr "Főablak megjelenítése"
 
-#: ../src/wxDFast.cpp:200
+#: ../src/wxDFast.cpp:201
 msgid "New download"
 msgstr "Új letöltés"
 
-#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:2542 ../src/wxDFast.cpp:3016
+#: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2583 ../src/wxDFast.cpp:3057
 msgid "Unlimited"
 msgstr "Korlátlan"
 
-#: ../src/wxDFast.cpp:202 ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204
+#: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:205
 msgid "Just for this session. To change definitely go to \"Preferences\""
 msgstr ""
 "Csak erre a munkamenetre. Az általános beállításokat a \"Beállítások\" "
 "menüpontban módosíthatja."
 
-#: ../src/wxDFast.cpp:203 ../src/wxDFast.cpp:2538
+#: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2579
 msgid "Active"
 msgstr "Aktív"
 
-#: ../src/wxDFast.cpp:204 ../src/wxDFast.cpp:2534
+#: ../src/wxDFast.cpp:205 ../src/wxDFast.cpp:2575
 msgid "Per Download"
 msgstr "Letöltésenként"
 
-#: ../src/wxDFast.cpp:211 ../src/wxDFast.cpp:2534 ../src/wxDFast.cpp:2538
-#: ../src/wxDFast.cpp:2542
+#: ../src/wxDFast.cpp:212 ../src/wxDFast.cpp:2575 ../src/wxDFast.cpp:2579
+#: ../src/wxDFast.cpp:2583
 msgid "Band control"
 msgstr "Sávszélesség beállítása"
 
-#: ../src/wxDFast.cpp:213 ../src/wxDFast.cpp:385
+#: ../src/wxDFast.cpp:214 ../src/wxDFast.cpp:387
 msgid "Quit"
 msgstr ""
 
-#: ../src/wxDFast.cpp:359 ../src/wxDFast.cpp:447
+#: ../src/wxDFast.cpp:361 ../src/wxDFast.cpp:449
 msgid "About"
 msgstr ""
 
-#: ../src/wxDFast.cpp:360 ../src/wxDFast.cpp:436
+#: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:438
 msgid "Preferences"
 msgstr "Beállítások"
 
-#: ../src/wxDFast.cpp:362 ../src/wxDFast.cpp:1874
+#: ../src/wxDFast.cpp:364 ../src/wxDFast.cpp:1909
 msgid "New Download"
 msgstr "Új letöltés"
 
-#: ../src/wxDFast.cpp:365 ../src/wxDFast.cpp:1878 ../src/wxDFast.cpp:1956
+#: ../src/wxDFast.cpp:367 ../src/wxDFast.cpp:1913 ../src/wxDFast.cpp:1991
 msgid "Remove Download"
 msgstr "Letöltés törlése"
 
-#: ../src/wxDFast.cpp:369 ../src/wxDFast.cpp:1885
+#: ../src/wxDFast.cpp:371 ../src/wxDFast.cpp:1920
 msgid "Schedule Download"
 msgstr "Ütemezett letöltések"
 
-#: ../src/wxDFast.cpp:372 ../src/wxDFast.cpp:1893 ../src/BatchDialog.cpp:54
+#: ../src/wxDFast.cpp:374 ../src/wxDFast.cpp:1928 ../src/BatchDialog.cpp:54
 #: ../src/NewDialog.cpp:73
 msgid "Start Download"
 msgstr "Letöltés indítása"
 
-#: ../src/wxDFast.cpp:375 ../src/wxDFast.cpp:1899
+#: ../src/wxDFast.cpp:377 ../src/wxDFast.cpp:1934
 msgid "Stop Download"
 msgstr "Letöltés leállítása"
 
-#: ../src/wxDFast.cpp:378 ../src/wxDFast.cpp:471
+#: ../src/wxDFast.cpp:380 ../src/wxDFast.cpp:473
 msgid "Start all downloads"
 msgstr "Az összes letöltés elindítása"
 
-#: ../src/wxDFast.cpp:381 ../src/wxDFast.cpp:472
+#: ../src/wxDFast.cpp:383 ../src/wxDFast.cpp:474
 msgid "Stop all downloads"
 msgstr "Az összes letöltés leállítása"
 
-#: ../src/wxDFast.cpp:386
+#: ../src/wxDFast.cpp:388
 msgid "&File"
 msgstr "&Fájl"
 
-#: ../src/wxDFast.cpp:388
+#: ../src/wxDFast.cpp:390
 msgid "Paste URL"
 msgstr "URL beillesztése"
 
-#: ../src/wxDFast.cpp:391 ../src/wxDFast.cpp:1908 ../src/wxDFast.cpp:1960
+#: ../src/wxDFast.cpp:393 ../src/wxDFast.cpp:1943 ../src/wxDFast.cpp:1995
 msgid "Copy URL"
 msgstr "URL másolása"
 
-#: ../src/wxDFast.cpp:394 ../src/wxDFast.cpp:1911 ../src/wxDFast.cpp:1963
+#: ../src/wxDFast.cpp:396 ../src/wxDFast.cpp:1946 ../src/wxDFast.cpp:1998
 msgid "Copy Download Data"
 msgstr "Letöltési adatok másolása"
 
-#: ../src/wxDFast.cpp:398
+#: ../src/wxDFast.cpp:400
 #, fuzzy
 msgid "Remove All"
 msgstr "Törlés"
 
-#: ../src/wxDFast.cpp:401
+#: ../src/wxDFast.cpp:403
 msgid "Find Download"
 msgstr "Letöltés keresése"
 
-#: ../src/wxDFast.cpp:404 ../src/NewDialog.cpp:56
+#: ../src/wxDFast.cpp:406 ../src/NewDialog.cpp:56
 msgid "&Edit"
 msgstr "&Szerkesztés"
 
-#: ../src/wxDFast.cpp:406
+#: ../src/wxDFast.cpp:408
 msgid "Show/Hide Graph"
 msgstr "Grafikon megjelenítése/elrejtése"
 
-#: ../src/wxDFast.cpp:409
+#: ../src/wxDFast.cpp:411
 msgid "Show/Hide Details"
 msgstr "Részletek megjelenítése/elrejtése"
 
-#: ../src/wxDFast.cpp:412
+#: ../src/wxDFast.cpp:414
 msgid "&View"
 msgstr "&Nézet"
 
-#: ../src/wxDFast.cpp:414 ../src/wxDFast.cpp:1333 ../src/wxDFast.cpp:1904
+#: ../src/wxDFast.cpp:416 ../src/wxDFast.cpp:1342 ../src/wxDFast.cpp:1939
 msgid "Download Properties"
 msgstr "Letöltés jellemzői"
 
-#: ../src/wxDFast.cpp:417 ../src/wxDFast.cpp:1967
+#: ../src/wxDFast.cpp:419 ../src/wxDFast.cpp:2002
 msgid "Move File"
 msgstr "Fájl áthelyezése"
 
-#: ../src/wxDFast.cpp:420 ../src/wxDFast.cpp:1969
+#: ../src/wxDFast.cpp:422 ../src/wxDFast.cpp:2004
 msgid "Check Integrity"
 msgstr "Integritásellenőrzés"
 
-#: ../src/wxDFast.cpp:422 ../src/wxDFast.cpp:1970
+#: ../src/wxDFast.cpp:424 ../src/wxDFast.cpp:2005
 msgid "Open Destination Directory"
 msgstr "Célkönyvtár megnyitása"
 
-#: ../src/wxDFast.cpp:424 ../src/wxDFast.cpp:1971
+#: ../src/wxDFast.cpp:426 ../src/wxDFast.cpp:2006
 msgid "Download File Again"
 msgstr "Fájl ismételt letöltése"
 
-#: ../src/wxDFast.cpp:427
+#: ../src/wxDFast.cpp:429
 msgid "Export Configuration"
 msgstr "Beállítások exportálása"
 
-#: ../src/wxDFast.cpp:429
+#: ../src/wxDFast.cpp:431
 msgid "Import Configuration"
 msgstr "Beállítások importálása"
 
-#: ../src/wxDFast.cpp:432
+#: ../src/wxDFast.cpp:434
 msgid "Shutdown when finished"
 msgstr "Leállítás a letöltések befejezése után"
 
-#: ../src/wxDFast.cpp:432 ../src/wxDFast.cpp:433
+#: ../src/wxDFast.cpp:434 ../src/wxDFast.cpp:435
 msgid "This option is only valid in this session of the program"
 msgstr "Ez a beállítás csak a jelenlegi munkamenetre érvényes"
 
-#: ../src/wxDFast.cpp:433
+#: ../src/wxDFast.cpp:435
 msgid "Disconnect when finished"
 msgstr "Kapcsolat bontása a letöltések befejezése után"
 
-#: ../src/wxDFast.cpp:438
+#: ../src/wxDFast.cpp:440
 msgid "&Tools"
 msgstr "&Eszközök"
 
-#: ../src/wxDFast.cpp:440
+#: ../src/wxDFast.cpp:442
 msgid "wxDownload Fast Site"
 msgstr "wxDownload Fast weboldal"
 
-#: ../src/wxDFast.cpp:443
+#: ../src/wxDFast.cpp:445
 msgid "Report Bugs..."
 msgstr "Hibajelentés..."
 
-#: ../src/wxDFast.cpp:444
+#: ../src/wxDFast.cpp:446
 msgid "Donate..."
 msgstr "Támogatás..."
 
-#: ../src/wxDFast.cpp:449
+#: ../src/wxDFast.cpp:451
 msgid "&Help"
 msgstr "&Súgó"
 
-#: ../src/wxDFast.cpp:465
+#: ../src/wxDFast.cpp:467
 msgid "New"
 msgstr "Új"
 
-#: ../src/wxDFast.cpp:465 ../src/NewDialog.cpp:27
+#: ../src/wxDFast.cpp:467 ../src/NewDialog.cpp:27
 msgid "Add new download"
 msgstr "Új letöltés"
 
-#: ../src/wxDFast.cpp:466 ../src/OptionsDialog.cpp:364
+#: ../src/wxDFast.cpp:468 ../src/OptionsDialog.cpp:378
 msgid "Remove"
 msgstr "Törlés"
 
-#: ../src/wxDFast.cpp:466
+#: ../src/wxDFast.cpp:468
 msgid "Remove the selected download"
 msgstr "Kiválasztott letöltés törlése"
 
-#: ../src/wxDFast.cpp:468 ../src/BatchDialog.cpp:60 ../src/NewDialog.cpp:79
+#: ../src/wxDFast.cpp:470 ../src/BatchDialog.cpp:60 ../src/NewDialog.cpp:79
 msgid "Schedule"
 msgstr "Ütemezés"
 
-#: ../src/wxDFast.cpp:468
+#: ../src/wxDFast.cpp:470
 msgid "Mark the selected download as scheduled"
 msgstr "Kiválasztott letöltés ütemezettként"
 
-#: ../src/wxDFast.cpp:469
+#: ../src/wxDFast.cpp:471
 msgid "Start"
 msgstr "Kezdés"
 
-#: ../src/wxDFast.cpp:469
+#: ../src/wxDFast.cpp:471
 msgid "Start the selected download"
 msgstr "Kiválasztott letöltés indítása"
 
-#: ../src/wxDFast.cpp:470
+#: ../src/wxDFast.cpp:472
 msgid "Stop"
 msgstr "Leállítás"
 
-#: ../src/wxDFast.cpp:470
+#: ../src/wxDFast.cpp:472
 msgid "Stop the selected download"
 msgstr "Kiválasztott letöltés leállítása"
 
-#: ../src/wxDFast.cpp:471
+#: ../src/wxDFast.cpp:473
 msgid "Start All"
 msgstr "Összes elindítása"
 
-#: ../src/wxDFast.cpp:472
+#: ../src/wxDFast.cpp:474
 msgid "Stop All"
 msgstr "Összes leállítása"
 
-#: ../src/wxDFast.cpp:474
+#: ../src/wxDFast.cpp:476
 msgid "Up"
 msgstr "Fel"
 
-#: ../src/wxDFast.cpp:474
+#: ../src/wxDFast.cpp:476
 msgid "Push download higher up the queue"
 msgstr "Előrébb a letöltést a sorban"
 
-#: ../src/wxDFast.cpp:475
+#: ../src/wxDFast.cpp:477
 msgid "Down"
 msgstr "Le"
 
-#: ../src/wxDFast.cpp:475
+#: ../src/wxDFast.cpp:477
 msgid "Push download lower down the queue"
 msgstr "Hátrébb a letöltést a sorban."
 
-#: ../src/wxDFast.cpp:477
+#: ../src/wxDFast.cpp:479
 msgid "Properties"
 msgstr "Jellemzők"
 
-#: ../src/wxDFast.cpp:477
+#: ../src/wxDFast.cpp:479
 msgid "Show the properties of the selected download"
 msgstr "Kiválasztott letöltés jellemzőinek megjelenítése"
 
-#: ../src/wxDFast.cpp:503 ../src/OptionsDialog.cpp:305
+#: ../src/wxDFast.cpp:505 ../src/OptionsDialog.cpp:319
 msgid "Progress"
 msgstr ""
 
-#: ../src/wxDFast.cpp:505
+#: ../src/wxDFast.cpp:507
 msgid "Detail"
 msgstr ""
 
-#: ../src/wxDFast.cpp:510
+#: ../src/wxDFast.cpp:512
 msgid "Downloads in Progress"
 msgstr "Letöltések folyamatban"
 
-#: ../src/wxDFast.cpp:526
+#: ../src/wxDFast.cpp:528
 msgid "Finished Downloads"
 msgstr "Befejezett letöltések"
 
-#: ../src/wxDFast.cpp:591
+#: ../src/wxDFast.cpp:593
 #, c-format
 msgid "Could not listen at the specified socket %s!"
 msgstr ""
 
-#: ../src/wxDFast.cpp:593
+#: ../src/wxDFast.cpp:595
 #, c-format
 msgid "Could not listen at the specified port %d!"
 msgstr ""
 
-#: ../src/wxDFast.cpp:663
+#: ../src/wxDFast.cpp:665
 msgid "   [ Yes ]"
 msgstr "   [ Igen]"
 
-#: ../src/wxDFast.cpp:664
+#: ../src/wxDFast.cpp:666
 msgid "   [ No  ]"
 msgstr "   [ Nem  ]"
 
-#: ../src/wxDFast.cpp:745 ../src/wxDFast.cpp:1649 ../src/wxDFast.cpp:1672
+#: ../src/wxDFast.cpp:748 ../src/wxDFast.cpp:1684 ../src/wxDFast.cpp:1707
 msgid "Name"
 msgstr "Név"
 
-#: ../src/wxDFast.cpp:746 ../src/wxDFast.cpp:1650 ../src/wxDFast.cpp:1673
-#: ../src/wxDFast.cpp:3013
+#: ../src/wxDFast.cpp:749 ../src/wxDFast.cpp:1685 ../src/wxDFast.cpp:1708
+#: ../src/wxDFast.cpp:3054
 msgid "File type"
 msgstr "Fájltípus"
 
-#: ../src/wxDFast.cpp:747 ../src/wxDFast.cpp:1651 ../src/wxDFast.cpp:1674
-#: ../src/wxDFast.cpp:3014 ../src/wxDFast.cpp:3293 ../src/wxDFast.cpp:3334
+#: ../src/wxDFast.cpp:750 ../src/wxDFast.cpp:1686 ../src/wxDFast.cpp:1709
+#: ../src/wxDFast.cpp:3055 ../src/wxDFast.cpp:3334 ../src/wxDFast.cpp:3375
 msgid "Size"
 msgstr "Méret"
 
-#: ../src/wxDFast.cpp:748 ../src/wxDFast.cpp:1652 ../src/wxDFast.cpp:1675
+#: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:1687 ../src/wxDFast.cpp:1710
 msgid "Time"
 msgstr "Idő"
 
-#: ../src/wxDFast.cpp:749 ../src/wxDFast.cpp:1653 ../src/wxDFast.cpp:1676
-#: ../src/wxDFast.cpp:3012
+#: ../src/wxDFast.cpp:752 ../src/wxDFast.cpp:1688 ../src/wxDFast.cpp:1711
+#: ../src/wxDFast.cpp:3053
 msgid "Destination"
 msgstr "Cél"
 
-#: ../src/wxDFast.cpp:750
+#: ../src/wxDFast.cpp:753
 msgid "Started"
 msgstr "Megkezdve"
 
-#: ../src/wxDFast.cpp:751 ../src/wxDFast.cpp:3335
+#: ../src/wxDFast.cpp:754 ../src/wxDFast.cpp:3376
 msgid "Finished"
 msgstr "Befejezve"
 
-#: ../src/wxDFast.cpp:752 ../src/wxDFast.cpp:1677
+#: ../src/wxDFast.cpp:755 ../src/wxDFast.cpp:1712
 msgid "MD5"
 msgstr "MD5"
 
-#: ../src/wxDFast.cpp:753 ../src/wxDFast.cpp:1654 ../src/wxDFast.cpp:1678
+#: ../src/wxDFast.cpp:756
+msgid "SHA1"
+msgstr ""
+
+#: ../src/wxDFast.cpp:757
+msgid "SHA256"
+msgstr ""
+
+#: ../src/wxDFast.cpp:758 ../src/wxDFast.cpp:1689 ../src/wxDFast.cpp:1713
 #: ../src/BatchDialog.cpp:87 ../src/NewDialog.cpp:106
 msgid "Reference URL"
 msgstr "URL hivatkozás"
 
-#: ../src/wxDFast.cpp:754 ../src/wxDFast.cpp:1655 ../src/wxDFast.cpp:1679
+#: ../src/wxDFast.cpp:759 ../src/wxDFast.cpp:1690 ../src/wxDFast.cpp:1714
 #: ../src/BatchDialog.cpp:72 ../src/NewDialog.cpp:91
 msgid "Comments"
 msgstr "Megjegyzés"
 
-#: ../src/wxDFast.cpp:755 ../src/wxDFast.cpp:1656 ../src/wxDFast.cpp:1680
+#: ../src/wxDFast.cpp:760 ../src/wxDFast.cpp:1691 ../src/wxDFast.cpp:1715
 msgid "URLs"
 msgstr "URL-ek"
 
-#: ../src/wxDFast.cpp:801
+#: ../src/wxDFast.cpp:808
 msgid "Total Speed:"
 msgstr "Maximális sebesség:"
 
-#: ../src/wxDFast.cpp:805
+#: ../src/wxDFast.cpp:812
 msgid "Total Complete:"
 msgstr "Befejezve:"
 
-#: ../src/wxDFast.cpp:809
+#: ../src/wxDFast.cpp:816
 msgid "Downloads in progress:"
 msgstr "Letöltések folyamatban:"
 
-#: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
+#: ../src/wxDFast.cpp:906 ../src/wxDFast.cpp:970
 msgid "Do you want to close the program?"
 msgstr "Bezárja a programot?"
 
-#: ../src/wxDFast.cpp:899 ../src/wxDFast.cpp:963
+#: ../src/wxDFast.cpp:906 ../src/wxDFast.cpp:970
 msgid "Close..."
 msgstr "Bezárás..."
 
-#: ../src/wxDFast.cpp:1062
+#: ../src/wxDFast.cpp:1071
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
 "under the terms of\n"
@@ -409,43 +417,43 @@ msgid ""
 "Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr ""
 
-#: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
+#: ../src/wxDFast.cpp:1127 ../src/wxDFast.cpp:1450 ../src/wxDFast.cpp:1768
 msgid "Do you also want to remove downloaded file(s) from the disk?"
 msgstr "Törli a letöltött fájl(oka)t is a lemezről?"
 
-#: ../src/wxDFast.cpp:1118 ../src/wxDFast.cpp:1441 ../src/wxDFast.cpp:1733
+#: ../src/wxDFast.cpp:1127 ../src/wxDFast.cpp:1450 ../src/wxDFast.cpp:1768
 msgid "Remove..."
 msgstr "Törlés..."
 
-#: ../src/wxDFast.cpp:1478
+#: ../src/wxDFast.cpp:1487
 msgid "Find file..."
 msgstr "Fájl keresése..."
 
-#: ../src/wxDFast.cpp:1510 ../src/wxDFast.cpp:1693 ../src/BatchDialog.cpp:317
+#: ../src/wxDFast.cpp:1519 ../src/wxDFast.cpp:1728 ../src/BatchDialog.cpp:317
 #: ../src/NewDialog.cpp:386
 msgid "Select the directory:"
 msgstr "Könyvtár kiválasztása:"
 
-#: ../src/wxDFast.cpp:1522
+#: ../src/wxDFast.cpp:1531
 msgid "Moving..."
 msgstr "Áthelyezés..."
 
-#: ../src/wxDFast.cpp:1522
+#: ../src/wxDFast.cpp:1531
 msgid "Moving file..."
 msgstr "Fájl áthelyezése..."
 
-#: ../src/wxDFast.cpp:1531
+#: ../src/wxDFast.cpp:1540
 msgid "Error moving file."
 msgstr "Nem lehet áthelyezni a fájt."
 
-#: ../src/wxDFast.cpp:1531 ../src/wxDFast.cpp:1573 ../src/wxDFast.cpp:1578
-#: ../src/wxDFast.cpp:1588 ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635
-#: ../src/wxDFast.cpp:1662 ../src/wxDFast.cpp:1686 ../src/wxDFast.cpp:1699
-#: ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
+#: ../src/wxDFast.cpp:1540 ../src/wxDFast.cpp:1564 ../src/wxDFast.cpp:1608
+#: ../src/wxDFast.cpp:1613 ../src/wxDFast.cpp:1623 ../src/wxDFast.cpp:1653
+#: ../src/wxDFast.cpp:1670 ../src/wxDFast.cpp:1697 ../src/wxDFast.cpp:1721
+#: ../src/wxDFast.cpp:1734 ../src/NewDialog.cpp:410 ../src/NewDialog.cpp:438
 msgid "Error..."
 msgstr "Hiba..."
 
-#: ../src/wxDFast.cpp:1537
+#: ../src/wxDFast.cpp:1546
 msgid ""
 "The file isn't in the path that it was saved initially.\n"
 "Do you want to change only the old path for the current one?"
@@ -453,102 +461,113 @@ msgstr ""
 "A fájl nem ott található, ahová eredetileg el lett mentve. \n"
 "Lecseréli a régi elérési utat az aktuálisra?"
 
-#: ../src/wxDFast.cpp:1537
+#: ../src/wxDFast.cpp:1546
 #, fuzzy
 msgid "Filename:"
 msgstr "Fájlnév"
 
-#: ../src/wxDFast.cpp:1539
+#: ../src/wxDFast.cpp:1548
 msgid "Continue..."
 msgstr "Tovább..."
 
-#: ../src/wxDFast.cpp:1557
-msgid "Checking file's MD5..."
+#: ../src/wxDFast.cpp:1564
+#, fuzzy
+msgid "Check integrity is disabled."
+msgstr "Integritásellenőrzés"
+
+#: ../src/wxDFast.cpp:1573
+#, fuzzy
+msgid "Checking file's hash..."
 msgstr "Fájl MD5 ellenőrzése..."
 
-#: ../src/wxDFast.cpp:1565
+#: ../src/wxDFast.cpp:1583
 msgid "The file was verified successfully."
 msgstr "A fájl ellenőrzése sikeresen megtörtént."
 
-#: ../src/wxDFast.cpp:1565 ../src/wxDFast.cpp:1697
+#: ../src/wxDFast.cpp:1583 ../src/wxDFast.cpp:1732
 msgid "Success..."
 msgstr "Siker..."
 
-#: ../src/wxDFast.cpp:1570
+#: ../src/wxDFast.cpp:1590
 msgid "The MD5 calculated previously is different from the current one."
 msgstr "A korábban kiszámolt MD5 ellenőrzőösszeg különbözik a jelenlegitől."
 
-#: ../src/wxDFast.cpp:1571
-msgid ""
-"\n"
-"Old MD5 =\t\t"
+#: ../src/wxDFast.cpp:1591 ../src/wxDFast.cpp:1598 ../src/wxDFast.cpp:1605
+msgid "Old"
 msgstr ""
-"\n"
-"Régi MD5 =\t\t"
 
-#: ../src/wxDFast.cpp:1572
-msgid ""
-"\n"
-"Current MD5 =\t"
+#: ../src/wxDFast.cpp:1592 ../src/wxDFast.cpp:1599 ../src/wxDFast.cpp:1606
+#, fuzzy
+msgid "Current"
 msgstr ""
 "\n"
 "Új MD5 =\t"
 
-#: ../src/wxDFast.cpp:1578 ../src/wxDFast.cpp:2438 ../src/wxDFast.cpp:2501
+#: ../src/wxDFast.cpp:1597
+#, fuzzy
+msgid "The SHA1 calculated previously is different from the current one."
+msgstr "A korábban kiszámolt MD5 ellenőrzőösszeg különbözik a jelenlegitől."
+
+#: ../src/wxDFast.cpp:1604
+#, fuzzy
+msgid "The SHA256 calculated previously is different from the current one."
+msgstr "A korábban kiszámolt MD5 ellenőrzőösszeg különbözik a jelenlegitől."
+
+#: ../src/wxDFast.cpp:1613 ../src/wxDFast.cpp:2479 ../src/wxDFast.cpp:2542
 msgid "File not found."
 msgstr "Nem találom a fájlt."
 
-#: ../src/wxDFast.cpp:1588
+#: ../src/wxDFast.cpp:1623
 #, c-format
 msgid "Folder %s doesn't exist."
 msgstr ""
 
-#: ../src/wxDFast.cpp:1618 ../src/wxDFast.cpp:1635 ../src/wxDFast.cpp:1662
-#: ../src/wxDFast.cpp:1686
+#: ../src/wxDFast.cpp:1653 ../src/wxDFast.cpp:1670 ../src/wxDFast.cpp:1697
+#: ../src/wxDFast.cpp:1721
 msgid "Unable to open the clipboard!"
 msgstr "Nem lehet megnyitni a vágólapot!"
 
-#: ../src/wxDFast.cpp:1697
+#: ../src/wxDFast.cpp:1732
 msgid "The configuration was exported successfully."
 msgstr "A beállítások exportálása sikeresen megtörtént."
 
-#: ../src/wxDFast.cpp:1699
+#: ../src/wxDFast.cpp:1734
 msgid "Error exporting configuration."
 msgstr "Hiba történt a beállítások exportálása közben."
 
-#: ../src/wxDFast.cpp:1705
+#: ../src/wxDFast.cpp:1740
 msgid "Select the file..."
 msgstr "Fájl kiválasztása..."
 
-#: ../src/wxDFast.cpp:1770 ../src/wxDFast.cpp:2052 ../src/wxDFast.cpp:2161
-#: ../src/wxDFast.cpp:2256 ../src/wxDFast.cpp:2804 ../src/wxDFast.cpp:2815
+#: ../src/wxDFast.cpp:1805 ../src/wxDFast.cpp:2085 ../src/wxDFast.cpp:2194
+#: ../src/wxDFast.cpp:2297 ../src/wxDFast.cpp:2845 ../src/wxDFast.cpp:2856
 #, fuzzy
 msgid "Download started"
 msgstr "wxDownload Fast weboldal"
 
-#: ../src/wxDFast.cpp:1785 ../src/wxDFast.cpp:1798
+#: ../src/wxDFast.cpp:1820 ../src/wxDFast.cpp:1833
 msgid "Command :\t"
 msgstr "Parancs:\t"
 
-#: ../src/wxDFast.cpp:1785
+#: ../src/wxDFast.cpp:1820
 msgid "Shutdown Command..."
 msgstr "Leállítási parancs..."
 
-#: ../src/wxDFast.cpp:1798
+#: ../src/wxDFast.cpp:1833
 msgid "Disconnect Command..."
 msgstr "Kapcsolatbontási parancs..."
 
-#: ../src/wxDFast.cpp:2036
+#: ../src/wxDFast.cpp:2069
 #, fuzzy
 msgid "Download waiting"
 msgstr "Fájl ismételt letöltése"
 
-#: ../src/wxDFast.cpp:2113
+#: ../src/wxDFast.cpp:2146
 #, c-format
 msgid "NEW RELEASE: wxDownload Fast %s is available."
 msgstr ""
 
-#: ../src/wxDFast.cpp:2115
+#: ../src/wxDFast.cpp:2148
 #, fuzzy, c-format
 msgid ""
 "wxDownload Fast %s is available.\n"
@@ -556,91 +575,91 @@ msgid ""
 msgstr ""
 "További információkért látogassa meg a http://dfast.sourceforge.net oldalt."
 
-#: ../src/wxDFast.cpp:2190
+#: ../src/wxDFast.cpp:2225
 #, fuzzy
 msgid "Calculating file's MD5..."
 msgstr "Fájl MD5 ellenőrzése..."
 
-#: ../src/wxDFast.cpp:2203 ../src/OptionsDialog.cpp:642
-#: ../src/OptionsDialog.cpp:645
+#: ../src/wxDFast.cpp:2244 ../src/OptionsDialog.cpp:660
+#: ../src/OptionsDialog.cpp:663
 #, fuzzy
 msgid "Downloaded successfully"
 msgstr "A fájl ellenőrzése sikeres volt\n"
 
-#: ../src/wxDFast.cpp:2207
+#: ../src/wxDFast.cpp:2248
 msgid "Downloaded ended with error"
 msgstr ""
 
-#: ../src/wxDFast.cpp:2234
+#: ../src/wxDFast.cpp:2275
 #, fuzzy
 msgid "Download statistics"
 msgstr "wxDownload Fast weboldal"
 
-#: ../src/wxDFast.cpp:2235 ../src/wxDFast.cpp:3294
+#: ../src/wxDFast.cpp:2276 ../src/wxDFast.cpp:3335
 msgid "Completed"
 msgstr "Befejezve"
 
-#: ../src/wxDFast.cpp:2236 ../src/wxDFast.cpp:3295
+#: ../src/wxDFast.cpp:2277 ../src/wxDFast.cpp:3336
 msgid "Percentage"
 msgstr "Százalék"
 
-#: ../src/wxDFast.cpp:2237 ../src/wxDFast.cpp:3296
+#: ../src/wxDFast.cpp:2278 ../src/wxDFast.cpp:3337
 msgid "Time Passed"
 msgstr "Eltelt idő"
 
-#: ../src/wxDFast.cpp:2238 ../src/wxDFast.cpp:3297
+#: ../src/wxDFast.cpp:2279 ../src/wxDFast.cpp:3338
 msgid "Remaining"
 msgstr "Hátralévő idő"
 
-#: ../src/wxDFast.cpp:2264 ../src/wxDFast.cpp:2832
+#: ../src/wxDFast.cpp:2305 ../src/wxDFast.cpp:2873
 #, fuzzy
 msgid "Download paused"
 msgstr "wxDownload Fast weboldal"
 
-#: ../src/wxDFast.cpp:2335
+#: ../src/wxDFast.cpp:2376
 msgid "Error: couldn't accept a new connection"
 msgstr ""
 
-#: ../src/wxDFast.cpp:2438 ../src/wxDFast.cpp:2501
+#: ../src/wxDFast.cpp:2479 ../src/wxDFast.cpp:2542
 msgid "Information..."
 msgstr "Információ..."
 
-#: ../src/wxDFast.cpp:3015
+#: ../src/wxDFast.cpp:3056
 msgid "Maximum number of connections"
 msgstr ""
 
-#: ../src/wxDFast.cpp:3016
+#: ../src/wxDFast.cpp:3057
 #, fuzzy
 msgid "Download bandwidth"
 msgstr "Letöltés sávszélessége (kb/s)"
 
-#: ../src/wxDFast.cpp:3017
+#: ../src/wxDFast.cpp:3058
 #, fuzzy
 msgid "Number of pieces"
 msgstr "Próbálkozások száma"
 
-#: ../src/wxDFast.cpp:3018 ../src/wxDFast.cpp:3300
+#: ../src/wxDFast.cpp:3059 ../src/wxDFast.cpp:3341
 msgid "URL"
 msgstr "URL"
 
-#: ../src/wxDFast.cpp:3020
+#: ../src/wxDFast.cpp:3061
 #, fuzzy
 msgid "Downloaded is scheduled"
 msgstr "Kiválasztott letöltés ütemezettként"
 
-#: ../src/wxDFast.cpp:3291
+#: ../src/wxDFast.cpp:3332
 msgid "Restart"
 msgstr "Újraindítás"
 
-#: ../src/wxDFast.cpp:3292 ../src/wxDFast.cpp:3333
+#: ../src/wxDFast.cpp:3333 ../src/wxDFast.cpp:3374
 msgid "Filename"
 msgstr "Fájlnév"
 
-#: ../src/wxDFast.cpp:3298
+#: ../src/wxDFast.cpp:3339
 msgid "Speed"
 msgstr "Sebesség"
 
-#: ../src/wxDFast.cpp:3299
+#: ../src/wxDFast.cpp:3340
 msgid "Attempts"
 msgstr "Próbálkozások"
 
@@ -700,206 +719,211 @@ msgstr ""
 msgid "Preview"
 msgstr "Előnézet"
 
-#: ../src/OptionsDialog.cpp:113
+#: ../src/OptionsDialog.cpp:110
+#, fuzzy
+msgid "Check Integrity by"
+msgstr "Integritásellenőrzés"
+
+#: ../src/OptionsDialog.cpp:127
 msgid "General"
 msgstr "Általános"
 
-#: ../src/OptionsDialog.cpp:119
+#: ../src/OptionsDialog.cpp:133
 msgid "Default destination:"
 msgstr "Alapértelmezett cél:"
 
-#: ../src/OptionsDialog.cpp:140
+#: ../src/OptionsDialog.cpp:154
 msgid "Shutdown command:"
 msgstr "Leállítási parancs..."
 
-#: ../src/OptionsDialog.cpp:145
+#: ../src/OptionsDialog.cpp:159
 msgid "Disconnect command:"
 msgstr "Kapcsolatbontási parancs..."
 
-#: ../src/OptionsDialog.cpp:153
+#: ../src/OptionsDialog.cpp:167
 msgid "Paths"
 msgstr "Elérési utak"
 
-#: ../src/OptionsDialog.cpp:159
+#: ../src/OptionsDialog.cpp:173
 msgid "Use a Proxy Server"
 msgstr "Proxy szerver használtata"
 
-#: ../src/OptionsDialog.cpp:163
+#: ../src/OptionsDialog.cpp:177
 msgid "Proxy Server"
 msgstr "Proxy szerver"
 
-#: ../src/OptionsDialog.cpp:165
+#: ../src/OptionsDialog.cpp:179
 msgid "Server:"
 msgstr "Szerver:"
 
-#: ../src/OptionsDialog.cpp:170
+#: ../src/OptionsDialog.cpp:184
 msgid "Port:"
 msgstr "Port:"
 
-#: ../src/OptionsDialog.cpp:182
+#: ../src/OptionsDialog.cpp:196
 msgid "Proxy Server Authorization"
 msgstr "Belépés a proxy szerverre"
 
-#: ../src/OptionsDialog.cpp:184 ../src/BatchDialog.cpp:45
+#: ../src/OptionsDialog.cpp:198 ../src/BatchDialog.cpp:45
 #: ../src/NewDialog.cpp:64
 msgid "User:"
 msgstr "Felhasználó:"
 
-#: ../src/OptionsDialog.cpp:187 ../src/BatchDialog.cpp:49
+#: ../src/OptionsDialog.cpp:201 ../src/BatchDialog.cpp:49
 #: ../src/NewDialog.cpp:68
 msgid "Password:"
 msgstr "Jelszó:"
 
-#: ../src/OptionsDialog.cpp:196
+#: ../src/OptionsDialog.cpp:210
 msgid "Proxy"
 msgstr "Proxy"
 
-#: ../src/OptionsDialog.cpp:202
+#: ../src/OptionsDialog.cpp:216
 msgid "Show Graph"
 msgstr "Grafikon megjelenítése"
 
-#: ../src/OptionsDialog.cpp:206
+#: ../src/OptionsDialog.cpp:220
 msgid "Graph refresh rate (millisecs):"
 msgstr "Grafikon frissítési időköze (ezredmásodperc):"
 
-#: ../src/OptionsDialog.cpp:212
+#: ../src/OptionsDialog.cpp:226
 #, fuzzy
 msgid "Graph maximum value:"
 msgstr "Grafikon maximális értéke (kb/s):"
 
-#: ../src/OptionsDialog.cpp:240
+#: ../src/OptionsDialog.cpp:254
 msgid "The text area Width (pixels):"
 msgstr "Szövegmező szélessége (pixelek):"
 
-#: ../src/OptionsDialog.cpp:246
+#: ../src/OptionsDialog.cpp:260
 msgid "Graph height:"
 msgstr "Grafikon magassága:"
 
-#: ../src/OptionsDialog.cpp:252
+#: ../src/OptionsDialog.cpp:266
 msgid "Text font size (points):"
 msgstr "Szöveg betümérete (pont):"
 
-#: ../src/OptionsDialog.cpp:258
+#: ../src/OptionsDialog.cpp:272
 #, fuzzy
 msgid "Download line width:"
 msgstr "Fősor szélessége:"
 
-#: ../src/OptionsDialog.cpp:264
+#: ../src/OptionsDialog.cpp:278
 msgid "Background colour:"
 msgstr "Háttérszín:"
 
-#: ../src/OptionsDialog.cpp:268
+#: ../src/OptionsDialog.cpp:282
 msgid "Graph grid colour:"
 msgstr "Grafikon rács színe:"
 
-#: ../src/OptionsDialog.cpp:272
+#: ../src/OptionsDialog.cpp:286
 #, fuzzy
 msgid "Download line colour:"
 msgstr "Fősor színe:"
 
-#: ../src/OptionsDialog.cpp:281
+#: ../src/OptionsDialog.cpp:295
 msgid "Speed font colour:"
 msgstr "Sebességjelző betütípus színe:"
 
-#: ../src/OptionsDialog.cpp:288
+#: ../src/OptionsDialog.cpp:302
 msgid "Graph"
 msgstr "Grafikon"
 
-#: ../src/OptionsDialog.cpp:294
+#: ../src/OptionsDialog.cpp:308
 #, fuzzy
 msgid "Finished piece colour:"
 msgstr "Szegmens befejezve\n"
 
-#: ../src/OptionsDialog.cpp:298
+#: ../src/OptionsDialog.cpp:312
 #, fuzzy
 msgid "Unfinished piece colour:"
 msgstr "Fősor színe:"
 
-#: ../src/OptionsDialog.cpp:311
+#: ../src/OptionsDialog.cpp:325
 msgid "Activate scheduling"
 msgstr "Ütemezés engedélyezése"
 
-#: ../src/OptionsDialog.cpp:315
+#: ../src/OptionsDialog.cpp:329
 #, fuzzy
 msgid "Start date:"
 msgstr "Kezdés dátuma:"
 
-#: ../src/OptionsDialog.cpp:316
+#: ../src/OptionsDialog.cpp:330
 #, fuzzy
 msgid "Start time:"
 msgstr "Kezdés ideje:"
 
-#: ../src/OptionsDialog.cpp:323
+#: ../src/OptionsDialog.cpp:337
 #, fuzzy
 msgid "Finish date:"
 msgstr "Befejezés dátuma:"
 
-#: ../src/OptionsDialog.cpp:324
+#: ../src/OptionsDialog.cpp:338
 #, fuzzy
 msgid "Finish time:"
 msgstr "Befejezés ideje:"
 
-#: ../src/OptionsDialog.cpp:331
+#: ../src/OptionsDialog.cpp:345
 msgid "Deactivate downloads on:"
 msgstr "Letöltések kikapcsolása:"
 
-#: ../src/OptionsDialog.cpp:344
+#: ../src/OptionsDialog.cpp:358
 msgid "Between"
 msgstr "között"
 
-#: ../src/OptionsDialog.cpp:347
+#: ../src/OptionsDialog.cpp:361
 msgid "and"
 msgstr "és"
 
-#: ../src/OptionsDialog.cpp:351 ../src/NewDialog.cpp:48
+#: ../src/OptionsDialog.cpp:365 ../src/NewDialog.cpp:48
 msgid "Add"
 msgstr "Hozzáadás"
 
-#: ../src/OptionsDialog.cpp:371
+#: ../src/OptionsDialog.cpp:385
 msgid "Scheduling"
 msgstr "Ütemezés"
 
-#: ../src/OptionsDialog.cpp:377
+#: ../src/OptionsDialog.cpp:391
 msgid "Unlimited bandwidth"
 msgstr "Korlátlan sávszélesség"
 
-#: ../src/OptionsDialog.cpp:380
+#: ../src/OptionsDialog.cpp:394
 msgid "Limit band width independently for each download"
 msgstr "Sávszélesség minden letöltéshez külön"
 
-#: ../src/OptionsDialog.cpp:383
+#: ../src/OptionsDialog.cpp:397
 #, fuzzy
 msgid "Limit band width for the program (in KB/s):"
 msgstr "Program által használható sávszélesség (kb/s):"
 
-#: ../src/OptionsDialog.cpp:405
+#: ../src/OptionsDialog.cpp:419
 msgid "Bandwidth"
 msgstr "Sávszélesség"
 
-#: ../src/OptionsDialog.cpp:411
+#: ../src/OptionsDialog.cpp:425
 msgid "Please visit"
 msgstr ""
 
-#: ../src/OptionsDialog.cpp:413
+#: ../src/OptionsDialog.cpp:427
 #, fuzzy
 msgid "wxDownload Fast Web Extensions"
 msgstr "wxDownload Fast weboldal"
 
-#: ../src/OptionsDialog.cpp:418
+#: ../src/OptionsDialog.cpp:432
 msgid "Browser Integration"
 msgstr "Beépülés a böngészőbe"
 
-#: ../src/OptionsDialog.cpp:526
+#: ../src/OptionsDialog.cpp:544
 #, fuzzy
 msgid "Select the directory"
 msgstr "Könyvtár kiválasztása:"
 
-#: ../src/OptionsDialog.cpp:536
+#: ../src/OptionsDialog.cpp:554
 #, fuzzy
 msgid "Choose a file"
 msgstr "Fájl kiválasztása..."
 
-#: ../src/OptionsDialog.cpp:604
+#: ../src/OptionsDialog.cpp:622
 msgid "Remove some items before adding a new one."
 msgstr "Töröljön néhány elemet, mielőtt újat adna hozzá."
 

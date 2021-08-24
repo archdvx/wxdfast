@@ -83,6 +83,9 @@ private:
     wxColourPickerCtrl *m_unfinishedpiece;
     wxCheckBox *m_shownotify;
     wxButton *m_shownotifyTest;
+    wxCheckBox *m_md5;
+    wxCheckBox *m_sha1;
+    wxCheckBox *m_sha256;
 
     void OnOk(wxCommandEvent& event);
     void OnCancel(wxCommandEvent& event);

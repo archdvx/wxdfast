@@ -28,7 +28,7 @@
 #include <wx/notifmsg.h>
 #include <algorithm>
 #include <random>
-#include <cinttypes>
+#include <openssl/ssl.h>
 #include "wxDFast.h"
 #include "Icons.h"
 #include "Defs.h"
@@ -36,7 +36,7 @@
 #include "UtilFunctions.h"
 #include "OptionsDialog.h"
 #include "Engine.h"
-#include "wxMD5/wxMD5.h"
+#include "hash/hash.h"
 #include "NewDialog.h"
 #include "BatchDialog.h"
 #include "wxjson/include/wx/jsonreader.h"
@@ -48,7 +48,7 @@ mMainFrame* frame = nullptr;
 bool frameShown = true;
 
 const wxString usage_msg = _(""
-"Usage: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] [URL of the file(s) to be downloaded...]\n"
+"Usage: wxdfast [-h] [-v] [-i] [-l <str>] [-d <str>] [-c <str>] [-r <str>] [URLs of the file to be downloaded...]\n"
 "  -h, --help                   Print (this) help screen and exit\n"
 "  -v, --version                Print version information and exit\n"
 "  -i, --hide                   Start with the the main frame hide\n"
@@ -317,7 +317,7 @@ BEGIN_EVENT_TABLE(mMainFrame,wxFrame)
     EVT_LIST_ITEM_SELECTED(ID_LIST_FINISHED, mMainFrame::OnFinishedSelected)
     EVT_LIST_ITEM_DESELECTED(ID_LIST_FINISHED, mMainFrame::OnFinishedDeselected)
     EVT_NOTEBOOK_PAGE_CHANGED(ID_NOTEBOOK, mMainFrame::OnPageChanged)
-    EVT_TIMER(wxID_ANY, mMainFrame::OnTimer)
+    EVT_TIMER(ID_TIMER, mMainFrame::OnTimer)
     EVT_THREAD(ID_ENGINE_GLOBAL, mMainFrame::OnGlobalStat)
     EVT_THREAD(ID_ENGINE_DOWNLOAD, mMainFrame::OnDownloadStat)
     EVT_THREAD(ID_ENGINE_VERSION, mMainFrame::OnCheckVersion)
@@ -333,7 +333,8 @@ BEGIN_EVENT_TABLE(mMainFrame,wxFrame)
 END_EVENT_TABLE()
 
 mMainFrame::mMainFrame()
-    : wxFrame(nullptr, -1, PROGRAM_NAME, wxDefaultPosition, wxSize(600,400)), m_selectedProgress(-1), m_selectedFinished(-1), m_timer(this), m_ipcString("")
+    : wxFrame(nullptr, -1, PROGRAM_NAME, wxDefaultPosition, wxSize(600,400)), m_selectedProgress(-1), m_selectedFinished(-1), m_timer(this, ID_TIMER),
+      m_ipcString("")
 {
     m_havenotify = false;
 #ifdef __UNIX__
@@ -418,10 +419,8 @@ mMainFrame::mMainFrame()
     m_menumove = new wxMenuItem(nullptr, ID_MENU_MOVE, _("Move File"));
     toolsMenu->Append(m_menumove);
     toolsMenu->AppendSeparator();
-#if !(defined (__WXMAC__)) //TODO fix on next release
     m_menumd5 = new wxMenuItem(nullptr, ID_MENU_MD5, _("Check Integrity"));
     toolsMenu->Append(m_menumd5);
-#endif
     m_menuopendestination = new wxMenuItem(nullptr, ID_MENU_OPENDESTINATION, _("Open Destination Directory"));
     toolsMenu->Append(m_menuopendestination);
     m_menuagain = new wxMenuItem(nullptr, ID_MENU_AGAIN, _("Download File Again"));
@@ -520,7 +519,7 @@ mMainFrame::mMainFrame()
     m_finishedlistctrl->ToggleWindowStyle(wxLC_SINGLE_SEL);
     m_finishedinfoctrl = new FinishedInfoCtrl(this, m_finishedsplitter, wxID_ANY);
     m_finishedinfoctrl->CreateColumns();
-    m_finishedinfoctrl->SetItemCount(11);
+    m_finishedinfoctrl->SetItemCount(13);
     m_finishedinfoctrl->ToggleWindowStyle(wxLC_NO_HEADER);
     fsizer->Add(m_finishedsplitter, 1, wxALL|wxEXPAND, 5);
     page2->SetSizer(fsizer);
@@ -650,7 +649,7 @@ mMainFrame::~mMainFrame()
     if(m_taskbaricon) delete m_taskbaricon;
 
     if(m_timer.IsRunning())
-            m_timer.Stop();
+        m_timer.Stop();
 }
 
 wxString mMainFrame::GetDownloadItemText(long item, long column)
@@ -754,9 +753,11 @@ wxString mMainFrame::GetFinishInfoItemText(long item, long column)
         case 5: return _("Started");
         case 6: return _("Finished");
         case 7: return _("MD5");
-        case 8: return _("Reference URL");
-        case 9: return _("Comments");
-        case 10: return _("URLs");
+        case 8: return _("SHA1");
+        case 9: return _("SHA256");
+        case 10: return _("Reference URL");
+        case 11: return _("Comments");
+        case 12: return _("URLs");
         default: return "";
         }
     }
@@ -776,9 +777,11 @@ wxString mMainFrame::GetFinishInfoItemText(long item, long column)
         case 5: return m_finishedList[static_cast<size_t>(m_selectedFinished)].startTime().Format("%x %X");
         case 6: return m_finishedList[static_cast<size_t>(m_selectedFinished)].endTime().Format("%x %X");
         case 7: return m_finishedList[static_cast<size_t>(m_selectedFinished)].MD5();
-        case 8: return m_finishedList[static_cast<size_t>(m_selectedFinished)].link();
-        case 9: return m_finishedList[static_cast<size_t>(m_selectedFinished)].comment();
-        case 10: return MyUtilFunctions::ArrayStringTowxString(m_finishedList[static_cast<size_t>(m_selectedFinished)].urls());
+        case 8: return m_finishedList[static_cast<size_t>(m_selectedFinished)].SHA1();
+        case 9: return m_finishedList[static_cast<size_t>(m_selectedFinished)].SHA256();
+        case 10: return m_finishedList[static_cast<size_t>(m_selectedFinished)].link();
+        case 11: return m_finishedList[static_cast<size_t>(m_selectedFinished)].comment();
+        case 12: return MyUtilFunctions::ArrayStringTowxString(m_finishedList[static_cast<size_t>(m_selectedFinished)].urls());
         default: return "";
         }
     }
@@ -1024,7 +1027,9 @@ void mMainFrame::OnAbout(wxCommandEvent &/*event*/)
 #else
                             << "\n"
 #endif
-                            << "LibAria2 " ARIA2V;
+                            << "LibAria2 " ARIA2V
+                            << "\n"
+                            << OPENSSL_VERSION_TEXT;
     wxAboutDialogInfo info;
     info.SetIcon(ICO_LOGO);
     info.SetName(PROGRAM_NAME);
@@ -1554,26 +1559,52 @@ void mMainFrame::OnCheckMD5(wxCommandEvent &/*event*/)
 {
     if(m_selectedFinished == -1)
         return;
-    wxString md5old, md5new;
-    md5old = m_finishedList[static_cast<size_t>(m_selectedFinished)].MD5();
+    if(!moptions.md5() && !moptions.sha1() && !moptions.sha256())
+    {
+        wxMessageBox(_("Check integrity is disabled."), _("Error..."), wxOK | wxICON_ERROR, this);
+        return;
+    }
     if(wxFileExists(m_finishedList[static_cast<size_t>(m_selectedFinished)].destination() + wxFILE_SEP_PATH + m_finishedList[static_cast<size_t>(m_selectedFinished)].name()))
     {
-        wxProgressDialog waitbox("MD5", _("Checking file's MD5..."));
+        wxString md5old = moptions.md5()?m_finishedList[static_cast<size_t>(m_selectedFinished)].MD5():"";
+        wxString sha1old = moptions.sha1()?m_finishedList[static_cast<size_t>(m_selectedFinished)].SHA1():"";
+        wxString sha256old = moptions.sha256()?m_finishedList[static_cast<size_t>(m_selectedFinished)].SHA256():"";
+        wxString md5new = "", sha1new = "", sha256new = "";
+        wxProgressDialog waitbox("File integrity", _("Checking file's hash..."));
         waitbox.Update(10);
-        wxFileName filemd5 = wxFileName(m_finishedList[static_cast<size_t>(m_selectedFinished)].destination() + wxFILE_SEP_PATH + m_finishedList[static_cast<size_t>(m_selectedFinished)].name());
-        wxMD5 md5(filemd5);
-        md5new = md5.GetDigest(true); //TELL TO GETDIGETS THAT IS THE MAIN THREAD
+        if(moptions.md5()) md5new = mHash::MD5(m_finishedList[static_cast<size_t>(m_selectedFinished)].destination() + wxFILE_SEP_PATH + m_finishedList[static_cast<size_t>(m_selectedFinished)].name());
+        waitbox.Update(33);
+        if(moptions.sha1()) sha1new = mHash::SHA1(m_finishedList[static_cast<size_t>(m_selectedFinished)].destination() + wxFILE_SEP_PATH + m_finishedList[static_cast<size_t>(m_selectedFinished)].name());
+        waitbox.Update(66);
+        if(moptions.sha256()) sha256new = mHash::SHA256(m_finishedList[static_cast<size_t>(m_selectedFinished)].destination() + wxFILE_SEP_PATH + m_finishedList[static_cast<size_t>(m_selectedFinished)].name());
         waitbox.Update(100);
-        if(md5new == md5old)
+        if(!md5new.CmpNoCase(md5old) && !sha1new.CmpNoCase(sha1old) && !sha256new.CmpNoCase(sha256old))
         {
             wxMessageBox(_("The file was verified successfully."), _("Success..."), wxOK | wxICON_INFORMATION, this);
         }
         else
         {
-            wxString msg;
-            msg << _("The MD5 calculated previously is different from the current one.");
-            msg << _("\nOld MD5 =\t\t") + md5old;
-            msg << _("\nCurrent MD5 =\t") + md5new;
+            wxString msg = "";
+            if(moptions.md5() && md5new.CmpNoCase(md5old))
+            {
+                msg << _("The MD5 calculated previously is different from the current one.") << "\n";
+                msg << _("Old") << " MD5 = " << md5old << "\n";
+                msg << _("Current") << " MD5 = " << md5new;
+            }
+            if(moptions.sha1() && sha1new.CmpNoCase(sha1old))
+            {
+                if(msg.Length()) msg << "\n";
+                msg << _("The SHA1 calculated previously is different from the current one.") << "\n";
+                msg << _("Old") << " SHA1 = " << sha1old << "\n";
+                msg << _("Current") << " SHA1 = " << sha1new;
+            }
+            if(moptions.sha256() && sha256new.CmpNoCase(sha256old))
+            {
+                if(msg.Length()) msg << "\n";
+                msg << _("The SHA256 calculated previously is different from the current one.") << "\n";
+                msg << _("Old") << " SHA256 = " << sha256old << "\n";
+                msg << _("Current") << " SHA256 = " << sha256new;
+            }
             wxMessageBox(msg, _("Error..."), wxOK | wxICON_ERROR, this);
         }
     }
@@ -1970,9 +2001,7 @@ void mMainFrame::OnFinishedRightClick(wxListEvent &event)
     popup.AppendSeparator();
     popup.Append(ID_MENU_MOVE, _("Move File"));
     popup.AppendSeparator();
-#if !(defined (__WXMAC__)) //TODO fix on next release
     popup.Append(ID_MENU_MD5, _("Check Integrity"));
-#endif
     popup.Append(ID_MENU_OPENDESTINATION, _("Open Destination Directory"));
     popup.Append(ID_MENU_AGAIN, _("Download File Again"));
     m_finishedlistctrl->PopupMenu(&popup);
@@ -2191,19 +2220,23 @@ void mMainFrame::OnTimer(wxTimerEvent &/*event*/)
             (*it).addTimepassed(moptions.timerupdateinterval());
             (*it).setEndTime(wxDateTime::Now());
             (*it).setIndex(m_finishedList.size());
-#if !(defined (__WXMAC__)) //TODO fix on next release
             if(frameShown)
             {
                 wxProgressDialog waitbox("MD5", _("Calculating file's MD5..."));
                 waitbox.Update(10);
-                (*it).setMD5(wxMD5::GetDigest(wxFileName((*it).destination() + wxFILE_SEP_PATH + (*it).name())));
+                if(moptions.md5()) (*it).setMD5(mHash::MD5((*it).destination() + wxFILE_SEP_PATH + (*it).name()));
+                waitbox.Update(33);
+                if(moptions.sha1()) (*it).setSHA1(mHash::SHA1((*it).destination() + wxFILE_SEP_PATH + (*it).name()));
+                waitbox.Update(66);
+                if(moptions.sha256()) (*it).setSHA256(mHash::SHA256((*it).destination() + wxFILE_SEP_PATH + (*it).name()));
                 waitbox.Update(100);
             }
             else
             {
-                (*it).setMD5(wxMD5::GetDigest(wxFileName((*it).destination() + wxFILE_SEP_PATH + (*it).name())));
+                if(moptions.md5()) (*it).setMD5(mHash::MD5((*it).destination() + wxFILE_SEP_PATH + (*it).name()));
+                if(moptions.sha1()) (*it).setSHA1(mHash::SHA1((*it).destination() + wxFILE_SEP_PATH + (*it).name()));
+                if(moptions.sha256()) (*it).setSHA256(mHash::SHA256((*it).destination() + wxFILE_SEP_PATH + (*it).name()));
             }
-#endif
             if(moptions.shownotify())
             {
                 if((*it).status() == STATUS_FINISHED && (*it).downloadLength() >= (*it).totalLength())
@@ -2706,9 +2739,7 @@ void mMainFrame::EnableTools()
         m_menustopall->Enable(m_selectedProgress != -1 && SomeProcessActive());
         m_menuproperties->Enable(m_selectedProgress != -1);
         m_menumove->Enable(false);
-#if !(defined (__WXMAC__)) //TODO fix on next release
         m_menumd5->Enable(false);
-#endif
         m_menuopendestination->Enable(false);
         m_menuagain->Enable(false);
     }
@@ -2736,9 +2767,7 @@ void mMainFrame::EnableTools()
         m_menustopall->Enable(false);
         m_menuproperties->Enable(false);
         m_menumove->Enable(m_selectedFinished != -1 && m_finishedList[static_cast<size_t>(m_selectedFinished)].status() == STATUS_FINISHED);
-#if !(defined (__WXMAC__)) //TODO fix on next release
         m_menumd5->Enable(m_selectedFinished != -1 && m_finishedList[static_cast<size_t>(m_selectedFinished)].status() == STATUS_FINISHED);
-#endif
         m_menuopendestination->Enable(m_selectedFinished != -1 && m_finishedList[static_cast<size_t>(m_selectedFinished)].status() == STATUS_FINISHED);
         m_menuagain->Enable(m_selectedFinished != -1);
     }

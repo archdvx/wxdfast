@@ -1,5 +1,5 @@
 #define AppName "wxDownloadFast"
-#define AppVersion "0.70.0"
+#define AppVersion "0.70.1"
 #define AppPublisher "David Vachulka"
 #define AppURL "https://wxdfast.dxsolutions.org/"
 #define AppExeName "wxdfast.exe"

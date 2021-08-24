@@ -106,6 +106,20 @@ mOptionsDialog::mOptionsDialog(wxWindow *parent)
     gridSizer1->Add(m_shownotify, wxGBPosition(i,0), wxGBSpan(1,2), wxEXPAND);
     m_shownotifyTest = new wxButton(general, ID_OPTIONS_NOTIFY, _("Preview"));
     gridSizer1->Add(m_shownotifyTest, wxGBPosition(i,2));
+    i++;
+    wxStaticBoxSizer *sboxi = new wxStaticBoxSizer(wxHORIZONTAL, general, _("Check Integrity by"));
+    sboxi->AddSpacer(5);
+    m_md5 = new wxCheckBox(general, wxID_ANY, "MD5");
+    m_md5->SetValue(moptions.md5());
+    sboxi->Add(m_md5);
+    m_sha1 = new wxCheckBox(general, wxID_ANY, "SHA1");
+    m_sha1->SetValue(moptions.sha1());
+    sboxi->Add(m_sha1);
+    m_sha256 = new wxCheckBox(general, wxID_ANY, "SHA256");
+    m_sha256->SetValue(moptions.sha256());
+    sboxi->Add(m_sha256);
+    sboxi->AddSpacer(5);
+    gridSizer1->Add(sboxi, wxGBPosition(i,0), wxDefaultSpan, wxEXPAND);
     box1->Add(gridSizer1, 1, wxEXPAND|wxALL, 5);
     general->SetSizer(box1);
     box1->Fit(general);
@@ -446,6 +460,10 @@ void mOptionsDialog::OnOk(wxCommandEvent &/*event*/)
     moptions.setHidemainframe(m_hidemainframe->GetValue());
     moptions.setCheckforupdates(m_checkforupdates->GetValue());
     moptions.setRememberboxnewoptions(m_rememberboxnewoptions->GetValue());
+    moptions.setShownotify(m_shownotify->GetValue());
+    moptions.setMd5(m_md5->GetValue());
+    moptions.setSha1(m_sha1->GetValue());
+    moptions.setSha256(m_sha256->GetValue());
     //Graph
     moptions.setGraphshow(m_graphshow->GetValue());
     moptions.setGraphrefreshtime(m_graphrefreshtime->GetValue());

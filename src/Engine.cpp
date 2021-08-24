@@ -34,7 +34,7 @@ void *mEngine::Entry()
     aria2::SessionConfig config;
     config.keepRunning = true;
     aria2::KeyVals options;
-    //NOTE 0.7.0 will not work as BT downloader/uploader
+    //NOTE 0.70.x will not work as BT downloader/uploader
     options.push_back(std::make_pair("follow-torrent","false"));
     options.push_back(std::make_pair("max-overall-download-limit",moptions.livebandwidthoption()==2?std::to_string(moptions.bandwidth())+"K":"0"));
     if(moptions.proxy())
@@ -48,7 +48,8 @@ void *mEngine::Entry()
     options.push_back(std::make_pair("ca-certificate",MyUtilFunctions::ToStdString(wxString(WXDFAST_DATADIR)+wxFILE_SEP_PATH+"ca-certs"+wxFILE_SEP_PATH+"mozilla.pem")));
 #endif
     m_session = aria2::sessionNew(options, config);
-    auto start = std::chrono::steady_clock::now();
+    auto graph = std::chrono::steady_clock::now();
+    auto update = graph;
     while(!TestDestroy())
     {
         int rv = aria2::run(m_session, aria2::RUN_ONCE);
@@ -63,19 +64,18 @@ void *mEngine::Entry()
             wxQueueEvent(m_frame, event.Clone());
         }
         auto now = std::chrono::steady_clock::now();
-        auto count = std::chrono::duration_cast<std::chrono::milliseconds>(now - start).count();
+        auto count = std::chrono::duration_cast<std::chrono::milliseconds>(now - graph).count();
         if(count >= moptions.graphrefreshtime())
         {
-            if(moptions.graphrefreshtime() > moptions.timerupdateinterval())
-                start = now;
+            graph = now;
             aria2::GlobalStat st = aria2::getGlobalStat(m_session);
             GlobalEvent event(ID_ENGINE_GLOBAL, st.downloadSpeed, st.uploadSpeed, st.numActive, st.numWaiting, st.numStopped);
             wxQueueEvent(m_frame, event.Clone());
         }
+        count = std::chrono::duration_cast<std::chrono::milliseconds>(now - update).count();
         if(count >= moptions.timerupdateinterval())
         {
-            if(moptions.graphrefreshtime() <= moptions.timerupdateinterval())
-                start = now;
+            update = now;
             std::vector<aria2::A2Gid> gids = aria2::getActiveDownload(m_session);
             for(const auto &gid : gids)
             {

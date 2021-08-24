@@ -85,6 +85,10 @@ public:
     void addAttempt();
     uint64_t laststat() const;
     void setLaststat(const uint64_t &newLaststat);
+    const wxString &SHA1() const;
+    void setSHA1(const wxString &newSHA1);
+    const wxString &SHA256() const;
+    void setSHA256(const wxString &newSHA256);
 
 private:
     int m_index;
@@ -96,6 +100,8 @@ private:
     wxString m_user;
     wxString m_password;
     wxString m_MD5;
+    wxString m_SHA1;
+    wxString m_SHA256;
     int m_connections;
     int m_bandwidth;
     wxString m_comment;

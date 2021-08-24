@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.7)
 set(CMAKE_OSX_DEPLOYMENT_TARGET "10.14" CACHE STRING "Minimum OS X deployment version")
 project(wxdfast)
-set(PROJECT_VERSION "0.70.0")
+set(PROJECT_VERSION "0.70.1")
 
 set(WXDFAST_INCLUDE_DIRS "")
 set(WXDFAST_LIBS "")
@@ -99,6 +99,18 @@ if(PKG_CONFIG_FOUND)
     list(APPEND WXDFAST_LIBS ${LIBARIA2_LIBRARIES})
 endif(PKG_CONFIG_FOUND)
 
+if(NOT LIBARIA2_FOUND)
+    message(FATAL_ERROR "Aria2 library not found. Can't build wxDownload Fast")
+endif()
+
+find_package(OpenSSL)
+if(OPENSSL_FOUND)
+        list(APPEND WXDFAST_INCLUDE_DIRS ${OPENSSL_INCLUDE_DIR})
+        list(APPEND WXDFAST_LIBS ${OPENSSL_LIBRARIES})
+else()
+    message(FATAL_ERROR "OpenSSL library not found. Can't build wxDownload Fast")
+endif()
+
 if(NOT WIN32)
 # Source distribution
 set(ARCHIVE_NAME ${CMAKE_PROJECT_NAME}-${PROJECT_VERSION})
@@ -126,8 +138,7 @@ src/OptionsDialog.cpp
 src/Progress.cpp
 src/Engine.cpp
 src/FileInfo.cpp
-src/wxMD5/md5.cpp
-src/wxMD5/wxMD5.cpp
+src/hash/hash.cpp
 src/NewDialog.cpp
 src/wxjson/src/jsonreader.cpp
 src/wxjson/src/jsonval.cpp
@@ -222,3 +233,4 @@ if(NOT APPLE AND NOT MINGW)
     message(STATUS " gtk version:      ${GTK_VERSION}")
 endif()
 message(STATUS "LibAria2 version:  ${LIBARIA2_VERSION}")
+message(STATUS "OpenSSL version:   ${OPENSSL_VERSION}")

@@ -1,4 +1,4 @@
-/***************************************************************
+﻿/***************************************************************
  * Name:      Options.h
  * Author:    Max Magalhães Velasques (maxvelasques@gmail.com)
  *            David Vachulka (archdvx@dxsolutions.org)
@@ -148,6 +148,12 @@ public:
     void setSeparator1(int newSeparator1);
     int separator2() const;
     void setSeparator2(int newSeparator2);
+    bool md5() const;
+    void setMd5(bool newMd5);
+    bool sha1() const;
+    void setSha1(bool newSha1);
+    bool sha256() const;
+    void setSha256(bool newSha256);
 
 private:
     //GUI
@@ -173,6 +179,9 @@ private:
     bool m_checkforupdates;
     bool m_rememberboxnewoptions;
     bool m_shownotify;
+    bool m_md5;
+    bool m_sha1;
+    bool m_sha256;
     //Graph
     bool m_graphshow;
     int m_graphrefreshtime;    //time between the graph refreshs in milliseconds

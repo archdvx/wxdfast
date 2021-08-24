@@ -43,6 +43,9 @@ mOptions::mOptions()
     m_checkforupdates = false;
     m_rememberboxnewoptions = false;
     m_shownotify = true;
+    m_md5 = true;
+    m_sha1 = false;
+    m_sha256 = false;
 
     m_graphshow = true;
     m_graphrefreshtime = 500;
@@ -149,6 +152,9 @@ void mOptions::load(const wxString &path)
     wxConfigBase::Get()->Read("General/checkforupdates", &m_checkforupdates, m_checkforupdates);
     wxConfigBase::Get()->Read("General/rememberboxnewoptions", &m_rememberboxnewoptions, m_rememberboxnewoptions);
     wxConfigBase::Get()->Read("General/shownotify", &m_shownotify, m_shownotify);
+    wxConfigBase::Get()->Read("General/md5", &m_md5, m_md5);
+    wxConfigBase::Get()->Read("General/sha1", &m_sha1, m_sha1);
+    wxConfigBase::Get()->Read("General/sha256", &m_sha256, m_sha256);
     //Graph
     wxConfigBase::Get()->Read("Graph/graphshow", &m_graphshow, m_graphshow);
     wxConfigBase::Get()->Read("Graph/graphrefreshtime", &m_graphrefreshtime, m_graphrefreshtime);
@@ -241,6 +247,9 @@ void mOptions::save()
     wxConfigBase::Get()->Write("General/checkforupdates", m_checkforupdates);
     wxConfigBase::Get()->Write("General/rememberboxnewoptions", m_rememberboxnewoptions);
     wxConfigBase::Get()->Write("General/shownotify", m_shownotify);
+    wxConfigBase::Get()->Write("General/md5", m_md5);
+    wxConfigBase::Get()->Write("General/sha1", m_sha1);
+    wxConfigBase::Get()->Write("General/sha256", m_sha256);
     //Graph
     wxConfigBase::Get()->Write("Graph/graphshow", m_graphshow);
     wxConfigBase::Get()->Write("Graph/graphrefreshtime", m_graphrefreshtime);
@@ -939,4 +948,34 @@ int mOptions::separator2() const
 void mOptions::setSeparator2(int newSeparator2)
 {
     m_separator2 = newSeparator2;
+}
+
+bool mOptions::md5() const
+{
+    return m_md5;
+}
+
+void mOptions::setMd5(bool newMd5)
+{
+    m_md5 = newMd5;
+}
+
+bool mOptions::sha1() const
+{
+    return m_sha1;
+}
+
+void mOptions::setSha1(bool newSha1)
+{
+    m_sha1 = newSha1;
+}
+
+bool mOptions::sha256() const
+{
+    return m_sha256;
+}
+
+void mOptions::setSha256(bool newSha256)
+{
+    m_sha256 = newSha256;
 }
