@@ -1,13 +1,13 @@
 #! /bin/bash
-test -f ../../wxDownloadFast-0.70.0.dmg && rm ../../wxDownloadFast-0.70.0.dmg
+test -f ../../wxDownloadFast-0.70.2.dmg && rm ../../wxDownloadFast-0.70.2.dmg
     create-dmg \
             --window-size 500 300 \
             --background ./background.png \
             --text-size 14 \
             --icon-size 128 \
-            --volname wxDownloadFast-0.70.0 \
+            --volname wxDownloadFast-0.70.2 \
             --volicon ../resources/RipStop/icon/wxdfast.icns \
             --icon wxDownloadFast.app 125 150 \
             --app-drop-link 385 150 \
-        ../../wxDownloadFast-0.70.0.dmg \
+        ../../wxDownloadFast-0.70.2.dmg \
         ../build-release

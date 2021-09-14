@@ -84,7 +84,7 @@ mNewDialog::mNewDialog(wxWindow *parent)
     wxGridBagSizer *gridSizer3 = new wxGridBagSizer(5, 5);
     gridSizer3->Add(new wxStaticText(this, wxID_ANY, _("Split download into how many\nconnections?")), wxGBPosition(0,0), wxDefaultSpan, wxALIGN_CENTER_VERTICAL);
     m_split = new wxSpinCtrl(this, wxID_ANY, "5");
-    m_split->SetRange(1,30);
+    m_split->SetRange(1,16);
     gridSizer3->Add(m_split, wxGBPosition(1,0), wxDefaultSpan, wxALL|wxEXPAND);
     sbox3->Add(gridSizer3);
     gridSizer->Add(sbox3, wxGBPosition(i,0), wxGBSpan(1,2), wxEXPAND);

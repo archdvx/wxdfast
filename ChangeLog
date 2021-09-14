@@ -1,3 +1,6 @@
+Version 0.70.2 (released 09-14-2021)
+- Fixed issue #101
+
 Version 0.70.1 (released 08-24-2021)
 - File hashes now calculated by openssl
 

@@ -105,6 +105,10 @@ bool mFileInfo::fromXmlNode(const wxXmlNode *node)
     m_SHA1 = node->GetAttribute("sha1");
     m_SHA256 = node->GetAttribute("sha256");
     m_connections = wxAtoi(node->GetAttribute("connections", "1"));
+    if(m_connections < 1 || m_connections > 16)
+    {
+        m_connections = 1;
+    }
     m_bandwidth = wxAtoi(node->GetAttribute("bandwith", "0"));
     m_comment = node->GetAttribute("comment");
     m_link = node->GetAttribute("link");
