@@ -1135,7 +1135,7 @@ void mMainFrame::OnRemove(wxCommandEvent &/*event*/)
         }
         for(auto it = selected.rbegin(); it != selected.rend(); ++it)
         {
-            RemoveFromFinishedList((*it), response == wxID_OK);
+            RemoveFromFinishedList((*it), response == wxID_YES);
         }
         selected.clear();
         m_finishedlistctrl->ClearSelection();
