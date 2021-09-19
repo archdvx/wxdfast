@@ -1,5 +1,5 @@
 %define name    wxdfast
-%define version 0.70.2
+%define version 0.70.3
 
 %define is_mageia %(test -e /etc/mageia-release && echo 1 || echo 0)
 %define is_suse %(test -e /etc/SuSE-release && echo 1 || echo 0)
