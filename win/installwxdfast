@@ -29,13 +29,13 @@ for i in *.po
 do
   mkdir -p "$TARGET/locale/${i%.po}/LC_MESSAGES"
   cp ../po/${i%.po}.mo "$TARGET/locale/${i%.po}/LC_MESSAGES/wxdfast.mo"
-  rsync -a -m --include '*/' --include 'wx*' --exclude '*' /mingw32/share/locale/${i%.po}/LC_MESSAGES "$TARGET/locale/${i%.po}"
+  rsync -a -m --include '*/' --include 'wx*' --exclude '*' ${MINGW_PREFIX}/share/locale/${i%.po}/LC_MESSAGES "$TARGET/locale/${i%.po}"
 done
 cd ../win
 echo "Copying translations ended"
 
 echo "Copying ca-certs started"
-rsync -a -m --include '*/' --include '*.pem' --exclude '*' /mingw32/bin/ca-certs "$TARGET"
+rsync -a -m --include '*/' --include '*.pem' --exclude '*' ${MINGW_PREFIX}/bin/ca-certs "$TARGET"
 echo "Copying ca-certs ended"
 
 installapp ../build "$TARGET"
