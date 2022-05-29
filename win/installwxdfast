@@ -35,7 +35,8 @@ cd ../win
 echo "Copying translations ended"
 
 echo "Copying ca-certs started"
-rsync -a -m --include '*/' --include '*.pem' --exclude '*' ${MINGW_PREFIX}/bin/ca-certs "$TARGET"
+mkdir -p "$TARGET/ca-certs"
+cp ${MINGW_PREFIX}/ssl/cert.pem "$TARGET/ca-certs"
 echo "Copying ca-certs ended"
 
 installapp ../build "$TARGET"

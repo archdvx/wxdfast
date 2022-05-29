@@ -8,8 +8,7 @@
 #ifndef WX_PRECOMP
     #include <wx/wx.h>
 #endif
-#include <openssl/md5.h>
-#include <openssl/sha.h>
+#include <openssl/evp.h>
 
 #ifndef MHASH_H
 #define MHASH_H

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.7)
 set(CMAKE_OSX_DEPLOYMENT_TARGET "10.15" CACHE STRING "Minimum OS X deployment version")
 project(wxdfast)
-set(PROJECT_VERSION "0.70.3")
+set(PROJECT_VERSION "0.70.4")
 
 set(WXDFAST_INCLUDE_DIRS "")
 set(WXDFAST_LIBS "")
@@ -103,7 +103,7 @@ if(NOT LIBARIA2_FOUND)
     message(FATAL_ERROR "Aria2 library not found. Can't build wxDownload Fast")
 endif()
 
-find_package(OpenSSL)
+find_package(OpenSSL REQUIRED)
 if(OPENSSL_FOUND)
         list(APPEND WXDFAST_INCLUDE_DIRS ${OPENSSL_INCLUDE_DIR})
         list(APPEND WXDFAST_LIBS ${OPENSSL_LIBRARIES})
@@ -124,6 +124,7 @@ endif(NOT WIN32)
 
 add_subdirectory(po)
 add_subdirectory(resources)
+add_subdirectory(src/wxjson)
 add_subdirectory(integrator)
 
 set(SRCS
@@ -140,9 +141,6 @@ src/Engine.cpp
 src/FileInfo.cpp
 src/hash/hash.cpp
 src/NewDialog.cpp
-src/wxjson/src/jsonreader.cpp
-src/wxjson/src/jsonval.cpp
-src/wxjson/src/jsonwriter.cpp
 src/BatchDialog.cpp
 )
 
@@ -175,8 +173,8 @@ configure_file(config.h.cmake
 include_directories(${CMAKE_CURRENT_BINARY_DIR}
  ${CMAKE_CURRENT_SOURCE_DIR}
  ${CMAKE_CURRENT_SOURCE_DIR}/src
- ${CMAKE_CURRENT_SOURCE_DIR}/src/wxjson/include
  ${CMAKE_BINARY_DIR}
+ ${WXJSON_INCLUDE_DIRS}
  ${WXDFAST_INCLUDE_DIRS}
 )
 
@@ -207,11 +205,11 @@ if(APPLE)
         COMMAND cp ARGS -f ${CMAKE_CURRENT_SOURCE_DIR}/po/${lang}.mo ${wxdfast_RESOURCE_DIR}/${lang}.lproj/wxdfast.mo
         COMMENT Setting up translations)
     endforeach(lang)
-    target_link_libraries(wxDownloadFast ${wxWidgets_LIBRARIES} ${WXDFAST_LIBS})
+    target_link_libraries(wxDownloadFast ${wxWidgets_LIBRARIES} ${WXJSON_LIBRARIES} ${WXDFAST_LIBS})
     install(TARGETS wxDownloadFast DESTINATION bin)
 else()
     add_executable(wxdfast WIN32 ${SRCS})
-    target_link_libraries(wxdfast ${wxWidgets_LIBRARIES} ${WXDFAST_LIBS})
+    target_link_libraries(wxdfast ${wxWidgets_LIBRARIES} ${WXJSON_LIBRARIES} ${WXDFAST_LIBS})
     install(TARGETS wxdfast DESTINATION bin)
 endif(APPLE)
 

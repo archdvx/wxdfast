@@ -45,7 +45,7 @@ void *mEngine::Entry()
         options.push_back(std::make_pair("all-proxy-user",MyUtilFunctions::ToStdString(moptions.proxyUsername())));
     }
 #ifdef __WXMSW__
-    options.push_back(std::make_pair("ca-certificate",MyUtilFunctions::ToStdString(wxString(WXDFAST_DATADIR)+wxFILE_SEP_PATH+"ca-certs"+wxFILE_SEP_PATH+"mozilla.pem")));
+    options.push_back(std::make_pair("ca-certificate",MyUtilFunctions::ToStdString(wxString(WXDFAST_DATADIR)+wxFILE_SEP_PATH+"ca-certs"+wxFILE_SEP_PATH+"cert.pem")));
 #endif
     m_session = aria2::sessionNew(options, config);
     auto graph = std::chrono::steady_clock::now();

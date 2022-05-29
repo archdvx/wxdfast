@@ -1,3 +1,7 @@
+Version 0.70.4 (released 05-29-2022)
+- Fixed issue #103
+- Fixed OSSL_DEPRECATEDIN_3_0
+
 Version 0.70.3 (released 09-18-2021)
 - Fixed issue #102
 

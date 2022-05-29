@@ -29,19 +29,23 @@ wxString mHash::MD5(const wxString &path)
     std::ifstream fp(path.mb_str(), std::ios::in | std::ios::binary);
     constexpr const std::size_t buffer_size { 1 << 12 };
     char buffer[buffer_size];
-    unsigned char hash[MD5_DIGEST_LENGTH] = { 0 };
-    MD5_CTX ctx;
-    MD5_Init(&ctx);
+    unsigned char *hash;
+    unsigned int hash_len = EVP_MD_size(EVP_md5());
+    EVP_MD_CTX *ctx;
+    ctx = EVP_MD_CTX_new();
+    EVP_DigestInit_ex(ctx, EVP_md5(), NULL);
     while(fp.good())
     {
         fp.read(buffer, buffer_size);
-        MD5_Update(&ctx, buffer, fp.gcount());
+        EVP_DigestUpdate(ctx, buffer, fp.gcount());
     }
-    MD5_Final(hash, &ctx);
+    hash = (unsigned char *)OPENSSL_malloc(hash_len);
+    EVP_DigestFinal_ex(ctx, hash, &hash_len);
+    EVP_MD_CTX_free(ctx);
     fp.close();
     std::ostringstream os;
     os << std::hex << std::setfill('0');
-    for(int i = 0; i < MD5_DIGEST_LENGTH; ++i)
+    for(unsigned int i = 0; i < hash_len; ++i)
     {
         os << std::setw(2) << static_cast<unsigned int>(hash[i]);
     }
@@ -59,19 +63,23 @@ wxString mHash::SHA1(const wxString &path)
     std::ifstream fp(path.mb_str(), std::ios::in | std::ios::binary);
     constexpr const std::size_t buffer_size { 1 << 12 };
     char buffer[buffer_size];
-    unsigned char hash[SHA_DIGEST_LENGTH] = { 0 };
-    SHA_CTX ctx;
-    SHA1_Init(&ctx);
+    unsigned char *hash;
+    unsigned int hash_len = EVP_MD_size(EVP_sha1());
+    EVP_MD_CTX *ctx;
+    ctx = EVP_MD_CTX_new();
+    EVP_DigestInit_ex(ctx, EVP_sha1(), NULL);
     while(fp.good())
     {
         fp.read(buffer, buffer_size);
-        SHA1_Update(&ctx, buffer, fp.gcount());
+        EVP_DigestUpdate(ctx, buffer, fp.gcount());
     }
-    SHA1_Final(hash, &ctx);
+    hash = (unsigned char *)OPENSSL_malloc(hash_len);
+    EVP_DigestFinal_ex(ctx, hash, &hash_len);
+    EVP_MD_CTX_free(ctx);
     fp.close();
     std::ostringstream os;
     os << std::hex << std::setfill('0');
-    for(int i = 0; i < SHA_DIGEST_LENGTH; ++i)
+    for(unsigned int i = 0; i < hash_len; ++i)
     {
         os << std::setw(2) << static_cast<unsigned int>(hash[i]);
     }
@@ -89,19 +97,23 @@ wxString mHash::SHA256(const wxString &path)
     std::ifstream fp(path.mb_str(), std::ios::in | std::ios::binary);
     constexpr const std::size_t buffer_size { 1 << 12 };
     char buffer[buffer_size];
-    unsigned char hash[SHA256_DIGEST_LENGTH] = { 0 };
-    SHA256_CTX ctx;
-    SHA256_Init(&ctx);
+    unsigned char *hash;
+    unsigned int hash_len = EVP_MD_size(EVP_sha256());
+    EVP_MD_CTX *ctx;
+    ctx = EVP_MD_CTX_new();
+    EVP_DigestInit_ex(ctx, EVP_sha256(), NULL);
     while(fp.good())
     {
         fp.read(buffer, buffer_size);
-        SHA256_Update(&ctx, buffer, fp.gcount());
+        EVP_DigestUpdate(ctx, buffer, fp.gcount());
     }
-    SHA256_Final(hash, &ctx);
+    hash = (unsigned char *)OPENSSL_malloc(hash_len);
+    EVP_DigestFinal_ex(ctx, hash, &hash_len);
+    EVP_MD_CTX_free(ctx);
     fp.close();
     std::ostringstream os;
     os << std::hex << std::setfill('0');
-    for(int i = 0; i < SHA256_DIGEST_LENGTH; ++i)
+    for(unsigned int i = 0; i < hash_len; ++i)
     {
         os << std::setw(2) << static_cast<unsigned int>(hash[i]);
     }
