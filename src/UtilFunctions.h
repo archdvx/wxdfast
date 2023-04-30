@@ -10,6 +10,7 @@
     #include <wx/wx.h>
 #endif
 #include <vector>
+#include <cstdint>
 
 #ifndef MYUTILFUNCTIONS_H
 #define MYUTILFUNCTIONS_H
