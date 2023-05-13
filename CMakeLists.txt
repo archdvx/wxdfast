@@ -117,7 +117,7 @@ set(ARCHIVE_NAME ${CMAKE_PROJECT_NAME}-${PROJECT_VERSION})
 add_custom_target(dist COMMAND cd ${CMAKE_CURRENT_SOURCE_DIR} &&
     rm -rf ${ARCHIVE_NAME} &&
     mkdir -p ${ARCHIVE_NAME} &&
-    git archive master | tar -x -C ${ARCHIVE_NAME} &&
+    git archive origin | tar -x -C ${ARCHIVE_NAME} &&
     tar czf ${ARCHIVE_NAME}.tar.gz ${ARCHIVE_NAME} &&
     rm -rf ${ARCHIVE_NAME}
 )
