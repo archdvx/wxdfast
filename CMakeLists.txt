@@ -115,7 +115,11 @@ if(NOT WIN32)
 # Source distribution
 set(ARCHIVE_NAME ${CMAKE_PROJECT_NAME}-${PROJECT_VERSION})
 add_custom_target(dist COMMAND cd ${CMAKE_CURRENT_SOURCE_DIR} &&
-    git archive --format=tar.gz -o ${ARCHIVE_NAME}.tar.gz main
+    rm -rf ${ARCHIVE_NAME} &&
+    mkdir -p ${ARCHIVE_NAME} &&
+    git archive master | tar -x -C ${ARCHIVE_NAME} &&
+    tar czf ${ARCHIVE_NAME}.tar.gz ${ARCHIVE_NAME} &&
+    rm -rf ${ARCHIVE_NAME}
 )
 endif(NOT WIN32)
 
