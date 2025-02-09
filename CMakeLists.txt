@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.7)
-set(CMAKE_OSX_DEPLOYMENT_TARGET "10.15" CACHE STRING "Minimum OS X deployment version")
+cmake_minimum_required(VERSION 3.16)
+set(CMAKE_OSX_DEPLOYMENT_TARGET "13" CACHE STRING "Minimum OS X deployment version")
 project(wxdfast)
 set(PROJECT_VERSION "0.70.4")
 

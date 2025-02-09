@@ -36,7 +36,7 @@ echo "Copying translations ended"
 
 echo "Copying ca-certs started"
 mkdir -p "$TARGET/ca-certs"
-cp ${MINGW_PREFIX}/ssl/cert.pem "$TARGET/ca-certs"
+cp ${MINGW_PREFIX}/etc/ssl/cert.pem "$TARGET/ca-certs"
 echo "Copying ca-certs ended"
 
 installapp ../build "$TARGET"
